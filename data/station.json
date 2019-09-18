@@ -1,0 +1,7033 @@
+[{
+  "point": [38.8461845, 56.151506],
+  "building": true,
+  "train": false,
+  "name": "Киржач",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.1853022, 57.0266538],
+  "building": true,
+  "train": false,
+  "name": "Кувшиново",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.5370752, 57.3069609],
+  "building": true,
+  "train": false,
+  "name": "Семибратово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.3855583, 57.0310849],
+  "building": true,
+  "train": false,
+  "name": "Комсомольск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.9720587, 56.0170921],
+  "building": false,
+  "train": false,
+  "name": "",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2307055, 54.0773917],
+  "building": true,
+  "train": false,
+  "name": "Новомосковская 2 (грузовая)",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.811201, 54.1202718],
+  "building": true,
+  "train": false,
+  "name": "Присады",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.6612922, 53.420956],
+  "building": true,
+  "train": true,
+  "name": "",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.7967161, 54.2940142],
+  "building": true,
+  "train": false,
+  "name": "Сотницыно",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.3189732, 54.8066779],
+  "building": true,
+  "train": false,
+  "name": "Суходрев",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5452009, 54.0529269],
+  "building": true,
+  "train": true,
+  "name": "Вокзал",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.8319458, 54.3366274],
+  "building": true,
+  "train": false,
+  "name": "Треполье",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.788002, 56.2691491],
+  "building": true,
+  "train": true,
+  "name": "Второво",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.7008461, 54.1828533],
+  "building": true,
+  "train": true,
+  "name": "",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5549791, 55.4864059],
+  "building": true,
+  "train": true,
+  "name": "",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.6537207, 55.7788343],
+  "building": false,
+  "train": false,
+  "name": "Москва-Пассажирская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.2990008, 55.9496529],
+  "building": false,
+  "train": false,
+  "name": "Сходня",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.449885, 55.7268684],
+  "building": false,
+  "train": false,
+  "name": "Кунцево I",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.6621837, 55.7577737],
+  "building": false,
+  "train": true,
+  "name": "Москва-Пассажирская-Курская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.1035329, 55.86905],
+  "building": false,
+  "train": false,
+  "name": "Усад",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.659914, 55.7742475],
+  "building": false,
+  "train": true,
+  "name": "Москва-Пассажирская-Казанская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4848612, 56.0135105],
+  "building": false,
+  "train": false,
+  "name": "Лобня",
+  "disused": false,
+  "type": "станция",
+  "route": "Савёловское направление"
+}, {
+  "point": [37.6321318, 55.7932703],
+  "building": false,
+  "train": false,
+  "name": "Москва-Рижская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.896829, 55.415149],
+  "building": false,
+  "train": true,
+  "name": "Аэропорт-Домодедово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.8051185, 55.0859521],
+  "building": false,
+  "train": false,
+  "name": "Голутвин",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.2586673, 54.9159075],
+  "building": false,
+  "train": true,
+  "name": "Фруктовая",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.2530202, 53.7486356],
+  "building": false,
+  "train": false,
+  "name": "Еголдаево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.1360874, 53.7053568],
+  "building": false,
+  "train": false,
+  "name": "Ряжск II",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.70845, 56.2985079],
+  "building": false,
+  "train": false,
+  "name": "Сарыево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.4460705, 56.3897628],
+  "building": false,
+  "train": false,
+  "name": "Гостюхино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.3606651, 56.383586],
+  "building": false,
+  "train": false,
+  "name": "Ковров 2",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.222285, 56.3754678],
+  "building": false,
+  "train": false,
+  "name": "Федулово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.0738728, 56.3622078],
+  "building": false,
+  "train": false,
+  "name": "Новки 1",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.5417757, 56.1954553],
+  "building": false,
+  "train": false,
+  "name": "Боголюбово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.0082811, 55.7524589],
+  "building": false,
+  "train": false,
+  "name": "Железнодорожная",
+  "disused": false,
+  "type": "станция",
+  "route": "Горьковское направление"
+}, {
+  "point": [37.2129236, 55.7294635],
+  "building": false,
+  "train": true,
+  "name": "Усово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.8794167, 55.7002071],
+  "building": false,
+  "train": true,
+  "name": "Звенигород",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.9865326, 55.615175],
+  "building": false,
+  "train": false,
+  "name": "Голицыно",
+  "disused": false,
+  "type": "станция",
+  "route": "Смоленское направление"
+}, {
+  "point": [36.7015538, 55.9264868],
+  "building": false,
+  "train": false,
+  "name": "Холщевики",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.9719774, 54.6962993],
+  "building": false,
+  "train": false,
+  "name": "Шаня",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.0722695, 54.6905377],
+  "building": false,
+  "train": false,
+  "name": "Пятовская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.1562289, 54.6192681],
+  "building": false,
+  "train": false,
+  "name": "Муратовка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.2444807, 54.5655513],
+  "building": false,
+  "train": false,
+  "name": "Азарово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.8515068, 55.0647482],
+  "building": false,
+  "train": false,
+  "name": "Щурово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.839112, 56.8686367],
+  "building": false,
+  "train": false,
+  "name": "Дорошиха",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.8401711, 55.4296414],
+  "building": false,
+  "train": false,
+  "name": "Бекасово I",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4504586, 55.257276],
+  "building": false,
+  "train": false,
+  "name": "Сандарово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.8627273, 55.7802311],
+  "building": false,
+  "train": true,
+  "name": "Стройка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2023378, 55.7301237],
+  "building": false,
+  "train": false,
+  "name": "Электроугли",
+  "disused": false,
+  "type": "станция",
+  "route": "Горьковское направление"
+}, {
+  "point": [37.594844, 54.5746997],
+  "building": false,
+  "train": false,
+  "name": "Шульгино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.7662822, 55.7485105],
+  "building": false,
+  "train": false,
+  "name": "Безлесная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.9638068, 55.504215],
+  "building": false,
+  "train": false,
+  "name": "Заколпье",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.3230997, 55.5049939],
+  "building": false,
+  "train": false,
+  "name": "Добрятино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.6944696, 55.5472054],
+  "building": false,
+  "train": false,
+  "name": "Кондаково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.5988207, 55.502016],
+  "building": false,
+  "train": false,
+  "name": "Нечаевская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.384788, 56.3036529],
+  "building": false,
+  "train": false,
+  "name": "Ковров-Грузовой",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.3079348, 56.3918671],
+  "building": false,
+  "train": false,
+  "name": "Бужаниново",
+  "disused": false,
+  "type": "станция",
+  "route": "Ярославское направление"
+}, {
+  "point": [38.1368664, 56.3019894],
+  "building": false,
+  "train": false,
+  "name": "Сергиев Посад",
+  "disused": false,
+  "type": "станция",
+  "route": "Ярославское направление"
+}, {
+  "point": [36.3719528, 55.5464311],
+  "building": false,
+  "train": false,
+  "name": "Дорохово",
+  "disused": false,
+  "type": "станция",
+  "route": "Смоленское направление"
+}, {
+  "point": [38.0746561, 53.3657077],
+  "building": false,
+  "train": false,
+  "name": "Турдей",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.179636, 54.1319349],
+  "building": false,
+  "train": false,
+  "name": "Грицово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.228359, 54.469225],
+  "building": false,
+  "train": false,
+  "name": "Настасьино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.7995904, 55.0743878],
+  "building": false,
+  "train": true,
+  "name": "Бачманово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.685148, 55.0700845],
+  "building": false,
+  "train": true,
+  "name": "Лысцовская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5092777, 56.1718602],
+  "building": false,
+  "train": true,
+  "name": "Икша",
+  "disused": false,
+  "type": "станция",
+  "route": "Савёловское направление"
+}, {
+  "point": [35.8610891, 55.4954504],
+  "building": false,
+  "train": false,
+  "name": "Бородино",
+  "disused": false,
+  "type": "станция",
+  "route": "Смоленское направление"
+}, {
+  "point": [37.8394137, 56.0120839],
+  "building": false,
+  "train": false,
+  "name": "Пушкино",
+  "disused": false,
+  "type": "станция",
+  "route": "Ярославское направление"
+}, {
+  "point": [34.3202721, 55.2264239],
+  "building": false,
+  "train": false,
+  "name": "Вязьма-Новоторжская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.0419498, 54.9825692],
+  "building": false,
+  "train": true,
+  "name": "Луховицы",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.4704119, 54.9503738],
+  "building": false,
+  "train": false,
+  "name": "Кошняки",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.3095301, 54.9883122],
+  "building": false,
+  "train": false,
+  "name": "Износки",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5268085, 55.3566852],
+  "building": false,
+  "train": true,
+  "name": "Гривно",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.2179375, 55.6302157],
+  "building": false,
+  "train": true,
+  "name": "Лесной Городок",
+  "disused": false,
+  "type": "станция",
+  "route": "Киевское направление"
+}, {
+  "point": [37.2695467, 55.6488591],
+  "building": false,
+  "train": true,
+  "name": "Внуково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.1050318, 53.7191003],
+  "building": false,
+  "train": false,
+  "name": "Парк Г (Ряжск I)",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.4190907, 57.1278588],
+  "building": false,
+  "train": false,
+  "name": "Виноколы",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.3631378, 57.0956417],
+  "building": false,
+  "train": false,
+  "name": "Ильинское",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.3216723, 57.0868264],
+  "building": false,
+  "train": false,
+  "name": "Лазари",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.9804503, 57.0422891],
+  "building": false,
+  "train": true,
+  "name": "Торжок",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5484583, 56.3193582],
+  "building": false,
+  "train": false,
+  "name": "Иванцево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.781703, 56.292672],
+  "building": false,
+  "train": false,
+  "name": "Костино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.9420761, 56.2978992],
+  "building": false,
+  "train": false,
+  "name": "Желтиково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4175271, 55.9640715],
+  "building": false,
+  "train": true,
+  "name": "Аэропорт Шереметьево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.2789481, 54.5334818],
+  "building": false,
+  "train": false,
+  "name": "Калуга-1",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.5249509, 54.5956182],
+  "building": false,
+  "train": false,
+  "name": "Желябужская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.6221979, 55.654956],
+  "building": false,
+  "train": false,
+  "name": "Коломенское",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5599948, 56.538964],
+  "building": false,
+  "train": false,
+  "name": "Вербилки",
+  "disused": false,
+  "type": "станция",
+  "route": "Савёловское направление"
+}, {
+  "point": [37.2007631, 56.7459687],
+  "building": false,
+  "train": false,
+  "name": "Дубна",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.1366621, 56.7269029],
+  "building": false,
+  "train": false,
+  "name": "Большая Волга",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.2177193, 55.8919101],
+  "building": false,
+  "train": false,
+  "name": "Покров",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.7377185, 55.9530729],
+  "building": false,
+  "train": false,
+  "name": "Болдино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.4628355, 55.924739],
+  "building": false,
+  "train": false,
+  "name": "Петушки",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.9855177, 54.0704299],
+  "building": false,
+  "train": false,
+  "name": "Оболенское",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.6289001, 54.208975],
+  "building": false,
+  "train": false,
+  "name": "Тула-Вяземская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5685366, 54.0971543],
+  "building": false,
+  "train": false,
+  "name": "Ясная Поляна",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.8240988, 55.6026574],
+  "building": false,
+  "train": false,
+  "name": "Петелино",
+  "disused": false,
+  "type": "станция",
+  "route": "Смоленское направление"
+}, {
+  "point": [36.7272762, 55.6013675],
+  "building": false,
+  "train": false,
+  "name": "Кубинка II",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.2474649, 54.2888971],
+  "building": false,
+  "train": false,
+  "name": "Берники",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.2921408, 54.0514095],
+  "building": false,
+  "train": false,
+  "name": "Чекалин",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.8161033, 54.2216031],
+  "building": false,
+  "train": false,
+  "name": "Дабужа",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.0281085, 54.4143394],
+  "building": false,
+  "train": false,
+  "name": "Спас-Деменск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.5431326, 54.2503761],
+  "building": false,
+  "train": false,
+  "name": "Кудринская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.4062012, 53.2629041],
+  "building": false,
+  "train": false,
+  "name": "Брянск-Орловский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.0942359, 53.3690337],
+  "building": false,
+  "train": false,
+  "name": "Сельцо",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.6223478, 55.0312856],
+  "building": false,
+  "train": true,
+  "name": "18 км",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.9176408, 56.1256035],
+  "building": false,
+  "train": false,
+  "name": "Погорелое Городище",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.9077947, 56.6953029],
+  "building": false,
+  "train": false,
+  "name": "Высокое",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.6936739, 54.1828376],
+  "building": false,
+  "train": false,
+  "name": "Криволучье",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.6539345, 55.5927752],
+  "building": false,
+  "train": false,
+  "name": "Бирюлёво-Товарная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.6861647, 55.559388],
+  "building": false,
+  "train": false,
+  "name": "Кривандино",
+  "disused": false,
+  "type": "станция",
+  "route": "Казанское направление"
+}, {
+  "point": [38.0304884, 55.96335],
+  "building": false,
+  "train": true,
+  "name": "Фрязино-Товарная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.7617421, 55.9148226],
+  "building": false,
+  "train": false,
+  "name": "Мытищи",
+  "disused": false,
+  "type": "станция",
+  "route": "Ярославское направление"
+}, {
+  "point": [37.8164469, 55.9254758],
+  "building": false,
+  "train": false,
+  "name": "Подлипки-Дачные",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.8610889, 55.9262227],
+  "building": false,
+  "train": false,
+  "name": "Болшево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.9461822, 55.9271351],
+  "building": false,
+  "train": false,
+  "name": "Соколовская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.8812394, 55.4287645],
+  "building": false,
+  "train": true,
+  "name": "Космос",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.0594793, 56.078925],
+  "building": false,
+  "train": false,
+  "name": "Поварово I",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.468663, 55.5973971],
+  "building": false,
+  "train": false,
+  "name": "Тучково",
+  "disused": false,
+  "type": "станция",
+  "route": "Смоленское направление"
+}, {
+  "point": [37.9392583, 55.9647907],
+  "building": false,
+  "train": true,
+  "name": "Ивантеевка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.8787356, 55.9629855],
+  "building": false,
+  "train": true,
+  "name": "Зелёный бор",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.4649914, 55.7323513],
+  "building": false,
+  "train": false,
+  "name": "Фрязево",
+  "disused": false,
+  "type": "станция",
+  "route": "Горьковское направление"
+}, {
+  "point": [38.7029684, 56.3972452],
+  "building": false,
+  "train": false,
+  "name": "Александров",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.5874667, 56.3789327],
+  "building": false,
+  "train": false,
+  "name": "Струнино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.306038, 56.7252624],
+  "building": false,
+  "train": false,
+  "name": "Ладыгино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.2118417, 56.5896026],
+  "building": false,
+  "train": false,
+  "name": "Савино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5104118, 56.3375775],
+  "building": false,
+  "train": true,
+  "name": "Дмитров",
+  "disused": false,
+  "type": "станция",
+  "route": "Савёловское направление"
+}, {
+  "point": [37.5258449, 56.7225393],
+  "building": false,
+  "train": false,
+  "name": "Талдом-Савёловский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.5041168, 56.5013134],
+  "building": false,
+  "train": false,
+  "name": "Черничная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.9981322, 56.2569451],
+  "building": false,
+  "train": false,
+  "name": "Хотьково",
+  "disused": false,
+  "type": "станция",
+  "route": "Ярославское направление"
+}, {
+  "point": [37.9305753, 56.1365062],
+  "building": false,
+  "train": false,
+  "name": "Софрино",
+  "disused": false,
+  "type": "станция",
+  "route": "Ярославское направление"
+}, {
+  "point": [37.6847309, 54.4789353],
+  "building": false,
+  "train": false,
+  "name": "Ясногорск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.3726865, 54.8294657],
+  "building": false,
+  "train": false,
+  "name": "Приокская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.690883, 55.5791251],
+  "building": false,
+  "train": false,
+  "name": "Кубинка I",
+  "disused": false,
+  "type": "станция",
+  "route": "Смоленское направление"
+}, {
+  "point": [38.6916855, 56.372033],
+  "building": false,
+  "train": false,
+  "name": "Александров-2",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.5712338, 53.7643678],
+  "building": false,
+  "train": false,
+  "name": "Казановка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.1759604, 54.956107],
+  "building": false,
+  "train": false,
+  "name": "Подлипки",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.9852483, 54.0869672],
+  "building": false,
+  "train": false,
+  "name": "Чемодановка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.7281183, 53.688869],
+  "building": false,
+  "train": false,
+  "name": "Желобово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.260638, 54.0799563],
+  "building": false,
+  "train": false,
+  "name": "Подписная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.1523202, 54.1122866],
+  "building": false,
+  "train": false,
+  "name": "Бредихино",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.2013901, 57.0820083],
+  "building": false,
+  "train": false,
+  "name": "Терешкино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.4649366, 57.1269379],
+  "building": false,
+  "train": false,
+  "name": "Лихославль",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5158034, 56.3832028],
+  "building": false,
+  "train": false,
+  "name": "Каналстрой",
+  "disused": false,
+  "type": "станция",
+  "route": "Савёловское направление"
+}, {
+  "point": [37.5014897, 56.2868791],
+  "building": false,
+  "train": false,
+  "name": "Яхрома",
+  "disused": false,
+  "type": "станция",
+  "route": "Савёловское направление"
+}, {
+  "point": [38.1371738, 55.6006963],
+  "building": false,
+  "train": false,
+  "name": "Юность",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.3924879, 55.7297909],
+  "building": false,
+  "train": false,
+  "name": "Кунцево II",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.0225318, 55.8503714],
+  "building": false,
+  "train": false,
+  "name": "Поточино",
+  "disused": false,
+  "type": "станция",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [38.6746496, 55.7758271],
+  "building": false,
+  "train": false,
+  "name": "Павловский Посад",
+  "disused": false,
+  "type": "станция",
+  "route": "Горьковское направление"
+}, {
+  "point": [38.2228404, 54.5748491],
+  "building": false,
+  "train": false,
+  "name": "Мордвес",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.6729354, 56.576127],
+  "building": false,
+  "train": false,
+  "name": "Конаковский Мох",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.6212289, 55.1412841],
+  "building": false,
+  "train": false,
+  "name": "Издешково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4283466, 56.5291622],
+  "building": false,
+  "train": false,
+  "name": "Соревнование",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.6730048, 57.5136543],
+  "building": false,
+  "train": true,
+  "name": "341 км",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.4245779, 57.4448816],
+  "building": false,
+  "train": false,
+  "name": "Сахареж",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.9607692, 57.5278219],
+  "building": false,
+  "train": false,
+  "name": "Телищево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.1868524, 55.6078207],
+  "building": false,
+  "train": true,
+  "name": "Толстопальцево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.6214138, 55.9301377],
+  "building": false,
+  "train": false,
+  "name": "Костерёво",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.6893076, 55.745199],
+  "building": false,
+  "train": false,
+  "name": "Москва-Товарная-Курская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.3388406, 56.8595669],
+  "building": false,
+  "train": true,
+  "name": "Скакулино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.4638416, 56.8576039],
+  "building": false,
+  "train": false,
+  "name": "Селижарово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.575881, 57.0157795],
+  "building": false,
+  "train": false,
+  "name": "Щербово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.8092768, 55.4103747],
+  "building": false,
+  "train": false,
+  "name": "Берендино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.3178177, 54.0873688],
+  "building": false,
+  "train": false,
+  "name": "Сухиничи-Главные",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.9830002, 56.0200751],
+  "building": false,
+  "train": false,
+  "name": "Ундол",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.6567616, 55.7784041],
+  "building": false,
+  "train": true,
+  "name": "Москва-Пассажирская-Ярославская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.2100197, 57.4742126],
+  "building": false,
+  "train": false,
+  "name": "Тощиха",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.5660597, 53.2937453],
+  "building": false,
+  "train": false,
+  "name": "Мценск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.4678852, 55.8720706],
+  "building": false,
+  "train": false,
+  "name": "Захарово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2947496, 53.9917366],
+  "building": false,
+  "train": false,
+  "name": "Сборная-Угольная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2500975, 54.0495697],
+  "building": false,
+  "train": false,
+  "name": "Промгипсовая (груз.)",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4008243, 54.73512],
+  "building": false,
+  "train": false,
+  "name": "Тарусская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.3045978, 56.3686776],
+  "building": false,
+  "train": false,
+  "name": "Ковров 1",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2729065, 54.8015447],
+  "building": false,
+  "train": false,
+  "name": "Ожерелье",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1894076, 54.8576831],
+  "building": false,
+  "train": false,
+  "name": "Кашира-Пассажирская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5008103, 54.0099152],
+  "building": false,
+  "train": false,
+  "name": "Щёкино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.9183091, 57.559082],
+  "building": false,
+  "train": false,
+  "name": "Дунайка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.6087174, 54.2937306],
+  "building": false,
+  "train": false,
+  "name": "Хомяково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.6630574, 54.3630445],
+  "building": false,
+  "train": false,
+  "name": "Ревякино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.9179936, 57.2820285],
+  "building": false,
+  "train": false,
+  "name": "Малаховская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.2807819, 57.350702],
+  "building": false,
+  "train": false,
+  "name": "Красинское",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.9381298, 55.9227673],
+  "building": false,
+  "train": false,
+  "name": "Судогда",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.1409592, 55.9451149],
+  "building": false,
+  "train": false,
+  "name": "Нерудная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.7549677, 55.0703125],
+  "building": false,
+  "train": true,
+  "name": "6 км",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.9192154, 57.0074879],
+  "building": false,
+  "train": false,
+  "name": "Васильевский Мох",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.8963837, 56.9534193],
+  "building": false,
+  "train": false,
+  "name": "Доронинская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.0492348, 54.2070958],
+  "building": false,
+  "train": false,
+  "name": "Упа",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.7993165, 54.17586],
+  "building": false,
+  "train": false,
+  "name": "Ясеновая",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.4288994, 54.1186307],
+  "building": false,
+  "train": false,
+  "name": "Балево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4774288, 55.0412891],
+  "building": false,
+  "train": false,
+  "name": "Шарапова Охота",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.4610251, 55.7867818],
+  "building": false,
+  "train": false,
+  "name": "Электросталь",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1977367, 55.8435241],
+  "building": false,
+  "train": true,
+  "name": "Монино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4518444, 54.9347142],
+  "building": false,
+  "train": false,
+  "name": "Серпухов",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3176239, 55.1975149],
+  "building": false,
+  "train": false,
+  "name": "Вязьма",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.131028, 53.6000132],
+  "building": false,
+  "train": false,
+  "name": "Горбачево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.6104171, 55.5319963],
+  "building": false,
+  "train": false,
+  "name": "Уваровка",
+  "disused": false,
+  "type": "станция",
+  "route": "Смоленское направление"
+}, {
+  "point": [36.0326381, 55.4941907],
+  "building": false,
+  "train": false,
+  "name": "Можайск",
+  "disused": false,
+  "type": "станция",
+  "route": "Смоленское направление"
+}, {
+  "point": [34.9853956, 55.5436927],
+  "building": false,
+  "train": false,
+  "name": "Гагарин",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3218629, 56.0309025],
+  "building": false,
+  "train": false,
+  "name": "Осуга",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.1539289, 53.2585451],
+  "building": false,
+  "train": false,
+  "name": "Данков",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.088407, 53.285205],
+  "building": false,
+  "train": false,
+  "name": "Яхонтово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.6614964, 53.4207099],
+  "building": false,
+  "train": false,
+  "name": "Куликово поле",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1120758, 53.779237],
+  "building": false,
+  "train": false,
+  "name": "Жданка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3102585, 56.2719133],
+  "building": false,
+  "train": false,
+  "name": "Ржев-Белорусский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.2919643, 56.2469846],
+  "building": false,
+  "train": false,
+  "name": "Мелихово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.9800828, 57.0178157],
+  "building": false,
+  "train": false,
+  "name": "Иваново",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3434692, 55.1724054],
+  "building": false,
+  "train": false,
+  "name": "5 км",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.0093451, 55.909255],
+  "building": false,
+  "train": false,
+  "name": "Щёлково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.3516627, 56.8506692],
+  "building": false,
+  "train": false,
+  "name": "Шуя",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.6891538, 55.5028312],
+  "building": false,
+  "train": false,
+  "name": "Акулово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.7052022, 55.359256],
+  "building": false,
+  "train": true,
+  "name": "Латышская",
+  "disused": false,
+  "type": "станция",
+  "route": "Киевское направление"
+}, {
+  "point": [38.13701, 56.1086308],
+  "building": false,
+  "train": false,
+  "name": "Красноармейск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.119732, 57.4924819],
+  "building": false,
+  "train": false,
+  "name": "Лютово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.5144456, 57.3721282],
+  "building": false,
+  "train": false,
+  "name": "Горовастица",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.6565139, 55.0618611],
+  "building": false,
+  "train": true,
+  "name": "Семеновский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.699027, 57.4832239],
+  "building": false,
+  "train": false,
+  "name": "Фирово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.5067545, 55.5063202],
+  "building": false,
+  "train": false,
+  "name": "Бутылицы",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.2920398, 55.8434587],
+  "building": false,
+  "train": false,
+  "name": "Сычёвка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3148554, 56.1459817],
+  "building": false,
+  "train": false,
+  "name": "Рождествено",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.010158, 55.0827884],
+  "building": false,
+  "train": false,
+  "name": "Тёмкино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.8717086, 55.4186124],
+  "building": false,
+  "train": false,
+  "name": "Бекасово-Сортировочное",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.1209724, 53.6417259],
+  "building": false,
+  "train": false,
+  "name": "Ремизово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.5571098, 55.1461574],
+  "building": false,
+  "train": false,
+  "name": "Рязановка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5567665, 54.1693815],
+  "building": false,
+  "train": false,
+  "name": "Тула 2",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5455393, 54.0526021],
+  "building": false,
+  "train": false,
+  "name": "Казначеевка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.499122, 53.925711],
+  "building": false,
+  "train": false,
+  "name": "Житово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4916003, 53.8482218],
+  "building": false,
+  "train": false,
+  "name": "Лазарево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.436669, 53.8041948],
+  "building": false,
+  "train": false,
+  "name": "Сумароково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.3133935, 53.707063],
+  "building": false,
+  "train": false,
+  "name": "Плавск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.3348171, 53.1603976],
+  "building": false,
+  "train": false,
+  "name": "Отрада",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1571852, 55.5885595],
+  "building": false,
+  "train": false,
+  "name": "Пионерская",
+  "disused": false,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [38.1708597, 53.6892981],
+  "building": false,
+  "train": false,
+  "name": "Товарково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.85318, 55.7480767],
+  "building": false,
+  "train": false,
+  "name": "Дрезна",
+  "disused": false,
+  "type": "станция",
+  "route": "Горьковское направление"
+}, {
+  "point": [40.1841353, 56.0617515],
+  "building": false,
+  "train": false,
+  "name": "Колокша",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.2800693, 56.0927392],
+  "building": false,
+  "train": false,
+  "name": "Юрьевец",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.2992546, 55.5009312],
+  "building": false,
+  "train": false,
+  "name": "Ильичёв",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.4046123, 55.4745421],
+  "building": false,
+  "train": true,
+  "name": "Торфопродукт",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.6569279, 55.4761552],
+  "building": false,
+  "train": false,
+  "name": "Осаново",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.8862583, 56.7349617],
+  "building": false,
+  "train": false,
+  "name": "Переславль",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.3477665, 53.1367049],
+  "building": false,
+  "train": false,
+  "name": "Бригадирская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.0181615, 53.9206654],
+  "building": false,
+  "train": false,
+  "name": "Кораблино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.383894, 53.0729169],
+  "building": false,
+  "train": false,
+  "name": "Хоботово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.2111934, 53.4800355],
+  "building": false,
+  "train": false,
+  "name": "Александро-Невская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.1750473, 53.5811671],
+  "building": false,
+  "train": false,
+  "name": "Шереметьево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.3157277, 53.2020739],
+  "building": false,
+  "train": false,
+  "name": "Новоклёнский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.9721791, 54.7287808],
+  "building": false,
+  "train": false,
+  "name": "Полотняный завод",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.1269291, 54.6497948],
+  "building": false,
+  "train": false,
+  "name": "Копытцево (146 км)",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.1524895, 57.005864],
+  "building": false,
+  "train": false,
+  "name": "Оршино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.6238483, 53.3989913],
+  "building": false,
+  "train": true,
+  "name": "Батагово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.8969352, 55.1549022],
+  "building": false,
+  "train": false,
+  "name": "Усады-Окружные",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.5790745, 55.2125778],
+  "building": false,
+  "train": false,
+  "name": "Непецино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.165771, 55.1222562],
+  "building": false,
+  "train": false,
+  "name": "Малино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.5618857, 56.3997168],
+  "building": false,
+  "train": false,
+  "name": "Бавлены",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.1210293, 56.5665992],
+  "building": false,
+  "train": false,
+  "name": "Гаврилов Посад",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.9464109, 55.7107486],
+  "building": false,
+  "train": false,
+  "name": "Дулёво",
+  "disused": false,
+  "type": "станция",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [39.3835427, 56.290335],
+  "building": false,
+  "train": false,
+  "name": "Кольчугино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.6691911, 56.4844365],
+  "building": false,
+  "train": false,
+  "name": "Юрьев-Польский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.9952564, 56.2392308],
+  "building": false,
+  "train": false,
+  "name": "Кипрёво",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.1397533, 56.9514458],
+  "building": false,
+  "train": false,
+  "name": "Кохма",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.0639164, 56.9832394],
+  "building": false,
+  "train": false,
+  "name": "Горино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.3820169, 56.6638498],
+  "building": false,
+  "train": false,
+  "name": "Нерль",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.5528604, 56.8027289],
+  "building": false,
+  "train": false,
+  "name": "Сахтыш",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.8906949, 56.9982827],
+  "building": false,
+  "train": false,
+  "name": "Текстильный",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.5179147, 56.7282874],
+  "building": false,
+  "train": false,
+  "name": "Якшинский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.6322263, 56.8859341],
+  "building": false,
+  "train": false,
+  "name": "Оболсуново",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.5648968, 56.8576882],
+  "building": false,
+  "train": false,
+  "name": "Тейково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1767946, 56.3594596],
+  "building": false,
+  "train": false,
+  "name": "Наугольный",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.4490106, 53.2083236],
+  "building": false,
+  "train": false,
+  "name": "Лев Толстой",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.1135028, 54.1676661],
+  "building": false,
+  "train": false,
+  "name": "Шлипово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3201514, 54.3534059],
+  "building": false,
+  "train": false,
+  "name": "Занозная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.5278691, 54.3086744],
+  "building": false,
+  "train": false,
+  "name": "Барятинская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.738998, 54.3877916],
+  "building": false,
+  "train": false,
+  "name": "Бабынино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.7465973, 54.4786694],
+  "building": false,
+  "train": false,
+  "name": "Павлиново",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.9477833, 54.1993521],
+  "building": false,
+  "train": false,
+  "name": "Матчино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.7593473, 54.0367534],
+  "building": false,
+  "train": false,
+  "name": "Козельск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.0106782, 54.0403569],
+  "building": false,
+  "train": false,
+  "name": "Шепелево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.8252341, 54.0205805],
+  "building": false,
+  "train": false,
+  "name": "Тупик",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.8572995, 53.9711512],
+  "building": false,
+  "train": false,
+  "name": "Слаговищи",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.9156539, 54.7736472],
+  "building": false,
+  "train": false,
+  "name": "Говардово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.677267, 54.8905916],
+  "building": false,
+  "train": false,
+  "name": "Мятлевская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.2995888, 54.4846292],
+  "building": false,
+  "train": false,
+  "name": "Милятинский Завод",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3615458, 54.2320771],
+  "building": false,
+  "train": false,
+  "name": "Шайковка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.946734, 54.0120198],
+  "building": false,
+  "train": false,
+  "name": "Бетлица",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.4316275, 53.8314534],
+  "building": false,
+  "train": false,
+  "name": "Людиново-1",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.4261613, 53.8863721],
+  "building": false,
+  "train": false,
+  "name": "Людиново-2",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.1039421, 55.2758332],
+  "building": false,
+  "train": false,
+  "name": "Кресты",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.4656249, 54.2557336],
+  "building": false,
+  "train": false,
+  "name": "Новая Пустынь",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.5486878, 57.4619062],
+  "building": false,
+  "train": false,
+  "name": "Нерехта",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.3192985, 57.4368255],
+  "building": false,
+  "train": false,
+  "name": "Бурмакино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.1148524, 57.2451294],
+  "building": false,
+  "train": false,
+  "name": "Фурманов",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.838078, 57.3463649],
+  "building": false,
+  "train": false,
+  "name": "Армёнки",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.6913745, 57.4064459],
+  "building": false,
+  "train": false,
+  "name": "Ежово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.2469146, 57.096244],
+  "building": false,
+  "train": false,
+  "name": "Ермолино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.0932795, 57.0577526],
+  "building": false,
+  "train": false,
+  "name": "Строкино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.4083469, 57.1557229],
+  "building": false,
+  "train": false,
+  "name": "Шлюз",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.5366296, 53.9651823],
+  "building": false,
+  "train": false,
+  "name": "Кимовск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.3117712, 53.9629081],
+  "building": false,
+  "train": false,
+  "name": "Бобрик-Донской",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.3590438, 54.9770473],
+  "building": false,
+  "train": false,
+  "name": "Азотная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.2882806, 54.9315045],
+  "building": false,
+  "train": false,
+  "name": "Дорогобуж",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.3140376, 53.1289842],
+  "building": false,
+  "train": false,
+  "name": "Коллективист",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.5669099, 54.8610665],
+  "building": false,
+  "train": true,
+  "name": "Озёры",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.3282267, 53.6400792],
+  "building": false,
+  "train": false,
+  "name": "Пономарево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1255529, 53.1486167],
+  "building": false,
+  "train": false,
+  "name": "Ефремов",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.2958182, 54.3014739],
+  "building": false,
+  "train": false,
+  "name": "Назаровка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.6101381, 55.4900295],
+  "building": false,
+  "train": false,
+  "name": "Окатово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.6196678, 55.4481535],
+  "building": false,
+  "train": false,
+  "name": "Курлово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.6555436, 55.240719],
+  "building": false,
+  "train": false,
+  "name": "Великодворье",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4937222, 55.2487421],
+  "building": false,
+  "train": false,
+  "name": "Столбовая",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.4558516, 55.1347615],
+  "building": false,
+  "train": false,
+  "name": "Гуреевский",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.4741348, 56.180962],
+  "building": false,
+  "train": false,
+  "name": "Эсино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.8679125, 56.2645373],
+  "building": false,
+  "train": false,
+  "name": "Мстера",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.5820131, 54.9464145],
+  "building": false,
+  "train": true,
+  "name": "Даниловская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.6060366, 54.9867683],
+  "building": false,
+  "train": true,
+  "name": "Кудрявцево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.0243144, 54.4914003],
+  "building": false,
+  "train": false,
+  "name": "Энергетик",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.8020329, 57.5442037],
+  "building": false,
+  "train": true,
+  "name": "Осеченка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.7881864, 56.2692678],
+  "building": false,
+  "train": false,
+  "name": "Второво",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.3065485, 56.6357897],
+  "building": false,
+  "train": false,
+  "name": "Петровская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1512314, 55.0586617],
+  "building": false,
+  "train": false,
+  "name": "Сотниково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.4880605, 56.2044534],
+  "building": false,
+  "train": false,
+  "name": "Оленино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.951643, 57.0039366],
+  "building": false,
+  "train": false,
+  "name": "Торжок-Южный",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.6322811, 56.3139211],
+  "building": false,
+  "train": false,
+  "name": "Крестниково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3423247, 54.7784336],
+  "building": false,
+  "train": false,
+  "name": "Угра",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2244007, 53.9648127],
+  "building": false,
+  "train": false,
+  "name": "Руднево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1741826, 53.9752316],
+  "building": false,
+  "train": false,
+  "name": "Узловая-I",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.7885942, 56.7176071],
+  "building": false,
+  "train": false,
+  "name": "Конаково ГРЭС",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.240879, 56.2337529],
+  "building": false,
+  "train": false,
+  "name": "Муравьёво",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.5117388, 56.0299949],
+  "building": false,
+  "train": false,
+  "name": "Шаховская",
+  "disused": false,
+  "type": "станция",
+  "route": "Рижское направление"
+}, {
+  "point": [41.2972305, 53.5566615],
+  "building": false,
+  "train": false,
+  "name": "Ягодное",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.9890789, 53.7086177],
+  "building": false,
+  "train": false,
+  "name": "Вёрда",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.4285911, 53.5057464],
+  "building": false,
+  "train": false,
+  "name": "Хлудово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.9814682, 53.1332311],
+  "building": false,
+  "train": false,
+  "name": "Карачев",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.6691367, 53.2089621],
+  "building": false,
+  "train": false,
+  "name": "Белые Берега",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.0634512, 53.2829063],
+  "building": false,
+  "train": false,
+  "name": "Ламки",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.362762, 53.2355013],
+  "building": false,
+  "train": false,
+  "name": "Челновая",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.2243262, 53.610973],
+  "building": false,
+  "train": false,
+  "name": "Стайная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.5319687, 53.7912886],
+  "building": false,
+  "train": false,
+  "name": "Коготково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.7176643, 53.4138214],
+  "building": false,
+  "train": false,
+  "name": "Троекурово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.6157967, 53.4922912],
+  "building": false,
+  "train": false,
+  "name": "Урусово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.4418017, 53.5740747],
+  "building": false,
+  "train": false,
+  "name": "Милославское",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.9306563, 56.3144772],
+  "building": false,
+  "train": false,
+  "name": "Тереховицы",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.1124491, 56.38475],
+  "building": false,
+  "train": false,
+  "name": "Новки 2",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.3846193, 56.0279175],
+  "building": false,
+  "train": false,
+  "name": "Улыбышево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.4435562, 55.9501918],
+  "building": false,
+  "train": false,
+  "name": "Головино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.6502239, 55.6187235],
+  "building": false,
+  "train": false,
+  "name": "Гусь-Хрустальный",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.0731629, 55.5071318],
+  "building": false,
+  "train": false,
+  "name": "Золотковский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.2159418, 55.5059192],
+  "building": false,
+  "train": false,
+  "name": "Алферово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.5396554, 56.0889266],
+  "building": false,
+  "train": false,
+  "name": "Восход",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.6196043, 55.9766352],
+  "building": false,
+  "train": false,
+  "name": "Волосатая",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.0049367, 55.9060965],
+  "building": false,
+  "train": false,
+  "name": "Передел",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.067414, 55.9105474],
+  "building": false,
+  "train": false,
+  "name": "Лебедево",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.1151838, 55.9334727],
+  "building": false,
+  "train": false,
+  "name": "Тюрмеровская",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.4712929, 55.775474],
+  "building": false,
+  "train": false,
+  "name": "Юромка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.1974027, 56.4884707],
+  "building": false,
+  "train": false,
+  "name": "Большаково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.615692, 55.7074977],
+  "building": false,
+  "train": false,
+  "name": "Комиссаровка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.7613168, 54.5144723],
+  "building": false,
+  "train": false,
+  "name": "Ферзиково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.6731467, 53.6024146],
+  "building": false,
+  "train": false,
+  "name": "Олсуфьево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.7927327, 53.4768857],
+  "building": false,
+  "train": false,
+  "name": "Тросна",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.7246594, 53.5311539],
+  "building": false,
+  "train": false,
+  "name": "Жуковка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.9124686, 53.4313979],
+  "building": false,
+  "train": false,
+  "name": "Ржаница",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3714625, 55.1690946],
+  "building": false,
+  "train": false,
+  "name": "Вязьма-Брянская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.2959715, 55.6307788],
+  "building": false,
+  "train": false,
+  "name": "Новодугинская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.9937918, 53.5580378],
+  "building": false,
+  "train": false,
+  "name": "Волово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.2628749, 56.6582589],
+  "building": false,
+  "train": false,
+  "name": "Шорыгино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.92436, 57.2216949],
+  "building": false,
+  "train": false,
+  "name": "Вичуга",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.6082199, 57.1526817],
+  "building": false,
+  "train": false,
+  "name": "Горкино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.4834707, 57.1352071],
+  "building": false,
+  "train": false,
+  "name": "Каминский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.4525583, 55.3476042],
+  "building": false,
+  "train": false,
+  "name": "Мещёрская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.9436384, 56.9011325],
+  "building": false,
+  "train": false,
+  "name": "Льняная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.9550363, 56.822289],
+  "building": false,
+  "train": false,
+  "name": "Пожитово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.7706523, 56.5323047],
+  "building": false,
+  "train": false,
+  "name": "Станция Старица",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.4480802, 56.3395883],
+  "building": false,
+  "train": false,
+  "name": "Есиповская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.6847835, 56.4842943],
+  "building": false,
+  "train": false,
+  "name": "Зарубино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.0330202, 53.4804604],
+  "building": false,
+  "train": false,
+  "name": "Караси",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.9642189, 53.3436673],
+  "building": false,
+  "train": false,
+  "name": "Политово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.0946815, 53.280203],
+  "building": false,
+  "train": false,
+  "name": "Малая Андреевка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.098542, 53.3195694],
+  "building": false,
+  "train": false,
+  "name": "Непрядва",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1966246, 53.0600261],
+  "building": false,
+  "train": false,
+  "name": "Лобаново",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.3043647, 54.6783751],
+  "building": false,
+  "train": false,
+  "name": "Мышца",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1605343, 53.8802802],
+  "building": false,
+  "train": false,
+  "name": "Полунино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.0401472, 56.9310504],
+  "building": false,
+  "train": false,
+  "name": "Ранцево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.848043, 53.4590789],
+  "building": false,
+  "train": false,
+  "name": "Коршуновка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.7657914, 53.4414569],
+  "building": false,
+  "train": false,
+  "name": "Моршанск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2433359, 54.3487098],
+  "building": false,
+  "train": false,
+  "name": "Венев",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.5123144, 53.2136874],
+  "building": false,
+  "train": false,
+  "name": "Снежетьская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.8332954, 53.1768495],
+  "building": false,
+  "train": false,
+  "name": "Мылинка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2629345, 54.0756442],
+  "building": false,
+  "train": false,
+  "name": "Анилиновая",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.6050105, 55.7143555],
+  "building": false,
+  "train": false,
+  "name": "Перегрузочная",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.323946, 54.8967877],
+  "building": false,
+  "train": false,
+  "name": "Касимов",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.9872299, 54.0864611],
+  "building": false,
+  "train": false,
+  "name": "Шварц (329 км)",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1210763, 55.7531599],
+  "building": false,
+  "train": false,
+  "name": "Купавна",
+  "disused": false,
+  "type": "станция",
+  "route": "Горьковское направление"
+}, {
+  "point": [37.2660261, 55.6100116],
+  "building": false,
+  "train": true,
+  "name": "Аэропорт",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5913903, 53.6078574],
+  "building": false,
+  "train": false,
+  "name": "Теплое",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.640936, 55.7285836],
+  "building": false,
+  "train": false,
+  "name": "Москва-Пассажирская-Павелецкая",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.2092767, 53.6270667],
+  "building": false,
+  "train": false,
+  "name": "Самозвановка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.2956493, 56.645146],
+  "building": false,
+  "train": false,
+  "name": "Редкино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.4435521, 55.8507702],
+  "building": false,
+  "train": true,
+  "name": "Ногинск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.1765067, 57.4565739],
+  "building": false,
+  "train": false,
+  "name": "Волгореченск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.5612876, 55.4266569],
+  "building": false,
+  "train": true,
+  "name": "Виноградово",
+  "disused": false,
+  "type": "станция",
+  "route": "Рязанское направление"
+}, {
+  "point": [34.6631203, 55.1819554],
+  "building": false,
+  "train": false,
+  "name": "Исаково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4873226, 54.2551474],
+  "building": false,
+  "train": false,
+  "name": "Некрасово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4679978, 54.287532],
+  "building": false,
+  "train": false,
+  "name": "Обидимо",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.7485483, 54.5460897],
+  "building": false,
+  "train": false,
+  "name": "Стенькино-II",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.8601172, 54.6991236],
+  "building": false,
+  "train": false,
+  "name": "Варские",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.0771092, 54.1009667],
+  "building": false,
+  "train": false,
+  "name": "Голдино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5573083, 54.2356554],
+  "building": false,
+  "train": false,
+  "name": "Плеханово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.056206, 56.0464931],
+  "building": false,
+  "train": false,
+  "name": "Поварово III",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4587811, 56.1258505],
+  "building": false,
+  "train": false,
+  "name": "Белый Раст",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.1128842, 56.0743605],
+  "building": false,
+  "train": false,
+  "name": "Поварово II",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.5593702, 56.1625441],
+  "building": false,
+  "train": false,
+  "name": "Зубцов",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.2356946, 56.074872],
+  "building": false,
+  "train": false,
+  "name": "Княжьи Горы",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.4603874, 56.1925827],
+  "building": false,
+  "train": false,
+  "name": "Аристово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.7852097, 55.9940658],
+  "building": false,
+  "train": false,
+  "name": "Благовещенское",
+  "disused": false,
+  "type": "станция",
+  "route": "Рижское направление"
+}, {
+  "point": [34.1135386, 56.2241917],
+  "building": false,
+  "train": false,
+  "name": "Мончалово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.8995713, 56.2032507],
+  "building": false,
+  "train": false,
+  "name": "Чертолино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.06836, 56.1081708],
+  "building": false,
+  "train": false,
+  "name": "Обовражье",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.2862138, 56.2206765],
+  "building": false,
+  "train": false,
+  "name": "Ильмановка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.7951879, 56.1372862],
+  "building": false,
+  "train": false,
+  "name": "Курково (разъезд)",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.8421387, 57.3017164],
+  "building": false,
+  "train": false,
+  "name": "Гаврилов-Ям",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.6987183, 53.2307651],
+  "building": false,
+  "train": false,
+  "name": "Митягино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.7875156, 55.8828802],
+  "building": false,
+  "train": false,
+  "name": "Электрогорск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.4270766, 53.7447379],
+  "building": false,
+  "train": false,
+  "name": "Кензино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.2818162, 55.6719892],
+  "building": false,
+  "train": false,
+  "name": "Одинцово",
+  "disused": false,
+  "type": "станция",
+  "route": "Смоленское направление"
+}, {
+  "point": [39.713368, 54.6337015],
+  "building": false,
+  "train": false,
+  "name": "Рязань-I",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3417158, 54.9891946],
+  "building": false,
+  "train": false,
+  "name": "Волоста-Пятница",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.2909772, 54.9978277],
+  "building": false,
+  "train": false,
+  "name": "Струково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1657761, 53.9474569],
+  "building": false,
+  "train": false,
+  "name": "Узловая-III",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.8900818, 54.1323483],
+  "building": false,
+  "train": false,
+  "name": "Гурьевка",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.6832963, 55.8626483],
+  "building": false,
+  "train": false,
+  "name": "Лосиноостровская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.4595689, 56.3832946],
+  "building": false,
+  "train": false,
+  "name": "Арсаки",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.8929604, 56.8351458],
+  "building": false,
+  "train": false,
+  "name": "Тверь",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.541646, 55.973507],
+  "building": false,
+  "train": false,
+  "name": "Румянцево",
+  "disused": false,
+  "type": "станция",
+  "route": "Рижское направление"
+}, {
+  "point": [38.7715868, 55.21594],
+  "building": false,
+  "train": false,
+  "name": "Пески",
+  "disused": false,
+  "type": "станция",
+  "route": "Рязанское направление"
+}, {
+  "point": [37.6682255, 55.6181611],
+  "building": false,
+  "train": false,
+  "name": "Царицыно",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5154559, 55.3123592],
+  "building": false,
+  "train": true,
+  "name": "Львовская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.7019393, 55.3129901],
+  "building": false,
+  "train": false,
+  "name": "Воскресенск",
+  "disused": false,
+  "type": "станция",
+  "route": "Рязанское направление"
+}, {
+  "point": [38.7364654, 55.2831279],
+  "building": false,
+  "train": true,
+  "name": "Шиферная",
+  "disused": false,
+  "type": "станция",
+  "route": "Рязанское направление"
+}, {
+  "point": [37.4902044, 55.1500133],
+  "building": false,
+  "train": false,
+  "name": "Чехов",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5621844, 55.5101252],
+  "building": false,
+  "train": false,
+  "name": "Щербинка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.0668777, 55.5500875],
+  "building": false,
+  "train": false,
+  "name": "Апрелевка",
+  "disused": false,
+  "type": "станция",
+  "route": "Киевское направление"
+}, {
+  "point": [37.1097354, 55.5778026],
+  "building": false,
+  "train": false,
+  "name": "Крёкшино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.9675213, 55.5166849],
+  "building": false,
+  "train": false,
+  "name": "Селятино",
+  "disused": false,
+  "type": "станция",
+  "route": "Киевское направление"
+}, {
+  "point": [37.5677763, 55.882782],
+  "building": false,
+  "train": false,
+  "name": "Бескудниково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.1736179, 55.9801606],
+  "building": false,
+  "train": false,
+  "name": "Крюково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5382527, 55.9045015],
+  "building": false,
+  "train": false,
+  "name": "Марк",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.1022838, 56.0416126],
+  "building": false,
+  "train": false,
+  "name": "Радищево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.615322, 55.5903775],
+  "building": false,
+  "train": false,
+  "name": "Красный Строитель",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.8225017, 55.9116927],
+  "building": false,
+  "train": false,
+  "name": "Новоиерусалимская",
+  "disused": false,
+  "type": "станция",
+  "route": "Рижское направление"
+}, {
+  "point": [37.0382393, 55.8801086],
+  "building": false,
+  "train": false,
+  "name": "Снегири",
+  "disused": false,
+  "type": "станция",
+  "route": "Рижское направление"
+}, {
+  "point": [38.3627327, 55.4989947],
+  "building": false,
+  "train": false,
+  "name": "Бронницы",
+  "disused": false,
+  "type": "станция",
+  "route": "Рязанское направление"
+}, {
+  "point": [38.0712553, 55.6266127],
+  "building": false,
+  "train": false,
+  "name": "Быково",
+  "disused": false,
+  "type": "станция",
+  "route": "Рязанское направление"
+}, {
+  "point": [35.9361958, 55.9936818],
+  "building": false,
+  "train": false,
+  "name": "Волоколамск",
+  "disused": false,
+  "type": "станция",
+  "route": "Рижское направление"
+}, {
+  "point": [38.4455544, 55.6092658],
+  "building": false,
+  "train": false,
+  "name": "Гжель",
+  "disused": false,
+  "type": "станция",
+  "route": "Казанское направление"
+}, {
+  "point": [37.896703, 55.68249],
+  "building": false,
+  "train": false,
+  "name": "Люберцы I",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.9326485, 55.6726092],
+  "building": false,
+  "train": false,
+  "name": "Люберцы II",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.9295199, 55.8906721],
+  "building": false,
+  "train": false,
+  "name": "Манихино I",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.4684947, 55.7694135],
+  "building": false,
+  "train": true,
+  "name": "Металлург",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.7644261, 55.7358077],
+  "building": false,
+  "train": false,
+  "name": "Перово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2262173, 55.5651537],
+  "building": false,
+  "train": false,
+  "name": "Раменское",
+  "disused": false,
+  "type": "станция",
+  "route": "Рязанское направление"
+}, {
+  "point": [38.4962879, 55.4450546],
+  "building": false,
+  "train": false,
+  "name": "Фаустово",
+  "disused": false,
+  "type": "станция",
+  "route": "Рязанское направление"
+}, {
+  "point": [36.2151647, 56.0185109],
+  "building": false,
+  "train": true,
+  "name": "Чисмена",
+  "disused": false,
+  "type": "станция",
+  "route": "Рижское направление"
+}, {
+  "point": [39.520419, 55.5731624],
+  "building": false,
+  "train": false,
+  "name": "Шатура",
+  "disused": false,
+  "type": "станция",
+  "route": "Казанское направление"
+}, {
+  "point": [37.9607392, 55.1208657],
+  "building": false,
+  "train": false,
+  "name": "Михнево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4534727, 55.8936964],
+  "building": false,
+  "train": false,
+  "name": "Химки",
+  "disused": false,
+  "type": "станция",
+  "route": "Ленинградское направление"
+}, {
+  "point": [37.5146757, 55.7440571],
+  "building": false,
+  "train": false,
+  "name": "Фили",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5090837, 55.8699191],
+  "building": false,
+  "train": false,
+  "name": "Ховрино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.5669456, 56.4494641],
+  "building": false,
+  "train": false,
+  "name": "Решетниково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.4378792, 56.5518638],
+  "building": false,
+  "train": false,
+  "name": "Завидово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.7115625, 56.330954],
+  "building": false,
+  "train": false,
+  "name": "Клин",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.7953117, 55.739779],
+  "building": false,
+  "train": true,
+  "name": "Кусково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5654172, 55.4317986],
+  "building": false,
+  "train": false,
+  "name": "Подольск",
+  "disused": false,
+  "type": "станция",
+  "route": "Курское направление"
+}, {
+  "point": [36.9715758, 56.1843035],
+  "building": false,
+  "train": false,
+  "name": "Подсолнечная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.9334481, 56.2073447],
+  "building": false,
+  "train": false,
+  "name": "Сенеж",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.6195971, 54.5450714],
+  "building": false,
+  "train": false,
+  "name": "Узуново",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.8959269, 55.2702328],
+  "building": false,
+  "train": false,
+  "name": "Барыбино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.8505669, 55.3338527],
+  "building": false,
+  "train": false,
+  "name": "Белые Столбы",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.1257097, 55.8667275],
+  "building": false,
+  "train": false,
+  "name": "Дедовск",
+  "disused": false,
+  "type": "станция",
+  "route": "Рижское направление"
+}, {
+  "point": [37.1849447, 55.8415749],
+  "building": false,
+  "train": false,
+  "name": "Нахабино",
+  "disused": false,
+  "type": "станция",
+  "route": "Рижское направление"
+}, {
+  "point": [37.3395149, 55.8148976],
+  "building": false,
+  "train": false,
+  "name": "Павшино",
+  "disused": false,
+  "type": "станция",
+  "route": "Рижское направление"
+}, {
+  "point": [37.4410998, 55.8270524],
+  "building": false,
+  "train": false,
+  "name": "Тушино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.9756838, 55.7953125],
+  "building": false,
+  "train": false,
+  "name": "Орехово-Зуево",
+  "disused": false,
+  "type": "станция",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [38.87995, 55.610277],
+  "building": false,
+  "train": false,
+  "name": "Давыдово",
+  "disused": false,
+  "type": "станция",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [38.9171279, 55.4782483],
+  "building": false,
+  "train": false,
+  "name": "Ильинский Погост",
+  "disused": false,
+  "type": "станция",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [38.8771229, 55.5536187],
+  "building": false,
+  "train": false,
+  "name": "Нерская",
+  "disused": false,
+  "type": "станция",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [37.7727528, 55.4407447],
+  "building": false,
+  "train": false,
+  "name": "Домодедово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.9215575, 55.5731427],
+  "building": false,
+  "train": false,
+  "name": "Куровская",
+  "disused": false,
+  "type": "станция",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [33.3632545, 55.1357604],
+  "building": false,
+  "train": false,
+  "name": "Дурово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2161995, 54.040524],
+  "building": false,
+  "train": false,
+  "name": "Ключёвка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1431239, 54.0717896],
+  "building": false,
+  "train": false,
+  "name": "Маклец",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1685148, 54.0784387],
+  "building": false,
+  "train": false,
+  "name": "Северная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2554738, 54.0239591],
+  "building": false,
+  "train": false,
+  "name": "Урванка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.27117, 54.0106494],
+  "building": false,
+  "train": false,
+  "name": "Новомосковская - 1",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.347082, 54.1011805],
+  "building": false,
+  "train": false,
+  "name": "Черепеть",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.9762805, 54.5114089],
+  "building": false,
+  "train": false,
+  "name": "Листвянка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.9297434, 54.3467755],
+  "building": false,
+  "train": false,
+  "name": "Сасово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.7905971, 54.4730772],
+  "building": false,
+  "train": false,
+  "name": "Денежниково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.7957133, 54.5854401],
+  "building": false,
+  "train": false,
+  "name": "Лесок",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.7378679, 54.5343002],
+  "building": false,
+  "train": false,
+  "name": "Стенькино-I",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.6308884, 54.6571958],
+  "building": false,
+  "train": false,
+  "name": "Дягилево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.4483485, 54.821571],
+  "building": false,
+  "train": false,
+  "name": "Дивово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.6988027, 54.6283588],
+  "building": false,
+  "train": false,
+  "name": "Рязань-II",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.8675416, 54.3747791],
+  "building": false,
+  "train": false,
+  "name": "Шевцово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.1373445, 54.6631837],
+  "building": false,
+  "train": false,
+  "name": "Макеево-Московское",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.5034765, 54.7306791],
+  "building": false,
+  "train": false,
+  "name": "Рыбное",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.997625, 55.1467235],
+  "building": false,
+  "train": false,
+  "name": "Семлёво",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.578586, 54.1996322],
+  "building": false,
+  "train": false,
+  "name": "Тула-1-Курская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.3921088, 53.1203898],
+  "building": false,
+  "train": false,
+  "name": "Хотынец",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.3346033, 53.7367601],
+  "building": false,
+  "train": false,
+  "name": "Сещинская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.6433584, 55.7175334],
+  "building": false,
+  "train": false,
+  "name": "Москва-Товарная-Павелецкая",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.9299578, 54.2807926],
+  "building": false,
+  "train": false,
+  "name": "Старожилово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5896898, 57.3527531],
+  "building": false,
+  "train": true,
+  "name": "Кашин",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.4973152, 53.3379217],
+  "building": false,
+  "train": false,
+  "name": "Брянск-Северный",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.4796226, 53.3716385],
+  "building": false,
+  "train": false,
+  "name": "Пунка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.4021382, 53.4426141],
+  "building": false,
+  "train": false,
+  "name": "Фокино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3816379, 53.5025688],
+  "building": false,
+  "train": false,
+  "name": "Любохна",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.4098788, 53.2135033],
+  "building": false,
+  "train": false,
+  "name": "Брянск-Льговский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.4444913, 55.6423826],
+  "building": false,
+  "train": false,
+  "name": "Морево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3083314, 53.3145852],
+  "building": false,
+  "train": false,
+  "name": "Орджоникидзеград",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.4988886, 53.6894873],
+  "building": false,
+  "train": false,
+  "name": "Дубровка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.0750057, 53.0968983],
+  "building": false,
+  "train": false,
+  "name": "Выгоничи",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.9455091, 53.0705593],
+  "building": false,
+  "train": false,
+  "name": "Пильшино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.1872334, 54.3400141],
+  "building": false,
+  "train": false,
+  "name": "Перевлес",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.2434418, 54.2980611],
+  "building": false,
+  "train": false,
+  "name": "Проня",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.6872328, 53.3080078],
+  "building": false,
+  "train": false,
+  "name": "Старое Юрьево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.0778418, 54.4993785],
+  "building": false,
+  "train": false,
+  "name": "Алексин",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.3539045, 54.4385882],
+  "building": false,
+  "train": false,
+  "name": "Суходол",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.0457543, 54.0220671],
+  "building": false,
+  "train": false,
+  "name": "Дедилово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.6617538, 53.734065],
+  "building": false,
+  "train": false,
+  "name": "Арсеньево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2055479, 53.4869377],
+  "building": false,
+  "train": false,
+  "name": "Дворики",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.4246229, 53.4587247],
+  "building": false,
+  "train": false,
+  "name": "Птань",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.9672721, 54.5096236],
+  "building": false,
+  "train": false,
+  "name": "Средняя",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.5480499, 54.2814336],
+  "building": false,
+  "train": false,
+  "name": "Шелухово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.8891422, 54.3208409],
+  "building": false,
+  "train": false,
+  "name": "Шилово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.5465981, 55.1449184],
+  "building": false,
+  "train": false,
+  "name": "Тумская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.5046629, 53.2869891],
+  "building": false,
+  "train": true,
+  "name": "Чернец",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.8594888, 55.7522573],
+  "building": false,
+  "train": true,
+  "name": "Реутово",
+  "disused": false,
+  "type": "станция",
+  "route": "Горьковское направление"
+}, {
+  "point": [37.8358311, 55.4224224],
+  "building": false,
+  "train": false,
+  "name": "Авиационная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.5113882, 54.1414018],
+  "building": false,
+  "train": false,
+  "name": "Збродово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.2969466, 55.45688],
+  "building": false,
+  "train": false,
+  "name": "Игоревская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2336026, 54.3994429],
+  "building": false,
+  "train": false,
+  "name": "168 км",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.6624304, 55.1788955],
+  "building": false,
+  "train": false,
+  "name": "Балабаново",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.4809201, 55.007735],
+  "building": false,
+  "train": false,
+  "name": "Малоярославец",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.5534027, 55.0535374],
+  "building": false,
+  "train": false,
+  "name": "Шемякино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.391103, 54.9240804],
+  "building": false,
+  "train": false,
+  "name": "Ерденево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.3195335, 54.8067462],
+  "building": false,
+  "train": false,
+  "name": "Суходрев",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.1382747, 54.6115041],
+  "building": false,
+  "train": false,
+  "name": "Горенская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.0410316, 54.4667878],
+  "building": false,
+  "train": false,
+  "name": "Воротынск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.2172201, 54.0230145],
+  "building": false,
+  "train": false,
+  "name": "Живодовка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.1399472, 53.8961603],
+  "building": false,
+  "train": false,
+  "name": "Думиничи",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.8832286, 53.7350246],
+  "building": false,
+  "train": false,
+  "name": "Зикеево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.9827579, 53.8439432],
+  "building": false,
+  "train": false,
+  "name": "Палики",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.7203144, 53.4996424],
+  "building": false,
+  "train": false,
+  "name": "Березовский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.7893663, 53.6086733],
+  "building": false,
+  "train": false,
+  "name": "Судимир",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [33.3187095, 55.6955014],
+  "building": false,
+  "train": false,
+  "name": "Владимирский Тупик",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.615046, 55.0126872],
+  "building": false,
+  "train": true,
+  "name": "Карасёво",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2769284, 55.092314],
+  "building": false,
+  "train": false,
+  "name": "Яганово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.8799866, 55.8563197],
+  "building": false,
+  "train": false,
+  "name": "Лукино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.9629491, 55.9129408],
+  "building": false,
+  "train": false,
+  "name": "Манихино II",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.6365598, 53.8826606],
+  "building": false,
+  "train": false,
+  "name": "",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.6974811, 53.9601797],
+  "building": false,
+  "train": false,
+  "name": "",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.644162, 55.425516],
+  "building": false,
+  "train": false,
+  "name": "Туманово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.9484675, 55.8094209],
+  "building": false,
+  "train": false,
+  "name": "Балашиха",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5778621, 55.775648],
+  "building": false,
+  "train": false,
+  "name": "Москва-Пассажирская-Смоленская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5887086, 55.7953011],
+  "building": false,
+  "train": false,
+  "name": "Москва-Бутырская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5628449, 55.7420034],
+  "building": false,
+  "train": false,
+  "name": "Москва-Пассажирская-Киевская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.9917907, 54.1741678],
+  "building": false,
+  "train": false,
+  "name": "Хрущёво",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1156999, 54.0083799],
+  "building": false,
+  "train": false,
+  "name": "Узловая II",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.3263696, 54.8801983],
+  "building": false,
+  "train": false,
+  "name": "Алпатьево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.0789616, 54.9090262],
+  "building": false,
+  "train": false,
+  "name": "Ступино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.6879897, 54.2740827],
+  "building": false,
+  "train": false,
+  "name": "Нижнемальцево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.9619455, 55.9681495],
+  "building": false,
+  "train": false,
+  "name": "Детская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.3838942, 53.2155177],
+  "building": false,
+  "train": false,
+  "name": "ост.п.101 км",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.2840695, 53.2667924],
+  "building": false,
+  "train": false,
+  "name": "Янушево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.3430003, 53.2431785],
+  "building": false,
+  "train": false,
+  "name": "ост.п.105 км",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.528959, 54.6791941],
+  "building": false,
+  "train": false,
+  "name": "Богатищево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.727257, 55.064412],
+  "building": false,
+  "train": true,
+  "name": "Сычёво",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.2618739, 57.4483456],
+  "building": false,
+  "train": false,
+  "name": "40 км",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.11467, 55.5597694],
+  "building": false,
+  "train": false,
+  "name": "Авсюнино",
+  "disused": false,
+  "type": "станция",
+  "route": "Казанское направление"
+}, {
+  "point": [36.7511001, 55.3831594],
+  "building": false,
+  "train": false,
+  "name": "Нара",
+  "disused": false,
+  "type": "станция",
+  "route": "Киевское направление"
+}, {
+  "point": [41.7367187, 55.890331],
+  "building": false,
+  "train": false,
+  "name": "Селиваново",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.8030506, 55.4412039],
+  "building": false,
+  "train": false,
+  "name": "Пожитково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3750191, 54.0651285],
+  "building": false,
+  "train": false,
+  "name": "Фаянсовая",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.24257, 56.8026911],
+  "building": false,
+  "train": false,
+  "name": "Беклемишево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.0207621, 56.5965588],
+  "building": false,
+  "train": false,
+  "name": "Берендеево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.2976047, 57.0934369],
+  "building": false,
+  "train": false,
+  "name": "Деболовская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.2879557, 56.8592893],
+  "building": false,
+  "train": false,
+  "name": "Итларь",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.2737368, 57.0028487],
+  "building": false,
+  "train": false,
+  "name": "Петровск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.4074874, 57.1981781],
+  "building": false,
+  "train": false,
+  "name": "Ростов-Ярославский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.2119275, 56.7085078],
+  "building": false,
+  "train": false,
+  "name": "Рязанцево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.2911479, 56.9307319],
+  "building": false,
+  "train": false,
+  "name": "Сильницы",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.116191, 56.6200444],
+  "building": false,
+  "train": false,
+  "name": "Шушково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.6885171, 57.4876515],
+  "building": false,
+  "train": false,
+  "name": "Козьмодемьянск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.5999623, 57.3922376],
+  "building": false,
+  "train": false,
+  "name": "Коромыслово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.3517749, 56.286508],
+  "building": false,
+  "train": false,
+  "name": "Разъезд 3 км",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.2983444, 56.2787666],
+  "building": false,
+  "train": false,
+  "name": "Стрелка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.8502407, 56.5075473],
+  "building": false,
+  "train": false,
+  "name": "Балакирево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.0312316, 54.9861459],
+  "building": false,
+  "train": false,
+  "name": "Жилёво",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.8247338, 55.5607383],
+  "building": false,
+  "train": false,
+  "name": "Парк \"Патриот\"",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.7877569, 57.2390998],
+  "building": false,
+  "train": false,
+  "name": "Калязин Пост",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.7229632, 54.1580365],
+  "building": false,
+  "train": false,
+  "name": "Осиногорск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.5675052, 56.4188924],
+  "building": false,
+  "train": false,
+  "name": "Панино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.6647442, 53.4682651],
+  "building": false,
+  "train": false,
+  "name": "Базево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.5577587, 53.510218],
+  "building": false,
+  "train": false,
+  "name": "Ракша",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.179753, 53.1401385],
+  "building": false,
+  "train": false,
+  "name": "Одринская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1768362, 56.3594109],
+  "building": false,
+  "train": false,
+  "name": "Наугольный",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.3231032, 55.5050358],
+  "building": false,
+  "train": false,
+  "name": "Добрятино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3240531, 53.6100316],
+  "building": false,
+  "train": false,
+  "name": "Дятьково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.9955944, 57.4213408],
+  "building": false,
+  "train": false,
+  "name": "Спирово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.0380759, 57.0075617],
+  "building": false,
+  "train": false,
+  "name": "Иваново-сортировочное",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.6678618, 55.2409837],
+  "building": false,
+  "train": false,
+  "name": "Ворсино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.1276099, 54.5392105],
+  "building": false,
+  "train": true,
+  "name": "Калуга II",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.6182042, 55.0921669],
+  "building": false,
+  "train": false,
+  "name": "Обнинское",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.1520061, 54.6404797],
+  "building": false,
+  "train": false,
+  "name": "Тихонова Пустынь",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.3426885, 54.1175434],
+  "building": false,
+  "train": false,
+  "name": "Сухиничи-Узловые",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.5583017, 53.3375333],
+  "building": false,
+  "train": true,
+  "name": "Козёлкино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3833013, 53.2826867],
+  "building": false,
+  "train": false,
+  "name": "Мальцевская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.4595319, 53.2498089],
+  "building": false,
+  "train": false,
+  "name": "Полпинская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.4283157, 53.1137557],
+  "building": false,
+  "train": false,
+  "name": "Стяжное",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.3830494, 54.7321335],
+  "building": false,
+  "train": false,
+  "name": "Пурлово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.7232983, 54.4586099],
+  "building": false,
+  "train": false,
+  "name": "Серебряные Пруды",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.8986248, 54.2943472],
+  "building": false,
+  "train": false,
+  "name": "Виленки",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.8984403, 54.2397672],
+  "building": false,
+  "train": false,
+  "name": "Цементная (недейств.)",
+  "disused": true,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.0153162, 54.2224096],
+  "building": false,
+  "train": false,
+  "name": "Михайлов",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.2408159, 53.7874313],
+  "building": false,
+  "train": true,
+  "name": "Павелец-Тульский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.4322802, 54.2821831],
+  "building": false,
+  "train": false,
+  "name": "Чучково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.2914116, 53.2506213],
+  "building": false,
+  "train": false,
+  "name": "Богоявленск",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.5273321, 53.5334857],
+  "building": false,
+  "train": false,
+  "name": "Гротовский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.8402426, 53.3271046],
+  "building": false,
+  "train": false,
+  "name": "Заново",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.9587375, 53.2519184],
+  "building": false,
+  "train": false,
+  "name": "Раненбург",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.3700231, 53.6211666],
+  "building": false,
+  "train": false,
+  "name": "Спасское",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.109228, 54.038604],
+  "building": false,
+  "train": false,
+  "name": "Лужковская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1631538, 54.0837228],
+  "building": false,
+  "train": false,
+  "name": "Западная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [36.1214831, 53.8169893],
+  "building": false,
+  "train": false,
+  "name": "Белёв",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.0301094, 53.5650268],
+  "building": false,
+  "train": false,
+  "name": "Скуратово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5043128, 56.0909059],
+  "building": false,
+  "train": false,
+  "name": "Катуар",
+  "disused": false,
+  "type": "станция",
+  "route": "Савёловское направление"
+}, {
+  "point": [40.9637653, 55.5042539],
+  "building": false,
+  "train": false,
+  "name": "Заколпье",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.2159371, 55.5059652],
+  "building": false,
+  "train": false,
+  "name": "Алферово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.0731582, 55.5071778],
+  "building": false,
+  "train": false,
+  "name": "Золотковский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.6945213, 55.5470859],
+  "building": false,
+  "train": false,
+  "name": "Кондаково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.1598413, 54.085304],
+  "building": false,
+  "train": false,
+  "name": "Агрегатная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.4656004, 54.2556358],
+  "building": false,
+  "train": false,
+  "name": "Новая Пустынь",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.3606333, 56.3836168],
+  "building": false,
+  "train": false,
+  "name": "Ковров 2",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.2223025, 56.3755019],
+  "building": false,
+  "train": false,
+  "name": "Федулово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.8679296, 56.2645716],
+  "building": false,
+  "train": false,
+  "name": "Мстера",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.7084718, 56.2985413],
+  "building": false,
+  "train": false,
+  "name": "Сарыево",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.6323027, 56.3139546],
+  "building": false,
+  "train": false,
+  "name": "Крестниково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.446081, 56.3897978],
+  "building": false,
+  "train": false,
+  "name": "Гостюхино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.1840938, 56.0617788],
+  "building": false,
+  "train": false,
+  "name": "Колокша",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.7881642, 56.2693012],
+  "building": false,
+  "train": false,
+  "name": "Второво",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.930593, 56.3144829],
+  "building": false,
+  "train": false,
+  "name": "Тереховицы",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.5417359, 56.1954833],
+  "building": false,
+  "train": false,
+  "name": "Боголюбово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.2800576, 56.0927744],
+  "building": false,
+  "train": false,
+  "name": "Юрьевец",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.4628359, 55.9247749],
+  "building": false,
+  "train": false,
+  "name": "Петушки",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.9829798, 56.0201091],
+  "building": false,
+  "train": false,
+  "name": "Ундол",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.7376989, 55.9531071],
+  "building": false,
+  "train": false,
+  "name": "Болдино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.6213908, 55.9301712],
+  "building": false,
+  "train": false,
+  "name": "Костерёво",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.3045523, 56.3687566],
+  "building": false,
+  "train": false,
+  "name": "Ковров 1",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.217645, 55.8919929],
+  "building": false,
+  "train": false,
+  "name": "Покров",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.1034164, 55.8691048],
+  "building": false,
+  "train": false,
+  "name": "Усад",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.3053882, 53.7125249],
+  "building": false,
+  "train": false,
+  "name": "Топиллы",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.8038727, 55.4997026],
+  "building": false,
+  "train": true,
+  "name": "Вековка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.0046819, 55.542376],
+  "building": false,
+  "train": false,
+  "name": "Черусти",
+  "disused": false,
+  "type": "станция",
+  "route": "Казанское направление"
+}, {
+  "point": [39.74971, 54.0805947],
+  "building": false,
+  "train": false,
+  "name": "Карьерная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.7778034, 54.0305302],
+  "building": false,
+  "train": false,
+  "name": "ГРЭС",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.7733928, 54.5768133],
+  "building": false,
+  "train": false,
+  "name": "Парк ТЭЦ",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.4748447, 56.1805099],
+  "building": false,
+  "train": false,
+  "name": "",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.4476372, 53.2258391],
+  "building": false,
+  "train": false,
+  "name": "Брянск-Восточный",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4133128, 55.9811631],
+  "building": false,
+  "train": false,
+  "name": "Шереметьево 1",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4106212, 55.963247],
+  "building": false,
+  "train": false,
+  "name": "Шереметьево 2",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [35.217682, 57.2788623],
+  "building": false,
+  "train": false,
+  "name": "Калашниково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.4203306, 56.1298974],
+  "building": false,
+  "train": false,
+  "name": "Владимир",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.8212717, 53.3877169],
+  "building": false,
+  "train": false,
+  "name": "Баловинки",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.7298329, 55.733364],
+  "building": false,
+  "train": false,
+  "name": "Карачарово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5455281, 54.0524931],
+  "building": false,
+  "train": false,
+  "name": "Казначеевка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5185756, 55.2190615],
+  "building": false,
+  "train": true,
+  "name": "Детково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3611622, 53.1766786],
+  "building": false,
+  "train": false,
+  "name": "Свень",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.286856, 55.6066062],
+  "building": false,
+  "train": true,
+  "name": "Аэропорт Внуково",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.8306726, 57.2342322],
+  "building": false,
+  "train": false,
+  "name": "Калязин",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5348222, 56.9491428],
+  "building": false,
+  "train": false,
+  "name": "Белый Городок",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.3768455, 56.8557375],
+  "building": false,
+  "train": false,
+  "name": "Савёлово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [38.3251324, 57.5072796],
+  "building": false,
+  "train": false,
+  "name": "Углич",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.1042899, 53.709277],
+  "building": false,
+  "train": false,
+  "name": "Ряжск I",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.384817, 55.6572454],
+  "building": false,
+  "train": false,
+  "name": "Солнечная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4513867, 55.6836848],
+  "building": false,
+  "train": true,
+  "name": "Очаково I",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [41.1492913, 54.3345334],
+  "building": false,
+  "train": false,
+  "name": "Ушинский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.5549194, 55.4855693],
+  "building": false,
+  "train": true,
+  "name": "Остафьево (строится)",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.8506711, 55.7034372],
+  "building": false,
+  "train": false,
+  "name": "Косино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.8792438, 55.7103159],
+  "building": false,
+  "train": false,
+  "name": "Улица Дмитриевского",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.9005253, 55.7084818],
+  "building": false,
+  "train": false,
+  "name": "Лухмановская",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.9278318, 55.7030787],
+  "building": false,
+  "train": false,
+  "name": "Некрасовка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [34.3206158, 56.2394583],
+  "building": false,
+  "train": true,
+  "name": "Ржев-Балтийский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.1383649, 55.5838406],
+  "building": false,
+  "train": true,
+  "name": "Санино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [40.0220746, 55.5448855],
+  "building": false,
+  "train": true,
+  "name": "Черусти-II",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [37.4722943, 55.730346],
+  "building": false,
+  "train": false,
+  "name": "Славянский бульвар",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.1857782, 53.8549907],
+  "building": false,
+  "train": true,
+  "name": "Мшанка",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.1998558, 53.8359765],
+  "building": false,
+  "train": true,
+  "name": "Кремлёво",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.0370953, 53.8417397],
+  "building": false,
+  "train": true,
+  "name": "Миллионная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.9409032, 53.7436922],
+  "building": false,
+  "train": true,
+  "name": "Говорово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.8089144, 53.7692104],
+  "building": false,
+  "train": true,
+  "name": "Желтухино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.6092668, 53.7921006],
+  "building": false,
+  "train": true,
+  "name": "Брикетная",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.5761389, 53.8249392],
+  "building": false,
+  "train": true,
+  "name": "Скопин",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.4966677, 53.8496359],
+  "building": false,
+  "train": true,
+  "name": "Вослебово",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.2182121, 53.841297],
+  "building": false,
+  "train": true,
+  "name": "Павелец-Сызранский",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.1513859, 53.9365411],
+  "building": false,
+  "train": true,
+  "name": "Катино",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [39.4479175, 53.2084919],
+  "building": false,
+  "train": true,
+  "name": "Ж/Д ВОКЗАЛ",
+  "disused": false,
+  "type": null,
+  "route": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Никольское",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Салтыковская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кучино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Чёрное",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Заря",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "33 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "43 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Храпуново",
+  "disused": null,
+  "type": "станция",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Есино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Казанское",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Вохна",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Назарьево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кабаново",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "87 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Крутое",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Воиново",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ухтомская",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Люберцы 1",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Люберцы 2",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Коренёво",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Овражки",
+  "disused": null,
+  "type": "станция",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Родники",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Вялки",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Хрипань",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "41 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Донино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "49 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "52 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Григорово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "55 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Игнатьево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кузяево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шевлягино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "73 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Анциферово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Подосинки",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "90 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "95 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Заполицы",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Запутная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шатурторф",
+  "disused": null,
+  "type": "станция",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ботино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Туголесье",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Воймежный",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Струя",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Победа",
+  "disused": null,
+  "type": "платформа",
+  "route": "Киевское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дачная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Киевское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Алабино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Киевское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Зосимова Пустынь",
+  "disused": null,
+  "type": "платформа",
+  "route": "Киевское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Башкино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Киевское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Битца",
+  "disused": null,
+  "type": "платформа",
+  "route": "Курское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Силикатная",
+  "disused": null,
+  "type": "станция",
+  "route": "Курское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Левобережная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Булатниково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Расторгуево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Красногорская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Опалиха",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Аникеевка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Малиновка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Миитовская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "50 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Манихино-1",
+  "disused": null,
+  "type": null,
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Троицкая",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Истра",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Чеховская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Холщёвики",
+  "disused": null,
+  "type": "станция",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ядрошино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Курсаковская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Новопетровская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Устиновка",
+  "disused": null,
+  "type": "станция",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "91 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Лесодолгоруково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Матрёнино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дубосеково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "133 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "141 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Бухолово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "149 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Муриково",
+  "disused": null,
+  "type": "разъезд",
+  "route": "Рижское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Люберцы-1",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Панки",
+  "disused": null,
+  "type": "станция",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Томилино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Красково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Малаховка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Удельная",
+  "disused": null,
+  "type": "платформа, Московская область",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ильинская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Отдых",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кратово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "42 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Фабричная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "47 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Совхоз",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Загорново",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Радуга",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "63 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Белоозёрская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Золотово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Конобеево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Трофимово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "88 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Москворецкая",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Цемгигант",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Конев Бор",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Хорошёво",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "113 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Коломна",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Новодачная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Долгопрудная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Водники",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Хлебниково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шереметьевская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Депо",
+  "disused": null,
+  "type": "платформа БМО, Орехово-Зуево",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Луговая",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Некрасовская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Трудовая",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Морозки",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Турист",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "75 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Орудьево",
+  "disused": null,
+  "type": "станция",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "94 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Власово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Талдом",
+  "disused": null,
+  "type": "станция",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Лебзино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Немчиновка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Трёхгорка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Баковка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Отрадное",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Перхушково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Здравница",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Жаворонки",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дачное",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Малые Вязёмы",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Сушкинская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Часцовская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Портновская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Чапаевка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Полушкино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Санаторная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Театральная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Садовая",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Партизанская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шаликово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кукаринская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "109 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Колочь",
+  "disused": null,
+  "type": "станция",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "144 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "147 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дровнино",
+  "disused": null,
+  "type": "станция",
+  "route": "Смоленское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Перловская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Тайнинская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Строитель",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Челюскинская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Тарасовская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Клязьма",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Мамонтовская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Заветы Ильича",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Правда",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Зеленоградская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ашукинская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Калистово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Радонеж",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Абрамцево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Семхоз",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "76 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пост 81 км",
+  "disused": null,
+  "type": null,
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "83 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "173 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "178 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "185 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Северный блокпост",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Центральный блокпост",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "122 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "32 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Егорьевск",
+  "disused": null,
+  "type": "станция",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Тупик 13 км / Рудниковская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги"
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Хорлово",
+  "disused": null,
+  "type": "станция",
+  "route": "Большое кольцо Московской железной дороги"
+}]

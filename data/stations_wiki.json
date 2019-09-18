@@ -1,0 +1,4708 @@
+[{
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Левобережная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 632.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Химки",
+  "disused": null,
+  "type": null,
+  "route": "Ленинградское направление",
+  "distance": 631.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Подрезково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 622
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Сходня",
+  "disused": null,
+  "type": null,
+  "route": "Ленинградское направление",
+  "distance": 619.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Фирсановская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 616.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Малино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 613.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Алабушево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 607.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Радищево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 603
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Поваровка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 599.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Поварово I",
+  "disused": null,
+  "type": null,
+  "route": "Ленинградское направление",
+  "distance": 598.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Берёзки-Дачные",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 594.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Подсолнечная",
+  "disused": null,
+  "type": null,
+  "route": "Ленинградское направление",
+  "distance": 584.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Сенеж",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 581.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Головково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 578.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Покровка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 574.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Фроловское",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 568.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Стриглово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 565
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Клин",
+  "disused": null,
+  "type": null,
+  "route": "Ленинградское направление",
+  "distance": 560.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ямуга",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ленинградское направление",
+  "distance": 551.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Решетниково",
+  "disused": null,
+  "type": null,
+  "route": "Ленинградское направление",
+  "distance": 0
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Перловская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 14.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Тайнинская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 16
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Мытищи",
+  "disused": null,
+  "type": null,
+  "route": "Ярославское направление",
+  "distance": 17.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Строитель",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 20.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Челюскинская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 22.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Тарасовская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 23.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Клязьма",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 25.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Мамонтовская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 27.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пушкино",
+  "disused": null,
+  "type": null,
+  "route": "Ярославское направление",
+  "distance": 29.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Заветы Ильича",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 33
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Правда",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 36
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Зеленоградская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 39.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "43 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 42.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Софрино",
+  "disused": null,
+  "type": null,
+  "route": "Ярославское направление",
+  "distance": 44.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Посёлок Дальний",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 1.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Рахманово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 4.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Фёдоровское",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 7.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Путилово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 11.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Красноармейск",
+  "disused": null,
+  "type": null,
+  "route": "Ярославское направление",
+  "distance": 14.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Софрино-2",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ашукинская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 47.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Калистово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 51.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Радонеж",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 54
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Абрамцево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 56.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Хотьково",
+  "disused": null,
+  "type": null,
+  "route": "Ярославское направление",
+  "distance": 59.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Семхоз",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 65.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Сергиев Посад",
+  "disused": null,
+  "type": null,
+  "route": "Ярославское направление",
+  "distance": 70
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "76 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 76.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "81 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 79.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пост 81 км",
+  "disused": null,
+  "type": null,
+  "route": "Ярославское направление",
+  "distance": 80.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "83 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 83
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Бужаниново",
+  "disused": null,
+  "type": null,
+  "route": "Ярославское направление",
+  "distance": 85.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "90 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Ярославское направление",
+  "distance": 89.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ухтомская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 17.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Люберцы I",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": 20.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Яничкино",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": 5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Разъезд 2 км",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Заводская",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Люберцы II",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": 23.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Коренёво",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 27.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Овражки",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": 30
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Родники",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 33
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Вялки",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 35.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Хрипань",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 39.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "41 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 41
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Донино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 46.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "49 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 48.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "52 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 50.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Григорово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 53.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "55 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 55
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Гжель",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": 57.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Игнатьево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 61
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кузяево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 63.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шевлягино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 67.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "73 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 73
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Анциферово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 77
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Подосинки",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 81.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Куровская",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": 87.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "90 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 90.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "95 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 94.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Авсюнино",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": 99.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Заполицы",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 107
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Запутная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 112.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шатурторф",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 118.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шатура",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": 125.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шатура ГРЭС",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ботино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 131.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кривандино",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": 136.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Осаново",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 12
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "15 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 14
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пожога",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 21
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "29 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 29
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Бармино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 37
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Сазоново",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 41
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "47 км",
+  "disused": null,
+  "type": "Остановочный пункт",
+  "route": "Казанское направление",
+  "distance": 47
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Рязановка",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": 53
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Туголесье",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 143.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Воймежный",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 147.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Черусти",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": 157.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Примыкание-Черусти",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Рошаль",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Станция примыкания Черусти",
+  "disused": null,
+  "type": null,
+  "route": "Казанское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Струя",
+  "disused": null,
+  "type": "платформа",
+  "route": "Казанское направление",
+  "distance": 164.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ухтомская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 17.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Люберцы I",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 20.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Панки",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 22.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Томилино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 25.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Красково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 27.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Малаховка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 28.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Удельная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 31.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Быково",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 33.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ильинская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 35.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Отдых",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 38.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кратово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 40.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "42 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 42.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Фабричная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 43.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Раменское",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 45.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "47 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 46.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Совхоз",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 50.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Загорново",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 54.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Бронницы",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 56.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Радуга",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 59.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "63 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 62.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Белоозёрский",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 63.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Фаустово",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 67.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Золотово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 69.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Виноградово",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 71.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Конобеево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 78.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "84 км(Трофимово)",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 84.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "88 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 88.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Воскресенск",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 89.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шиферная",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 94
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Москворецкая",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 95.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Цемгигант",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 97.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пески",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 101.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Конев Бор",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 104.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Хорошёво",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 109.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "113 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 113.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Коломна",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 114.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Голутвин",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 117
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Бачманово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Разъезд 6 км",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Сычёво",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Лысцовская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 11
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Семёновский",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 13
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "18 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 17
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Карасёво",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 18.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кудрявцево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 22
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Даниловская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 28
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "30 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 30
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "38 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 38
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Озёры",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 39.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Щурово",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 120.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Чёрная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 127
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Луховицы",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 136.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Зарайск",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 27
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "142 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рязанское направление",
+  "distance": 141.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Подлипки",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 145.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Фруктовая",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 152.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Алпатьево",
+  "disused": null,
+  "type": null,
+  "route": "Рязанское направление",
+  "distance": 158.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Реутово",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 14.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Стройка",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 18.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Горенки",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 24
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Балашиха",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 26
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Никольское",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 16.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Салтыковская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 18.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кучино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 20.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Железнодорожная",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 23.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Чёрное",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 26.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "30 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 29.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Купавна",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 30.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "33 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 32.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Электроугли",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 36.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "43 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 42.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Храпуново",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 45.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Есино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 47.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Фрязево",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 53.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Металлург",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 58.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Электросталь",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 59.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Машиностроитель",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 62.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ногинск",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 67.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Захарово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 70.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Центральная станция Ногинского ППЖТ",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Рузино",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Починки",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Чёрноголовка",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Казанское",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 60.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Вохна",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 64.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Павловский Посад",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 67.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ленская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ковригино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "14 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 14.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Электрогорск",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 16
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Назарьево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 74.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дрезна",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 79.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кабаново",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 84.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "87 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 87
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Орехово-Зуево",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": 89.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Крутое",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 91.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пост 97 км",
+  "disused": null,
+  "type": null,
+  "route": "Горьковское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Воиново",
+  "disused": null,
+  "type": "платформа",
+  "route": "Горьковское направление",
+  "distance": 97.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Битца",
+  "disused": null,
+  "type": "платформа",
+  "route": "Курское направление",
+  "distance": 26.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Силикатная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Курское направление",
+  "distance": 37.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Подольск",
+  "disused": null,
+  "type": null,
+  "route": "Курское направление",
+  "distance": 42.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кутузовская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Курское направление",
+  "distance": 46
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Весенняя",
+  "disused": null,
+  "type": "платформа",
+  "route": "Курское направление",
+  "distance": 48
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Гривно",
+  "disused": null,
+  "type": null,
+  "route": "Курское направление",
+  "distance": 50.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Львовская",
+  "disused": null,
+  "type": null,
+  "route": "Курское направление",
+  "distance": 56.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Молоди",
+  "disused": null,
+  "type": "платформа",
+  "route": "Курское направление",
+  "distance": 59
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Столбовая",
+  "disused": null,
+  "type": null,
+  "route": "Курское направление",
+  "distance": 63.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "66 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Курское направление",
+  "distance": 65.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Чепелёво",
+  "disused": null,
+  "type": "платформа",
+  "route": "Курское направление",
+  "distance": 70.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Чехов",
+  "disused": null,
+  "type": null,
+  "route": "Курское направление",
+  "distance": 74.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Луч",
+  "disused": null,
+  "type": "платформа",
+  "route": "Курское направление",
+  "distance": 80.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шарапова Охота",
+  "disused": null,
+  "type": null,
+  "route": "Курское направление",
+  "distance": 86.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "92 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Курское направление",
+  "distance": 92
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Авангард",
+  "disused": null,
+  "type": "платформа",
+  "route": "Курское направление",
+  "distance": 95.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Серпухов",
+  "disused": null,
+  "type": null,
+  "route": "Курское направление",
+  "distance": 98.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пост 4 км",
+  "disused": null,
+  "type": null,
+  "route": "Курское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Серпухов-Ветка",
+  "disused": null,
+  "type": null,
+  "route": "Курское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ока",
+  "disused": null,
+  "type": "платформа",
+  "route": "Курское направление",
+  "distance": 104.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "107 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Курское направление",
+  "distance": 106.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Булатниково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 19.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Расторгуево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 22
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Калинина",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 25.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ленинская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 29.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "32 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 31.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Домодедово",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 35.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Авиационная",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 5.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Космос",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 10
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Аэропорт-Домодедово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 11.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Депо",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Взлётная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 40.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Востряково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 42.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Белые Столбы",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 48.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "52 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 51.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Барыбино",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 56
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Вельяминово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 63.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Привалово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 67.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Михнево",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 73
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шугарево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 79.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "85 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 84.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Жилёво",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 89.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ситенка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 93.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ступино",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 98.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Акри",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 102.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Белопесоцкий",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 104.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кашира-Пассажирская",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 108.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кашира-Силовая",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Тесна",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 113.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ожерелье",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 117.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "123 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 122.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "126 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 125.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пчеловодное",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 131.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "121 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 120.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ост. пункт 123 км",
+  "disused": null,
+  "type": "Пост",
+  "route": "Павелецкое направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пурлово",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 127.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "131 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Топканово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 134.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "137 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 137
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Богатищево",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 139.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "146 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 145.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Коровино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 147.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "152 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 151.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Узуново",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 155.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "162 км(Мягкое)",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 161.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дудино-Серебряное",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 164.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Серебряные Пруды",
+  "disused": null,
+  "type": null,
+  "route": "Павелецкое направление",
+  "distance": 168.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кораблёвка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Павелецкое направление",
+  "distance": 176.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Лесной Городок",
+  "disused": null,
+  "type": null,
+  "route": "Киевское направление",
+  "distance": 27.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Победа",
+  "disused": null,
+  "type": "платформа",
+  "route": "Киевское направление",
+  "distance": 38.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Апрелевка",
+  "disused": null,
+  "type": null,
+  "route": "Киевское направление",
+  "distance": 41.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дачная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Киевское направление",
+  "distance": 43.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Алабино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Киевское направление",
+  "distance": 47
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Селятино",
+  "disused": null,
+  "type": null,
+  "route": "Киевское направление",
+  "distance": 48.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Зосимова Пустынь",
+  "disused": null,
+  "type": "платформа",
+  "route": "Киевское направление",
+  "distance": 63.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Нара",
+  "disused": null,
+  "type": null,
+  "route": "Киевское направление",
+  "distance": 69.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Латышская",
+  "disused": null,
+  "type": null,
+  "route": "Киевское направление",
+  "distance": 74.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Башкино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Киевское направление",
+  "distance": 79.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кунцево II",
+  "disused": null,
+  "type": null,
+  "route": "Смоленское направление",
+  "distance": 4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ромашково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 6.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Раздоры",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 10
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Барвиха",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 12
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ильинское",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 14
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Усово",
+  "disused": null,
+  "type": null,
+  "route": "Смоленское направление",
+  "distance": 17.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Усово-2",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 17.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Немчиновка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 16.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Инновационный центр Сколково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Баковка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 21.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Одинцово",
+  "disused": null,
+  "type": null,
+  "route": "Смоленское направление",
+  "distance": 24.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Отрадное",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 26.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пионерская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 28.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Перхушково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 30.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Здравница",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 32.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Жаворонки",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 36.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дачное",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 39.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Малая Вязёма",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 41.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Голицыно",
+  "disused": null,
+  "type": null,
+  "route": "Смоленское направление",
+  "distance": 44
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Захарово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 4.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Хлюпино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 7.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Скоротово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 11.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Звенигород",
+  "disused": null,
+  "type": null,
+  "route": "Смоленское направление",
+  "distance": 15.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Сушкинская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 51.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Петелино",
+  "disused": null,
+  "type": null,
+  "route": "Смоленское направление",
+  "distance": 54.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Часцовская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 56.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Портновская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 59.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кубинка I",
+  "disused": null,
+  "type": null,
+  "route": "Смоленское направление",
+  "distance": 63.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Чапаевка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 66.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Полушкино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 71.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Санаторная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 73.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Тучково",
+  "disused": null,
+  "type": null,
+  "route": "Смоленское направление",
+  "distance": 78
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "ОКНСМ",
+  "disused": null,
+  "type": null,
+  "route": "Смоленское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Театральная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 79.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Садовая",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 84.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дорохово",
+  "disused": null,
+  "type": null,
+  "route": "Смоленское направление",
+  "distance": 86.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Партизанская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 91.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шаликово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 98.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кукаринская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 104.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "109 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 108.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Можайск",
+  "disused": null,
+  "type": null,
+  "route": "Смоленское направление",
+  "distance": 110.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Бородино",
+  "disused": null,
+  "type": null,
+  "route": "Смоленское направление",
+  "distance": 121.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Колочь",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 129.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Уваровка",
+  "disused": null,
+  "type": null,
+  "route": "Смоленское направление",
+  "distance": 138.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "144 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 144.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "147 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дровнино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Смоленское направление",
+  "distance": 154.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Новодачная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 15.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Долгопрудная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 17.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Водники",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 19.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Хлебниково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 21.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шереметьевская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 22.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Аэропорт Шереметьево",
+  "disused": null,
+  "type": null,
+  "route": "Савёловское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Лобня",
+  "disused": null,
+  "type": null,
+  "route": "Савёловское направление",
+  "distance": 26.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Депо",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 27.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Луговая",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 30.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Некрасовская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 33.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Катуар",
+  "disused": null,
+  "type": null,
+  "route": "Савёловское направление",
+  "distance": 35.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Трудовая",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 38.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Икша",
+  "disused": null,
+  "type": null,
+  "route": "Савёловское направление",
+  "distance": 44.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Морозки",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 49.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Турист",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 53.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Яхрома",
+  "disused": null,
+  "type": null,
+  "route": "Савёловское направление",
+  "distance": 58.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дмитров",
+  "disused": null,
+  "type": null,
+  "route": "Савёловское направление",
+  "distance": 64.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пристань Дмитров",
+  "disused": null,
+  "type": null,
+  "route": "Савёловское направление",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Каналстрой",
+  "disused": null,
+  "type": null,
+  "route": "Савёловское направление",
+  "distance": 69.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "им. Барсученко",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 74.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Орудьево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 77.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Вербилки",
+  "disused": null,
+  "type": null,
+  "route": "Савёловское направление",
+  "distance": 88.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Соревнование",
+  "disused": null,
+  "type": "Разъезд",
+  "route": "Савёловское направление",
+  "distance": 97.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Запрудная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 102.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Темпы",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 112.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Мельдино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 115.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "119 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 118.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "122 км(Карманово)",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 122
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Большая Волга",
+  "disused": null,
+  "type": null,
+  "route": "Савёловское направление",
+  "distance": 126.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дубна",
+  "disused": null,
+  "type": null,
+  "route": "Савёловское направление",
+  "distance": 132.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "94 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 93.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Власово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 100.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Талдом-Савёловский",
+  "disused": null,
+  "type": null,
+  "route": "Савёловское направление",
+  "distance": 110.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Лебзино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Савёловское направление",
+  "distance": 118.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Павшино",
+  "disused": null,
+  "type": null,
+  "route": "Рижское направление",
+  "distance": 22.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Красногорская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 24.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Опалиха",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 29.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Аникеевка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 31
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Нахабино",
+  "disused": null,
+  "type": null,
+  "route": "Рижское направление",
+  "distance": 33.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Малиновка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 36.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дедовск",
+  "disused": null,
+  "type": null,
+  "route": "Рижское направление",
+  "distance": 38.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Миитовская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 41.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Снегири",
+  "disused": null,
+  "type": null,
+  "route": "Рижское направление",
+  "distance": 44.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "50 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 49.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Манихино I",
+  "disused": null,
+  "type": null,
+  "route": "Рижское направление",
+  "distance": 52.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Троицкая",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 54.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Истра",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 58.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Новоиерусалимская",
+  "disused": null,
+  "type": null,
+  "route": "Рижское направление",
+  "distance": 60.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Чеховская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 62.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Холщёвики",
+  "disused": null,
+  "type": null,
+  "route": "Рижское направление",
+  "distance": 68.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "73 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 72.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ядрошино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 75.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Курсаковская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 78.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Румянцево",
+  "disused": null,
+  "type": null,
+  "route": "Рижское направление",
+  "distance": 80.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Новопетровская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 86
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Устиновка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 87.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "91 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 90.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Лесодолгоруково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 95.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Чисмена",
+  "disused": null,
+  "type": null,
+  "route": "Рижское направление",
+  "distance": 104.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Матрёнино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 112.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дубосеково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 118.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Волоколамск",
+  "disused": null,
+  "type": null,
+  "route": "Рижское направление",
+  "distance": 125.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "133 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 132.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Благовещенское",
+  "disused": null,
+  "type": null,
+  "route": "Рижское направление",
+  "distance": 135.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "141 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 140.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Бухолово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 144.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "149 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 148.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шаховская",
+  "disused": null,
+  "type": null,
+  "route": "Рижское направление",
+  "distance": 153.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Муриково",
+  "disused": null,
+  "type": "Разъезд",
+  "route": "Рижское направление",
+  "distance": 160.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "165 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 164
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "167 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Рижское направление",
+  "distance": 166
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "90 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 20
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Бужаниново",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 26.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "83 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 29.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пост 81 км",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 31.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "81 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 31.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Наугольный",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 35.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "39 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 39.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Бубяково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 42.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "47 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 46.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Жёлтиково",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 53
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "61 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 61.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Костино",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 63.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "69 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 69.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "71 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 70.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "74 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 73.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Драчёво",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 76.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "80 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 80.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Иванцево",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 83.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дмитров",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 88
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Яхрома",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 91.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Турист",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 96.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Морозки",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 100.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Икша",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 105.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "109 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 108.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Белый Раст",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 112.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "115 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 114.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "120 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 119.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Бухарово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 125
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "128 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 127.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Поварово II",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 137.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пост 142 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 141.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Поварово III",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 143.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Депо",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 146
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Жилино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 150.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "155 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 154.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "159 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 158.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Манихино II",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 161.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Манихино I",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "165 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 164.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Лукино",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 170.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "174 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 174
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "178 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 176.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "183 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 182.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дюдьково",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 186
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "189 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 189.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "191 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 191.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ястребки",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 195.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "198 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 198.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кубинка II",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 202.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Технический Центр / Танковый Музей",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Парк «Патриот»",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Кубинка I",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 206.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "211 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 210.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "214 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 213.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Акулово",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 217.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "221 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 221.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пожитково",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 229.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Сандарово",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 281.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "283 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 282.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Столбовая",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 287.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Детково",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 287.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "294 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "298 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Повадино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 304.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "309 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 308.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "312 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 311.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Усады-Окружные",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 315.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пост 320 км",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 320
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Михнево",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 322.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "328 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 327.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пост 329 км",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 329
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "332 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 331.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Малино",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 336.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "341 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 340.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Жилёво",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 0
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шматово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Колычево",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 8.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Сотниково",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 13.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Яганово",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 345.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Лютик",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 26.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Мякинино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 30.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шубатово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 33.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Лесные Дары",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 36.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Шкинь",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 40.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Осёнка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 43.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Непецино",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 48.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ратмирово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 58
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пост 61 км",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 61
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Воскресенск",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 63.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "88 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 65.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Лопатино",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 69
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Лопатино",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 69.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Берендино",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 77.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Хорлово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 8.3
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пост 13 км",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 12.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Рудниковская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 12.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Егорьевск I",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 23.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Егорьевск II",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 23.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "32 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 31.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Ильинский Погост",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 89.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Нерская",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 97.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Куровская",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 87.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Давыдово",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 104.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Дулёво",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 117.2
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "122 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 122.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Центральный блок-пост",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 124.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Депо",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 124.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Северный",
+  "disused": null,
+  "type": "Остановочный пункт",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 125.6
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Орехово-Зуево",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 126.7
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Поточино",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 183.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Демиховский машиностроительный завод",
+  "disused": null,
+  "type": null,
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "178 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 179.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "173 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Большое кольцо Московской железной дороги",
+  "distance": 173
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Узуново",
+  "disused": null,
+  "type": null,
+  "route": "Хордовая линия Узуново — Рыбное",
+  "distance": 0
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Клёмово",
+  "disused": null,
+  "type": "платформа",
+  "route": "Хордовая линия Узуново — Рыбное",
+  "distance": 11.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "12 км",
+  "disused": null,
+  "type": "Разъезд",
+  "route": "Хордовая линия Узуново — Рыбное",
+  "distance": 13.4
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Лошатовка",
+  "disused": null,
+  "type": "платформа",
+  "route": "Хордовая линия Узуново — Рыбное",
+  "distance": 17.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Разъезд 28 км",
+  "disused": null,
+  "type": "Пост",
+  "route": "Хордовая линия Узуново — Рыбное",
+  "distance": 28
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Разъезд 35 км",
+  "disused": null,
+  "type": "Пост",
+  "route": "Хордовая линия Узуново — Рыбное",
+  "distance": 35.9
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "35 км",
+  "disused": null,
+  "type": "платформа",
+  "route": "Хордовая линия Узуново — Рыбное",
+  "distance": 36.1
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Макеево-Московское",
+  "disused": null,
+  "type": null,
+  "route": "Хордовая линия Узуново — Рыбное",
+  "distance": 41.5
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Латыгоры",
+  "disused": null,
+  "type": "платформа",
+  "route": "Хордовая линия Узуново — Рыбное",
+  "distance": 50.8
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Юность",
+  "disused": null,
+  "type": null,
+  "route": "Малая Московская железная дорога",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Детская",
+  "disused": null,
+  "type": "платформа",
+  "route": "Малая Московская железная дорога",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Школьная",
+  "disused": null,
+  "type": "платформа",
+  "route": "Малая Московская железная дорога",
+  "distance": null
+}, {
+  "point": [],
+  "building": null,
+  "train": null,
+  "name": "Пионерская",
+  "disused": null,
+  "type": null,
+  "route": "Малая Московская железная дорога",
+  "distance": null
+}]

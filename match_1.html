@@ -1,0 +1,315 @@
+<script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $(function() {
+
+    $.get('data/map_16.geojson', function(points) {
+      $.get('data/map_routes.geojson', function(data) {
+
+        points = JSON.parse(points).features;
+        data = JSON.parse(data).features;
+
+        var pointsById = {};
+
+        $.each(points, function(i, p) {
+
+          var id = p.properties.id;
+
+          if (!p.properties.prev[0]) {
+            p.properties.distance = 0;
+            p.properties.time = {
+              hours: 0,
+              min: 0
+            }
+          }
+
+          pointsById[id] = p;
+
+        });
+
+
+        $.each(data, function(i, r) {
+
+
+
+          var route = r.geometry.coordinates;
+          var distance = 0;
+
+          route[0] = pointsById[r.properties.from].geometry.coordinates;
+          route[route.length - 1] = pointsById[r.properties.to].geometry.coordinates;
+
+
+          $.each(route, function(i2, point) {
+            if (route[i2 + 1]) {
+
+              distance += calcDistance(point[1], point[0], route[i2 + 1][1], route[i2 + 1][0], 'K');
+            }
+
+          });
+
+          distance = +distance.toFixed(2);
+
+          r.properties.distance = distance;
+          r.properties.time = getTime(distance);
+          r.properties.id = i+1;
+
+
+
+          pointsById[r.properties.to].properties.patchFromPoint = r;
+
+        });
+
+        $.each(pointsById, function(i, e) {
+
+          if (!e.properties.prev[0]) {
+            
+            addDistance(pointsById, e);
+            //console.log(e.properties.name)
+
+          }
+
+
+
+        });
+
+        
+        $.each(pointsById, function(i,e){
+          
+          var next = e.properties.next;
+          var prev = e.properties.prev;
+          var n = [];
+          var p = [];
+          
+          $.each(pointsById, function(i2,e2){
+            
+            if (next && next[0] && next[0] == e2.properties.name) {
+              n.push(e2.properties.id);
+              
+            }
+            if (next && next[1] && next[1] == e2.properties.name) {
+              n.push(e2.properties.id);
+            }
+            if (prev && prev[0] && prev[0] == e2.properties.name) {
+              p.push(e2.properties.id); 
+            }
+            
+          });
+          
+          e.properties.next = n;
+          e.properties.prev = p;
+          e.properties.pathFromId = (e.properties.patchFromPoint && e.properties.patchFromPoint.properties.id) ? e.properties.patchFromPoint.properties.id : null;
+          e.properties.type = (e.properties.type) ? e.properties.type : null;
+          
+        });
+
+        var POINTS = [];
+        var PATHS = [];
+        var VARS = {
+          route : [],
+          type : [],
+          metro : []
+        };
+        
+        var R = {};
+        var T = {};
+        var M = [];
+        
+        $.each(pointsById, function(i,e){
+          
+          R[e.properties.route] = {
+            name: e.properties.route
+          }
+          if (e.properties.type) T[e.properties.type] = {
+            name: e.properties.type
+          }
+          if(e.properties.metro) {
+            M.push({
+              name: e.properties.metro,
+              stationId: e.properties.id
+            })
+          }
+          
+        });
+        
+        
+        var i1 = 1;
+        $.each(R, function(i,e){
+          e.id = i1;
+          i1++;
+        });
+        
+        var i2 = 1;
+        $.each(T, function(i,e){
+          e.id = i2;
+          i2++;
+        });
+        
+        
+        //VARS.route = R;
+        //VARS.type = T;
+        VARS.metro = M;
+        
+        $.each(pointsById, function(i,e){
+          
+          POINTS.push({
+            id : e.properties.id,
+            name : e.properties.name,
+            patchId : (e.properties.pathFromId) ? e.properties.pathFromId : null,
+            routeId : R[e.properties.route].id,
+            time : e.properties.time,
+            distance : e.properties.distance,
+            count : e.properties.count,
+            typeId : (e.properties.type) ? T[e.properties.type].id : null,
+            nextId : e.properties.next,
+            prevId : e.properties.prev,
+            trains : (e.properties.trains) ? e.properties.trains : null,
+            point : e.geometry.coordinates
+          });
+          
+          if (e.properties.pathFromId) PATHS.push({
+            id : e.properties.patchFromPoint.properties.id,
+            points : e.properties.patchFromPoint.geometry.coordinates,
+            time : e.properties.patchFromPoint.properties.time,
+            distance : e.properties.patchFromPoint.properties.distance
+          });
+        });
+        
+        $.each(R, function(i,e){
+          VARS.route.push(e);
+        });
+        $.each(T, function(i,e){
+          VARS.type.push(e);
+        });
+        
+        
+        
+        console.log(JSON.stringify(POINTS));
+        console.log(JSON.stringify(PATHS));
+        console.log(JSON.stringify(VARS));
+
+      });
+    });
+
+    function addDistance(collection, point) {
+
+      if (point.properties.next[0]) {
+
+
+
+        $.each(point.properties.next, function(i, e) {
+
+          var id;
+          var match = false;
+          $.each(collection, function(i2, e2) {
+
+
+            if (e2.properties.route == point.properties.route && e2.properties['path-id'] == point.properties['path-id'] && e2.properties.name == e) {
+              id = e2.properties.id;
+              match = true;
+
+            }
+
+            if (!match && e2.properties.route == point.properties.route && e2.properties.name == e) {
+              id = e2.properties.id;
+
+            }
+
+          });
+
+
+          var distance = +point.properties.distance;
+          var currentDistance = collection[id].properties.patchFromPoint.properties.distance;
+          
+          var after = +(distance + currentDistance).toFixed(2);
+
+          collection[id].properties.distance = after;
+          
+          
+          var time = point.properties.time;
+          var currentTime = collection[id].properties.patchFromPoint.properties.time;
+          
+          var stay = (point.properties.count > 0) ? 2 : 0;
+          var min = time.min + currentTime.min + stay;
+          var hours = time.hours + currentTime.hours;
+          
+          if ( min >= 60 ){
+            min = min - 60;
+            hours++
+          }
+          
+          
+          collection[id].properties.time = {
+            hours : hours,
+            min : min
+          }
+          
+
+          addDistance(collection, collection[id]);
+
+        });
+
+      }
+
+    }
+
+    function getTime(num) {
+
+      var speed = 60;
+      speed = (num > 4) ? 80 : speed;
+      speed = (num > 10) ? 100 : speed;
+      
+      num = (num / speed); //+ ((count - 1) * 2) / 60;
+
+      var temp = ("" + num).split('.')
+      var hours = temp[0];
+      var min = Math.floor(+(0 + '.' + temp[1]) * 60);
+      return {
+        hours : +hours,
+        min : +min
+      }
+    }
+    
+    function inside(point, vs) {
+
+    var x = point[1], y = point[0];
+
+    var inside = false;
+    for (var i = 0, j = vs.length - 1; i < vs.length; j = i++) {
+        var xi = vs[i][0], yi = vs[i][1];
+        var xj = vs[j][0], yj = vs[j][1];
+
+        var intersect = ((yi > y) != (yj > y))
+            && (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
+        if (intersect) inside = !inside;
+    }
+
+    return inside;
+    };
+
+
+    function calcDistance(lat1, lon1, lat2, lon2, unit) {
+      if ((lat1 == lat2) && (lon1 == lon2)) {
+        return 0;
+      } else {
+        var radlat1 = Math.PI * lat1 / 180;
+        var radlat2 = Math.PI * lat2 / 180;
+        var theta = lon1 - lon2;
+        var radtheta = Math.PI * theta / 180;
+        var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
+        if (dist > 1) {
+          dist = 1;
+        }
+        dist = Math.acos(dist);
+        dist = dist * 180 / Math.PI;
+        dist = dist * 60 * 1.1515;
+        if (unit == "K") {
+          dist = dist * 1.609344
+        }
+        if (unit == "N") {
+          dist = dist * 0.8684
+        }
+        return dist;
+      }
+    }
+
+  });
+</script>
