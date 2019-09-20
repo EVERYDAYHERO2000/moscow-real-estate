@@ -207,7 +207,7 @@ $(function () {
         var t = +(point[i].time.hours + m);
 
 
-        if (point[i].count >= 30) {
+        if (point[i].count <= 20) {
 
           if (params.bounds.contains([d[1], d[0]])) {
             var dot = canvasOverlay._map.latLngToContainerPoint([d[1], d[0]]);
