@@ -1,4 +1,4 @@
-[{
+var places = [{
   "point": [37.041721867022716, 55.782676955190475],
   "id": 1,
   "name": "Коттеджный поселок «Миллениум Парк»",
@@ -16726,4 +16726,40 @@
     "hour": "",
     "min": ""
   }
-}]
+}] 
+
+function httpGet(theUrl, i, callback){
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    callback(xmlHttp.responseText, i);
+    return xmlHttp.responseText;
+}
+
+var moscow = [37.618423,55.751244];
+var length = 5;//places.length;
+for (var i = 0; i < length; i++){
+  var url = `https://yandex.ru/maps/api/router/buildRoute?ajax=1&clientTimezoneOffset=-180&csrfToken=b5bfb55fa3a9dbc3a70951fa63c74719e28e90f0%3A1568991875&lang=ru&locale=ru_RU&mode=best&regionId=20504&results=6&rll=${places[i].point[0]}%2C${places[i].point[1]}~${moscow[0]}%2C${moscow[1]}&sessionId=1568991875351_27456&type=auto`;
+
+  httpGet(url, i, function(result, i){
+
+    var routes = JSON.parse(result).data.routes;
+    var temp = [];
+    for (var c = 0; c < routes.length; c++){
+      temp.push({
+        distance : routes[c].distance.text,
+        duration : routes[c].duration.text,
+        durationInTraffic : routes[c].durationInTraffic.text  
+      });
+        
+    }
+
+    point[i].route = temp;
+
+  });
+  
+  
+if ( i== length - 1 ){
+  console.log(places);
+}
+}

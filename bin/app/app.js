@@ -157,7 +157,7 @@ $(function () {
   L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}.png")
     .addTo(leafletMap);
 
-  $.get('data/place.json', function (place) {
+  $.get('bin/data/place.json', function (place) {
   $.get('bin/data/points.json', function (point) {
     $.get('bin/data/route.json', function (route) {
       dataBuild(point, route, place, render);
@@ -206,7 +206,7 @@ $(function () {
         var m = (point[i].time.min < 10) ? '0' + point[i].time.min : '' + point[i].time.min
         var t = +(point[i].time.hours + m);
 
-
+        /*
         if (point[i].count <= 20) {
 
           if (params.bounds.contains([d[1], d[0]])) {
@@ -217,26 +217,29 @@ $(function () {
             ctx.closePath(); 
           }
         }
+        */
       }
       
       
       $.each(place, function(i,e){
       
         
-          if (e.distance > 3.3){
+          if ( e.car.time.num > 1 ){
             ctx.fillStyle = 'rgba(0, 118, 255, 0.4)';
           } else {
-            ctx.fillStyle = 'rgba(255, 0, 108, 0.6)';
+            ctx.fillStyle = 'rgba(216, 0, 255, 0.4)';
           }
         
-          //if (params.bounds.contains([e[0], e[1]])) {
+          if ( e.train.time.num < 1.2 && e.train.distanceToStation < 3 ){
+            ctx.fillStyle = 'rgba(255, 59, 0, 0.6)';
+          }
             
             var dot = canvasOverlay._map.latLngToContainerPoint([e.point[1], e.point[0]]);
             ctx.beginPath();
             ctx.arc(dot.x, dot.y, 3, 0, Math.PI * 2);
             ctx.fill();
             ctx.closePath(); 
-          //}
+          
         
       });
       
@@ -246,7 +249,9 @@ $(function () {
   }
 
   function dataBuild(point, route, place, render) {
-
+    
+    
+    
     $.each(point, function (i, e) {
 
       e.route = (function (routeId) {
@@ -325,6 +330,72 @@ $(function () {
     
     window.PO = point;
     window.PL = place;
+    
+    /*
+    var pls = [];
+    
+    $.each(place,function(i,e){
+      
+      pls.push({
+        point : e.point,
+        id : e.id,
+        name : e.name,
+        train: {
+          distanceToStation : e.distance,
+          stationId : e.stationId,
+          time : (function (stationId) {
+          var time = {}
+          $.each(point,function(i3,e3){
+            
+            if (stationId == e3.id){
+              
+              time = e3.time;
+              return false;
+            }
+            
+          });
+          
+          return time;
+
+        })(e.stationId)
+        },
+        car : {
+          distance : +(e.route[0].distance),
+          time : (function(d){
+            
+            var t = d.split(' ');
+            
+            var temp = {
+              hours : 0,
+              min : 0
+            }
+            $.each(t, function(i1,e1){
+              
+              if (e1.indexOf('m') > 0){
+                temp.min = +(e1.replace('m',''));
+              }
+              if (e1.indexOf('h') > 0){
+                temp.hours = +(e1.replace('h',''));
+              }
+              
+            });
+            
+            temp.num = (function (time) {
+
+              var m = (time.min < 10) ? '0' + time.min : '' + time.min;
+              return +(time.hours + '.' + m);
+
+            })(temp);
+            
+            return temp;
+            
+          })(e.route[0].duration)
+        }
+      });
+      
+    });
+    */
+    
 
     render(point, route, place);
 
