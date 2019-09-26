@@ -2,7 +2,13 @@
 <script>
   $(function(){
     $.get('source/data/places/data.json',function(data){
-      console.log(data)
-    })
-  })
+      
+      $.each(data, function(i,e){
+
+        if (!e.description) console.log(i,e.name, e.point[0],e.point[1]);
+          
+      })
+      
+    });
+  });
 </script>  
