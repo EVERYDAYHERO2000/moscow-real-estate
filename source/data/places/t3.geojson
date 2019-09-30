@@ -1,0 +1,753 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-09-30T16:32:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 473727090,
+  "lat": 55.2810352,
+  "lon": 37.4768120,
+  "tags": {
+    "name": "СНТ «Лесник»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 621128168,
+  "lat": 55.1817894,
+  "lon": 37.7448785,
+  "tags": {
+    "name": "СНТ «Повадино»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 959233766,
+  "lat": 55.3461480,
+  "lon": 37.0554135,
+  "tags": {
+    "name": "СНТ «Ранет»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1125350101,
+  "lat": 55.3272344,
+  "lon": 37.6515041,
+  "tags": {
+    "landuse": "allotments",
+    "name": "СТ «Аина»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1360356419,
+  "lat": 55.5136854,
+  "lon": 37.0434212,
+  "tags": {
+    "description": "Коттеджный поселок, ДНТ «Исток»",
+    "name": "ДНТ «Исток»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1374253342,
+  "lat": 55.4517341,
+  "lon": 37.5101188,
+  "tags": {
+    "name": "СНТ «Десна»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1449341665,
+  "lat": 55.4874281,
+  "lon": 36.9983839,
+  "tags": {
+    "name": "СНТ «Новые Черёмушки-1»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1449345280,
+  "lat": 55.4717269,
+  "lon": 37.0404042,
+  "tags": {
+    "name": "СНТ «Энергетик»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1449445219,
+  "lat": 55.4042886,
+  "lon": 37.6875754,
+  "tags": {
+    "name": "СТ «Лесная Даль»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1449445940,
+  "lat": 55.4016676,
+  "lon": 37.6672596,
+  "tags": {
+    "name": "СТ «Батина Лощина»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1451630025,
+  "lat": 55.4751052,
+  "lon": 37.7873011,
+  "tags": {
+    "name": "СНТ «Пахра»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1587281768,
+  "lat": 55.3118076,
+  "lon": 37.7651138,
+  "tags": {
+    "name": "ДНП «Ветеран»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1587284466,
+  "lat": 55.3236769,
+  "lon": 37.7604361,
+  "tags": {
+    "landuse": "allotments",
+    "name": "ДНТ «Луч»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1968676174,
+  "lat": 55.1709196,
+  "lon": 37.0038897,
+  "tags": {
+    "name": "СНТ \"Истомино\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2071405574,
+  "lat": 55.3525841,
+  "lon": 37.3541083,
+  "tags": {
+    "addr:country": "RU",
+    "addr:region": "Москва",
+    "name": "СНТ «Газопровод»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2086505742,
+  "lat": 55.2903206,
+  "lon": 36.8681291,
+  "tags": {
+    "fixme": "Удалить когда mapnik научится place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Электротехник»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2284284080,
+  "lat": 55.0212878,
+  "lon": 37.7908015,
+  "tags": {
+    "name": "СНТ «Вега»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2294632578,
+  "lat": 55.0258574,
+  "lon": 37.8058219,
+  "tags": {
+    "name": "СТ \"Васильки\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2337021542,
+  "lat": 55.4138204,
+  "lon": 37.7465670,
+  "tags": {
+    "name": "Коттеджный посёлок \"Никитские поляны\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2383520967,
+  "lat": 55.3711323,
+  "lon": 37.2313899,
+  "tags": {
+    "contact:website": "http://p-marsel.ru/",
+    "name": "КП «Марсель»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2383520968,
+  "lat": 55.3766793,
+  "lon": 37.2255196,
+  "tags": {
+    "contact:website": "http://www.stolni.ru/",
+    "name": "КП «Стольный»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2884150780,
+  "lat": 55.2870797,
+  "lon": 37.7658050,
+  "tags": {
+    "name": "КП \"Курганье Классик\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2919125138,
+  "lat": 55.3290426,
+  "lon": 37.0113721,
+  "tags": {
+    "name": "СНТ «Березка-6»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3068357905,
+  "lat": 55.5242792,
+  "lon": 37.6740028,
+  "tags": {
+    "name": "СНТ «Екатерининская пустынь»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3068357908,
+  "lat": 55.5308730,
+  "lon": 37.6692245,
+  "tags": {
+    "name": "Подсобное хозяйство Суханово",
+    "note": "На картах это место почему-то обычно не отмечено, но на въезде стоит табличка \"Суханово\" на белом фоне. Возможно это часть Суханово что западнее",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3113131963,
+  "lat": 55.4829657,
+  "lon": 36.8933470,
+  "tags": {
+    "name": "СНТ «Рассудово»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3248049448,
+  "lat": 55.1284294,
+  "lon": 37.6233172,
+  "tags": {
+    "name": "СНТ «Дубки+»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3342123287,
+  "lat": 55.5196135,
+  "lon": 37.3650457,
+  "tags": {
+    "name": "СНТ «Десна-3»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3344231467,
+  "lat": 55.2467037,
+  "lon": 37.4129489,
+  "tags": {
+    "name": "СНТ \"Ясень\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3346046402,
+  "lat": 55.3992465,
+  "lon": 37.3827677,
+  "tags": {
+    "name": "КП Александровы Пруды",
+    "place": "allotments",
+    "website": "http://alexprudylife.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 3376687248,
+  "lat": 55.2408774,
+  "lon": 37.8036821,
+  "tags": {
+    "name": "КП «Ивушкино»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3415726446,
+  "lat": 55.5334495,
+  "lon": 37.6683117,
+  "tags": {
+    "name": "Усадьба Суханово",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3417616163,
+  "lat": 55.2152808,
+  "lon": 37.5127988,
+  "tags": {
+    "name": "СНТ «Лотос»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3417616165,
+  "lat": 55.2211172,
+  "lon": 37.5080701,
+  "tags": {
+    "name": "СНТ «Металлист-1»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3417616166,
+  "lat": 55.2233845,
+  "lon": 37.5092176,
+  "tags": {
+    "name": "СНТ «Металлист-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3423470320,
+  "lat": 55.0357954,
+  "lon": 37.2385062,
+  "tags": {
+    "name": "Сосновый Берег",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3423646439,
+  "lat": 55.4054339,
+  "lon": 37.7015109,
+  "tags": {
+    "name": "Нива-2",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3927552010,
+  "lat": 55.1845855,
+  "lon": 36.9570818,
+  "tags": {
+    "name": "КП \"Вишневый\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3932812356,
+  "lat": 55.1852930,
+  "lon": 36.9497390,
+  "tags": {
+    "name": "КП \"Солнечная горка 1\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3932813457,
+  "lat": 55.1816115,
+  "lon": 36.9585796,
+  "tags": {
+    "name": "Лас Вегас",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3932813458,
+  "lat": 55.1860464,
+  "lon": 36.9410487,
+  "tags": {
+    "name": "Флора",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4177323816,
+  "lat": 55.1785499,
+  "lon": 36.9607603,
+  "tags": {
+    "name": "КП \"Солнечная горка 2\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4300417380,
+  "lat": 55.1050574,
+  "lon": 37.4871895,
+  "tags": {
+    "name": "Марс",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4300417381,
+  "lat": 55.1052783,
+  "lon": 37.4914810,
+  "tags": {
+    "name": "Калинка",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4300417382,
+  "lat": 55.1029828,
+  "lon": 37.4869749,
+  "tags": {
+    "name": "Родник",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4300417383,
+  "lat": 55.1089730,
+  "lon": 37.4885198,
+  "tags": {
+    "name": "Клён",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4300417384,
+  "lat": 55.1118451,
+  "lon": 37.4878332,
+  "tags": {
+    "name": "Радуга",
+    "place": "allotments",
+    "website": "http://www.nst-raduga.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4300417385,
+  "lat": 55.1062603,
+  "lon": 37.4833056,
+  "tags": {
+    "name": "Луч",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4300417386,
+  "lat": 55.1051556,
+  "lon": 37.4765035,
+  "tags": {
+    "name": "Яблонька",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4300417387,
+  "lat": 55.1028477,
+  "lon": 37.4803445,
+  "tags": {
+    "name": "Энергетик",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4300417388,
+  "lat": 55.1035106,
+  "lon": 37.4774691,
+  "tags": {
+    "name": "Диалог",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4680080789,
+  "lat": 55.0630993,
+  "lon": 37.8328587,
+  "tags": {
+    "name": "СНТ Медовый топаз",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4834544047,
+  "lat": 55.4598940,
+  "lon": 37.3450372,
+  "tags": {
+    "name": "СНТ «Киселёво»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4834544066,
+  "lat": 55.4594737,
+  "lon": 37.3592439,
+  "tags": {
+    "name": "СНТ «Пыхчево»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5277456421,
+  "lat": 55.3966678,
+  "lon": 37.0572281,
+  "tags": {
+    "name": "СНТ «Акулово»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5277456422,
+  "lat": 55.3946144,
+  "lon": 37.0672595,
+  "tags": {
+    "name": "СНТ «Газовик»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5334776510,
+  "lat": 55.3365073,
+  "lon": 36.9619936,
+  "tags": {
+    "name": "СНТ «Полесье-2»",
+    "official_status": "ru:снт",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5334776511,
+  "lat": 55.3483313,
+  "lon": 36.9564307,
+  "tags": {
+    "name": "СНТ «Полесье»",
+    "official_status": "ru:снт",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5335367841,
+  "lat": 55.3499723,
+  "lon": 36.9405413,
+  "tags": {
+    "name": "СНТ «Лесная Радуга»",
+    "official_status": "ru:снт",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5337296109,
+  "lat": 55.3445124,
+  "lon": 36.9835639,
+  "tags": {
+    "name": "СНТ \"Мечта\"",
+    "official_status": "ru:снт",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5337296119,
+  "lat": 55.3430085,
+  "lon": 36.9852376,
+  "tags": {
+    "name": "СНТ \"Берендеи\"",
+    "official_status": "ru:снт",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5337296150,
+  "lat": 55.3310547,
+  "lon": 36.9867933,
+  "tags": {
+    "fixme": "уточнить название по месту",
+    "name": "СНТ \"Нива\"",
+    "official_status": "ru:снт",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5337296157,
+  "lat": 55.3366263,
+  "lon": 36.9707537,
+  "tags": {
+    "name": "СНТ «Мачихино»",
+    "official_status": "ru:снт",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5337296158,
+  "lat": 55.3425326,
+  "lon": 36.9700026,
+  "tags": {
+    "name": "СНТ «Морозко»",
+    "official_status": "ru:снт",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6314396287,
+  "lat": 55.3830446,
+  "lon": 37.5494777,
+  "tags": {
+    "name": "СНТ №8",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6658507203,
+  "lat": 55.4460435,
+  "lon": 37.7890098,
+  "tags": {
+    "name": "СНТ «Металлург-3»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6658507204,
+  "lat": 55.4349273,
+  "lon": 37.7846271,
+  "tags": {
+    "name": "СНТ \"Металлург-2\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6726823707,
+  "lat": 55.1679264,
+  "lon": 37.3467673,
+  "tags": {
+    "name": "КП Чеховские дворики",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6726823708,
+  "lat": 55.1637214,
+  "lon": 37.3376550,
+  "tags": {
+    "name": "СНТ «Старецкое»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6726823709,
+  "lat": 55.1605159,
+  "lon": 37.3261447,
+  "tags": {
+    "name": "СНТ «Надежда»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6726823710,
+  "lat": 55.1654404,
+  "lon": 37.3257371,
+  "tags": {
+    "name": "СНТ «Экостимул»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6726823711,
+  "lat": 55.1644473,
+  "lon": 37.3309407,
+  "tags": {
+    "name": "СНТ «Лужники»",
+    "place": "allotments"
+  }
+}
+
+  ]
+}

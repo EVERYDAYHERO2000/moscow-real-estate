@@ -81,7 +81,10 @@ npm run dev
 gulp.task('default',['sass','js'], function () {
     
     gulp.start('data');
+  
+    
     gulp.start('html');
+
   
     watch( DEV_PATH + '/source/app/**/*.scss', function () {
       gulp.start('sass');

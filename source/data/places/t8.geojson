@@ -1,0 +1,431 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-09-30T16:35:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 929966612,
+  "lat": 55.8835503,
+  "lon": 36.7274082,
+  "tags": {
+    "addr:country": "RU",
+    "addr:district": "городской округ Истра",
+    "addr:region": "Московская область",
+    "name": "СНТ «Киселёво»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 965966281,
+  "lat": 56.1190716,
+  "lon": 36.8279592,
+  "tags": {
+    "name": "Малые Бережки",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1451645657,
+  "lat": 56.0104701,
+  "lon": 36.7045710,
+  "tags": {
+    "name": "СНТ «Сокол-1»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1452289880,
+  "lat": 55.8756017,
+  "lon": 36.7939138,
+  "tags": {
+    "name": "СНТ «Крючково-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1827352977,
+  "lat": 56.1084168,
+  "lon": 36.6136964,
+  "tags": {
+    "name": "Анютины Глазки",
+    "place": "allotments",
+    "website": "http://www.a-glazki.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 1827422868,
+  "lat": 56.1343514,
+  "lon": 36.8279329,
+  "tags": {
+    "name": "КП «Истраград»",
+    "place": "allotments",
+    "website": "http://www.istra-grad.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 1874098811,
+  "lat": 55.8745268,
+  "lon": 36.8183967,
+  "tags": {
+    "name": "КП «Финская Деревня-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1874098815,
+  "lat": 55.8856519,
+  "lon": 36.7871262,
+  "tags": {
+    "name": "КП «Альпийский»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1874098818,
+  "lat": 55.8785306,
+  "lon": 36.7930119,
+  "tags": {
+    "name": "КП «Мелоди»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3033340650,
+  "lat": 55.9843495,
+  "lon": 36.4142828,
+  "tags": {
+    "name": "СНТ «Лесные Поляны-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3191611578,
+  "lat": 56.2542241,
+  "lon": 36.2638683,
+  "tags": {
+    "description": "Поселок \"Заповедное озеро\". 281 участок. Юр адрес: Московская область, городской округ Клин, деревня Дятлово, территория коттеджного поселка \"Заповедное озеро\", дом 238. ОГРН 1195081039427. ИНН/КПП 5020085989/502001001.\n@mail: 3apovednoeo3ero@gmail.com",
+    "name": "СНТ «Заповедное Озеро»",
+    "place": "allotments",
+    "population": "562",
+    "start_date": "7 июня 2019",
+    "website": "https://www.заповедноеозеро.рус"
+  }
+},
+{
+  "type": "node",
+  "id": 3957897635,
+  "lat": 55.9212668,
+  "lon": 36.6674342,
+  "tags": {
+    "name": "СНТ «Ёлочки»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4188115991,
+  "lat": 55.8546958,
+  "lon": 36.7566707,
+  "tags": {
+    "name": "СНТ Знамя-2",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4727888647,
+  "lat": 55.8608173,
+  "lon": 36.8091170,
+  "tags": {
+    "name": "КП «Светлогорье»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5140311220,
+  "lat": 55.9660298,
+  "lon": 36.1515822,
+  "tags": {
+    "fixme": "Указать границы",
+    "name": "СНТ Данилково",
+    "note": "Похоже, что занимает все эти поля",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5157244479,
+  "lat": 56.0560206,
+  "lon": 36.1920310,
+  "tags": {
+    "name": "СНТ \"Тушино\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5157246634,
+  "lat": 56.0541471,
+  "lon": 36.1976371,
+  "tags": {
+    "name": "СНТ \"Стриж\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5158394391,
+  "lat": 56.1115545,
+  "lon": 36.0905652,
+  "tags": {
+    "name": "СНТ \"Лесная Поляна\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5158395046,
+  "lat": 56.1134782,
+  "lon": 36.0944875,
+  "tags": {
+    "name": "СНТ \"Брусничка\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5158414699,
+  "lat": 56.1179104,
+  "lon": 36.0859432,
+  "tags": {
+    "name": "СНТ \"Гамма\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5160328664,
+  "lat": 55.9803478,
+  "lon": 35.8531251,
+  "tags": {
+    "name": "СНТ \"Даль\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5160332077,
+  "lat": 55.9780667,
+  "lon": 35.8543911,
+  "tags": {
+    "name": "СНТ \"Лесная Поляна\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5164620062,
+  "lat": 55.9834840,
+  "lon": 36.1323316,
+  "tags": {
+    "name": "СНТ \"Эфир\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5164621085,
+  "lat": 55.9842523,
+  "lon": 36.1255295,
+  "tags": {
+    "name": "СНТ \"Конструктор\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5635394682,
+  "lat": 55.8965665,
+  "lon": 36.7840665,
+  "tags": {
+    "addr:country": "RU",
+    "addr:district": "городской округ Истра",
+    "addr:region": "Московская область",
+    "contact:facebook": "https://www.facebook.com/pokrovskoe.rubtsovo",
+    "contact:website": "http://pokrub.ru/about/",
+    "name": "Покровское-Рубцово",
+    "official_name": "Коттеджный поселок «Покровское-Рубцово»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5719866010,
+  "lat": 55.9653114,
+  "lon": 36.1812850,
+  "tags": {
+    "allotments": "cottage_settlement",
+    "name": "КП \"Триумф\"",
+    "note": "Пока только строят инфраструктуру, огородили территорию забором (06.2018)",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6662697735,
+  "lat": 55.9461720,
+  "lon": 36.4191627,
+  "tags": {
+    "name": "СНТ Подолы",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6662697736,
+  "lat": 55.9474306,
+  "lon": 36.4311093,
+  "tags": {
+    "name": "СНТ Фортуна",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6662697737,
+  "lat": 55.9493921,
+  "lon": 36.4300632,
+  "tags": {
+    "name": "СНТ Солнышко",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6662697745,
+  "lat": 55.9513865,
+  "lon": 36.4252567,
+  "tags": {
+    "name": "СНТ Поляны",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6662697769,
+  "lat": 55.9535369,
+  "lon": 36.4250207,
+  "tags": {
+    "name": "СНТ Нива",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6662697784,
+  "lat": 55.9557413,
+  "lon": 36.4274132,
+  "tags": {
+    "name": "СНТ Салют-3",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6662700529,
+  "lat": 55.9433722,
+  "lon": 36.4338961,
+  "tags": {
+    "name": "СНТ Кинематографист-1",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6662700530,
+  "lat": 55.9497074,
+  "lon": 36.4350575,
+  "tags": {
+    "name": "СНТ Тверское",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6662717016,
+  "lat": 55.9586783,
+  "lon": 36.4312863,
+  "tags": {
+    "name": "СНТ Бахус",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6662717041,
+  "lat": 55.9628822,
+  "lon": 36.4305782,
+  "tags": {
+    "name": "СНТ Пролетарский садовод",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6662719885,
+  "lat": 55.9575011,
+  "lon": 36.4273059,
+  "tags": {
+    "name": "СНТ Салют-2",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6662719886,
+  "lat": 55.9590026,
+  "lon": 36.4289689,
+  "tags": {
+    "name": "СНТ Салют-1",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6662719887,
+  "lat": 55.9569245,
+  "lon": 36.4332712,
+  "tags": {
+    "name": "СНТ Поляны",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6702773748,
+  "lat": 55.9109500,
+  "lon": 36.5710455,
+  "tags": {
+    "name": "СНТ Электротехник",
+    "place": "allotments"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,966 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-09-30T16:34:01Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 429202584,
+  "lat": 56.3899742,
+  "lon": 38.5051686,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Родник-1»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 432723874,
+  "lat": 56.3824922,
+  "lon": 38.5139968,
+  "tags": {
+    "landuse": "allotments",
+    "name": "СНТ «Каскад»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 440665754,
+  "lat": 56.4193074,
+  "lon": 38.6907002,
+  "tags": {
+    "landuse": "allotments",
+    "name": "СНТ «Дичково»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 441397237,
+  "lat": 56.3852512,
+  "lon": 38.5100887,
+  "tags": {
+    "landuse": "allotments",
+    "name": "СНТ «Родник-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 441397238,
+  "lat": 56.3886945,
+  "lon": 38.5103829,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Источник», массив А",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 459527941,
+  "lat": 56.3911153,
+  "lon": 38.4520328,
+  "tags": {
+    "landuse": "allotments",
+    "name": "СНТ «Молокча»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 459527943,
+  "lat": 56.3941568,
+  "lon": 38.4538648,
+  "tags": {
+    "landuse": "allotments",
+    "name": "ДНТ «Арсаки»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 460039079,
+  "lat": 56.2615409,
+  "lon": 38.0223205,
+  "tags": {
+    "name": "СНТ «Парус-1»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 460068657,
+  "lat": 56.3916593,
+  "lon": 38.4617130,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Механик»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 796248632,
+  "lat": 56.2157251,
+  "lon": 38.1663233,
+  "tags": {
+    "name": "Еремино",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 844271301,
+  "lat": 56.4111678,
+  "lon": 38.4352417,
+  "tags": {
+    "landuse": "allotments",
+    "name": "ДПК «Полиносово»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 844271588,
+  "lat": 56.4063311,
+  "lon": 38.4291805,
+  "tags": {
+    "landuse": "allotments",
+    "name": "СНТ «Никольская Сллобода»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 845403572,
+  "lat": 56.3851693,
+  "lon": 38.5212775,
+  "tags": {
+    "landuse": "allotments",
+    "name": "СНТ «Родник-3»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 846426096,
+  "lat": 56.3783255,
+  "lon": 38.5556704,
+  "tags": {
+    "landuse": "allotments",
+    "name": "СНТ «Берёзка»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 846426186,
+  "lat": 56.3777903,
+  "lon": 38.5464683,
+  "tags": {
+    "landuse": "allotments",
+    "name": "СНТ «Сосновый»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 846426258,
+  "lat": 56.3821840,
+  "lon": 38.5612322,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Майский»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 850795916,
+  "lat": 56.3723932,
+  "lon": 38.5530242,
+  "tags": {
+    "landuse": "allotments",
+    "name": "СНТ «Солнечное»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1280086680,
+  "lat": 56.4392237,
+  "lon": 38.5957491,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Лукоморье»",
+    "place": "allotments",
+    "website": "http://lucomorie.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 1971450373,
+  "lat": 56.3515754,
+  "lon": 38.1107122,
+  "tags": {
+    "name": "КП «Деулинские Просторы-1»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1984293094,
+  "lat": 56.3569644,
+  "lon": 38.1071816,
+  "tags": {
+    "name": "КП «Деулинская Слобода»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1984293113,
+  "lat": 56.3586638,
+  "lon": 38.1212562,
+  "tags": {
+    "name": "КП «Деулинские Просторы-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2049684980,
+  "lat": 56.3829865,
+  "lon": 38.5424303,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Копцево»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2081002840,
+  "lat": 56.2499199,
+  "lon": 38.4592549,
+  "tags": {
+    "name": "СНТ «Торбеевка»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2081004082,
+  "lat": 56.2257359,
+  "lon": 38.5101096,
+  "tags": {
+    "name": "СНТ «Родник»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2083582693,
+  "lat": 56.3728891,
+  "lon": 38.4717603,
+  "tags": {
+    "landuse": "allotments",
+    "name": "ДНТ «Арсаки-3»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2083582694,
+  "lat": 56.3770579,
+  "lon": 38.4792365,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СТ «Всполье»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2083582695,
+  "lat": 56.3720126,
+  "lon": 38.4769008,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СТ «Изумруд»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2083582696,
+  "lat": 56.3869048,
+  "lon": 38.4956515,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Ёлочка»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2083582697,
+  "lat": 56.3785311,
+  "lon": 38.4687116,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Арсаки-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2083582698,
+  "lat": 56.3919540,
+  "lon": 38.5077625,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Источник», массив Е",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2189145938,
+  "lat": 56.4072178,
+  "lon": 38.4354159,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Маяк»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2189145939,
+  "lat": 56.4088087,
+  "lon": 38.4437477,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Маяк»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2189145940,
+  "lat": 56.4104082,
+  "lon": 38.4426937,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Маяк»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2193032824,
+  "lat": 56.4091393,
+  "lon": 38.4507391,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Маяк»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2193159943,
+  "lat": 56.4150118,
+  "lon": 38.4560606,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Соболь»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2193159944,
+  "lat": 56.4111393,
+  "lon": 38.4512610,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Экспресс»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2193196952,
+  "lat": 56.4154931,
+  "lon": 38.4437196,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "ДПК «Берёзовый Рай»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2193211518,
+  "lat": 56.4215056,
+  "lon": 38.4453704,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Северное»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2207974599,
+  "lat": 56.4240643,
+  "lon": 38.4740550,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Дружба»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2209284086,
+  "lat": 56.4465685,
+  "lon": 38.4928947,
+  "tags": {
+    "landuse": "allotments",
+    "name": "ДПК «Полянка»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2276335758,
+  "lat": 56.3507029,
+  "lon": 38.0978443,
+  "tags": {
+    "name": "СНТ «Северное Сияние»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2276336199,
+  "lat": 56.3532628,
+  "lon": 38.0898630,
+  "tags": {
+    "name": "СНТ «Нива»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2408276542,
+  "lat": 56.3861735,
+  "lon": 38.5181365,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Ростокино»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2425477913,
+  "lat": 56.3767235,
+  "lon": 38.4728501,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "ДНТ «Арсаки-3»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2425477914,
+  "lat": 56.3781065,
+  "lon": 38.4750270,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СТ «Всполье»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2425547392,
+  "lat": 56.3692452,
+  "lon": 38.4824920,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СТ «Всполье»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2426125462,
+  "lat": 56.3814160,
+  "lon": 38.4935225,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Радуга»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2426722883,
+  "lat": 56.3916471,
+  "lon": 38.4836200,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Электрон-69»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2723506847,
+  "lat": 56.3960982,
+  "lon": 38.4637014,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СТ «Посад»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2723506848,
+  "lat": 56.3932770,
+  "lon": 38.4654636,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Молокча-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2723506849,
+  "lat": 56.3897559,
+  "lon": 38.4623529,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Надежда»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2723561722,
+  "lat": 56.3926856,
+  "lon": 38.4592844,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Бодрость»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2723561723,
+  "lat": 56.3954610,
+  "lon": 38.4610856,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Эксергия»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2724386963,
+  "lat": 56.3918827,
+  "lon": 38.4558874,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Берёзки»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2724386964,
+  "lat": 56.3964731,
+  "lon": 38.4576034,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Оргхим»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2726834111,
+  "lat": 56.3467026,
+  "lon": 38.5321109,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "ДПК «Залесье»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2741160811,
+  "lat": 56.3943841,
+  "lon": 38.4567096,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Арсаки»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2742060539,
+  "lat": 56.3974261,
+  "lon": 38.4527736,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Кулон-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2745024139,
+  "lat": 56.4591125,
+  "lon": 38.3793101,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Ласточка»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2745103433,
+  "lat": 56.4514772,
+  "lon": 38.3808595,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Ветеран»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2749498293,
+  "lat": 56.4544797,
+  "lon": 38.3968868,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Ветеран»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2749498294,
+  "lat": 56.4567072,
+  "lon": 38.3926632,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Ветеран»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2749498295,
+  "lat": 56.4608026,
+  "lon": 38.3879273,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Мечта-1»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2758368980,
+  "lat": 56.4655903,
+  "lon": 38.3879090,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Зелёное»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2761742757,
+  "lat": 56.3938700,
+  "lon": 38.4446360,
+  "tags": {
+    "name": "СНТ «Солнечная Поляна»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2887703196,
+  "lat": 56.2749297,
+  "lon": 38.2534326,
+  "tags": {
+    "name": "СНТ «Лесное-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2978123225,
+  "lat": 56.3417661,
+  "lon": 38.6046094,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "ДПК «Дарьино»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2980351311,
+  "lat": 56.5250447,
+  "lon": 38.5284547,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Солнышко»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2984460974,
+  "lat": 56.1926720,
+  "lon": 38.0252599,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Вестник связи»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2984460975,
+  "lat": 56.1951819,
+  "lon": 38.0224242,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Здоровье»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3040987420,
+  "lat": 56.3863763,
+  "lon": 38.6291437,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Берендей»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3040987421,
+  "lat": 56.3887377,
+  "lon": 38.6231420,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Лужок»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3040987422,
+  "lat": 56.3909026,
+  "lon": 38.6305294,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Полюшко»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3050503385,
+  "lat": 56.3551143,
+  "lon": 38.6243587,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "ДПК «Колосок»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3215745907,
+  "lat": 56.2492362,
+  "lon": 38.5440157,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "ДНТ «Таратино»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3215745908,
+  "lat": 56.2522695,
+  "lon": 38.5565720,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Таратино-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3247607648,
+  "lat": 56.2749352,
+  "lon": 38.5262997,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Раздолье»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3255126878,
+  "lat": 56.3229898,
+  "lon": 38.4539113,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "СНТ «Зазеркалье»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3257034187,
+  "lat": 56.3004780,
+  "lon": 38.4633418,
+  "tags": {
+    "fixme": "Удалить после того как мапник начнёт поддерживать place=allotments",
+    "landuse": "allotments",
+    "name": "ДПК «Остров»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3528435065,
+  "lat": 56.3998306,
+  "lon": 38.0915110,
+  "tags": {
+    "name": "Причал",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3595863442,
+  "lat": 56.3393947,
+  "lon": 38.0876313,
+  "tags": {
+    "name": "СНТ «Крот»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3635597794,
+  "lat": 56.3686043,
+  "lon": 38.0862368,
+  "tags": {
+    "name": "«Автомобилист»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4959893985,
+  "lat": 56.2511219,
+  "lon": 38.0103393,
+  "tags": {
+    "name": "СНТ \"Союз-6\"",
+    "place": "allotments"
+  }
+}
+
+  ]
+}

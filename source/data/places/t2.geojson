@@ -1,0 +1,890 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-09-30T16:31:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 259528002,
+  "lat": 55.9569612,
+  "lon": 37.5584080,
+  "tags": {
+    "name": "СНТ «Грибки-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 260330709,
+  "lat": 55.7480257,
+  "lon": 37.0342457,
+  "tags": {
+    "name": "СНТ «Корабельные Сосны»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 269691602,
+  "lat": 55.7232939,
+  "lon": 37.2306741,
+  "tags": {
+    "name": "КП «Ландшафт»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 360000694,
+  "lat": 55.6485377,
+  "lon": 37.3194443,
+  "tags": {
+    "addr:region": "Москва",
+    "name": "ДСК «Мичуринец»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 439338757,
+  "lat": 55.6743983,
+  "lon": 37.1385768,
+  "tags": {
+    "name": "СНТ «Учитель»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 630466833,
+  "lat": 55.7551926,
+  "lon": 36.9217470,
+  "tags": {
+    "addr:city": "Одинцово город",
+    "addr:country": "RU",
+    "addr:district": "Одинцовский городской округ",
+    "addr:postcode": "143000",
+    "addr:region": "Московская область",
+    "name": "СНТ «Лесное»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 668896706,
+  "lat": 55.7098022,
+  "lon": 37.4705123,
+  "tags": {
+    "name": "Жилой комплекс «Нежинский Ковчег»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 902481013,
+  "lat": 55.8641080,
+  "lon": 37.0327560,
+  "tags": {
+    "addr:country": "RU",
+    "addr:district": "городской округ Истра",
+    "addr:region": "Московская область",
+    "name": "НЭХ «Снегири»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 904976535,
+  "lat": 55.8541400,
+  "lon": 37.0194500,
+  "tags": {
+    "addr:country": "RU",
+    "addr:district": "городской округ Истра",
+    "addr:region": "Московская область",
+    "name": "ДНТ «799»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 904977430,
+  "lat": 55.8522600,
+  "lon": 37.0070600,
+  "tags": {
+    "addr:country": "RU",
+    "addr:district": "городской округ Истра",
+    "addr:region": "Московская область",
+    "name": "ДСК \"Мастера Искусств\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 914591158,
+  "lat": 55.8609929,
+  "lon": 37.0543113,
+  "tags": {
+    "addr:country": "RU",
+    "addr:district": "городской округ Истра",
+    "addr:region": "Московская область",
+    "name": "СНТ Колос",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 917953220,
+  "lat": 55.9004900,
+  "lon": 37.0543400,
+  "tags": {
+    "addr:country": "RU",
+    "addr:district": "городской округ Истра",
+    "addr:region": "Московская область",
+    "name": "Профессорские дачи",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 929966612,
+  "lat": 55.8835503,
+  "lon": 36.7274082,
+  "tags": {
+    "addr:country": "RU",
+    "addr:district": "городской округ Истра",
+    "addr:region": "Московская область",
+    "name": "СНТ «Киселёво»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1035883487,
+  "lat": 55.6999082,
+  "lon": 37.1260582,
+  "tags": {
+    "name": "СНТ «Лесные Просторы-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1236398612,
+  "lat": 55.7873501,
+  "lon": 37.0040727,
+  "tags": {
+    "name": "КП «Монолит»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1236398651,
+  "lat": 55.7956982,
+  "lon": 36.9711995,
+  "tags": {
+    "name": "КП «Монтевилле»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1247760153,
+  "lat": 55.6365568,
+  "lon": 36.9293217,
+  "tags": {
+    "name": "СНТ «Маяк»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1358252700,
+  "lat": 55.8097048,
+  "lon": 37.0432509,
+  "tags": {
+    "name": "КП «Кедры»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1360356419,
+  "lat": 55.5136854,
+  "lon": 37.0434212,
+  "tags": {
+    "description": "Коттеджный поселок, ДНТ «Исток»",
+    "name": "ДНТ «Исток»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1374229988,
+  "lat": 55.8434780,
+  "lon": 37.0838389,
+  "tags": {
+    "landuse": "allotments",
+    "name": "СНТ «Дубрава»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1382889566,
+  "lat": 55.6394095,
+  "lon": 36.9390716,
+  "tags": {
+    "name": "СНТ «Раменка-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1382889567,
+  "lat": 55.6344320,
+  "lon": 36.9285447,
+  "tags": {
+    "name": "СНТ «Раменки»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1416945160,
+  "lat": 55.9062840,
+  "lon": 37.0810246,
+  "tags": {
+    "landuse": "allotments",
+    "name": "ДСК «Композитор»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1426819234,
+  "lat": 55.7757658,
+  "lon": 37.0950798,
+  "tags": {
+    "name": "КП «Соверин»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1449341665,
+  "lat": 55.4874281,
+  "lon": 36.9983839,
+  "tags": {
+    "name": "СНТ «Новые Черёмушки-1»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1451645657,
+  "lat": 56.0104701,
+  "lon": 36.7045710,
+  "tags": {
+    "name": "СНТ «Сокол-1»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1451774160,
+  "lat": 55.6339984,
+  "lon": 36.8741329,
+  "tags": {
+    "name": "СНТ «Весна-9»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1452289880,
+  "lat": 55.8756017,
+  "lon": 36.7939138,
+  "tags": {
+    "name": "СНТ «Крючково-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1472994048,
+  "lat": 55.5972261,
+  "lon": 36.8227712,
+  "tags": {
+    "name": "СНТ «Лазурное»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1607295400,
+  "lat": 55.7854033,
+  "lon": 37.2207545,
+  "tags": {
+    "name": "Третья Охота",
+    "name:ru": "Третья Охота",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1607299079,
+  "lat": 55.7978485,
+  "lon": 37.2255849,
+  "tags": {
+    "name": "Никольская Слобода",
+    "name:ru": "Никольская Слобода",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1634910094,
+  "lat": 55.7217031,
+  "lon": 37.3380394,
+  "tags": {
+    "name": "КП «имени Малевича»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1716034517,
+  "lat": 55.9671537,
+  "lon": 37.6841174,
+  "tags": {
+    "name": "СНТ «Военнослужащий»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1716034518,
+  "lat": 55.9641982,
+  "lon": 37.6865615,
+  "tags": {
+    "name": "СНТ «Энигма»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1746329617,
+  "lat": 56.0027203,
+  "lon": 37.6278999,
+  "tags": {
+    "name": "СНТ «Метровагонмаш»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1746329627,
+  "lat": 55.9967047,
+  "lon": 37.6247118,
+  "tags": {
+    "name": "СП «Осташково»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1746329635,
+  "lat": 56.0002183,
+  "lon": 37.6233321,
+  "tags": {
+    "name": "СПО «Клязьма»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1754637488,
+  "lat": 55.8169849,
+  "lon": 37.1340761,
+  "tags": {
+    "name": "КП «Павлово-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1754637489,
+  "lat": 55.8152999,
+  "lon": 37.1375181,
+  "tags": {
+    "name": "Коттеджный поселок «Чистые пруды-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1874098811,
+  "lat": 55.8745268,
+  "lon": 36.8183967,
+  "tags": {
+    "name": "КП «Финская Деревня-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1874098815,
+  "lat": 55.8856519,
+  "lon": 36.7871262,
+  "tags": {
+    "name": "КП «Альпийский»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 1874098818,
+  "lat": 55.8785306,
+  "lon": 36.7930119,
+  "tags": {
+    "name": "КП «Мелоди»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2180477346,
+  "lat": 55.9550797,
+  "lon": 36.9136231,
+  "tags": {
+    "addr:country": "RU",
+    "addr:district": "городской округ Истра",
+    "addr:region": "Московская область",
+    "name": "СТ «Сокольники»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2225979871,
+  "lat": 55.8825358,
+  "lon": 36.9233712,
+  "tags": {
+    "name": "СНТ «Зелёная Горка»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2335238130,
+  "lat": 55.7828524,
+  "lon": 36.9758481,
+  "tags": {
+    "name": "КП «Гринфилд»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2335238136,
+  "lat": 55.8156187,
+  "lon": 37.0464311,
+  "tags": {
+    "name": "КП «Княжье Озеро»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2335238148,
+  "lat": 55.7730871,
+  "lon": 37.0314800,
+  "tags": {
+    "name": "КП «Резиденция Бенелюкс»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2335238150,
+  "lat": 55.7768635,
+  "lon": 37.0035771,
+  "tags": {
+    "name": "КП «Шервуд»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2432602565,
+  "lat": 56.0244712,
+  "lon": 37.0408236,
+  "tags": {
+    "name": "СНТ «Локомотив-3»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2433433037,
+  "lat": 56.0324263,
+  "lon": 36.8919632,
+  "tags": {
+    "name": "КП «Соколово Парк»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2504343155,
+  "lat": 56.0265177,
+  "lon": 36.9836603,
+  "tags": {
+    "name": "КП «Гринвич»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2645191622,
+  "lat": 55.8015353,
+  "lon": 36.7973656,
+  "tags": {
+    "name": "СНТ «Сурмино-2»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 2956904910,
+  "lat": 55.8957948,
+  "lon": 37.4527010,
+  "tags": {
+    "name": "Жилой комплекс «Парк Толстого»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3068357905,
+  "lat": 55.5242792,
+  "lon": 37.6740028,
+  "tags": {
+    "name": "СНТ «Екатерининская пустынь»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3068357908,
+  "lat": 55.5308730,
+  "lon": 37.6692245,
+  "tags": {
+    "name": "Подсобное хозяйство Суханово",
+    "note": "На картах это место почему-то обычно не отмечено, но на въезде стоит табличка \"Суханово\" на белом фоне. Возможно это часть Суханово что западнее",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3113131963,
+  "lat": 55.4829657,
+  "lon": 36.8933470,
+  "tags": {
+    "name": "СНТ «Рассудово»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3341758560,
+  "lat": 55.9542491,
+  "lon": 36.8971208,
+  "tags": {
+    "name": "КП «Сокольники»",
+    "place": "allotments",
+    "website": "http://sokolnikiclub.ru/index.html"
+  }
+},
+{
+  "type": "node",
+  "id": 3342123287,
+  "lat": 55.5196135,
+  "lon": 37.3650457,
+  "tags": {
+    "name": "СНТ «Десна-3»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3353380238,
+  "lat": 55.8988401,
+  "lon": 37.3092843,
+  "tags": {
+    "name": "СНТ «Монтажник»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3353656489,
+  "lat": 55.8193271,
+  "lon": 37.2427854,
+  "tags": {
+    "name": "СНТ «Опалиха»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3353656490,
+  "lat": 55.8196804,
+  "lon": 37.2400922,
+  "tags": {
+    "name": "СНТ «Ягодка»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3415726446,
+  "lat": 55.5334495,
+  "lon": 37.6683117,
+  "tags": {
+    "name": "Усадьба Суханово",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3469872982,
+  "lat": 55.5770815,
+  "lon": 37.3367444,
+  "tags": {
+    "name": "КП «Валуевская Слобода»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3537650123,
+  "lat": 55.6967149,
+  "lon": 36.7921862,
+  "tags": {
+    "name": "КП \"Звенигородские усадьбы\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3704794957,
+  "lat": 55.7291098,
+  "lon": 36.8920202,
+  "tags": {
+    "name": "Коттеджный поселок «РЕКА-РЕКА»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3875770143,
+  "lat": 55.5632455,
+  "lon": 37.0042647,
+  "tags": {
+    "name": "СНТ Голицыно",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3875770144,
+  "lat": 55.5654405,
+  "lon": 37.0069384,
+  "tags": {
+    "name": "СНТ Тарасково",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3948349422,
+  "lat": 55.9347050,
+  "lon": 37.2690009,
+  "tags": {
+    "name": "СТ «Мцыри»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3957897635,
+  "lat": 55.9212668,
+  "lon": 36.6674342,
+  "tags": {
+    "name": "СНТ «Ёлочки»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 3958542786,
+  "lat": 55.9908856,
+  "lon": 37.0562146,
+  "tags": {
+    "name": "СНТ «Лидия»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4080989500,
+  "lat": 55.8553817,
+  "lon": 37.0283463,
+  "tags": {
+    "addr:country": "RU",
+    "addr:district": "городской округ Истра",
+    "addr:region": "Московская область",
+    "name": "ДК \"Архитекторов\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4080989501,
+  "lat": 55.8529277,
+  "lon": 37.0351591,
+  "tags": {
+    "addr:country": "RU",
+    "addr:district": "городской округ Истра",
+    "addr:region": "Московская область",
+    "name": "ДП \"Соловьиный\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4188115991,
+  "lat": 55.8546958,
+  "lon": 36.7566707,
+  "tags": {
+    "name": "СНТ Знамя-2",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4599856775,
+  "lat": 55.9961040,
+  "lon": 37.5223406,
+  "tags": {
+    "name": "ДНТ «Природа-Аббакумово»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4641506053,
+  "lat": 55.9333949,
+  "lon": 37.2033396,
+  "tags": {
+    "allotments": "cottage_settlement",
+    "description": "недостроен, дольщики обмануты",
+    "name": "Жилой комплекс \"Немецкая деревня\"",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 4727888647,
+  "lat": 55.8608173,
+  "lon": 36.8091170,
+  "tags": {
+    "name": "КП «Светлогорье»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5304265762,
+  "lat": 55.5981209,
+  "lon": 37.4072022,
+  "tags": {
+    "name": "СНТ «Филатов Луг»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5498219942,
+  "lat": 56.0307180,
+  "lon": 36.9109994,
+  "tags": {
+    "name": "КП «Пятница Парк»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 5635394682,
+  "lat": 55.8965665,
+  "lon": 36.7840665,
+  "tags": {
+    "addr:country": "RU",
+    "addr:district": "городской округ Истра",
+    "addr:region": "Московская область",
+    "contact:facebook": "https://www.facebook.com/pokrovskoe.rubtsovo",
+    "contact:website": "http://pokrub.ru/about/",
+    "name": "Покровское-Рубцово",
+    "official_name": "Коттеджный поселок «Покровское-Рубцово»",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6727107915,
+  "lat": 55.7798192,
+  "lon": 37.1538520,
+  "tags": {
+    "name": "СНТ Надежда",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6727107916,
+  "lat": 55.7837288,
+  "lon": 37.1407092,
+  "tags": {
+    "name": "СНТ Берёзка",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6727107917,
+  "lat": 55.7814211,
+  "lon": 37.1468085,
+  "tags": {
+    "name": "СНТ Здоровье",
+    "place": "allotments"
+  }
+},
+{
+  "type": "node",
+  "id": 6727107918,
+  "lat": 55.7790288,
+  "lon": 37.1392929,
+  "tags": {
+    "name": "КП Рамос",
+    "place": "allotments"
+  }
+}
+
+  ]
+}
