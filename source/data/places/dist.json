@@ -1,0 +1,7222 @@
+[{
+  "id": 1394,
+  "point": [37.380031, 55.815792],
+  "route": [{
+    "distance": "33 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "27 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "40 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "44 мин"
+  }]
+}, {
+  "id": 1395,
+  "point": [37.847047, 56.011182],
+  "route": [{
+    "distance": "40 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "42 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "42 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "56 мин"
+  }]
+}, {
+  "id": 1396,
+  "point": [37.43039, 55.88874],
+  "route": [{
+    "distance": "22 км",
+    "duration": "26 мин"
+  }, {
+    "distance": "22 км",
+    "duration": "24 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "29 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "31 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "34 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "30 мин"
+  }]
+}, {
+  "id": 1397,
+  "point": [37.974042, 56.010563],
+  "route": [{
+    "distance": "47 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "52 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "55 км",
+    "duration": "1 ч 16 мин"
+  }]
+}, {
+  "id": 1398,
+  "point": [37.82555, 55.563992],
+  "route": [{
+    "distance": "30 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "46 мин"
+  }]
+}, {
+  "id": 1399,
+  "point": [37.956857, 55.791202],
+  "route": [{
+    "distance": "23 км",
+    "duration": "30 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "31 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "45 мин"
+  }]
+}, {
+  "id": 1400,
+  "point": [38.051099, 55.710362],
+  "route": [{
+    "distance": "41 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "37 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "36 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "57 мин"
+  }]
+}, {
+  "id": 1401,
+  "point": [37.132814, 56.113853],
+  "route": [{
+    "distance": "61 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 5 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 24 мин"
+  }]
+}, {
+  "id": 1402,
+  "point": [35.970359, 56.007831],
+  "route": [{
+    "distance": "130 км",
+    "duration": "1 ч 32 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 49 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 2 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 28 мин"
+  }]
+}, {
+  "id": 1403,
+  "point": [37.010015, 55.811472],
+  "route": [{
+    "distance": "53 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "54 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 1 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "1 ч 2 мин"
+  }]
+}, {
+  "id": 1404,
+  "point": [37.048247, 55.778659],
+  "route": [{
+    "distance": "50 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "1 ч"
+  }]
+}, {
+  "id": 1405,
+  "point": [37.836824, 56.097041],
+  "route": [{
+    "distance": "53 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 5 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 23 мин"
+  }]
+}, {
+  "id": 1406,
+  "point": [36.860284, 55.914287],
+  "route": [{
+    "distance": "80 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "58 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 19 мин"
+  }]
+}, {
+  "id": 1407,
+  "point": [36.860284, 55.914287],
+  "route": [{
+    "distance": "80 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "58 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 19 мин"
+  }]
+}, {
+  "id": 1408,
+  "point": [37.589868, 56.257858],
+  "route": [{
+    "distance": "85 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 34 мин"
+  }]
+}, {
+  "id": 1409,
+  "point": [36.958964, 55.839229],
+  "route": [{
+    "distance": "61 км",
+    "duration": "58 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "59 мин"
+  }, {
+    "distance": "62 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 9 мин"
+  }]
+}, {
+  "id": 1410,
+  "point": [37.202919, 55.526098],
+  "route": [{
+    "distance": "47 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "58 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "59 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "1 ч 2 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "1 ч 5 мин"
+  }, {
+    "distance": "55 км",
+    "duration": "1 ч 6 мин"
+  }]
+}, {
+  "id": 1411,
+  "point": [37.445752, 55.529619],
+  "route": [{
+    "distance": "29 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "31 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "35 км",
+    "duration": "47 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "44 мин"
+  }]
+}, {
+  "id": 1412,
+  "point": [37.736402, 55.910483],
+  "route": [{
+    "distance": "29 км",
+    "duration": "35 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "40 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "46 мин"
+  }]
+}, {
+  "id": 1413,
+  "point": [37.82555, 55.563992],
+  "route": [{
+    "distance": "30 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "46 мин"
+  }]
+}, {
+  "id": 1414,
+  "point": [38.131543, 54.996645],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 43 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 49 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 42 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 51 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 48 мин"
+  }]
+}, {
+  "id": 1415,
+  "point": [38.137203, 55.70777],
+  "route": [{
+    "distance": "44 км",
+    "duration": "1 ч 1 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "58 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "59 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "1 ч 1 мин"
+  }]
+}, {
+  "id": 1416,
+  "point": [37.750972, 56.147069],
+  "route": [{
+    "distance": "61 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "62 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "80 км",
+    "duration": "1 ч 25 мин"
+  }]
+}, {
+  "id": 1417,
+  "point": [37.544737, 55.431177],
+  "route": [{
+    "distance": "44 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "45 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "44 км",
+    "duration": "1 ч 2 мин"
+  }, {
+    "distance": "50 км",
+    "duration": "1 ч 3 мин"
+  }]
+}, {
+  "id": 1418,
+  "point": [37.686779, 56.28326],
+  "route": [{
+    "distance": "92 км",
+    "duration": "1 ч 47 мин"
+  }, {
+    "distance": "91 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "89 км",
+    "duration": "1 ч 47 мин"
+  }, {
+    "distance": "97 км",
+    "duration": "2 ч"
+  }, {
+    "distance": "88 км",
+    "duration": "1 ч 33 мин"
+  }]
+}, {
+  "id": 1419,
+  "point": [37.767995, 55.437168],
+  "route": [{
+    "distance": "43 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "50 км",
+    "duration": "58 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "50 км",
+    "duration": "1 ч 2 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "1 ч 7 мин"
+  }]
+}, {
+  "id": 1420,
+  "point": [37.956857, 55.791202],
+  "route": [{
+    "distance": "23 км",
+    "duration": "30 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "31 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "45 мин"
+  }]
+}, {
+  "id": 1421,
+  "point": [36.75678, 55.8724],
+  "route": [{
+    "distance": "73 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "56 мин"
+  }]
+}, {
+  "id": 1422,
+  "point": [38.208511, 55.478113],
+  "route": [{
+    "distance": "52 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "55 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "84 км",
+    "duration": "1 ч 37 мин"
+  }]
+}, {
+  "id": 1423,
+  "point": [35.728254, 56.10301],
+  "route": [{
+    "distance": "150 км",
+    "duration": "1 ч 50 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 7 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 24 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "1 ч 46 мин"
+  }]
+}, {
+  "id": 1424,
+  "point": [37.025807, 55.940986],
+  "route": [{
+    "distance": "79 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 12 мин"
+  }]
+}, {
+  "id": 1425,
+  "point": [37.057958, 56.121496],
+  "route": [{
+    "distance": "67 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "59 км",
+    "duration": "58 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 2 мин"
+  }]
+}, {
+  "id": 1426,
+  "point": [37.742276, 55.07668],
+  "route": [{
+    "distance": "100 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "99 км",
+    "duration": "1 ч 59 мин"
+  }]
+}, {
+  "id": 1427,
+  "point": [36.860284, 55.914287],
+  "route": [{
+    "distance": "80 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "58 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 19 мин"
+  }]
+}, {
+  "id": 1428,
+  "point": [38.358422, 55.19668],
+  "route": [{
+    "distance": "92 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 47 мин"
+  }]
+}, {
+  "id": 1429,
+  "point": [37.815283, 56.065424],
+  "route": [{
+    "distance": "49 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "1 ч 1 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 5 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "1 ч 5 мин"
+  }, {
+    "distance": "59 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 10 мин"
+  }]
+}, {
+  "id": 1430,
+  "point": [38.401487, 55.579938],
+  "route": [{
+    "distance": "63 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "62 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "80 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 29 мин"
+  }]
+}, {
+  "id": 1431,
+  "point": [36.689442, 55.694479],
+  "route": [{
+    "distance": "86 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "80 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "80 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 25 мин"
+  }]
+}, {
+  "id": 1432,
+  "point": [37.841136, 55.274934],
+  "route": [{
+    "distance": "68 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "64 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 13 мин"
+  }]
+}, {
+  "id": 1433,
+  "point": [36.323199, 56.202316],
+  "route": [{
+    "distance": "130 км",
+    "duration": "1 ч 55 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "1 ч 51 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 57 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 18 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 18 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 27 мин"
+  }]
+}, {
+  "id": 1434,
+  "point": [37.122331, 55.95628],
+  "route": [{
+    "distance": "43 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "58 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "58 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "59 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 1 мин"
+  }, {
+    "distance": "55 км",
+    "duration": "1 ч 3 мин"
+  }]
+}, {
+  "id": 1435,
+  "point": [36.995399, 55.824663],
+  "route": [{
+    "distance": "55 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "50 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "58 мин"
+  }, {
+    "distance": "58 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "50 км",
+    "duration": "1 ч 4 мин"
+  }]
+}, {
+  "id": 1436,
+  "point": [37.367526, 55.108354],
+  "route": [{
+    "distance": "82 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "90 км",
+    "duration": "1 ч 45 мин"
+  }]
+}, {
+  "id": 1437,
+  "point": [37.013231, 55.837748],
+  "route": [{
+    "distance": "58 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "59 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "49 км",
+    "duration": "1 ч 1 мин"
+  }]
+}, {
+  "id": 1438,
+  "point": [37.544432, 54.944978],
+  "route": [{
+    "distance": "99 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 52 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 25 мин"
+  }]
+}, {
+  "id": 1439,
+  "point": [37.771571, 55.547657],
+  "route": [{
+    "distance": "41 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "36 км",
+    "duration": "42 мин"
+  }]
+}, {
+  "id": 1440,
+  "point": [37.94552, 56.246851],
+  "route": [{
+    "distance": "76 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 19 мин"
+  }]
+}, {
+  "id": 1441,
+  "point": [38.615053, 55.569082],
+  "route": [{
+    "distance": "72 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 32 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 41 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 28 мин"
+  }]
+}, {
+  "id": 1442,
+  "point": [36.592828, 56.283929],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "1 ч 55 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 37 мин"
+  }]
+}, {
+  "id": 1443,
+  "point": [38.518097, 55.583495],
+  "route": [{
+    "distance": "65 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 26 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 37 мин"
+  }]
+}, {
+  "id": 1444,
+  "point": [38.565897, 55.57975],
+  "route": [{
+    "distance": "72 км",
+    "duration": "1 ч 26 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 26 мин"
+  }]
+}, {
+  "id": 1445,
+  "point": [38.392729, 55.365458],
+  "route": [{
+    "distance": "75 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 16 мин"
+  }]
+}, {
+  "id": 1446,
+  "point": [36.323199, 56.202316],
+  "route": [{
+    "distance": "130 км",
+    "duration": "1 ч 55 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "1 ч 51 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 57 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 18 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 18 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 27 мин"
+  }]
+}, {
+  "id": 1447,
+  "point": [35.993975, 55.388491],
+  "route": [{
+    "distance": "130 км",
+    "duration": "1 ч 58 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 14 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 17 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 18 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 22 мин"
+  }]
+}, {
+  "id": 1448,
+  "point": [36.426083, 56.114566],
+  "route": [{
+    "distance": "120 км",
+    "duration": "1 ч 38 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 48 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 49 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 56 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 27 мин"
+  }]
+}, {
+  "id": 1449,
+  "point": [38.534456, 55.611612],
+  "route": [{
+    "distance": "68 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 34 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 41 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 42 мин"
+  }]
+}, {
+  "id": 1450,
+  "point": [36.11223, 55.518443],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 49 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 55 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 56 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 47 мин"
+  }]
+}, {
+  "id": 1451,
+  "point": [36.669293, 56.438199],
+  "route": [{
+    "distance": "120 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 1 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 58 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 37 мин"
+  }]
+}, {
+  "id": 1452,
+  "point": [36.573326, 56.342076],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 42 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 38 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 58 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 30 мин"
+  }]
+}, {
+  "id": 1453,
+  "point": [36.586118, 55.907975],
+  "route": [{
+    "distance": "83 км",
+    "duration": "1 ч 4 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч"
+  }]
+}, {
+  "id": 1454,
+  "point": [37.208273, 55.59516],
+  "route": [{
+    "distance": "38 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "47 мин"
+  }, {
+    "distance": "42 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "37 км",
+    "duration": "50 мин"
+  }]
+}, {
+  "id": 1455,
+  "point": [38.16347, 55.638252],
+  "route": [{
+    "distance": "44 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "44 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "55 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "1 ч 13 мин"
+  }]
+}, {
+  "id": 1456,
+  "point": [37.765758, 56.105802],
+  "route": [{
+    "distance": "59 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "59 км",
+    "duration": "1 ч 4 мин"
+  }, {
+    "distance": "60 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "62 км",
+    "duration": "1 ч 17 мин"
+  }]
+}, {
+  "id": 1457,
+  "point": [37.502759, 56.173658],
+  "route": [{
+    "distance": "58 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 21 мин"
+  }]
+}, {
+  "id": 1458,
+  "point": [38.157029, 55.670118],
+  "route": [{
+    "distance": "41 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "52 км",
+    "duration": "1 ч 9 мин"
+  }]
+}, {
+  "id": 1459,
+  "point": [38.444849, 55.784445],
+  "route": [{
+    "distance": "59 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 28 мин"
+  }]
+}, {
+  "id": 1460,
+  "point": [36.670452, 55.891173],
+  "route": [{
+    "distance": "80 км",
+    "duration": "1 ч 2 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 5 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "58 мин"
+  }]
+}, {
+  "id": 1461,
+  "point": [37.270661, 55.421496],
+  "route": [{
+    "distance": "45 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "52 км",
+    "duration": "1 ч 2 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "52 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "1 ч 4 мин"
+  }, {
+    "distance": "55 км",
+    "duration": "1 ч 5 мин"
+  }]
+}, {
+  "id": 1462,
+  "point": [38.414522, 55.247169],
+  "route": [{
+    "distance": "91 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "89 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 50 мин"
+  }]
+}, {
+  "id": 1463,
+  "point": [38.432147, 55.322245],
+  "route": [{
+    "distance": "83 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 47 мин"
+  }, {
+    "distance": "84 км",
+    "duration": "1 ч 25 мин"
+  }]
+}, {
+  "id": 1464,
+  "point": [38.432147, 55.322245],
+  "route": [{
+    "distance": "83 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 47 мин"
+  }, {
+    "distance": "84 км",
+    "duration": "1 ч 25 мин"
+  }]
+}, {
+  "id": 1465,
+  "point": [38.432147, 55.322245],
+  "route": [{
+    "distance": "84 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 47 мин"
+  }]
+}, {
+  "id": 1466,
+  "point": [37.314445, 56.231698],
+  "route": [{
+    "distance": "80 км",
+    "duration": "1 ч 26 мин"
+  }, {
+    "distance": "80 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 32 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 38 мин"
+  }]
+}, {
+  "id": 1467,
+  "point": [37.158982, 55.536573],
+  "route": [{
+    "distance": "42 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "55 мин"
+  }]
+}, {
+  "id": 1468,
+  "point": [37.253602, 55.035596],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "99 км",
+    "duration": "1 ч 58 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 3 мин"
+  }]
+}, {
+  "id": 1469,
+  "point": [37.755446, 55.245532],
+  "route": [{
+    "distance": "67 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 17 мин"
+  }]
+}, {
+  "id": 1470,
+  "point": [36.716562, 55.913777],
+  "route": [{
+    "distance": "91 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "86 км",
+    "duration": "1 ч 6 мин"
+  }]
+}, {
+  "id": 1471,
+  "point": [37.666917, 56.232238],
+  "route": [{
+    "distance": "79 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 33 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 24 мин"
+  }]
+}, {
+  "id": 1472,
+  "point": [37.624085, 56.245985],
+  "route": [{
+    "distance": "85 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 36 мин"
+  }]
+}, {
+  "id": 1473,
+  "point": [37.866927, 56.532276],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 49 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 10 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 13 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 48 мин"
+  }]
+}, {
+  "id": 1474,
+  "point": [38.095808, 56.416804],
+  "route": [{
+    "distance": "90 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 8 мин"
+  }, {
+    "distance": "90 км",
+    "duration": "1 ч 34 мин"
+  }]
+}, {
+  "id": 1475,
+  "point": [38.095808, 56.416804],
+  "route": [{
+    "distance": "90 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 8 мин"
+  }, {
+    "distance": "90 км",
+    "duration": "1 ч 34 мин"
+  }]
+}, {
+  "id": 1476,
+  "point": [36.716562, 55.913777],
+  "route": [{
+    "distance": "91 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "86 км",
+    "duration": "1 ч 6 мин"
+  }]
+}, {
+  "id": 1477,
+  "point": [38.095808, 56.416804],
+  "route": [{
+    "distance": "90 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 8 мин"
+  }, {
+    "distance": "90 км",
+    "duration": "1 ч 34 мин"
+  }]
+}, {
+  "id": 1478,
+  "point": [38.062122, 54.770027],
+  "route": [{
+    "distance": "120 км",
+    "duration": "1 ч 47 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 26 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "1 ч 49 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "1 ч 51 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 17 мин"
+  }]
+}, {
+  "id": 1479,
+  "point": [37.255291, 55.186247],
+  "route": [{
+    "distance": "89 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "84 км",
+    "duration": "1 ч 43 мин"
+  }, {
+    "distance": "88 км",
+    "duration": "1 ч 29 мин"
+  }]
+}, {
+  "id": 1480,
+  "point": [37.819406, 55.050793],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 32 мин"
+  }, {
+    "distance": "97 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "99 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "98 км",
+    "duration": "1 ч 52 мин"
+  }]
+}, {
+  "id": 1481,
+  "point": [35.98651, 55.542946],
+  "route": [{
+    "distance": "120 км",
+    "duration": "1 ч 58 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 4 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 5 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 7 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 8 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 55 мин"
+  }]
+}, {
+  "id": 1482,
+  "point": [36.018733, 55.52356],
+  "route": [{
+    "distance": "120 км",
+    "duration": "1 ч 53 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "1 ч 57 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 2 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 3 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 49 мин"
+  }]
+}, {
+  "id": 1483,
+  "point": [36.648119, 55.489259],
+  "route": [{
+    "distance": "83 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "80 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "84 км",
+    "duration": "1 ч 29 мин"
+  }]
+}, {
+  "id": 1484,
+  "point": [36.218779, 55.508774],
+  "route": [{
+    "distance": "100 км",
+    "duration": "1 ч 33 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 45 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 46 мин"
+  }]
+}, {
+  "id": 1485,
+  "point": [38.696458, 55.829669],
+  "route": [{
+    "distance": "76 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "90 км",
+    "duration": "1 ч 50 мин"
+  }, {
+    "distance": "86 км",
+    "duration": "1 ч 52 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "2 ч"
+  }, {
+    "distance": "91 км",
+    "duration": "2 ч"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 32 мин"
+  }]
+}, {
+  "id": 1486,
+  "point": [37.913711, 56.209686],
+  "route": [{
+    "distance": "67 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 12 мин"
+  }]
+}, {
+  "id": 1487,
+  "point": [37.269296, 54.975315],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 6 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 19 мин"
+  }]
+}, {
+  "id": 1488,
+  "point": [37.269296, 54.975315],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 6 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 19 мин"
+  }]
+}, {
+  "id": 1489,
+  "point": [36.842236, 55.892471],
+  "route": [{
+    "distance": "77 км",
+    "duration": "1 ч 5 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 1 мин"
+  }]
+}, {
+  "id": 1490,
+  "point": [38.881448, 55.79892],
+  "route": [{
+    "distance": "95 км",
+    "duration": "1 ч 49 мин"
+  }, {
+    "distance": "99 км",
+    "duration": "1 ч 57 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "2 ч"
+  }, {
+    "distance": "100 км",
+    "duration": "2 ч 3 мин"
+  }, {
+    "distance": "92 км",
+    "duration": "1 ч 41 мин"
+  }]
+}, {
+  "id": 1491,
+  "point": [37.544432, 54.944978],
+  "route": [{
+    "distance": "100 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 52 мин"
+  }]
+}, {
+  "id": 1492,
+  "point": [37.573393, 54.970293],
+  "route": [{
+    "distance": "93 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 41 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 43 мин"
+  }]
+}, {
+  "id": 1493,
+  "point": [37.546273, 54.974835],
+  "route": [{
+    "distance": "91 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 37 мин"
+  }]
+}, {
+  "id": 1494,
+  "point": [37.555148, 54.958715],
+  "route": [{
+    "distance": "98 км",
+    "duration": "1 ч 26 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 26 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "1 ч 52 мин"
+  }]
+}, {
+  "id": 1495,
+  "point": [38.225633, 55.36271],
+  "route": [{
+    "distance": "64 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "91 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 31 мин"
+  }]
+}, {
+  "id": 1496,
+  "point": [37.380031, 55.815792],
+  "route": [{
+    "distance": "34 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "45 мин"
+  }]
+}, {
+  "id": 1497,
+  "point": [37.380031, 55.815792],
+  "route": [{
+    "distance": "34 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "45 мин"
+  }]
+}, {
+  "id": 1498,
+  "point": [37.380031, 55.815792],
+  "route": [{
+    "distance": "34 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "45 мин"
+  }]
+}, {
+  "id": 1499,
+  "point": [37.380031, 55.815792],
+  "route": [{
+    "distance": "34 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "45 мин"
+  }]
+}, {
+  "id": 1500,
+  "point": [37.380031, 55.815792],
+  "route": [{
+    "distance": "34 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "45 мин"
+  }]
+}, {
+  "id": 1501,
+  "point": [37.380031, 55.815792],
+  "route": [{
+    "distance": "34 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "45 мин"
+  }]
+}, {
+  "id": 1502,
+  "point": [36.64617, 55.654782],
+  "route": [{
+    "distance": "80 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "84 км",
+    "duration": "1 ч 29 мин"
+  }]
+}, {
+  "id": 1503,
+  "point": [37.149263, 55.830852],
+  "route": [{
+    "distance": "52 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "52 мин"
+  }]
+}, {
+  "id": 1504,
+  "point": [38.115553, 55.367111],
+  "route": [{
+    "distance": "68 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 20 мин"
+  }]
+}, {
+  "id": 1505,
+  "point": [38.257748, 55.471883],
+  "route": [{
+    "distance": "72 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 34 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 40 мин"
+  }]
+}, {
+  "id": 1506,
+  "point": [38.119686, 55.388139],
+  "route": [{
+    "distance": "69 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 21 мин"
+  }]
+}, {
+  "id": 1507,
+  "point": [37.97962, 55.550662],
+  "route": [{
+    "distance": "39 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "42 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "44 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "50 км",
+    "duration": "1 ч 1 мин"
+  }]
+}, {
+  "id": 1508,
+  "point": [38.257748, 55.471883],
+  "route": [{
+    "distance": "72 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 34 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 40 мин"
+  }]
+}, {
+  "id": 1509,
+  "point": [38.146968, 55.478495],
+  "route": [{
+    "distance": "49 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "59 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "52 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "60 км",
+    "duration": "1 ч 7 мин"
+  }]
+}, {
+  "id": 1510,
+  "point": [38.392729, 55.365458],
+  "route": [{
+    "distance": "76 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 37 мин"
+  }]
+}, {
+  "id": 1511,
+  "point": [38.309554, 55.787184],
+  "route": [{
+    "distance": "51 км",
+    "duration": "59 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "59 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "64 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 32 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 32 мин"
+  }]
+}, {
+  "id": 1512,
+  "point": [37.854629, 55.922212],
+  "route": [{
+    "distance": "31 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "47 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "37 км",
+    "duration": "52 мин"
+  }]
+}, {
+  "id": 1513,
+  "point": [36.586118, 55.907975],
+  "route": [{
+    "distance": "83 км",
+    "duration": "1 ч 4 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч"
+  }]
+}, {
+  "id": 1514,
+  "point": [37.540874, 56.256198],
+  "route": [{
+    "distance": "83 км",
+    "duration": "1 ч 38 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "64 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 26 мин"
+  }]
+}, {
+  "id": 1515,
+  "point": [36.85342, 55.773135],
+  "route": [{
+    "distance": "73 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "64 км",
+    "duration": "1 ч 14 мин"
+  }]
+}, {
+  "id": 1516,
+  "point": [38.373657, 55.459517],
+  "route": [{
+    "distance": "76 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 37 мин"
+  }]
+}, {
+  "id": 1517,
+  "point": [38.264027, 55.425399],
+  "route": [{
+    "distance": "57 км",
+    "duration": "1 ч 1 мин"
+  }, {
+    "distance": "62 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "84 км",
+    "duration": "1 ч 28 мин"
+  }]
+}, {
+  "id": 1518,
+  "point": [36.930298, 56.564365],
+  "route": [{
+    "distance": "130 км",
+    "duration": "2 ч 14 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 9 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 15 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 8 мин"
+  }]
+}, {
+  "id": 1519,
+  "point": [36.930298, 56.564365],
+  "route": [{
+    "distance": "130 км",
+    "duration": "2 ч 15 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 9 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 15 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 8 мин"
+  }]
+}, {
+  "id": 1520,
+  "point": [38.146303, 55.370273],
+  "route": [{
+    "distance": "65 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "83 км",
+    "duration": "1 ч 22 мин"
+  }]
+}, {
+  "id": 1521,
+  "point": [38.373657, 55.459517],
+  "route": [{
+    "distance": "76 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 37 мин"
+  }]
+}, {
+  "id": 1522,
+  "point": [37.974823, 55.694322],
+  "route": [{
+    "distance": "31 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "46 мин"
+  }]
+}, {
+  "id": 1523,
+  "point": [37.974823, 55.694322],
+  "route": [{
+    "distance": "31 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "46 мин"
+  }]
+}, {
+  "id": 1524,
+  "point": [37.330192, 55.831099],
+  "route": [{
+    "distance": "28 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "33 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "36 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "38 мин"
+  }]
+}, {
+  "id": 1525,
+  "point": [38.392729, 55.365458],
+  "route": [{
+    "distance": "76 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 37 мин"
+  }]
+}, {
+  "id": 1526,
+  "point": [37.807279, 55.395343],
+  "route": [{
+    "distance": "48 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "50 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "52 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "51 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "54 мин"
+  }]
+}, {
+  "id": 1527,
+  "point": [38.394391, 55.64063],
+  "route": [{
+    "distance": "57 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 27 мин"
+  }]
+}, {
+  "id": 1528,
+  "point": [38.432416, 55.512541],
+  "route": [{
+    "distance": "80 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 28 мин"
+  }]
+}, {
+  "id": 1529,
+  "point": [37.339589, 56.457826],
+  "route": [{
+    "distance": "100 км",
+    "duration": "1 ч 54 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 46 мин"
+  }]
+}, {
+  "id": 1530,
+  "point": [38.118814, 56.35345],
+  "route": [{
+    "distance": "82 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "97 км",
+    "duration": "2 ч"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 26 мин"
+  }]
+}, {
+  "id": 1531,
+  "point": [38.257748, 55.471883],
+  "route": [{
+    "distance": "72 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 34 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 40 мин"
+  }]
+}, {
+  "id": 1532,
+  "point": [38.488992, 55.437633],
+  "route": [{
+    "distance": "82 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "83 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 45 мин"
+  }]
+}, {
+  "id": 1533,
+  "point": [37.772029, 55.34084],
+  "route": [{
+    "distance": "59 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "58 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "59 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "60 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 1 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 5 мин"
+  }]
+}, {
+  "id": 1534,
+  "point": [37.784515, 55.288178],
+  "route": [{
+    "distance": "63 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "64 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 4 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 5 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 6 мин"
+  }]
+}, {
+  "id": 1535,
+  "point": [37.077541, 55.118122],
+  "route": [{
+    "distance": "100 км",
+    "duration": "1 ч 45 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 3 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 11 мин"
+  }]
+}, {
+  "id": 1536,
+  "point": [36.240042, 55.375015],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 43 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 47 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 52 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 56 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 57 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 59 мин"
+  }]
+}, {
+  "id": 1537,
+  "point": [36.16514, 55.517679],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 54 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 55 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 1 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 2 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 49 мин"
+  }]
+}, {
+  "id": 1538,
+  "point": [36.16514, 55.517679],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 54 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 55 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 1 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 2 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 49 мин"
+  }]
+}, {
+  "id": 1539,
+  "point": [36.16514, 55.517679],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 54 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 55 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 1 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 2 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 49 мин"
+  }]
+}, {
+  "id": 1540,
+  "point": [36.527341, 55.37614],
+  "route": [{
+    "distance": "90 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 38 мин"
+  }, {
+    "distance": "97 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "98 км",
+    "duration": "1 ч 52 мин"
+  }]
+}, {
+  "id": 1541,
+  "point": [36.405395, 56.118575],
+  "route": [{
+    "distance": "120 км",
+    "duration": "1 ч 38 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 48 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 50 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 57 мин"
+  }]
+}, {
+  "id": 1542,
+  "point": [36.545936, 55.381869],
+  "route": [{
+    "distance": "88 км",
+    "duration": "1 ч 32 мин"
+  }, {
+    "distance": "94 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 49 мин"
+  }]
+}, {
+  "id": 1543,
+  "point": [36.614873, 55.396412],
+  "route": [{
+    "distance": "83 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "89 км",
+    "duration": "1 ч 33 мин"
+  }, {
+    "distance": "91 км",
+    "duration": "1 ч 33 мин"
+  }]
+}, {
+  "id": 1544,
+  "point": [38.264027, 55.425399],
+  "route": [{
+    "distance": "57 км",
+    "duration": "1 ч 1 мин"
+  }, {
+    "distance": "62 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "84 км",
+    "duration": "1 ч 28 мин"
+  }]
+}, {
+  "id": 1545,
+  "point": [36.903232, 56.039273],
+  "route": [{
+    "distance": "61 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "84 км",
+    "duration": "1 ч 23 мин"
+  }]
+}, {
+  "id": 1546,
+  "point": [37.850083, 56.427602],
+  "route": [{
+    "distance": "96 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 47 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 50 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 58 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 8 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 34 мин"
+  }]
+}, {
+  "id": 1547,
+  "point": [35.820412, 55.609019],
+  "route": [{
+    "distance": "130 км",
+    "duration": "2 ч 8 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 16 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 18 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 20 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 21 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 8 мин"
+  }]
+}, {
+  "id": 1548,
+  "point": [36.664415, 56.389847],
+  "route": [{
+    "distance": "130 км",
+    "duration": "1 ч 49 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 49 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 47 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 50 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 11 мин"
+  }]
+}, {
+  "id": 1549,
+  "point": [36.69679, 56.065324],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "95 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "89 км",
+    "duration": "1 ч 32 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 33 мин"
+  }, {
+    "distance": "89 км",
+    "duration": "1 ч 39 мин"
+  }]
+}, {
+  "id": 1550,
+  "point": [36.738221, 56.088614],
+  "route": [{
+    "distance": "120 км",
+    "duration": "1 ч 32 мин"
+  }, {
+    "distance": "99 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "93 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "83 км",
+    "duration": "1 ч 38 мин"
+  }, {
+    "distance": "93 км",
+    "duration": "1 ч 44 мин"
+  }]
+}, {
+  "id": 1551,
+  "point": [37.146442, 55.693957],
+  "route": [{
+    "distance": "41 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "47 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "47 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "51 мин"
+  }]
+}, {
+  "id": 1552,
+  "point": [37.733985, 56.176359],
+  "route": [{
+    "distance": "65 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 19 мин"
+  }]
+}, {
+  "id": 1553,
+  "point": [35.442284, 55.97263],
+  "route": [{
+    "distance": "160 км",
+    "duration": "2 ч 9 мин"
+  }, {
+    "distance": "170 км",
+    "duration": "2 ч 16 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 36 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 5 мин"
+  }]
+}, {
+  "id": 1554,
+  "point": [36.547876, 55.360597],
+  "route": [{
+    "distance": "90 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "98 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "99 км",
+    "duration": "1 ч 54 мин"
+  }]
+}, {
+  "id": 1555,
+  "point": [36.547876, 55.360597],
+  "route": [{
+    "distance": "90 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "98 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "99 км",
+    "duration": "1 ч 54 мин"
+  }]
+}, {
+  "id": 1556,
+  "point": [36.527341, 55.37614],
+  "route": [{
+    "distance": "90 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 38 мин"
+  }, {
+    "distance": "97 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "98 км",
+    "duration": "1 ч 52 мин"
+  }]
+}, {
+  "id": 1557,
+  "point": [36.527341, 55.37614],
+  "route": [{
+    "distance": "90 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 38 мин"
+  }, {
+    "distance": "97 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "98 км",
+    "duration": "1 ч 52 мин"
+  }]
+}, {
+  "id": 1558,
+  "point": [36.614873, 55.396412],
+  "route": [{
+    "distance": "83 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "89 км",
+    "duration": "1 ч 33 мин"
+  }, {
+    "distance": "91 км",
+    "duration": "1 ч 33 мин"
+  }]
+}, {
+  "id": 1559,
+  "point": [36.611477, 55.425931],
+  "route": [{
+    "distance": "91 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 38 мин"
+  }, {
+    "distance": "91 км",
+    "duration": "1 ч 41 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 42 мин"
+  }]
+}, {
+  "id": 1560,
+  "point": [36.547876, 55.360597],
+  "route": [{
+    "distance": "90 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "98 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "99 км",
+    "duration": "1 ч 54 мин"
+  }]
+}, {
+  "id": 1561,
+  "point": [36.376155, 55.550932],
+  "route": [{
+    "distance": "93 км",
+    "duration": "1 ч 26 мин"
+  }, {
+    "distance": "89 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "95 км",
+    "duration": "1 ч 38 мин"
+  }, {
+    "distance": "90 км",
+    "duration": "1 ч 38 мин"
+  }]
+}, {
+  "id": 1562,
+  "point": [36.547876, 55.360597],
+  "route": [{
+    "distance": "90 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "98 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "99 км",
+    "duration": "1 ч 54 мин"
+  }]
+}, {
+  "id": 1563,
+  "point": [37.88907, 55.248175],
+  "route": [{
+    "distance": "69 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 16 мин"
+  }]
+}, {
+  "id": 1564,
+  "point": [37.894406, 55.179982],
+  "route": [{
+    "distance": "74 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 11 мин"
+  }]
+}, {
+  "id": 1565,
+  "point": [35.931372, 55.549465],
+  "route": [{
+    "distance": "120 км",
+    "duration": "2 ч 4 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 10 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 12 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 13 мин"
+  }]
+}, {
+  "id": 1566,
+  "point": [36.981385, 55.804698],
+  "route": [{
+    "distance": "56 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "54 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "59 км",
+    "duration": "1 ч 4 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "1 ч 5 мин"
+  }]
+}, {
+  "id": 1567,
+  "point": [37.591261, 56.077749],
+  "route": [{
+    "distance": "52 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "54 км",
+    "duration": "1 ч 1 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "1 ч 4 мин"
+  }, {
+    "distance": "58 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "50 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "58 км",
+    "duration": "1 ч 13 мин"
+  }]
+}, {
+  "id": 1568,
+  "point": [36.555809, 56.091838],
+  "route": [{
+    "distance": "120 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 26 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 55 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 47 мин"
+  }]
+}, {
+  "id": 1569,
+  "point": [38.534456, 55.611612],
+  "route": [{
+    "distance": "69 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 41 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 42 мин"
+  }, {
+    "distance": "93 км",
+    "duration": "1 ч 43 мин"
+  }]
+}, {
+  "id": 1570,
+  "point": [38.37222, 55.34881],
+  "route": [{
+    "distance": "70 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 12 мин"
+  }]
+}, {
+  "id": 1571,
+  "point": [38.579973, 55.590719],
+  "route": [{
+    "distance": "71 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 33 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 26 мин"
+  }]
+}, {
+  "id": 1572,
+  "point": [36.350032, 56.243014],
+  "route": [{
+    "distance": "130 км",
+    "duration": "1 ч 50 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 1 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 58 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 20 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 19 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 28 мин"
+  }]
+}, {
+  "id": 1573,
+  "point": [36.036636, 55.438047],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 48 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "1 ч 56 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 58 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 1 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 2 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 48 мин"
+  }]
+}, {
+  "id": 1574,
+  "point": [38.615053, 55.569082],
+  "route": [{
+    "distance": "72 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 32 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 41 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 28 мин"
+  }]
+}, {
+  "id": 1575,
+  "point": [38.520451, 55.597871],
+  "route": [{
+    "distance": "66 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 37 мин"
+  }]
+}, {
+  "id": 1576,
+  "point": [38.501389, 55.590933],
+  "route": [{
+    "distance": "65 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "83 км",
+    "duration": "1 ч 33 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 34 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 35 мин"
+  }]
+}, {
+  "id": 1577,
+  "point": [38.534456, 55.611612],
+  "route": [{
+    "distance": "69 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 41 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 42 мин"
+  }, {
+    "distance": "93 км",
+    "duration": "1 ч 43 мин"
+  }]
+}, {
+  "id": 1578,
+  "point": [38.347256, 55.358683],
+  "route": [{
+    "distance": "71 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 13 мин"
+  }]
+}, {
+  "id": 1579,
+  "point": [38.234122, 55.458746],
+  "route": [{
+    "distance": "71 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 23 мин"
+  }]
+}, {
+  "id": 1580,
+  "point": [36.65925, 56.117557],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 41 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "1 ч 44 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 53 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 3 мин"
+  }]
+}, {
+  "id": 1581,
+  "point": [37.989035, 56.155909],
+  "route": [{
+    "distance": "55 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "57 мин"
+  }]
+}, {
+  "id": 1582,
+  "point": [36.716562, 55.913777],
+  "route": [{
+    "distance": "91 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "86 км",
+    "duration": "1 ч 6 мин"
+  }]
+}, {
+  "id": 1583,
+  "point": [37.058102, 55.731688],
+  "route": [{
+    "distance": "46 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "50 км",
+    "duration": "56 мин"
+  }]
+}, {
+  "id": 1584,
+  "point": [36.831385, 55.976901],
+  "route": [{
+    "distance": "86 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 12 мин"
+  }]
+}, {
+  "id": 1585,
+  "point": [37.445752, 55.529619],
+  "route": [{
+    "distance": "29 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "31 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "35 км",
+    "duration": "47 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "44 мин"
+  }]
+}, {
+  "id": 1586,
+  "point": [37.928857, 55.881399],
+  "route": [{
+    "distance": "38 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "58 мин"
+  }]
+}, {
+  "id": 1587,
+  "point": [38.740413, 55.202229],
+  "route": [{
+    "distance": "100 км",
+    "duration": "1 ч 41 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 2 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 3 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 13 мин"
+  }]
+}, {
+  "id": 1588,
+  "point": [37.625073, 56.301843],
+  "route": [{
+    "distance": "89 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 49 мин"
+  }]
+}, {
+  "id": 1589,
+  "point": [35.588036, 56.043658],
+  "route": [{
+    "distance": "150 км",
+    "duration": "1 ч 53 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 10 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 27 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "1 ч 49 мин"
+  }]
+}, {
+  "id": 1590,
+  "point": [38.740413, 55.202229],
+  "route": [{
+    "distance": "100 км",
+    "duration": "1 ч 41 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "2 ч 2 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 3 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 13 мин"
+  }]
+}, {
+  "id": 1591,
+  "point": [35.48119, 55.947101],
+  "route": [{
+    "distance": "170 км",
+    "duration": "2 ч 11 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 8 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 39 мин"
+  }, {
+    "distance": "170 км",
+    "duration": "2 ч 45 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 7 мин"
+  }]
+}, {
+  "id": 1592,
+  "point": [38.162607, 55.438052],
+  "route": [{
+    "distance": "62 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 19 мин"
+  }]
+}, {
+  "id": 1593,
+  "point": [37.913567, 56.088534],
+  "route": [{
+    "distance": "46 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 4 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 4 мин"
+  }, {
+    "distance": "58 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 17 мин"
+  }]
+}, {
+  "id": 1594,
+  "point": [35.871831, 55.838642],
+  "route": [{
+    "distance": "150 км",
+    "duration": "1 ч 58 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "1 ч 51 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 10 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 13 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 16 мин"
+  }]
+}, {
+  "id": 1595,
+  "point": [37.928857, 55.881399],
+  "route": [{
+    "distance": "38 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "58 мин"
+  }]
+}, {
+  "id": 1596,
+  "point": [37.928857, 55.881399],
+  "route": [{
+    "distance": "38 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "58 мин"
+  }]
+}, {
+  "id": 1597,
+  "point": [37.971257, 55.520181],
+  "route": [{
+    "distance": "46 км",
+    "duration": "1 ч 2 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "49 км",
+    "duration": "1 ч 1 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "1 ч 2 мин"
+  }, {
+    "distance": "50 км",
+    "duration": "1 ч 3 мин"
+  }]
+}, {
+  "id": 1598,
+  "point": [37.49462, 54.91764],
+  "route": [{
+    "distance": "100 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 42 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 48 мин"
+  }]
+}, {
+  "id": 1599,
+  "point": [37.139687, 55.397552],
+  "route": [{
+    "distance": "57 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 18 мин"
+  }]
+}, {
+  "id": 1600,
+  "point": [36.586118, 55.907975],
+  "route": [{
+    "distance": "85 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч"
+  }]
+}, {
+  "id": 1601,
+  "point": [35.584137, 56.028671],
+  "route": [{
+    "distance": "150 км",
+    "duration": "1 ч 57 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 10 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 28 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "1 ч 50 мин"
+  }]
+}, {
+  "id": 1602,
+  "point": [38.263048, 55.957807],
+  "route": [{
+    "distance": "53 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "62 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 11 мин"
+  }]
+}, {
+  "id": 1603,
+  "point": [37.120669, 55.859984],
+  "route": [{
+    "distance": "41 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "58 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "58 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "1 ч"
+  }]
+}, {
+  "id": 1604,
+  "point": [36.842299, 56.306832],
+  "route": [{
+    "distance": "91 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "91 км",
+    "duration": "1 ч 42 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 22 мин"
+  }]
+}, {
+  "id": 1605,
+  "point": [37.753002, 56.23472],
+  "route": [{
+    "distance": "83 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "83 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 42 мин"
+  }, {
+    "distance": "80 км",
+    "duration": "1 ч 28 мин"
+  }]
+}, {
+  "id": 1606,
+  "point": [37.963963, 55.896524],
+  "route": [{
+    "distance": "38 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "42 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "59 мин"
+  }]
+}, {
+  "id": 1607,
+  "point": [37.821741, 55.53342],
+  "route": [{
+    "distance": "30 км",
+    "duration": "40 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "35 км",
+    "duration": "47 мин"
+  }]
+}, {
+  "id": 1608,
+  "point": [36.116317, 55.585408],
+  "route": [{
+    "distance": "120 км",
+    "duration": "1 ч 57 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 1 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 4 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 6 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 7 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 54 мин"
+  }]
+}, {
+  "id": 1609,
+  "point": [37.482178, 54.847074],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 43 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "1 ч 49 мин"
+  }]
+}, {
+  "id": 1610,
+  "point": [35.916199, 55.842903],
+  "route": [{
+    "distance": "150 км",
+    "duration": "1 ч 58 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "1 ч 51 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 5 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 8 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 11 мин"
+  }]
+}, {
+  "id": 1611,
+  "point": [38.296914, 55.455969],
+  "route": [{
+    "distance": "66 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 32 мин"
+  }]
+}, {
+  "id": 1612,
+  "point": [36.638508, 55.872415],
+  "route": [{
+    "distance": "87 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "88 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 33 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 12 мин"
+  }]
+}, {
+  "id": 1613,
+  "point": [36.451775, 56.197273],
+  "route": [{
+    "distance": "130 км",
+    "duration": "1 ч 48 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 48 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 8 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 14 мин"
+  }]
+}, {
+  "id": 1614,
+  "point": [36.816455, 56.050159],
+  "route": [{
+    "distance": "97 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "88 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 33 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "91 км",
+    "duration": "1 ч 24 мин"
+  }]
+}, {
+  "id": 1615,
+  "point": [35.840274, 55.907935],
+  "route": [{
+    "distance": "150 км",
+    "duration": "1 ч 53 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "1 ч 45 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 21 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 16 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 18 мин"
+  }]
+}, {
+  "id": 1616,
+  "point": [36.799701, 55.983892],
+  "route": [{
+    "distance": "89 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "80 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 12 мин"
+  }]
+}, {
+  "id": 1617,
+  "point": [37.793157, 55.243834],
+  "route": [{
+    "distance": "68 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "80 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 16 мин"
+  }]
+}, {
+  "id": 1618,
+  "point": [37.380031, 55.815792],
+  "route": [{
+    "distance": "35 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "27 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "40 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "44 мин"
+  }]
+}, {
+  "id": 1619,
+  "point": [38.208511, 55.478113],
+  "route": [{
+    "distance": "52 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "55 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "84 км",
+    "duration": "1 ч 37 мин"
+  }]
+}, {
+  "id": 1620,
+  "point": [37.465892, 55.57833],
+  "route": [{
+    "distance": "23 км",
+    "duration": "32 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "35 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "36 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "27 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "27 км",
+    "duration": "38 мин"
+  }]
+}, {
+  "id": 1621,
+  "point": [38.26215, 55.980845],
+  "route": [{
+    "distance": "55 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "55 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "64 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 16 мин"
+  }]
+}, {
+  "id": 1622,
+  "point": [37.63235, 55.351298],
+  "route": [{
+    "distance": "54 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 1 мин"
+  }, {
+    "distance": "59 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "62 км",
+    "duration": "1 ч 5 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 8 мин"
+  }]
+}, {
+  "id": 1623,
+  "point": [38.253238, 56.166281],
+  "route": [{
+    "distance": "75 км",
+    "duration": "1 ч 33 мин"
+  }, {
+    "distance": "80 км",
+    "duration": "2 ч"
+  }]
+}, {
+  "id": 1624,
+  "point": [37.36661, 55.499571],
+  "route": [{
+    "distance": "36 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "59 мин"
+  }]
+}, {
+  "id": 1625,
+  "point": [37.330192, 55.831099],
+  "route": [{
+    "distance": "28 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "33 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "36 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "38 мин"
+  }]
+}, {
+  "id": 1626,
+  "point": [36.900798, 55.641737],
+  "route": [{
+    "distance": "58 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "54 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 22 мин"
+  }]
+}, {
+  "id": 1627,
+  "point": [36.610768, 56.364241],
+  "route": [{
+    "distance": "160 км",
+    "duration": "2 ч 1 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 3 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 8 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 9 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 24 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "1 ч 55 мин"
+  }]
+}, {
+  "id": 1628,
+  "point": [36.900798, 55.641737],
+  "route": [{
+    "distance": "58 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "54 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 22 мин"
+  }]
+}, {
+  "id": 1629,
+  "point": [37.279276, 55.717645],
+  "route": [{
+    "distance": "33 км",
+    "duration": "36 мин"
+  }, {
+    "distance": "36 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "40 мин"
+  }, {
+    "distance": "35 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "35 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "44 мин"
+  }]
+}, {
+  "id": 1630,
+  "point": [37.334513, 55.733852],
+  "route": [{
+    "distance": "23 км",
+    "duration": "29 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "35 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "36 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "41 мин"
+  }]
+}, {
+  "id": 1631,
+  "point": [36.631941, 56.309888],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 38 мин"
+  }, {
+    "distance": "97 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 52 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 23 мин"
+  }]
+}, {
+  "id": 1632,
+  "point": [36.610768, 56.364241],
+  "route": [{
+    "distance": "160 км",
+    "duration": "2 ч 2 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 3 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 8 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 9 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 24 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "1 ч 55 мин"
+  }]
+}, {
+  "id": 1633,
+  "point": [37.450243, 56.389632],
+  "route": [{
+    "distance": "100 км",
+    "duration": "1 ч 57 мин"
+  }, {
+    "distance": "88 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "86 км",
+    "duration": "1 ч 43 мин"
+  }]
+}, {
+  "id": 1634,
+  "point": [36.482883, 55.97802],
+  "route": [{
+    "distance": "99 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "94 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 44 мин"
+  }, {
+    "distance": "93 км",
+    "duration": "1 ч 15 мин"
+  }]
+}, {
+  "id": 1635,
+  "point": [37.380884, 54.990302],
+  "route": [{
+    "distance": "99 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "93 км",
+    "duration": "1 ч 42 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 50 мин"
+  }]
+}, {
+  "id": 1636,
+  "point": [38.075372, 56.524884],
+  "route": [{
+    "distance": "100 км",
+    "duration": "1 ч 47 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 1 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 7 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 13 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 18 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 20 мин"
+  }]
+}, {
+  "id": 1637,
+  "point": [37.519, 54.947579],
+  "route": [{
+    "distance": "100 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 48 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 54 мин"
+  }]
+}, {
+  "id": 1638,
+  "point": [38.17292, 56.181479],
+  "route": [{
+    "distance": "73 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 24 мин"
+  }]
+}, {
+  "id": 1639,
+  "point": [38.105232, 56.230482],
+  "route": [{
+    "distance": "68 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "97 км",
+    "duration": "1 ч 39 мин"
+  }, {
+    "distance": "84 км",
+    "duration": "1 ч 45 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "90 км",
+    "duration": "1 ч 25 мин"
+  }]
+}, {
+  "id": 1640,
+  "point": [37.848062, 55.334071],
+  "route": [{
+    "distance": "56 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 4 мин"
+  }, {
+    "distance": "60 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "64 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "58 км",
+    "duration": "1 ч"
+  }]
+}, {
+  "id": 1641,
+  "point": [36.951319, 55.768274],
+  "route": [{
+    "distance": "58 км",
+    "duration": "1 ч 2 мин"
+  }, {
+    "distance": "58 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "1 ч 4 мин"
+  }, {
+    "distance": "59 км",
+    "duration": "1 ч 8 мин"
+  }]
+}, {
+  "id": 1642,
+  "point": [38.276352, 55.883494],
+  "route": [{
+    "distance": "50 км",
+    "duration": "1 ч 1 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "55 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 22 мин"
+  }]
+}, {
+  "id": 1643,
+  "point": [36.85678, 56.063992],
+  "route": [{
+    "distance": "68 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "83 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "93 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 32 мин"
+  }]
+}, {
+  "id": 1644,
+  "point": [37.97962, 55.550662],
+  "route": [{
+    "distance": "38 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "42 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "44 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "50 км",
+    "duration": "1 ч 1 мин"
+  }]
+}, {
+  "id": 1645,
+  "point": [38.757481, 55.403727],
+  "route": [{
+    "distance": "100 км",
+    "duration": "1 ч 50 мин"
+  }, {
+    "distance": "95 км",
+    "duration": "1 ч 45 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 56 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 58 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "2 ч 5 мин"
+  }]
+}, {
+  "id": 1646,
+  "point": [36.900609, 55.965551],
+  "route": [{
+    "distance": "84 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 12 мин"
+  }]
+}, {
+  "id": 1647,
+  "point": [37.833842, 55.978161],
+  "route": [{
+    "distance": "33 км",
+    "duration": "40 мин"
+  }, {
+    "distance": "55 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "44 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "44 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "52 мин"
+  }]
+}, {
+  "id": 1648,
+  "point": [38.134176, 56.002017],
+  "route": [{
+    "distance": "74 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "52 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "52 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "64 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 21 мин"
+  }]
+}, {
+  "id": 1649,
+  "point": [37.43039, 55.88874],
+  "route": [{
+    "distance": "24 км",
+    "duration": "29 мин"
+  }, {
+    "distance": "22 км",
+    "duration": "24 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "29 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "31 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "31 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "34 мин"
+  }]
+}, {
+  "id": 1650,
+  "point": [37.101832, 55.713791],
+  "route": [{
+    "distance": "43 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "52 мин"
+  }]
+}, {
+  "id": 1651,
+  "point": [35.90144, 55.375455],
+  "route": [{
+    "distance": "130 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 11 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 16 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 17 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 3 мин"
+  }]
+}, {
+  "id": 1652,
+  "point": [37.119645, 55.718233],
+  "route": [{
+    "distance": "43 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "42 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "47 мин"
+  }, {
+    "distance": "42 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "51 мин"
+  }]
+}, {
+  "id": 1653,
+  "point": [37.010033, 56.504655],
+  "route": [{
+    "distance": "130 км",
+    "duration": "2 ч 8 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 1 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 7 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 14 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 19 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 4 мин"
+  }]
+}, {
+  "id": 1654,
+  "point": [37.547827, 56.122751],
+  "route": [{
+    "distance": "55 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "54 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "54 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 11 мин"
+  }]
+}, {
+  "id": 1655,
+  "point": [37.057958, 56.121496],
+  "route": [{
+    "distance": "67 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "59 км",
+    "duration": "1 ч 1 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 18 мин"
+  }]
+}, {
+  "id": 1656,
+  "point": [36.32089, 55.494701],
+  "route": [{
+    "distance": "99 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 33 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 43 мин"
+  }, {
+    "distance": "95 км",
+    "duration": "1 ч 44 мин"
+  }, {
+    "distance": "94 км",
+    "duration": "1 ч 31 мин"
+  }]
+}, {
+  "id": 1657,
+  "point": [38.097623, 55.058214],
+  "route": [{
+    "distance": "96 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 44 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 46 мин"
+  }, {
+    "distance": "99 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 37 мин"
+  }]
+}, {
+  "id": 1658,
+  "point": [37.102245, 55.77155],
+  "route": [{
+    "distance": "49 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "52 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "56 мин"
+  }]
+}, {
+  "id": 1659,
+  "point": [37.304527, 55.746309],
+  "route": [{
+    "distance": "27 км",
+    "duration": "32 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "33 мин"
+  }, {
+    "distance": "31 км",
+    "duration": "34 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "40 мин"
+  }]
+}, {
+  "id": 1660,
+  "point": [37.94199, 55.880667],
+  "route": [{
+    "distance": "39 км",
+    "duration": "58 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "44 км",
+    "duration": "1 ч"
+  }]
+}, {
+  "id": 1661,
+  "point": [37.212612, 55.636239],
+  "route": [{
+    "distance": "38 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "35 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "44 км",
+    "duration": "53 мин"
+  }]
+}, {
+  "id": 1662,
+  "point": [36.948372, 55.974363],
+  "route": [{
+    "distance": "80 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 9 мин"
+  }]
+}, {
+  "id": 1663,
+  "point": [37.158982, 55.536573],
+  "route": [{
+    "distance": "42 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "55 мин"
+  }]
+}, {
+  "id": 1664,
+  "point": [35.576861, 55.675062],
+  "route": [{
+    "distance": "170 км",
+    "duration": "2 ч 25 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 35 мин"
+  }, {
+    "distance": "170 км",
+    "duration": "2 ч 50 мин"
+  }, {
+    "distance": "170 км",
+    "duration": "2 ч 48 мин"
+  }, {
+    "distance": "170 км",
+    "duration": "2 ч 32 мин"
+  }]
+}, {
+  "id": 1665,
+  "point": [37.380848, 55.391631],
+  "route": [{
+    "distance": "62 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 22 мин"
+  }]
+}, {
+  "id": 1666,
+  "point": [37.592878, 55.083637],
+  "route": [{
+    "distance": "82 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "92 км",
+    "duration": "1 ч 35 мин"
+  }]
+}, {
+  "id": 1667,
+  "point": [38.438767, 55.89032],
+  "route": [{
+    "distance": "59 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "94 км",
+    "duration": "1 ч 40 мин"
+  }, {
+    "distance": "83 км",
+    "duration": "1 ч 42 мин"
+  }]
+}, {
+  "id": 1668,
+  "point": [37.200098, 55.521415],
+  "route": [{
+    "distance": "48 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "58 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "59 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "49 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "55 км",
+    "duration": "1 ч 6 мин"
+  }]
+}, {
+  "id": 1669,
+  "point": [37.928857, 55.881399],
+  "route": [{
+    "distance": "38 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "58 мин"
+  }]
+}, {
+  "id": 1670,
+  "point": [36.345917, 55.838046],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 34 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 26 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 47 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 51 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 57 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 27 мин"
+  }]
+}, {
+  "id": 1671,
+  "point": [37.441179, 56.132579],
+  "route": [{
+    "distance": "58 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "60 км",
+    "duration": "1 ч 4 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "64 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 10 мин"
+  }]
+}, {
+  "id": 1672,
+  "point": [37.831892, 55.001644],
+  "route": [{
+    "distance": "97 км",
+    "duration": "1 ч 32 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 37 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 34 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 58 мин"
+  }]
+}, {
+  "id": 1673,
+  "point": [36.011394, 55.539243],
+  "route": [{
+    "distance": "120 км",
+    "duration": "1 ч 57 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 1 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 4 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 5 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 51 мин"
+  }]
+}, {
+  "id": 1674,
+  "point": [38.146968, 55.478495],
+  "route": [{
+    "distance": "49 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "52 км",
+    "duration": "59 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "60 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "64 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 17 мин"
+  }]
+}, {
+  "id": 1675,
+  "point": [36.814173, 55.994023],
+  "route": [{
+    "distance": "90 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "84 км",
+    "duration": "1 ч 15 мин"
+  }]
+}, {
+  "id": 1676,
+  "point": [37.267355, 56.278013],
+  "route": [{
+    "distance": "87 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "87 км",
+    "duration": "1 ч 41 мин"
+  }, {
+    "distance": "83 км",
+    "duration": "1 ч 26 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "80 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 41 мин"
+  }]
+}, {
+  "id": 1677,
+  "point": [37.319844, 56.191418],
+  "route": [{
+    "distance": "74 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "60 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 20 мин"
+  }]
+}, {
+  "id": 1678,
+  "point": [37.922461, 55.762713],
+  "route": [{
+    "distance": "23 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "40 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "37 мин"
+  }]
+}, {
+  "id": 1679,
+  "point": [37.270661, 55.421496],
+  "route": [{
+    "distance": "45 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "52 км",
+    "duration": "1 ч 2 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "52 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "1 ч 4 мин"
+  }, {
+    "distance": "55 км",
+    "duration": "1 ч 5 мин"
+  }]
+}, {
+  "id": 1680,
+  "point": [36.024743, 55.888382],
+  "route": [{
+    "distance": "130 км",
+    "duration": "1 ч 42 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "1 ч 56 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 7 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 8 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 14 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "1 ч 36 мин"
+  }]
+}, {
+  "id": 1681,
+  "point": [37.158982, 55.536573],
+  "route": [{
+    "distance": "42 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "55 мин"
+  }]
+}, {
+  "id": 1682,
+  "point": [37.317122, 56.148518],
+  "route": [{
+    "distance": "69 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 10 мин"
+  }]
+}, {
+  "id": 1683,
+  "point": [37.531523, 55.542396],
+  "route": [{
+    "distance": "28 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "31 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "31 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "31 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "44 мин"
+  }]
+}, {
+  "id": 1684,
+  "point": [37.605113, 55.059817],
+  "route": [{
+    "distance": "85 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "95 км",
+    "duration": "1 ч 36 мин"
+  }]
+}, {
+  "id": 1685,
+  "point": [37.451546, 55.82937],
+  "route": [{
+    "distance": "18 км",
+    "duration": "25 мин"
+  }, {
+    "distance": "17 км",
+    "duration": "23 мин"
+  }, {
+    "distance": "24 км",
+    "duration": "30 мин"
+  }, {
+    "distance": "20 км",
+    "duration": "28 мин"
+  }, {
+    "distance": "22 км",
+    "duration": "28 мин"
+  }, {
+    "distance": "20 км",
+    "duration": "32 мин"
+  }]
+}, {
+  "id": 1686,
+  "point": [37.701223, 56.268047],
+  "route": [{
+    "distance": "82 км",
+    "duration": "1 ч 35 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "80 км",
+    "duration": "1 ч 22 мин"
+  }]
+}, {
+  "id": 1687,
+  "point": [37.43039, 55.88874],
+  "route": [{
+    "distance": "24 км",
+    "duration": "29 мин"
+  }, {
+    "distance": "22 км",
+    "duration": "24 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "29 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "31 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "31 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "34 мин"
+  }]
+}, {
+  "id": 1688,
+  "point": [36.944258, 55.837171],
+  "route": [{
+    "distance": "63 км",
+    "duration": "1 ч 2 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "62 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "62 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "54 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 10 мин"
+  }]
+}, {
+  "id": 1689,
+  "point": [36.29607, 56.141046],
+  "route": [{
+    "distance": "150 км",
+    "duration": "1 ч 54 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 2 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 7 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 21 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "1 ч 47 мин"
+  }]
+}, {
+  "id": 1690,
+  "point": [36.946917, 55.847609],
+  "route": [{
+    "distance": "60 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "54 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 5 мин"
+  }]
+}, {
+  "id": 1691,
+  "point": [35.926997, 55.836352],
+  "route": [{
+    "distance": "130 км",
+    "duration": "2 ч 5 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "1 ч 53 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 1 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 8 мин"
+  }]
+}, {
+  "id": 1692,
+  "point": [37.150439, 55.736361],
+  "route": [{
+    "distance": "41 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "47 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "47 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "44 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "52 мин"
+  }]
+}, {
+  "id": 1693,
+  "point": [37.380031, 55.815792],
+  "route": [{
+    "distance": "35 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "27 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "40 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "44 мин"
+  }]
+}, {
+  "id": 1694,
+  "point": [37.465892, 55.57833],
+  "route": [{
+    "distance": "23 км",
+    "duration": "32 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "35 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "36 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "27 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "27 км",
+    "duration": "38 мин"
+  }]
+}, {
+  "id": 1695,
+  "point": [38.063703, 54.817184],
+  "route": [{
+    "distance": "120 км",
+    "duration": "1 ч 41 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 17 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 43 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 45 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 38 мин"
+  }]
+}, {
+  "id": 1696,
+  "point": [37.629313, 55.903105],
+  "route": [{
+    "distance": "23 км",
+    "duration": "34 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "34 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "27 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "39 мин"
+  }]
+}, {
+  "id": 1697,
+  "point": [36.931879, 55.42564],
+  "route": [{
+    "distance": "63 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 28 мин"
+  }]
+}, {
+  "id": 1698,
+  "point": [36.946917, 55.847609],
+  "route": [{
+    "distance": "60 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "54 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 5 мин"
+  }]
+}, {
+  "id": 1699,
+  "point": [37.331378, 55.66568],
+  "route": [{
+    "distance": "26 км",
+    "duration": "32 мин"
+  }, {
+    "distance": "30 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "31 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "31 км",
+    "duration": "39 мин"
+  }]
+}, {
+  "id": 1700,
+  "point": [37.013231, 55.837748],
+  "route": [{
+    "distance": "59 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "53 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "59 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "57 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "49 км",
+    "duration": "1 ч 1 мин"
+  }]
+}, {
+  "id": 1701,
+  "point": [37.612129, 55.924683],
+  "route": [{
+    "distance": "24 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "36 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "27 км",
+    "duration": "38 мин"
+  }]
+}, {
+  "id": 1702,
+  "point": [37.574507, 55.977425],
+  "route": [{
+    "distance": "36 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "37 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "36 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "50 мин"
+  }]
+}, {
+  "id": 1703,
+  "point": [37.533517, 56.174885],
+  "route": [{
+    "distance": "78 км",
+    "duration": "1 ч 32 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 27 мин"
+  }]
+}, {
+  "id": 1704,
+  "point": [37.29576, 55.728084],
+  "route": [{
+    "distance": "30 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "40 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "43 мин"
+  }]
+}, {
+  "id": 1705,
+  "point": [37.43039, 55.88874],
+  "route": [{
+    "distance": "24 км",
+    "duration": "29 мин"
+  }, {
+    "distance": "22 км",
+    "duration": "24 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "29 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "31 мин"
+  }, {
+    "distance": "28 км",
+    "duration": "31 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "34 мин"
+  }]
+}, {
+  "id": 1706,
+  "point": [35.80249, 55.833966],
+  "route": [{
+    "distance": "150 км",
+    "duration": "2 ч 4 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "1 ч 57 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 16 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 19 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 28 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 29 мин"
+  }]
+}, {
+  "id": 1707,
+  "point": [37.102245, 55.77155],
+  "route": [{
+    "distance": "49 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "52 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "56 мин"
+  }]
+}, {
+  "id": 1708,
+  "point": [37.102245, 55.77155],
+  "route": [{
+    "distance": "49 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "45 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "52 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "56 мин"
+  }]
+}, {
+  "id": 1709,
+  "point": [36.696476, 55.701866],
+  "route": [{
+    "distance": "86 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 24 мин"
+  }]
+}, {
+  "id": 1710,
+  "point": [36.900609, 55.965551],
+  "route": [{
+    "distance": "84 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 12 мин"
+  }]
+}, {
+  "id": 1711,
+  "point": [36.801237, 56.092431],
+  "route": [{
+    "distance": "93 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 31 мин"
+  }]
+}, {
+  "id": 1712,
+  "point": [36.801237, 56.092431],
+  "route": [{
+    "distance": "93 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 31 мин"
+  }]
+}, {
+  "id": 1713,
+  "point": [36.801237, 56.092431],
+  "route": [{
+    "distance": "93 км",
+    "duration": "1 ч 27 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 31 мин"
+  }]
+}, {
+  "id": 1714,
+  "point": [36.684295, 55.672671],
+  "route": [{
+    "distance": "84 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "83 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "83 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "80 км",
+    "duration": "1 ч 30 мин"
+  }]
+}, {
+  "id": 1715,
+  "point": [36.718655, 55.934482],
+  "route": [{
+    "distance": "93 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "81 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 31 мин"
+  }, {
+    "distance": "83 км",
+    "duration": "1 ч 20 мин"
+  }]
+}, {
+  "id": 1716,
+  "point": [37.198832, 55.771039],
+  "route": [{
+    "distance": "42 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "42 км",
+    "duration": "47 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "47 мин"
+  }]
+}, {
+  "id": 1717,
+  "point": [37.565021, 54.990003],
+  "route": [{
+    "distance": "93 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 42 мин"
+  }]
+}, {
+  "id": 1718,
+  "point": [37.583329, 55.05646],
+  "route": [{
+    "distance": "87 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "97 км",
+    "duration": "1 ч 38 мин"
+  }]
+}, {
+  "id": 1719,
+  "point": [37.64348, 55.079009],
+  "route": [{
+    "distance": "86 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 45 мин"
+  }]
+}, {
+  "id": 1720,
+  "point": [37.603963, 55.046785],
+  "route": [{
+    "distance": "90 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 39 мин"
+  }]
+}, {
+  "id": 1721,
+  "point": [37.575612, 55.051953],
+  "route": [{
+    "distance": "86 км",
+    "duration": "1 ч 13 мин"
+  }, {
+    "distance": "96 км",
+    "duration": "1 ч 34 мин"
+  }]
+}, {
+  "id": 1722,
+  "point": [37.583796, 55.035694],
+  "route": [{
+    "distance": "85 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "94 км",
+    "duration": "1 ч 32 мин"
+  }]
+}, {
+  "id": 1723,
+  "point": [37.330192, 55.831099],
+  "route": [{
+    "distance": "28 км",
+    "duration": "39 мин"
+  }, {
+    "distance": "25 км",
+    "duration": "33 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "36 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "38 мин"
+  }]
+}, {
+  "id": 1724,
+  "point": [37.928857, 55.881399],
+  "route": [{
+    "distance": "38 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "58 мин"
+  }]
+}, {
+  "id": 1725,
+  "point": [38.425293, 55.625999],
+  "route": [{
+    "distance": "61 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 23 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 33 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 34 мин"
+  }]
+}, {
+  "id": 1726,
+  "point": [37.117516, 55.825148],
+  "route": [{
+    "distance": "45 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "44 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "50 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "54 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "59 мин"
+  }]
+}, {
+  "id": 1727,
+  "point": [37.733985, 56.176359],
+  "route": [{
+    "distance": "64 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "82 км",
+    "duration": "1 ч 19 мин"
+  }]
+}, {
+  "id": 1728,
+  "point": [35.460062, 55.983111],
+  "route": [{
+    "distance": "160 км",
+    "duration": "2 ч 9 мин"
+  }, {
+    "distance": "170 км",
+    "duration": "2 ч 14 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 34 мин"
+  }, {
+    "distance": "170 км",
+    "duration": "2 ч 46 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 2 мин"
+  }]
+}, {
+  "id": 1729,
+  "point": [36.145072, 55.371495],
+  "route": [{
+    "distance": "130 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 1 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 5 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 9 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 10 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "1 ч 57 мин"
+  }]
+}, {
+  "id": 1730,
+  "point": [37.889843, 55.311892],
+  "route": [{
+    "distance": "60 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 21 мин"
+  }]
+}, {
+  "id": 1731,
+  "point": [35.923646, 55.804729],
+  "route": [{
+    "distance": "140 км",
+    "duration": "2 ч 11 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "1 ч 56 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 4 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 12 мин"
+  }]
+}, {
+  "id": 1732,
+  "point": [37.483858, 56.28989],
+  "route": [{
+    "distance": "73 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 24 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 33 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 21 мин"
+  }]
+}, {
+  "id": 1733,
+  "point": [37.279159, 56.181534],
+  "route": [{
+    "distance": "71 км",
+    "duration": "1 ч 12 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 30 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 23 мин"
+  }]
+}, {
+  "id": 1734,
+  "point": [37.30919, 56.136382],
+  "route": [{
+    "distance": "66 км",
+    "duration": "1 ч 6 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 5 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 5 мин"
+  }, {
+    "distance": "61 км",
+    "duration": "1 ч 6 мин"
+  }]
+}, {
+  "id": 1735,
+  "point": [35.747442, 55.504766],
+  "route": [{
+    "distance": "130 км",
+    "duration": "2 ч 11 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 15 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 18 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 20 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 20 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 7 мин"
+  }]
+}, {
+  "id": 1736,
+  "point": [37.481046, 56.098692],
+  "route": [{
+    "distance": "50 км",
+    "duration": "1 ч 5 мин"
+  }, {
+    "distance": "52 км",
+    "duration": "58 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "1 ч"
+  }, {
+    "distance": "55 км",
+    "duration": "1 ч 1 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 3 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "1 ч 4 мин"
+  }]
+}, {
+  "id": 1737,
+  "point": [37.209459, 55.729934],
+  "route": [{
+    "distance": "41 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "37 км",
+    "duration": "46 мин"
+  }]
+}, {
+  "id": 1738,
+  "point": [37.548519, 56.206817],
+  "route": [{
+    "distance": "76 км",
+    "duration": "1 ч 29 мин"
+  }]
+}, {
+  "id": 1739,
+  "point": [37.05326, 55.853036],
+  "route": [{
+    "distance": "50 км",
+    "duration": "1 ч 9 мин"
+  }, {
+    "distance": "56 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "63 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 15 мин"
+  }, {
+    "distance": "62 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 26 мин"
+  }]
+}, {
+  "id": 1740,
+  "point": [37.79242, 55.091886],
+  "route": [{
+    "distance": "100 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "98 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "89 км",
+    "duration": "1 ч 41 мин"
+  }]
+}, {
+  "id": 1741,
+  "point": [37.655733, 55.518413],
+  "route": [{
+    "distance": "36 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "31 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "34 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "37 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "51 мин"
+  }]
+}, {
+  "id": 1742,
+  "point": [37.123122, 55.323848],
+  "route": [{
+    "distance": "61 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "79 км",
+    "duration": "1 ч 23 мин"
+  }]
+}, {
+  "id": 1743,
+  "point": [37.322368, 55.570014],
+  "route": [{
+    "distance": "38 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "35 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "36 км",
+    "duration": "48 мин"
+  }, {
+    "distance": "35 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "54 мин"
+  }]
+}, {
+  "id": 1744,
+  "point": [37.380031, 55.815792],
+  "route": [{
+    "distance": "29 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "40 мин"
+  }, {
+    "distance": "26 км",
+    "duration": "42 мин"
+  }, {
+    "distance": "32 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "29 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "45 мин"
+  }]
+}, {
+  "id": 1745,
+  "point": [36.900609, 55.965551],
+  "route": [{
+    "distance": "84 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "65 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "78 км",
+    "duration": "1 ч 12 мин"
+  }]
+}, {
+  "id": 1746,
+  "point": [36.0518, 55.420934],
+  "route": [{
+    "distance": "120 км",
+    "duration": "1 ч 50 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "1 ч 59 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 2 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 4 мин"
+  }, {
+    "distance": "120 км",
+    "duration": "2 ч 5 мин"
+  }, {
+    "distance": "130 км",
+    "duration": "2 ч 14 мин"
+  }]
+}, {
+  "id": 1747,
+  "point": [35.817564, 55.894863],
+  "route": [{
+    "distance": "150 км",
+    "duration": "2 ч 3 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "1 ч 55 мин"
+  }, {
+    "distance": "150 км",
+    "duration": "2 ч 32 мин"
+  }, {
+    "distance": "140 км",
+    "duration": "2 ч 27 мин"
+  }, {
+    "distance": "160 км",
+    "duration": "2 ч 29 мин"
+  }]
+}, {
+  "id": 1748,
+  "point": [37.079724, 55.813465],
+  "route": [{
+    "distance": "52 км",
+    "duration": "50 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "47 мин"
+  }, {
+    "distance": "44 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "52 км",
+    "duration": "57 мин"
+  }]
+}, {
+  "id": 1749,
+  "point": [37.209459, 55.729934],
+  "route": [{
+    "distance": "41 км",
+    "duration": "43 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "46 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "38 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "37 км",
+    "duration": "46 мин"
+  }]
+}, {
+  "id": 1750,
+  "point": [36.931879, 55.42564],
+  "route": [{
+    "distance": "63 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 14 мин"
+  }, {
+    "distance": "75 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 19 мин"
+  }, {
+    "distance": "73 км",
+    "duration": "1 ч 28 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 28 мин"
+  }]
+}, {
+  "id": 1751,
+  "point": [37.390739, 55.01055],
+  "route": [{
+    "distance": "96 км",
+    "duration": "1 ч 22 мин"
+  }, {
+    "distance": "91 км",
+    "duration": "1 ч 36 мин"
+  }]
+}, {
+  "id": 1752,
+  "point": [37.265478, 55.930645],
+  "route": [{
+    "distance": "39 км",
+    "duration": "57 мин"
+  }, {
+    "distance": "36 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "52 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "56 мин"
+  }, {
+    "distance": "44 км",
+    "duration": "58 мин"
+  }]
+}, {
+  "id": 1753,
+  "point": [37.627211, 56.194063],
+  "route": [{
+    "distance": "72 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "64 км",
+    "duration": "1 ч 21 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 12 мин"
+  }]
+}, {
+  "id": 1754,
+  "point": [37.219125, 55.789639],
+  "route": [{
+    "distance": "34 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "33 км",
+    "duration": "35 мин"
+  }, {
+    "distance": "36 км",
+    "duration": "35 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "37 мин"
+  }, {
+    "distance": "36 км",
+    "duration": "38 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "38 мин"
+  }]
+}, {
+  "id": 1755,
+  "point": [36.69653, 55.893778],
+  "route": [{
+    "distance": "82 км",
+    "duration": "1 ч 7 мин"
+  }, {
+    "distance": "83 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "85 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "76 км",
+    "duration": "1 ч"
+  }]
+}, {
+  "id": 1756,
+  "point": [37.178691, 55.751366],
+  "route": [{
+    "distance": "41 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "39 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "40 км",
+    "duration": "47 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "48 мин"
+  }]
+}, {
+  "id": 1757,
+  "point": [37.116016, 55.799765],
+  "route": [{
+    "distance": "42 км",
+    "duration": "45 мин"
+  }, {
+    "distance": "41 км",
+    "duration": "41 мин"
+  }, {
+    "distance": "46 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "44 км",
+    "duration": "44 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "47 мин"
+  }, {
+    "distance": "47 км",
+    "duration": "50 мин"
+  }]
+}, {
+  "id": 1758,
+  "point": [37.158982, 55.536573],
+  "route": [{
+    "distance": "42 км",
+    "duration": "49 мин"
+  }, {
+    "distance": "43 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "48 км",
+    "duration": "51 мин"
+  }, {
+    "distance": "49 км",
+    "duration": "53 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "55 мин"
+  }, {
+    "distance": "51 км",
+    "duration": "55 мин"
+  }]
+}, {
+  "id": 1759,
+  "point": [38.414162, 55.467984],
+  "route": [{
+    "distance": "75 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "70 км",
+    "duration": "1 ч 17 мин"
+  }, {
+    "distance": "68 км",
+    "duration": "1 ч 25 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 29 мин"
+  }, {
+    "distance": "74 км",
+    "duration": "1 ч 34 мин"
+  }]
+}, {
+  "id": 1760,
+  "point": [36.975151, 55.962478],
+  "route": [{
+    "distance": "78 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "59 км",
+    "duration": "1 ч 8 мин"
+  }, {
+    "distance": "59 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "67 км",
+    "duration": "1 ч 11 мин"
+  }, {
+    "distance": "72 км",
+    "duration": "1 ч 7 мин"
+  }]
+}, {
+  "id": 1761,
+  "point": [36.863383, 56.389737],
+  "route": [{
+    "distance": "110 км",
+    "duration": "1 ч 41 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 47 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 34 мин"
+  }, {
+    "distance": "100 км",
+    "duration": "1 ч 36 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 43 мин"
+  }, {
+    "distance": "110 км",
+    "duration": "1 ч 55 мин"
+  }]
+}, {
+  "id": 1762,
+  "point": [37.14699, 55.355771],
+  "route": [{
+    "distance": "59 км",
+    "duration": "1 ч 10 мин"
+  }, {
+    "distance": "66 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "64 км",
+    "duration": "1 ч 16 мин"
+  }, {
+    "distance": "71 км",
+    "duration": "1 ч 18 мин"
+  }, {
+    "distance": "69 км",
+    "duration": "1 ч 20 мин"
+  }, {
+    "distance": "77 км",
+    "duration": "1 ч 25 мин"
+  }]
+}]

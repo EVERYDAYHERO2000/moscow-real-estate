@@ -3,11 +3,15 @@
   $(function(){
     $.get('source/data/places/data.json',function(data){
       
-      $.each(data, function(i,e){
-
-        if (!e.description) console.log(i,e.name, e.point[0],e.point[1]);
-          
-      })
+      
+      
+      $.each(data,function(i,e){
+        
+        if (!e.car.distance) console.log(e);
+        
+      });
+      
+      
       
     });
   });
