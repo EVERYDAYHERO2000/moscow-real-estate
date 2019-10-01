@@ -169,6 +169,12 @@ let buildData = function(){
   
   global.DATA = tempData.places;
   
+  fs.writeFile(DEV_PATH + '/bin/data/places.json', JSON.stringify(tempData.places), function(err) {
+    if (err) {
+      console.log('buildData -->', err); 
+    } 
+  });
+  
   
 }
 

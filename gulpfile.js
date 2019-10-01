@@ -32,6 +32,7 @@ gulp.task('data', function () {
 index.html
 */
 gulp.task('html', function () {
+  delete require.cache[require.resolve(DEV_PATH + '/gulp/create-page.js')];
   (require(DEV_PATH + '/gulp/create-page.js'))();
 });
 
@@ -51,6 +52,25 @@ gulp.task('sass', function () {
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(DEV_PATH + '/bin/app/'));
     
+  
+});
+
+/*
+combine js libs files to main.js
+*/
+gulp.task('jslibs', function () {
+	
+  gulp.src(DEV_PATH + '/source/libs/**/*.js')
+    .pipe(sourcemaps.init())
+    .pipe(concat('libs.js'))
+    .pipe(babel({
+       presets: ['@babel/env']
+    }))
+    .pipe(uglify())
+    .pipe(replace(/\\n+/g, ''))
+    .pipe(replace(/\s+/g, ' '))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest(DEV_PATH + '/bin/app/'));
   
 });
 
@@ -81,10 +101,15 @@ npm run dev
 gulp.task('default',['sass','js'], function () {
     
     gulp.start('data');
-  
-    
-    gulp.start('html');
 
+    gulp.start('jslibs');
+  
+    gulp.start('html');
+  
+    watch( DEV_PATH + '/gulp/create-page.js', function () {
+      gulp.start('html'); 
+    });
+  
   
     watch( DEV_PATH + '/source/app/**/*.scss', function () {
       gulp.start('sass');
