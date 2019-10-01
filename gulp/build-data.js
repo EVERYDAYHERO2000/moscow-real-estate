@@ -8,7 +8,7 @@ let buildData = function(){
   
   let dataPath = DEV_PATH + '/source/data/';
   let tempData = {
-    places : require(dataPath + 'places/data.json'),
+    places : require(dataPath + 'places/places.json'),
     railroad : (function(){
       const stations = require(dataPath + 'railroad/points.json');
       const routes = require(dataPath + 'railroad/route.json');

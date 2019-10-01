@@ -24709,7 +24709,7 @@
   "developer": "",
   "class": "",
   "price": {
-    "from": null,
+    "from": 48000000,
     "to": null
   },
   "address": {
