@@ -30,6 +30,7 @@ let createPage = function(){
     
   });
   
+  console.log(DATA.length)
   
   fs.writeFile(DEV_PATH + '/index.html', page, function(err) {
     if (err) {

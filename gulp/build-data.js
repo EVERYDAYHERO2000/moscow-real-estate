@@ -76,6 +76,26 @@ let buildData = function(){
       
     })();
     
+    //car distance/time
+    if (!e.car.distance) (function(){
+      
+      var __distance = 10000000;
+      var similar = {};
+      
+      _.forEach(tempData.places, function(s){
+        let currentDist = calcDistance(e.point[1], e.point[0], s.point[1], s.point[0], 'K');
+        
+        if (currentDist <= __distance && s.car.distance) {
+          __distance = currentDist;
+          similar = s.car;
+        }
+        
+      });
+      
+      e.car = similar;
+      
+    })();
+    
     //distance to moscow
     (function(){
       
