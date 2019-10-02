@@ -55,24 +55,6 @@ gulp.task('sass', function () {
   
 });
 
-/*
-combine js libs files to main.js
-*/
-gulp.task('jslibs', function () {
-	
-  gulp.src(DEV_PATH + '/source/libs/**/*.js')
-    .pipe(sourcemaps.init())
-    .pipe(concat('libs.js'))
-    .pipe(babel({
-       presets: ['@babel/env']
-    }))
-    .pipe(uglify())
-    .pipe(replace(/\\n+/g, ''))
-    .pipe(replace(/\s+/g, ' '))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest(DEV_PATH + '/bin/app/'));
-  
-});
 
 
 /*
@@ -101,8 +83,6 @@ npm run dev
 gulp.task('default',['sass','js'], function () {
     
     gulp.start('data');
-
-    gulp.start('jslibs');
   
     gulp.start('html');
   

@@ -19,7 +19,7 @@ body {
 }
 
 #places {
-  flex-basis: 40%;
+  flex-basis: 30%;
   height: 100vh;
   overflow: scroll;
 }
@@ -27,5 +27,5 @@ body {
 #map {
   background: #fafafa;
   height: 100vh;
-  flex-basis: 60%;
+  flex-basis: 70%;
 }
