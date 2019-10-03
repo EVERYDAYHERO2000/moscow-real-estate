@@ -61,15 +61,51 @@ __.placePoint = function (params) {
     },
     size = s[params.zoom].s * 2;
 
-  
-  var alpha = (params.place.eco.distance < 10) ? 0.5 - interpolation(0,10,params.place.eco.distance,0,0.5) : 0;
-  
-  var color = blendColors(
+  var colorize = {};
+
+  colorize.eco = function() {
+    var r = 10;
+    switch (params.place.eco.closest.type) {
+      case 'K':
+        r = 3;
+        break;
+      case 'p':
+        r = 3;
+        break;
+      case 'n':
+        r = 5;
+        break;
+    }
+
+    var distance = params.place.eco.distance;
+    
+    var alpha = (distance < r) ? 0.6 - interpolation(0, r, distance, 0, 0.6) : 0;
+
+    var color = blendColors(
     [0, 98, 255, .3],
     [255, 30, 0, alpha]
-  ); 
+    );
 
-  params.ctx.fillStyle = `rgba(${color[0]},${color[1]},${color[2]},${color[3]})`;
+    return `rgba(${color[0]},${color[1]},${color[2]},${color[3]})`;
+
+  }
+  
+  colorize.railroad = function() {
+    
+    var distance = params.place.railroad.distance;
+    
+    var alpha = (distance < 3) ? 1 - interpolation(0, 3, distance, 0, 1) : 0;
+
+    var color = blendColors(
+    [255, 30, 0, .2],
+    [0, 98, 255, alpha]
+    );
+
+    return `rgba(${color[0]},${color[1]},${color[2]},${color[3]})`;
+    
+  }
+
+  params.ctx.fillStyle = colorize.eco();
 
   var dot = params.canvasOverlay._map.latLngToContainerPoint([params.place.point[1], params.place.point[0]]);
   params.ctx.beginPath();
@@ -77,20 +113,20 @@ __.placePoint = function (params) {
   params.ctx.fill();
   params.ctx.closePath();
 
-  
-  function interpolation(minFrom,maxFrom,current,minTo,maxTo){
-    return minTo + ((current - minFrom)/(maxFrom - minFrom)) * ((maxTo - minTo)/1);
+
+  function interpolation(minFrom, maxFrom, current, minTo, maxTo) {
+    return minTo + ((current - minFrom) / (maxFrom - minFrom)) * ((maxTo - minTo) / 1);
   }
 
 
-  function blendColors(base,added) {
-    
+  function blendColors(base, added) {
+
     var mix = [];
     mix[3] = 1 - (1 - added[3]) * (1 - base[3]); // alpha
     mix[0] = Math.round((added[0] * added[3] / mix[3]) + (base[0] * base[3] * (1 - added[3]) / mix[3])); // red
     mix[1] = Math.round((added[1] * added[3] / mix[3]) + (base[1] * base[3] * (1 - added[3]) / mix[3])); // green
     mix[2] = Math.round((added[2] * added[3] / mix[3]) + (base[2] * base[3] * (1 - added[3]) / mix[3])); // blue
-    
+
     return mix;
   }
 
