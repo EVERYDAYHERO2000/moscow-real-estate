@@ -37,6 +37,11 @@ let createPage = function(){
   </body>
 </html>`;
   
+  page = page.replace(/\s+/g, ' ')
+             .replace(/\s\,\s/g, ', ')
+             .replace(/>\s+</g, '><')
+		         .trim();
+  
   fs.writeFile(DEV_PATH + '/index.html', page, function(err) {
     if (err) {
       console.log('createPage -->', err); 

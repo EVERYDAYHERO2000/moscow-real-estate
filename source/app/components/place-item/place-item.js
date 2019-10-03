@@ -4,9 +4,8 @@ __.placeItem = function(params){
     
   let rjd = (params.railroad.distance < 3) ? `<div style="color: green">Ж/д станция ${params.railroad.closest.name} в ${params.railroad.distance}км, до москвы: ${params.railroad.closest.time.h}ч ${params.railroad.closest.time.m}мин (${params.railroad.closest.distance}км)</div>` : ''; 
   
-  
   let tpl = 
-`<div class="place-item" id="place-${params.id}">
+`<div class="place-item" id="place-${params.id}" data-lat="${params.point[1]}" data-lon="${params.point[0]}">
   <div>${params.type} ${params.name}</div>
   <div style="color:red">${(params.price.from) ? params.price.from:''} ${(params.price.to) ? params.price.to:''}</div>
   <div>Расстояние до Москвы: ${params.moscow.distance}км</div>
@@ -14,14 +13,14 @@ __.placeItem = function(params){
   ${rjd}
   <div>Ближайший город: ${params.city.closest.name} в ${params.city.distance}км</div>
   ${eco}
-  <hr>
 </div>`;
-  
-  
     
   bindEvent('.place-item', 'click', function(e){
-      
-    console.log(e)
+    
+    var lat = $(e.currentTarget).data('lat');
+    var lon = $(e.currentTarget).data('lon');
+    
+    map.setView(new L.LatLng(lat, lon), 15);
       
   })
     

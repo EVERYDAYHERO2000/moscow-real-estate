@@ -146,7 +146,6 @@ let buildData = function(){
       
       _.forEach(tempData.eco.eco, function(t){
       
-        _.reverse(t.point);
         
         let currentDist = calcDistance(e.point[1], e.point[0], t.point[0], t.point[1], 'K');  
         

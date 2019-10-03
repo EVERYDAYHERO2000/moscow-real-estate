@@ -7,7 +7,7 @@ body {
 }
 
 #app {
-  
+  background: #d5e8eb;
 }
 
 #header {
@@ -22,6 +22,7 @@ body {
   flex-basis: 30%;
   height: 100vh;
   overflow: scroll;
+  box-shadow: inset -1px 0 1px rgba(0,0,0,0.1);
 }
 
 #map {
