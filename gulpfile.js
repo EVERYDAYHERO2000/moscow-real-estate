@@ -65,6 +65,7 @@ gulp.task('js', function () {
   gulp.src(DEV_PATH + '/source/app/**/*.js')
     .pipe(sourcemaps.init())
     .pipe(concat('main.js'))
+    .pipe(gap.prependText('var __=__||{},listners = {}'))
     .pipe(babel({
        presets: ['@babel/env']
     }))

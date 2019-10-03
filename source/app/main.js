@@ -1,3 +1,4 @@
+
 $(function(){
   
   var leafletMap = L.map('map').setView([55.751244, 37.618423], 9);
@@ -7,7 +8,8 @@ $(function(){
   
   $.get('bin/data/places.json',function(places){
     window.DATA = places;
-    render(places);
+    renderMap(places);
+    renderList(places);
   });
   
   $('#map').click(function(e){
@@ -28,7 +30,15 @@ $(function(){
     
   });
   
-  function render(place) {
+  function renderList(place) {
+    $.each(place,function(i,e){
+      
+      $('#places').append(__.placeItem(e));
+      
+    });
+  }
+  
+  function renderMap(place) {
     L.canvasOverlay().drawing(drawingOnCanvas).addTo(leafletMap);
 
 
