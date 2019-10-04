@@ -8,10 +8,12 @@ $(function(){
   
   window.map = leafletMap;
   
-  $.get('bin/data/places.json',function(places){
+  $.get('bin/data/data.json',function(places){
+    places = decodeData(places);
     window.DATA = places;
     renderMap(places);
     renderList(places);
+    
   });
   
   $('#map').click(function(e){
@@ -33,8 +35,9 @@ $(function(){
   });
   
   function renderList(place) {
+    $('#places').empty();
     $.each(place,function(i,e){
-      
+      //$('#places').append('<div>'+i+'</diV>');
       $('#places').append(__.placeItem(e));
       
     });

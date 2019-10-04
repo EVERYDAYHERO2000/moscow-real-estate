@@ -31,15 +31,16 @@ let buildData = function(){
   }
   
   //temp objects
-  var _types = {}, _t = 1,
-      _names = {}, _n = 1;
+  var _types = {}, _t = 0,
+      _names = {}, _n = 0,
+      _class = {}, _c = 0;
 
   _.forEach(tempData.places, function(e){
 
     //type id
     (function(){
       
-      if ( !_types[e.type] ){
+      if ( e.type && !_types[e.type] ){
         _types[e.type] = {type: e.type, id: _t};
         _t++
       }
@@ -49,9 +50,19 @@ let buildData = function(){
     //name id
     (function(){
       
-      if ( !_names[e.name] ){
+      if ( e.name && !_names[e.name] ){
         _names[e.name] = {name: e.name, id: _n};
         _n++
+      }
+        
+    })();
+    
+    //class id
+    (function(){
+      
+      if ( e.class && !_class[e.class] ){
+        _class[e.class] = {class: e.class, id: _c};
+        _c++
       }
         
     })();
@@ -197,32 +208,36 @@ let buildData = function(){
     p:[], //places
     t:[], //types
     n:[], //names
+    k:[], //class
     r:[], //railroad stations
     e:[], //eco
-    s:[], //cities
+    c:[], //cities
   };
   
   _.forEach(tempData.places,function(e){
     
+    
+    
     var place = [
-      e.point[1],  
-      e.car.distance,
-      e.car.time.h,
-      e.car.time.m,
-      e.railroad.distance,
-      e.railroad.closest.id,
-      (e.readyDate) ? e.readyDate : -1,
-      e.id,
-      e.moscow.distance,
-      e.eco.distance,
-      e.eco.closest.id,
-      e.city.distance,
-      e.city.closest.id,
-      (e.price.from) ? e.price.from : -1,
-      (e.price.to) ? e.price.to : -1,
-      e.point[0],
-      _types[e.type].id,
-      _names[e.name].id  
+      e.point[1],                           //0
+      e.car.distance,                       //1
+      e.car.time.h,                         //2
+      e.car.time.m,                         //3
+      e.railroad.distance,                  //4
+      e.railroad.closest.id,                //5
+      (e.readyDate) ? e.readyDate : -1,     //6 
+      e.id,                                 //7    
+      e.moscow.distance,                    //8 
+      e.eco.distance,                       //9
+      e.eco.closest.id,                     //10
+      e.city.distance,                      //11
+      e.city.closest.id,                    //12 
+      (e.price.from) ? e.price.from : -1,   //13
+      (e.price.to) ? e.price.to : -1,       //14
+      e.point[0],                           //15
+      (e.type) ? _types[e.type].id : -1,    //16
+      _names[e.name].id,                    //17
+      (e.class) ? _class[e.class].id : -1,  //18  
     ]
     
     json.p.push(place);
@@ -236,6 +251,50 @@ let buildData = function(){
   _.forEach(_names,function(e){
     json.n.push(e.name);  
   });
+  
+  _.forEach(_class,function(e){
+    json.k.push(e.class);  
+  });
+  
+  _.forEach(tempData.railroad,function(e){
+    var railroad = [
+      e.id,                 //0
+      e.point[0],           //1
+      e.name,               //2
+      e.point[1],           //3
+      e.distance,           //4
+      e.time.h,             //5
+      e.time.m              //6
+    ]
+    
+    json.r.push(railroad);
+  });
+  
+  
+  
+  _.forEach(tempData.eco.eco,function(e){
+    var eco = [
+      e.id,
+      e.point[0],
+      e.name,
+      e.point[1],
+      e.type
+    ]
+    
+    json.e.push(eco);
+  });
+  
+  _.forEach(tempData.geo,function(e){
+    var city = [
+      e.id,
+      e.point[0],
+      e.name,
+      e.point[1]
+    ]
+    
+    json.c.push(city);
+  });
+  
   
   
   fs.writeFile(DEV_PATH + '/bin/data/data.json', JSON.stringify(json), function(err) {

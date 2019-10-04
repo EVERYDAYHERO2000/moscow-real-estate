@@ -15,6 +15,7 @@ __.placeItem = function(params){
         
   })(place.price);
   
+  
   let tpl = 
 `<div class="place-item" id="place-${place.id}" data-lat="${place.point[1]}" data-lon="${place.point[0]}">
   <div>${place.type} ${place.name}</div>
