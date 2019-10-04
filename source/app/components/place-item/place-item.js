@@ -1,17 +1,28 @@
 __.placeItem = function(params){
   
-  let eco = (params.eco.distance < 10) ? `<div>${params.eco.closest.name} в ${params.eco.distance}км</div>` : '';
+  var place = JSON.parse(JSON.stringify(params));
+  
+  let eco = (place.eco.distance < 10) ? `<div>${place.eco.closest.name} в ${place.eco.distance}км</div>` : '';
     
-  let rjd = (params.railroad.distance < 3) ? `<div style="color: green">Ж/д станция ${params.railroad.closest.name} в ${params.railroad.distance}км, до москвы: ${params.railroad.closest.time.h}ч ${params.railroad.closest.time.m}мин (${params.railroad.closest.distance}км)</div>` : ''; 
+  let rjd = (place.railroad.distance < 3) ? `<div style="color: green">Ж/д станция ${place.railroad.closest.name} в ${place.railroad.distance}км, до москвы: ${place.railroad.closest.time.h}ч ${place.railroad.closest.time.m}мин (${place.railroad.closest.distance}км)</div>` : ''; 
+  
+  place.price = (function(price){
+      
+    return {
+      from : (price.from) ? (typeof global != 'undefined') ? global.component('cost', {value : price.from })[0] : __.cost({value : price.from })[0] : '',
+      to   : (price.to)   ? (typeof global != 'undefined') ? global.component('cost', {value : price.to })[0]   : __.cost({value : price.to })[0]   : ''
+    }  
+        
+  })(place.price);
   
   let tpl = 
-`<div class="place-item" id="place-${params.id}" data-lat="${params.point[1]}" data-lon="${params.point[0]}">
-  <div>${params.type} ${params.name}</div>
-  <div style="color:red">${(params.price.from) ? params.price.from:''} ${(params.price.to) ? params.price.to:''}</div>
-  <div>Расстояние до Москвы: ${params.moscow.distance}км</div>
-  <div>На машине: ${params.car.time.h}ч ${params.car.time.m}мин (${params.car.distance}км)</div>
+`<div class="place-item" id="place-${place.id}" data-lat="${place.point[1]}" data-lon="${place.point[0]}">
+  <div>${place.type} ${place.name}</div>
+  <div style="color:red">${(place.price.from) ? place.price.from:''} ${(place.price.to) ? place.price.to:''}</div>
+  <div>Расстояние до Москвы: ${place.moscow.distance}км</div>
+  <div>На машине: ${place.car.time.h}ч ${place.car.time.m}мин (${place.car.distance}км)</div>
   ${rjd}
-  <div>Ближайший город: ${params.city.closest.name} в ${params.city.distance}км</div>
+  <div>Ближайший город: ${place.city.closest.name} в ${place.city.distance}км</div>
   ${eco}
 </div>`;
     

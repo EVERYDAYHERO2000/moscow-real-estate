@@ -30,8 +30,32 @@ let buildData = function(){
     }
   }
   
+  //temp objects
+  var _types = {}, _t = 1,
+      _names = {}, _n = 1;
+
   _.forEach(tempData.places, function(e){
+
+    //type id
+    (function(){
+      
+      if ( !_types[e.type] ){
+        _types[e.type] = {type: e.type, id: _t};
+        _t++
+      }
+        
+    })();
     
+    //name id
+    (function(){
+      
+      if ( !_names[e.name] ){
+        _names[e.name] = {name: e.name, id: _n};
+        _n++
+      }
+        
+    })();
+
     //train station
     (function(){
       
@@ -147,7 +171,7 @@ let buildData = function(){
       _.forEach(tempData.eco.eco, function(t){
       
         
-        let currentDist = calcDistance(e.point[1], e.point[0], t.point[0], t.point[1], 'K');  
+        let currentDist = calcDistance(e.point[1], e.point[0], t.point[1], t.point[0], 'K');  
         
         if (currentDist <= __distance) {
           __distance = currentDist;
@@ -168,7 +192,53 @@ let buildData = function(){
   
   global.DATA = tempData.places;
   
-  fs.writeFile(DEV_PATH + '/bin/data/places.json', JSON.stringify(tempData.places), function(err) {
+  
+  var json = {
+    p:[], //places
+    t:[], //types
+    n:[], //names
+    r:[], //railroad stations
+    e:[], //eco
+    s:[], //cities
+  };
+  
+  _.forEach(tempData.places,function(e){
+    
+    var place = [
+      e.point[1],  
+      e.car.distance,
+      e.car.time.h,
+      e.car.time.m,
+      e.railroad.distance,
+      e.railroad.closest.id,
+      (e.readyDate) ? e.readyDate : -1,
+      e.id,
+      e.moscow.distance,
+      e.eco.distance,
+      e.eco.closest.id,
+      e.city.distance,
+      e.city.closest.id,
+      (e.price.from) ? e.price.from : -1,
+      (e.price.to) ? e.price.to : -1,
+      e.point[0],
+      _types[e.type].id,
+      _names[e.name].id  
+    ]
+    
+    json.p.push(place);
+    
+  });
+  
+  _.forEach(_types,function(e){
+    json.t.push(e.type);  
+  });
+  
+  _.forEach(_names,function(e){
+    json.n.push(e.name);  
+  });
+  
+  
+  fs.writeFile(DEV_PATH + '/bin/data/data.json', JSON.stringify(json), function(err) {
     if (err) {
       console.log('buildData -->', err); 
     } 

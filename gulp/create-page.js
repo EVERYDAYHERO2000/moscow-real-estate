@@ -4,6 +4,8 @@ const _ = require('lodash');
 const calcDistance = require(DEV_PATH + '/gulp/calc-distance.js');
 const component = require(DEV_PATH + '/gulp/component.js');
 
+global.component = component;
+
 let createPage = function(){
   
   var page = '',
