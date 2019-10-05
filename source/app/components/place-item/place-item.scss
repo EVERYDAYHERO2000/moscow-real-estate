@@ -3,4 +3,58 @@
   box-shadow: inset -1px -1px 0px rgba(0,0,0,0.1);
   background-color: #fff;
   padding: 10px; 
+  min-height: 100px;
+  cursor: pointer;
+}
+
+.place-item__title {
+  
+}
+
+.place-item__distance {
+  margin-left: -5px;
+}
+
+.place-item__type {
+  opacity: .7;
+}
+
+.place-item__name {
+  padding-left: 5px;
+}
+
+.place-item__car {
+  display: flex;
+}
+
+.place-item__car:before {
+  content:'';
+  display: block;
+  background:url(../../source/assets/img/icons/car.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  min-height: 22px;
+  margin-right: 3px;
+}
+
+.place-item__train {
+  display: flex;
+}
+
+.place-item__train:before {
+  content:'';
+  display: block;
+  background:url(../../source/assets/img/icons/train.svg);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  min-height: 22px;
+  margin-right: 3px;
 }

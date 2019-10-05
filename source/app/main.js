@@ -34,13 +34,39 @@ $(function(){
     
   });
   
+  
+  $('#places').scroll(function(e){
+    var $last = $('#places').find('.place-item').last();
+    var lastId = $last.attr('id').split('-')[1];
+    var length = $('#places').find('.place-item').length;
+    
+    if ( $last.offset().top < $(window).outerHeight() * 2 ){
+      
+      var count = 100;
+      $.each(DATA, function(i,e){
+        if (length < i){
+          $('#places').append(__.placeItem(e));
+          count--;
+        }
+        if (!count) return false;
+      });
+    }
+    
+  });
+  
   function renderList(place) {
     $('#places').empty();
+    
+
     $.each(place,function(i,e){
-      //$('#places').append('<div>'+i+'</diV>');
+      if (i < 100){
       $('#places').append(__.placeItem(e));
+      } else {
+        return false;
+      }
       
     });
+    
   }
   
   function renderMap(place) {
