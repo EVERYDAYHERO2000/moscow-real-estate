@@ -15,9 +15,9 @@ __.placeItem = function(params){
         
   })(params.price);
   
+  let _color = (typeof global != 'undefined') ? '#fafafa' : params.canvas.color;
   
-  
-  let _type = (params.type) ? params.type : ''; 
+  let _type = (params.type) ? `<span class="place-item__type">${params.type}</span>` : ''; 
   
   let _eco = (params.eco.distance < 10) ? `<div>${params.eco.closest.name} в ${params.eco.distance}км</div>` : '';
     
@@ -28,9 +28,12 @@ __.placeItem = function(params){
 
   
   let tpl = 
-`<div class="place-item" id="place-${params.id}" data-lat="${params.point[1]}" data-lon="${params.point[0]}">
+`<div class="place-item" id="place-${params.id}">
   <div class="place-item__title">
-    <span class="place-item__type">${_type}</span><span class="place-item__name">${params.name}</span>
+    <div class="place-item__pin" style="background:${_color}"></div>
+    <div>
+      ${_type}<span class="place-item__name">${params.name}</span>
+    </div>
   </div>
   <div style="color:red">${_price.from} ${_price.to}</div>
   <div class="place-item__distance">
@@ -41,10 +44,18 @@ __.placeItem = function(params){
     
   bindEvent('.place-item', 'click', function(e){
     
-    var lat = $(e.currentTarget).data('lat');
-    var lon = $(e.currentTarget).data('lon');
+    var id = $(e.currentTarget).attr('id').split('-')[1];
     
-    map.setView(new L.LatLng(lat, lon), 15);
+    $.each(DATA, function(i,e){
+      
+      if (e.id == id){
+        map.setView(new L.LatLng(e.point[1], e.point[0]), 14);
+        return false;
+      }
+      
+    });
+    
+    
       
   })
     

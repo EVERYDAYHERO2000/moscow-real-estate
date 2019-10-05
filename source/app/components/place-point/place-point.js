@@ -59,9 +59,10 @@ __.placePoint = function (params) {
         s: 12
       }
     },
-    size = s[params.zoom].s * 2;
+    size = s[params.zoom].s * 2,
+    color = __.colorize().eco(params.place);
   
-  params.ctx.fillStyle = __.colorize().eco(params.place);
+  params.ctx.fillStyle = color;
 
   var dot = params.canvasOverlay._map.latLngToContainerPoint([params.place.point[1], params.place.point[0]]);
   params.ctx.beginPath();
@@ -74,7 +75,8 @@ __.placePoint = function (params) {
     x1: dot.x,
     y1: dot.y,
     x2: dot.x + size,
-    y2: dot.y + size
+    y2: dot.y + size,
+    color: color
   };
 
 }
