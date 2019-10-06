@@ -4,6 +4,9 @@ const _ = require('lodash');
 const calcDistance = require(DEV_PATH + '/gulp/calc-distance.js');
 
 
+
+
+
 let buildData = function(){
   
   let dataPath = DEV_PATH + '/source/data/';
@@ -202,6 +205,7 @@ let buildData = function(){
   tempData.places = _.sortBy(tempData.places, [function(o) { return o.moscow.distance; }, function(o) { return o.price.from; }]);
   
   global.DATA = tempData.places;
+    
   
   
   var json = {
@@ -302,6 +306,7 @@ let buildData = function(){
       console.log('buildData -->', err); 
     } 
   });
+  
   
   
 }

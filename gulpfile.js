@@ -77,15 +77,17 @@ gulp.task('js', function () {
   
 });
 
+gulp.task('update-data', function () {
+
+  (require( DEV_PATH + '/gulp/update-data.js' ))();
+
+});
 
 /*
 npm run dev
 */
-gulp.task('default',['sass','js'], function () {
+gulp.task('default',['sass','js','data','html'], function () {
     
-    gulp.start('data');
-  
-    gulp.start('html');
   
     watch( DEV_PATH + '/gulp/create-page.js', function () {
       gulp.start('html'); 

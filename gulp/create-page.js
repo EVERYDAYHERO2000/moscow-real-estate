@@ -25,8 +25,7 @@ let createPage = function(){
     <link rel="stylesheet" type="text/css" href="bin/app/main.css" />
     <script src="source/libs/jquery.min.js"></script>
     <script src="source/libs/leaflet.min.js"></script>
-    <script src="source/libs/chroma.min.js"></script>
-        <script src="bin/app/main.js"></script>
+    <script src="bin/app/main.js"></script>
   </head>
   <body>
     <div id="app">

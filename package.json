@@ -6,15 +6,18 @@
     "license": "MIT",
     "scripts": {
         "dev": "gulp",
+        "update-data": "gulp update-data",
         "test": "gscan ."
     },
     "devDependencies": {
         "@babel/core": "^7.5.5",
         "@babel/preset-env": "^7.5.5",
+        "async": "^3.1.0",
         "autoprefixer": "6.3.6",
         "cssnano": "3.7.1",
         "dom-parser": "^0.1.5",
         "fs-extra": "^7.0.1",
+        "google-spreadsheet": "^2.0.8",
         "gscan": "^2.0.0",
         "gulp": "3.9.1",
         "gulp-append-prepend": "^1.0.6",
