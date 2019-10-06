@@ -45,6 +45,22 @@ __.colorize = function(params){
     
   }
   
+  //car distance
+  this.car = function(params) {
+    
+    var distance = params.car.distance;
+    var alphaMax = 0.7;
+    var alpha = alphaMax - interpolation(10, 100, distance, 0, alphaMax);
+
+    var color = blendColors(
+    [255, 30, 0, .5],
+    [0, 98, 255, alpha]
+    );
+
+    return rgba(color[0],color[1],color[2],color[3]);
+    
+  }
+  
   function rgba(r,g,b,a){
     return `rgba(${r},${g},${b},${a})`;
   }

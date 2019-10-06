@@ -76,7 +76,8 @@ __.placePoint = function (params) {
     y1: dot.y,
     x2: dot.x + size,
     y2: dot.y + size,
-    color: color
+    color: color,
+    visible : params.place.canvas.visible
   };
 
 }

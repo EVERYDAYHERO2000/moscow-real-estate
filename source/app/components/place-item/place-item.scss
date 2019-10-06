@@ -14,10 +14,11 @@
 
 .place-item__distance {
   margin-left: -5px;
+  color: rgba(0,0,0,.6);
 }
 
 .place-item__type {
-  opacity: .7;
+  color: rgba(0,0,0,.6);
   padding-right: 5px;
 }
 
@@ -68,5 +69,10 @@
   min-height: 10px;
   border-radius: 50%;
   background-color: #fafafa;
-  margin: 0 8px 0 2px;
+  margin: 0 8px 0 1px;
+}
+
+.place-item__price {
+  color: red;
+  margin-left: 19px;
 }

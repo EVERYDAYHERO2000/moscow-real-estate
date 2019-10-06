@@ -35,7 +35,7 @@ __.placeItem = function(params){
       ${_type}<span class="place-item__name">${params.name}</span>
     </div>
   </div>
-  <div style="color:red">${_price.from} ${_price.to}</div>
+  <div class="place-item__price">${_price.from} ${_price.to}</div>
   <div class="place-item__distance">
     ${_car}
     ${_rjd}

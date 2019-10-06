@@ -40,7 +40,7 @@ $(function(){
     var lastId = $last.attr('id').split('-')[1];
     var length = $('#places').find('.place-item').length;
     
-    if ( $last.offset().top < $(window).outerHeight() * 2 ){
+    if ( !window.map.search && $last.offset().top < $(window).outerHeight() * 2 ){
       
       var count = 100;
       $.each(DATA, function(i,e){
@@ -54,15 +54,26 @@ $(function(){
     
   });
   
-  function renderList(place) {
+  function renderList(place, onlyVisible) {
     $('#places').empty();
     
+    
 
-    $.each(place,function(i,e){
-      if (i < 100){
-      $('#places').append(__.placeItem(e));
+    $.each(place, function(i,e){
+      
+      if (onlyVisible){
+
+        if (e.canvas.visible){
+          $('#places').append(__.placeItem(e));
+        } 
+        
       } else {
-        return false;
+      
+        if (i < 100){
+          $('#places').append(__.placeItem(e));
+        } else {
+          return false;
+        }
       }
       
     });
@@ -70,21 +81,19 @@ $(function(){
   }
   
   function renderMap(place) {
-    L.canvasOverlay().drawing(drawingOnCanvas).addTo(leafletMap);
-
-
+    var c = L.canvasOverlay().drawing(drawingOnCanvas).addTo(leafletMap);
+    
+    window.map.canvas = c;
+    
     function drawingOnCanvas(canvasOverlay, params) {
       var ctx = params.canvas.getContext('2d');
       var zoom = window.map.getZoom();
       ctx.clearRect(0, 0, params.canvas.width, params.canvas.height);
       
-
-  
-      
       $.each(place, function(i,e){
         
             
-            e.canvas = __.placePoint({
+            if (e.canvas.visible) e.canvas = __.placePoint({
               ctx : ctx,
               canvasOverlay : canvasOverlay,
               zoom : zoom,
@@ -98,6 +107,10 @@ $(function(){
       
     };
   }
+  
+  
+  __.renderList = renderList;
+  
   
   
 })

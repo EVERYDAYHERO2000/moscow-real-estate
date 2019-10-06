@@ -78,6 +78,9 @@ function decodeData(data) {
           });
           return obj;
         })(data.e, e[10])
+      },
+      canvas : {
+        visible : true
       }
     }
 
