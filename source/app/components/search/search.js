@@ -1,7 +1,10 @@
 __.search = function(params){
   
-  var request = params.text.toLowerCase().trim();
-  var results = [];
+  var DATA = $('#app').data('places'),
+      request = params.text.toLowerCase().trim(),
+      results = [],
+      map = $('#map').data('map');
+  
   if (params.text){
     $.each(DATA, function(i,e){
 
@@ -20,16 +23,16 @@ __.search = function(params){
     });
 
     if (results.length) {
-      window.map.search = true;
+      map.search = true;
     } else {
-      window.map.search = false;  
+      map.search = false;  
     }
     
      $('#places').trigger('renderList', {places : DATA, onlyVisible: true}).scrollTop(0);
     
   } else {
     
-    window.map.search = false;
+    map.search = false;
     $.each(DATA, function(i,e){
       e.canvas.visible = true;
     });

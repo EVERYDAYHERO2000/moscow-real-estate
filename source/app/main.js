@@ -5,11 +5,12 @@ $(function () {
   L.tileLayer("https://{s}.tiles.mapbox.com/v4/mapbox.dark/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZ2xlYWZsZXQiLCJhIjoiY2lxdWxoODl0MDA0M2h4bTNlZ2I1Z3gycyJ9.vrEWCC2nwsGfAYKZ7c4HZA")
     .addTo(leafletMap);
 
-  window.map = leafletMap;
-
   $.get('bin/data/data.json', function (places) {
-    window.DATA = places = decodeData(places);
+    
+    places = decodeData(places);
 
+    $('#app').data('places', places);
+    
     $('#map').trigger('renderMap', {
       places: places
     });
@@ -23,7 +24,8 @@ $(function () {
 
   $('#map').click(function (e) {
 
-    var x = e.offsetX,
+    var DATA = $('#app').data('places'),
+        x = e.offsetX,
         y = e.offsetY;
 
     $.each(DATA, function (i, el) {
@@ -37,17 +39,18 @@ $(function () {
 
     });
 
-  }).bind('renderMap', function (event, params) {
+  }).data('map', leafletMap).bind('renderMap', function (event, params) {
 
-    var places = params.places;
+    var _this = this,
+        places = params.places;
 
     var c = L.canvasOverlay().drawing(drawingOnCanvas).addTo(leafletMap);
     
-    $('#map').data('canvas', c);
+    $(_this).data('canvas', c);
 
     function drawingOnCanvas(canvasOverlay, p) {
       var ctx = p.canvas.getContext('2d'),
-          zoom = window.map.getZoom();
+          zoom = $(_this).data('map').getZoom();
       
       ctx.clearRect(0, 0, p.canvas.width, p.canvas.height);
 
@@ -71,11 +74,14 @@ $(function () {
     var _this = this,
         $last = $(_this).find('.place-item').last(),
         lastId = $last.attr('id').split('-')[1],
-        length = $(_this).find('.place-item').length;
+        length = $(_this).find('.place-item').length,
+        map = $('#map').data('map');
 
-    if (!window.map.search && $last.offset().top < $(window).outerHeight() * 2) {
+    if (!map.search && $last.offset().top < $(window).outerHeight() * 2) {
 
-      var count = 100;
+      var DATA = $('#app').data('places'),
+          count = 100;
+      
       $.each(DATA, function (i, e) {
         if (length < i) {
           $(_this).append(__.placeItem(e));

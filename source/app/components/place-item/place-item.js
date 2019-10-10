@@ -44,7 +44,9 @@ __.placeItem = function(params){
     
   bindEvent('.place-item', 'click', function(e){
     
-    var id = $(e.currentTarget).attr('id').split('-')[1];
+    var DATA = $('#app').data('places'),
+        map = $('#map').data('map'),
+        id = $(e.currentTarget).attr('id').split('-')[1];
     
     $.each(DATA, function(i,e){
       
