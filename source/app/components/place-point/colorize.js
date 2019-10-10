@@ -37,7 +37,7 @@ __.colorize = function(params){
     var alpha = (distance < 3) ? alphaMax - interpolation(0, 3, distance, 0, alphaMax) : 0;
 
     var color = blendColors(
-    [255, 30, 0, .2],
+    [255, 30, 0, .1],
     [0, 98, 255, alpha]
     );
 
@@ -49,11 +49,11 @@ __.colorize = function(params){
   this.car = function(params) {
     
     var distance = params.car.distance;
-    var alphaMax = 0.7;
-    var alpha = alphaMax - interpolation(10, 100, distance, 0, alphaMax);
+    var alphaMax = 0.3;
+    var alpha = alphaMax - interpolation(10, 200, distance, 0, alphaMax);
 
     var color = blendColors(
-    [255, 30, 0, .5],
+    [255, 30, 0, .1],
     [0, 98, 255, alpha]
     );
 

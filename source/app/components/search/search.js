@@ -25,9 +25,7 @@ __.search = function(params){
       window.map.search = false;  
     }
     
-    __.renderList(DATA,true);
-    
-    $('#places').scrollTop(0);
+     $('#places').trigger('renderList', {places : DATA, onlyVisible: true}).scrollTop(0);
     
   } else {
     
@@ -36,12 +34,14 @@ __.search = function(params){
       e.canvas.visible = true;
     });
     
-    __.renderList(DATA, false);
+    $('#places').trigger('renderList', {places : DATA, onlyVisible: false});
+    
+    
     
   }
   
   
-  map.canvas.redraw();
+  $('#map').data('canvas').redraw();
   
   return results;
   
