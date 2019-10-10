@@ -7,16 +7,16 @@ $(function () {
 
   $.get('bin/data/data.json', function (places) {
     
-    places = decodeData(places);
+    var data = decodeData(places);
 
-    $('#app').data('places', places);
+    $('#app').data('data', data);
     
     $('#map').trigger('renderMap', {
-      places: places
+      data: data
     });
 
     $('#places').trigger('renderList', {
-      places: places,
+      places: data.places,
       onlyVisible: false
     });
 
@@ -24,9 +24,10 @@ $(function () {
 
   $('#map').click(function (e) {
 
-    var DATA = $('#app').data('places'),
+    var DATA = $('#app').data('data').places,
         x = e.offsetX,
         y = e.offsetY;
+    
 
     $.each(DATA, function (i, el) {
 
@@ -42,7 +43,8 @@ $(function () {
   }).data('map', leafletMap).bind('renderMap', function (event, params) {
 
     var _this = this,
-        places = params.places;
+        places = params.data.places,
+        eco = params.data.eco;
 
     var c = L.canvasOverlay().drawing(drawingOnCanvas).addTo(leafletMap);
     
@@ -64,6 +66,36 @@ $(function () {
         });
 
       });
+      
+      var img = new Image();   
+        img.addEventListener('load', function() {
+          
+          var icons = {
+            recicle : 0,
+            radiation : 40,
+            factory : 80,
+            trash : 120,
+            airport : 160
+          },
+          size = 20;    
+          
+          $.each(eco, function(i,e){
+            var ico;
+            if (e.type == 'w' || e.type == 'q' ) ico = icons.trash;
+            if (e.type == 'r') ico = icons.radiation;
+            if (e.type == 'o' || e.type == 'E' || e.type == 'w' || e.type == 'K' || e.type == 'p' ) ico = icons.factory;
+            if (e.type == 's') ico;
+            
+            var dot = canvasOverlay._map.latLngToContainerPoint([e.point[1], e.point[0]]);
+            if (ico) ctx.drawImage(img, 0, ico, 40, 40, dot.x, dot.y, size, size);
+            
+          })
+          
+          
+          
+        }, false);
+        img.src = 'source/assets/img/map/pins@2x.png'; 
+      
 
     };
 
@@ -79,7 +111,7 @@ $(function () {
 
     if (!map.search && $last.offset().top < $(window).outerHeight() * 2) {
 
-      var DATA = $('#app').data('places'),
+      var DATA = $('#app').data('data').places,
           count = 100;
       
       $.each(DATA, function (i, e) {

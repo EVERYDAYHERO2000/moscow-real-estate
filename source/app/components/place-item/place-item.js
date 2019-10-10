@@ -42,9 +42,9 @@ __.placeItem = function(params){
   </div>
 </div>`;
     
-  bindEvent('.place-item', 'click', function(e){
+  if (typeof global == 'undefined') bindEvent('.place-item', 'click', function(e){
     
-    var DATA = $('#app').data('places'),
+    var DATA = $('#app').data('data').places,
         map = $('#map').data('map'),
         id = $(e.currentTarget).attr('id').split('-')[1];
     

@@ -1,6 +1,6 @@
 function decodeData(data) {
   var places = [];
-
+  var eco = {};
 
   $.each(data.p, function (i, e) {
 
@@ -74,6 +74,8 @@ function decodeData(data) {
                 point: [ec[1], ec[3]],
                 type: ec[4]
               }
+              
+              eco[obj.id] = obj;
             }
           });
           return obj;
@@ -89,7 +91,10 @@ function decodeData(data) {
 
   });
 
-  return places;
+  return {
+    places : places,
+    eco : eco
+  };
 
 
 }
