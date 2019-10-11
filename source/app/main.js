@@ -87,7 +87,7 @@ $(function () {
             if (e.type == 's') ico;
             
             var dot = canvasOverlay._map.latLngToContainerPoint([e.point[1], e.point[0]]);
-            if (ico) ctx.drawImage(img, 0, ico, 40, 40, dot.x, dot.y, size, size);
+            if (ico) ctx.drawImage(img, 0, ico, 40, 40, dot.x - size/2, dot.y - size/2, size, size);
             
           })
           
