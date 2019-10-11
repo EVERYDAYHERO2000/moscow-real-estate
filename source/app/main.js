@@ -67,17 +67,20 @@ $(function () {
 
       });
       
-      var img = new Image();   
+      var img = new Image();  
+        var scale = 1,
+              icons = {
+                recicle : 0,
+                radiation : 20 * scale,
+                factory : 40 * scale,
+                trash : 60 * scale,
+                airport : 80 * scale
+              },
+              size = 20 * scale;   
+      
         img.addEventListener('load', function() {
           
-          var icons = {
-            recicle : 0,
-            radiation : 40,
-            factory : 80,
-            trash : 120,
-            airport : 160
-          },
-          size = 20;    
+        
           
           $.each(eco, function(i,e){
             var ico;
@@ -87,14 +90,14 @@ $(function () {
             if (e.type == 's') ico;
             
             var dot = canvasOverlay._map.latLngToContainerPoint([e.point[1], e.point[0]]);
-            if (ico) ctx.drawImage(img, 0, ico, 40, 40, dot.x - size/2, dot.y - size/2, size, size);
+            if (ico) ctx.drawImage(img, 0, ico, 20 * scale, 20 * scale, dot.x - size/2, dot.y - size/2, size, size);
             
           })
           
           
           
         }, false);
-        img.src = 'source/assets/img/map/pins@2x.png'; 
+        img.src = (scale == 1) ? 'source/assets/img/map/pins.png' : 'source/assets/img/map/pins@2x.png'; 
       
 
     };
