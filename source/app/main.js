@@ -83,11 +83,11 @@ $(function () {
         
           
           $.each(eco, function(i,e){
-            var ico;
-            if (e.type == 'w' || e.type == 'q' ) ico = icons.trash;
-            if (e.type == 'r') ico = icons.radiation;
-            if (e.type == 'o' || e.type == 'E' || e.type == 'w' || e.type == 'K' || e.type == 'p' ) ico = icons.factory;
-            if (e.type == 's') ico;
+            var ico = null;
+            if (e.type == 'w' || e.type == 'q' ) ico = icons.radiation;
+            //if (e.type == 'r') ico = icons.radiation;
+            //if (e.type == 'o' || e.type == 'E' || e.type == 'w' || e.type == 'K' || e.type == 'p' ) ico = icons.factory;
+            //if (e.type == 's') ico;
             
             var dot = canvasOverlay._map.latLngToContainerPoint([e.point[1], e.point[0]]);
             if (ico) ctx.drawImage(img, 0, ico, 20 * scale, 20 * scale, dot.x - size/2, dot.y - size/2, size, size);

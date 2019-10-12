@@ -1,0 +1,460 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin:0;
+        padding:0;
+        font-family: sans-serif;
+        font-size: 16px;
+      }
+      #app {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+      }
+      #places {
+        width: 300px;
+        height: 100vh;
+        overflow: hidden;
+        overflow-y: scroll;
+      }
+      #form {
+        width: calc(100% - 300px);
+        height: 100vh;
+        overflow: hidden;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        box-sizing: border-box;
+        border-left: 1px solid rgba(0,0,0,0.2);
+      }
+      .row {
+        width: 100%;
+        display: flex;
+        margin: 5px 0;
+      }
+      
+      .col-row {
+        display: flex;
+        width: 100%;
+      }
+      
+      .col-row > div {
+        width: 50%;
+      }
+      
+      .row-title {
+        width: 30%;
+      }
+      .row-control {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .row-control > div {
+        width: 100%;
+      }
+      
+      input, textarea {
+        width: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        max-width: 100%;
+        min-width: 100%;
+        border: none;
+        box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+        font-size: 16px;
+      }
+      
+      textarea {
+        min-height: 200px;
+      }
+      
+      button {
+        padding: 5px 8px;
+        border-radius: 3px;
+        font-size: 16px;
+        background: #ffd800;
+        border: none;
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
+      }
+      
+      button.disabled {
+        pointer-events: none;
+        opacity: .3;
+      }
+      
+      .col {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      #map {
+        min-height: 400px;
+        background: #fafafa;
+        margin-top: 10px;
+        box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+        height: 400px;
+        max-height: 400px;
+      }
+      
+      .place-item {
+        box-sizing: border-box;
+        padding: 10px;
+        border-bottom: 1px solid rgba(0,0,0,.2);
+        display: flex;
+        cursor: pointer;
+      }
+      
+      .place-item_selected {
+        background: #fff4c3;
+      }
+      
+      .place-item > div:first-child {
+        color: #ccc;
+        margin-right: 10px;
+        display: inline-block;
+        width: 40px;
+        box-sizing: border-box;
+        font-size: 13px;
+      }
+      
+      .my-div-icon {
+        background: blue;
+        box-sizing: border-box;
+        box-shadow: 0 2px 5px rgba(0,0,0,.3);
+        border: 2px solid #fff;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+      }
+      
+    </style>
+    <script src="source/libs/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7.2/leaflet.css" />
+    <script src="source/libs/leaflet.min.js"></script>
+    <script>
+$(function(){
+  var urls = {
+    get : 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT8QUn2_IpcV0Q_i9uJfsmKMYZErXyAVGMv4u9a1sG36S4450_Wr5vv6LUMsgPYZpoxmdclHMVmg7U6/pub?gid=1270687964&single=true&output=csv&version=c_' + Math.round(Math.random() * 100),
+    set : 'https://script.google.com/macros/s/AKfycbxVZXhYott7f6jONtAIjfX5mDu5I_QjCa1h9Kv76bbY_68-6fw/exec?params=',
+    tiles : 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+  }
+  
+  var data = [];
+  var marker = null;
+  
+  $.get(urls.get, function(d){
+    data = scvToArray(d);
+    
+    $.each(data, function(i,e){
+      
+      if (i > 0) $('#places').append(`<div class="place-item" id="place-${e[0]}"><div>${e[0]}</div><div>${e[1]}</div></div>`);
+      
+    });
+    
+    $('#places').on('click', '.place-item', function(e){
+      
+      $('.place-item').removeClass('place-item_selected');
+      $(this).addClass('place-item_selected');
+      
+      //
+      var curId = $(this).attr('id').split('-')[1];
+      var curData = [];
+      $.each(data, function(i,e){
+        if (curId == e[0]) {
+          curData = e;
+          return false;
+        }
+      });
+      
+      $('#row_0 .row-control').text( curData[0] );  //id
+      $('#row_1 .row-control input').val( curData[1] ); //name
+      $('#row_2 .row-control input').first().val( curData[2] ); //lat
+      $('#row_2 .row-control input').last().val( curData[3] ); //lon
+      $('#row_2 .row-title a').attr( 'href', `https://yandex.ru/maps/?ll=${curData[3]}%2C${curData[2]}&z=14&mode=whatshere&whatshere%5Bpoint%5D=${curData[3]}%2C${curData[2]}` ); //YA maps
+      $('#row_3 .row-control input').val( curData[4] ); //address
+      $('#row_4 .row-control input').first().val( curData[5] ); //price from
+      $('#row_4 .row-control input').last().val( curData[6] ); //price to
+      $('#row_5 .row-control input').val( curData[7] ); //ready date
+      $('#row_6 .row-control input').val( curData[8] ); //type
+      $('#row_7 .row-control input').val( curData[9] ); //class
+      $('#row_8 .row-control input').val( curData[10] ); //car distance
+      $('#row_9 .row-control input').val( curData[11] ); //car time
+      $('#row_10 .row-control textarea').val( curData[12] ); //description
+      $('#row_11 .row-control input').val( curData[13] ); //developper
+      $('#row_12 .row-control input').val( curData[14] ); //site
+      $('#row_13 .row-control input').val( curData[15] ); //land type
+      $('#row_14 .row-control input').val( curData[16] ); //energy
+      $('#row_15 .row-control input').val( curData[17] ); //water
+      $('#row_16 .row-control input').val( curData[18] ); //sanitation
+      $('#row_17 .row-control input').val( curData[19] ); //gas
+      $('#row_18 .row-control input').val( curData[20] ); //securyty
+      $('#row_19 .row-control input').val( curData[21] ); //infrastructure
+      
+      if (marker) leafletMap.removeLayer(marker);
+      
+      var myIcon = L.divIcon({className: 'my-div-icon'});
+      marker = new L.marker([curData[2],curData[3]], {draggable:'true', icon: myIcon});
+      
+      marker.on('dragend', function(event){
+          var _marker = event.target;
+          var position = _marker.getLatLng();
+          _marker.setLatLng(new L.LatLng(position.lat, position.lng),{draggable:'true'});
+          leafletMap.panTo(new L.LatLng(position.lat, position.lng));
+        
+          $('#row_2 .row-control input').first().val( position.lat ); //lat
+          $('#row_2 .row-control input').last().val( position.lng ); //lon  
+          $('#row_2 .row-title a').attr( 'href', `https://yandex.ru/maps/?ll=${position.lng}%2C${position.lat}&z=14&mode=whatshere&whatshere%5Bpoint%5D=${position.lng}%2C${position.lat}` ); //YA maps
+        
+      });
+      leafletMap.addLayer(marker);
+      leafletMap.setView(new L.LatLng(curData[2], curData[3]), 14);
+      
+      
+      //
+      
+    });
+    
+    
+    $('#row_20 button').click(function(e){
+      
+      $('#place-' + $('#row_0 .row-control').text() + ' div').last().text( $('#row_1 .row-control input').val() );
+      $('#submit').addClass('disabled');
+      
+      var arr = [
+        $('#row_0 .row-control').text(), //id 0
+        $('#row_1 .row-control input').val(), //name 1
+        $('#row_2 .row-control input').first().val(), //lat 2
+        $('#row_2 .row-control input').last().val(), //lon 3
+        $('#row_3 .row-control input').val(), //address 4
+        $('#row_4 .row-control input').first().val(), //price from 5
+        $('#row_4 .row-control input').last().val(), //price to 6
+        $('#row_5 .row-control input').val(), //ready date 7
+        $('#row_6 .row-control input').val(), //type 8
+        $('#row_7 .row-control input').val(), //class 9
+        $('#row_8 .row-control input').val(), //car distance 10
+        $('#row_9 .row-control input').val(), //car time 11
+        $('#row_10 .row-control textarea').val(), //description 12
+        $('#row_11 .row-control input').val(), //developper 13
+        $('#row_12 .row-control input').val(), //site 14
+        $('#row_13 .row-control input').val(), //land type 15
+        $('#row_14 .row-control input').val(), //energy 16
+        $('#row_15 .row-control input').val(), //water 17
+        $('#row_16 .row-control input').val(), //sanitation 18
+        $('#row_17 .row-control input').val(), //gas 19
+        $('#row_18 .row-control input').val(), //securyty 20
+        $('#row_19 .row-control input').val() //infrastructure 21
+      ];
+      
+      var result = arr.join('||');
+      
+      $.get(urls.set + result, function(d){
+        console.log(d);
+        $('#submit').removeClass('disabled');
+      }).done(function() {
+        $('#submit').removeClass('disabled');
+      })
+      .fail(function() {
+        $('#submit').removeClass('disabled');
+      });
+      
+    });
+    
+    
+    
+    
+  });
+  
+  var leafletMap = L.map('map').setView([55.751244, 37.618423], 9);
+  //L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}.png")
+  L.tileLayer(urls.tiles)
+    .addTo(leafletMap);
+  
+  
+  
+  function scvToArray( strData, strDelimiter ){
+        // Check to see if the delimiter is defined. If not,
+        // then default to comma.
+        strDelimiter = (strDelimiter || ",");
+
+        // Create a regular expression to parse the CSV values.
+        var objPattern = new RegExp(
+            (
+                // Delimiters.
+                "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +
+
+                // Quoted fields.
+                "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+
+                // Standard fields.
+                "([^\"\\" + strDelimiter + "\\r\\n]*))"
+            ),
+            "gi"
+            );
+
+
+        // Create an array to hold our data. Give the array
+        // a default empty first row.
+        var arrData = [[]];
+
+        // Create an array to hold our individual pattern
+        // matching groups.
+        var arrMatches = null;
+
+
+        // Keep looping over the regular expression matches
+        // until we can no longer find a match.
+        while (arrMatches = objPattern.exec( strData )){
+
+            // Get the delimiter that was found.
+            var strMatchedDelimiter = arrMatches[ 1 ];
+
+            // Check to see if the given delimiter has a length
+            // (is not the start of string) and if it matches
+            // field delimiter. If id does not, then we know
+            // that this delimiter is a row delimiter.
+            if (
+                strMatchedDelimiter.length &&
+                strMatchedDelimiter !== strDelimiter
+                ){
+
+                // Since we have reached a new row of data,
+                // add an empty row to our data array.
+                arrData.push( [] );
+
+            }
+
+            var strMatchedValue;
+
+            // Now that we have our delimiter out of the way,
+            // let's check to see which kind of value we
+            // captured (quoted or unquoted).
+            if (arrMatches[ 2 ]){
+
+                // We found a quoted value. When we capture
+                // this value, unescape any double quotes.
+                strMatchedValue = arrMatches[ 2 ].replace(
+                    new RegExp( "\"\"", "g" ),
+                    "\""
+                    );
+
+            } else {
+
+                // We found a non-quoted value.
+                strMatchedValue = arrMatches[ 3 ];
+
+            }
+
+
+            // Now that we have our value string, let's add
+            // it to the data array.
+            arrData[ arrData.length - 1 ].push( strMatchedValue );
+        }
+
+        // Return the parsed data.
+        return( arrData );
+    }
+
+  
+});
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <div id="places">
+      </div>
+      <div id="form">
+        <div class="row" id="row_0">
+          <div class="row-title">id</div>
+          <div class="row-control"></div>
+        </div>
+        <div class="row" id="row_1">
+          <div class="row-title">Название</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_2">
+          <div class="row-title"><div class="col"><div>Координаты (lat — lon)</div><div><a target="_blank" href="https://yandex.ru/maps/">Яндекс.Карта</a></div></div></div>
+          <div class="row-control"><div class="col"><div class="col-row"><div><input type="text" /></div><div><input type="text" /></div></div><div id="map"></div></div></div>
+        </div>
+        <div class="row" id="row_3">
+          <div class="row-title">Адрес</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_4">
+          <div class="row-title">Цена (от — до)</div>
+          <div class="row-control"><div><input type="number" /></div><div><input type="number" /></div></div>
+        </div>
+        <div class="row" id="row_5">
+          <div class="row-title">Дата сдачи</div>
+          <div class="row-control"><input type="number" /></div>
+        </div>
+        <div class="row" id="row_6">
+          <div class="row-title">Тип</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_7">
+          <div class="row-title">Класс</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_8">
+          <div class="row-title">На машине до Москвы</div>
+          <div class="row-control"><input type="number" /></div>
+        </div>
+        <div class="row" id="row_9">
+          <div class="row-title">Время в пути</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_10">
+          <div class="row-title">Описание</div>
+          <div class="row-control"><textarea></textarea></div>
+        </div>
+        <div class="row" id="row_11">
+          <div class="row-title">Застройщик</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_12">
+          <div class="row-title">Сайт</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_13">
+          <div class="row-title">Тип земли</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_14">
+          <div class="row-title">Электричество</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_15">
+          <div class="row-title">Вода</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_16">
+          <div class="row-title">Канализация</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_17">
+          <div class="row-title">Газ</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_18">
+          <div class="row-title">Охрана</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_19">
+          <div class="row-title">Инфраструктура</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_20">
+          <div class="row-title"></div>
+          <div class="row-control"><button id="submit" type="submit">Сохранить</button></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+

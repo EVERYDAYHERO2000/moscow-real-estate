@@ -1,15 +1,16 @@
 __.search = function(params){
   
-  var DATA = $('#app').data('places'),
+  var DATA = $('#app').data('data').places,
       request = params.text.toLowerCase().trim(),
       results = [],
       map = $('#map').data('map');
+   
   
   if (params.text){
     $.each(DATA, function(i,e){
-
+      
       var name = e.name.toLowerCase().trim();
-
+      
       if (name.indexOf(request) !== -1){
 
         e.canvas.visible = true;
