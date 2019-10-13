@@ -31,7 +31,14 @@ let createPage = function(){
     <div id="app">
       <div id="header"></div>
       <div id="main">
-        <div id="places">${places}</div>
+        <div class="panel">
+          <div class="panel__header">
+            <div id="place-search" class="place-search"><input placeholder="Название посёлка" type="search" /><button>Найти</button></div>
+          </div>
+          <div id="places">
+            ${places}
+          </div>
+        </div>
         <div id="map"></div>
       </div>
     <div>

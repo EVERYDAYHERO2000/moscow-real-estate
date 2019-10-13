@@ -193,6 +193,8 @@ $(function(){
       $('#row_17 .row-control input').val( curData[19] ); //gas
       $('#row_18 .row-control input').val( curData[20] ); //securyty
       $('#row_19 .row-control input').val( curData[21] ); //infrastructure
+      $('#row_20 .row-control input').val( curData[22] ); //forest
+      $('#row_21 .row-control input').val( curData[23] ); //river/lake
       
       if (marker) leafletMap.removeLayer(marker);
       
@@ -219,7 +221,7 @@ $(function(){
     });
     
     
-    $('#row_20 button').click(function(e){
+    $('#submit').click(function(e){
       
       $('#place-' + $('#row_0 .row-control').text() + ' div').last().text( $('#row_1 .row-control input').val() );
       $('#submit').addClass('disabled');
@@ -246,7 +248,9 @@ $(function(){
         $('#row_16 .row-control input').val(), //sanitation 18
         $('#row_17 .row-control input').val(), //gas 19
         $('#row_18 .row-control input').val(), //securyty 20
-        $('#row_19 .row-control input').val() //infrastructure 21
+        $('#row_19 .row-control input').val(), //infrastructure 21
+        $('#row_20 .row-control input').val(), //forest
+        $('#row_21 .row-control input').val() //river/lake
       ];
       
       var result = arr.join('||');
@@ -448,6 +452,14 @@ $(function(){
           <div class="row-control"><input type="text" /></div>
         </div>
         <div class="row" id="row_20">
+          <div class="row-title">Лес</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_21">
+          <div class="row-title">Водоём</div>
+          <div class="row-control"><input type="text" /></div>
+        </div>
+        <div class="row" id="row_22">
           <div class="row-title"></div>
           <div class="row-control"><button id="submit" type="submit">Сохранить</button></div>
         </div>
