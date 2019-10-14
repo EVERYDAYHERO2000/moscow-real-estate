@@ -22,11 +22,22 @@ let buildData = function(){
       return result;
     })(),
     geo : require(dataPath + 'geo/cities.json'),
-    eco : {
-      airports : require(dataPath + 'eco/airport.json'),
-      eco : require(dataPath + 'eco/eco.json'),
-      tbo : require(dataPath + 'eco/tbo.json')
-    },
+    eco : (function(){
+      
+      var eco = _.clone(require(dataPath + 'eco/eco.json'));
+      var airport = require(dataPath + 'eco/airport.json');
+      
+      _.forEach(airport, function(e){
+        
+        e.type = 'a';
+        e.id = eco.length + 1;
+        eco.push(e);
+        
+      });
+      
+      return eco;
+    
+    })(),
     structure : {
       medic : require(dataPath + 'structure/medic.json'),
       shcool : require(dataPath + 'structure/shcool.json')
@@ -182,9 +193,8 @@ let buildData = function(){
       var __distance = 10000000;
       var eco = {};
       
-      _.forEach(tempData.eco.eco, function(t){
+      _.forEach(tempData.eco, function(t){
       
-        
         let currentDist = calcDistance(e.point[1], e.point[0], t.point[1], t.point[0], 'K');  
         
         if (currentDist <= __distance) {
@@ -276,7 +286,7 @@ let buildData = function(){
   
   
   
-  _.forEach(tempData.eco.eco,function(e){
+  _.forEach(tempData.eco,function(e){
     var eco = [
       e.id,
       e.point[0],

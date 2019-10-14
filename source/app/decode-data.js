@@ -90,7 +90,7 @@ function decodeData(data) {
 
 
   });
-
+  
   return {
     places : places,
     eco : eco
