@@ -4,19 +4,30 @@ body {
   font-family: Roboto, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5;
-}
-
-#app {
-
-}
-
-#header {
+  
+  @media screen and (max-width: 500px) {
+    overflow-x: hidden;  
+  }
   
 }
 
+
 #main {
   display: flex;
+  
+  @media screen and (max-width: 500px) {
+    transition: all .3s ease;
+    width: 100vw;
+    
+    
+  }
+  
 }
+
+.main_screen-2 {
+  transform: translate(-100vw, 0);
+}
+
 
 #places {
   width: 100%;
@@ -25,8 +36,3 @@ body {
   box-shadow: inset -1px 0 1px rgba(0,0,0,0.1);
 }
 
-#map {
-  height: 100vh;
-  flex-basis: 70%;
-  background: #fbf8f3;
-}

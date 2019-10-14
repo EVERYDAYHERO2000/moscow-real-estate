@@ -23,13 +23,19 @@ let createPage = function(){
 `<html>
   <head>
     <link rel="stylesheet" type="text/css" href="bin/app/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <script src="source/libs/jquery.min.js"></script>
     <script src="source/libs/leaflet.min.js"></script>
     <script src="bin/app/main.js"></script>
   </head>
   <body>
     <div id="app">
-      <div id="header"></div>
+      <div id="header">
+        <div class="header-mobile">
+          <button class="btn">Фильтр</button>
+          <button id="change-view" class="btn">На карте</button>
+        </div>
+      </div>
       <div id="main">
         <div class="panel">
           <div class="panel__header">

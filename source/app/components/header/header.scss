@@ -1,0 +1,29 @@
+#header {
+  
+  display: flex;
+  box-sizing: border-box;
+  
+  @media screen and (max-width: 500px) {
+    
+    background: #7d48dd;
+    
+  }
+
+}
+
+.header-mobile {
+  display: none;
+  
+  @media screen and (max-width: 500px) {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+  }
+  
+}
+
+.header-mobile .btn {
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,1);
+}
+
