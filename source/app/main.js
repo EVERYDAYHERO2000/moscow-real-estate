@@ -62,6 +62,10 @@ $(function () {
       var ctx = p.canvas.getContext('2d'),
           zoom = $(_this).data('map').getZoom();
       
+      
+          
+          
+      
       ctx.clearRect(0, 0, p.canvas.width, p.canvas.height);
 
       
@@ -78,7 +82,7 @@ $(function () {
       
       var img = new Image();  
       
-        var scale = ( $('#app').data('browser').isMobile == 'mobile') ? 3 : 2,
+        var scale = 2,//( $('#app').data('browser').isMobile == 'mobile') ? 3 : 2,
               icons = {
                 recicle : 1,
                 radiation : 20 * scale,
