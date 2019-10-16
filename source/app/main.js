@@ -77,7 +77,8 @@ $(function () {
       });
       
       var img = new Image();  
-        var scale = 2,
+      
+        var scale = ( $('#app').data('browser').isMobile == 'mobile') ? 3 : 2,
               icons = {
                 recicle : 1,
                 radiation : 20 * scale,
@@ -117,7 +118,7 @@ $(function () {
           
           
         }, false);
-        img.src = 'source/assets/img/map/pins@2x.png'; 
+        img.src = `source/assets/img/map/pins@${scale}x.png`; 
       
 
     };
@@ -201,6 +202,12 @@ $(function () {
   
   
   $('#change-view').click(function(){
+      
+      if ( $(this).text() != 'На карте' ){
+        $(this).text('На карте');
+      } else {
+        $(this).text('Списком');
+      }
       
     $('#main').toggleClass('main_screen-2');
     
