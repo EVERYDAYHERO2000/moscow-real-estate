@@ -2,6 +2,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const _ = require('lodash');
 const https = require('https');
+const iconv = require("iconv-lite");
 const CSVToArray = require(DEV_PATH + '/gulp/csv-to-array.js');
 
 let updateData = function(){
@@ -9,13 +10,19 @@ let updateData = function(){
   var csvURL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT8QUn2_IpcV0Q_i9uJfsmKMYZErXyAVGMv4u9a1sG36S4450_Wr5vv6LUMsgPYZpoxmdclHMVmg7U6/pub?gid=1270687964&single=true&output=csv';
 
   https.get(csvURL, (resp) => {
-    let data = '';
+    let data = '',
+        chunks = [];
 
     resp.on('data', (chunk) => {
-      data += chunk;
+      
+      chunks.push(chunk);
+      
     });
 
     resp.on('end', () => {
+      
+      data = iconv.decode(Buffer.concat(chunks), 'utf8');
+      
       var arr = CSVToArray(data);
       var places = [];
       

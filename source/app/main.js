@@ -17,7 +17,11 @@ $(function () {
 
     
     
-    $('#app').data('data', data);
+    $('#app').data('data', data).bind('resizeApp', function(){
+      
+      __.resize();
+      
+    }).trigger('resizeApp');
     
     $('#map').trigger('renderMap', {
       data: data
