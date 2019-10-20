@@ -4,7 +4,7 @@ __.search = function(params){
       searchdata = [],
       results = [],
       map = $('#map').data('map'),
-      search = new __.substringSearch({ multiply : false }),
+      search = new __.fs.substringSearch({ multiply : false }),
       keys = {};
   
   
@@ -30,7 +30,6 @@ __.search = function(params){
       }
       
     });
-    
     
     
     $('#places').trigger('renderList', {places : results, onlyVisible: true}).scrollTop(0);

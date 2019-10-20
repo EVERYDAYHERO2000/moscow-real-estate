@@ -23,13 +23,13 @@ __.core.$map = function(){
     var id = $(event.target).attr('id');
     
     var leafletMap = L.map(id).setView([55.751244, 37.618423], 9);
-    //L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}.png")
-    L.tileLayer("https://{s}.tiles.mapbox.com/v4/mapbox.dark/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZ2xlYWZsZXQiLCJhIjoiY2lxdWxoODl0MDA0M2h4bTNlZ2I1Z3gycyJ9.vrEWCC2nwsGfAYKZ7c4HZA")
+    var tiles = L.tileLayer("https://{s}.tiles.mapbox.com/v4/mapbox.dark/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZ2xlYWZsZXQiLCJhIjoiY2lxdWxoODl0MDA0M2h4bTNlZ2I1Z3gycyJ9.vrEWCC2nwsGfAYKZ7c4HZA")
       .addTo(leafletMap);
     
     
     
     $(event.target).data('map', leafletMap);
+    $(event.target).data('tiles', tiles);  
     
   }).bind('renderMap', function (event, params) {
 
@@ -66,8 +66,8 @@ __.core.$map = function(){
       
       let changeOverlay = $('#select-layer').val();
       
-      
       __.mapOverlay()[changeOverlay](params, canvasOverlay, ctx);
+      __.mapTiles()[changeOverlay]();
       
 
     };

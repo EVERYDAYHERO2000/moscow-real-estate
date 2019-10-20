@@ -1,4 +1,4 @@
-__.substringSearch = function(options) {
+__.fs.substringSearch = function(options) {
 
   options = options || {}
   

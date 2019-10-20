@@ -1,4 +1,4 @@
-__.browserDetect = function () {
+__.fs.browserDetect = function () {
 
 	var nVer = navigator.appVersion;
 	var nAgt = navigator.userAgent;

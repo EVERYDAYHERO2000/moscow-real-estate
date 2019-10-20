@@ -61,7 +61,7 @@ __.placePoint = function (params) {
     },
     size = s[params.zoom].s * 2,
     changeColor = $('#select-layer').val(),    
-    color = __.colorize()[changeColor](params.place);
+    color = __.fs.colorize()[changeColor](params.place);
   
   params.ctx.fillStyle = color;
 

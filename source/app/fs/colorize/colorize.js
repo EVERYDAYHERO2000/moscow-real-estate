@@ -1,4 +1,4 @@
-__.colorize = function(params){
+__.fs.colorize = function(params){
    
   //default
   this.default = function() {
@@ -55,15 +55,15 @@ __.colorize = function(params){
   //car distance
   this.car = function(params) {
     
-    var distance = params.car.distance;
+    var time = __.fs.timeToInt(params.car.time.h,params.car.time.m);
     var color;
 
-    if (distance <= 30) color = rgba(0, 177, 255, 0.3);
-    if (distance > 30) color = rgba(29, 0, 255, 0.3);
-    if (distance > 50) color = rgba(118, 0, 255, 0.3);
-    if (distance > 70) color = rgba(226, 0, 255, 0.3);
-    if (distance > 100) color = rgba(255, 0, 128, 0.3);
-    if (distance > 150) color = rgba(255, 0, 0, 0.3);
+    if (time <= 30) color = rgba(0, 177, 255, 0.3);
+    if (time > 30) color = rgba(29, 0, 255, 0.3);
+    if (time > 50) color = rgba(118, 0, 255, 0.3);
+    if (time > 70) color = rgba(226, 0, 255, 0.3);
+    if (time > 100) color = rgba(255, 0, 128, 0.3);
+    if (time > 150) color = rgba(255, 0, 0, 0.3);
 
     return color;
     
