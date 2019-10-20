@@ -4,16 +4,17 @@ __.core.$mapControls = function () {
 
     let layers = {
         default: {
-          title: 'Нет',
-          selected: false
+          title: 'Нет'
         },
         eco: {
           title: 'Экология',
           selected: true
         },
         railroad: {
-          title: 'Электирички',
-          selected: false
+          title: 'Электирички'
+        },
+        car: {
+          title: 'Автомобиль'
         }
       },
       l = '';

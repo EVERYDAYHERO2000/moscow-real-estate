@@ -1,6 +1,3 @@
-var __=__||{core:{},fs:{}};
-
-
 var runApp = function(){
     
   __.core = __.fs.coreModuls(['$window','$app','$header','$map','$places','$placeSearch','$mapControls']);

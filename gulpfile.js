@@ -65,11 +65,12 @@ gulp.task('js', function () {
   gulp.src(DEV_PATH + '/source/app/**/*.js')
     .pipe(sourcemaps.init())
     .pipe(concat('main.js'))
-    .pipe(gap.appendText('$(function(){runApp()})'))
     .pipe(babel({
        presets: ['@babel/env']
     }))
     .pipe(uglify())
+    .pipe(gap.prependText('var __=__||{core:{},fs:{}};'))
+    .pipe(gap.appendText('$(function(){runApp()})'))
     .pipe(replace(/\\n+/g, ''))
     .pipe(replace(/\s+/g, ' '))
     .pipe(sourcemaps.write('.'))

@@ -7,6 +7,7 @@ __.core.$header = function(){
       } else {
         $(this).text('Списком');
       }
+    
       
     $('#main').toggleClass('main_screen-2');
     
