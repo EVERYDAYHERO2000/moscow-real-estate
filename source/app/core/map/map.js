@@ -114,6 +114,9 @@ __.core.$map = function(){
 
   });
   
+  $('#map-controls').append(`<div class="map-controls"><div class="btn">Слой</div></div>`);
+  
+  
   return $('#map');
   
   }
