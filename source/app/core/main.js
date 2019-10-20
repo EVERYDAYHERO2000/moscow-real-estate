@@ -1,5 +1,7 @@
 var __=__||{core:{},fs:{}};
-$(function () {
+
+
+var runApp = function(){
     
   __.core = __.fs.coreModuls(['$window','$app','$header','$map','$places','$placeSearch']);
   
@@ -22,6 +24,8 @@ $(function () {
     });
 
   });
+  
+  
+}
 
   
-});

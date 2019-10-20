@@ -112,9 +112,23 @@ __.core.$map = function(){
 
     };
 
+  }).data('layer',{
+    eco: {
+      title : 'Экология',
+      active : true
+    },
+    railroad : {
+      title : 'Электирички',
+      active : false 
+    }
   });
   
-  $('#map-controls').append(`<div class="map-controls"><div class="btn">Слой</div></div>`);
+  $('#map-controls').bind('create', function(event){
+    
+    $(this).append(`<div class="map-controls"><div class="btn">Слой</div></div>`);
+    
+  }).trigger('create');
+  
   
   
   return $('#map');
