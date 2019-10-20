@@ -18,8 +18,16 @@
   
 }
 
+.panel_2-col {
+  flex-basis: 70%;
+}
+
 .panel__header {
   padding: 10px;
   z-index: 100;
   box-shadow: 0 0 10px rgba(0,0,0,.05), inset -1px -1px 0 rgba(0,0,0,.1);
+}
+
+.panel__header_overlay {
+  padding:0;
 }

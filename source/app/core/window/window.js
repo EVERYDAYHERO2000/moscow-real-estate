@@ -1,4 +1,4 @@
-__.resize = function() {
+__.core.$window = function() {
   
   
   let headerHeight = $('#header').outerHeight(),
@@ -18,5 +18,7 @@ __.resize = function() {
     });
     
   }
+  
+  return $(window);
   
 }
