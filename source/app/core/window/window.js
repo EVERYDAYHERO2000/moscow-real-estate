@@ -14,7 +14,7 @@ __.core.$window = function() {
   
   function resize(){
     $('#main').css({
-      height : (windowHeight - headerHeight) + 'px'
+      height : `calc(100vh - ${headerHeight}px)`
     });
     
   }
