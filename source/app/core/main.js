@@ -3,7 +3,7 @@ var __=__||{core:{},fs:{}};
 
 var runApp = function(){
     
-  __.core = __.fs.coreModuls(['$window','$app','$header','$map','$places','$placeSearch']);
+  __.core = __.fs.coreModuls(['$window','$app','$header','$map','$places','$placeSearch','$mapControls']);
   
 
   $.get('bin/data/data.json', function (places) {

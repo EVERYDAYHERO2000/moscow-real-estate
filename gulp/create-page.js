@@ -61,6 +61,8 @@ let createPage = function(){
         </div>
         <div class="panel panel_2-col">
           <div id="map-controls" class="panel__header panel__header_overlay">
+            <div class="layers-controls">
+            </div>
           </div>
           <div id="map"></div>
         </div>

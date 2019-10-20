@@ -1,5 +1,12 @@
 __.colorize = function(params){
    
+  //default
+  this.default = function() {
+    
+    return rgba(0,98,255,.5);
+    
+  }
+  
   //ecology
   this.eco = function(params) {
     
