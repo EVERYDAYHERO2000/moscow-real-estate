@@ -73,7 +73,7 @@ __.core.$map = function(){
       let changeOverlay = $('#select-layer').val();
       let tileset = $('#map').data('tileset');
       
-      __.mapOverlay()[changeOverlay](params, canvasOverlay, ctx);
+      __.mapOverlay()[changeOverlay]( params, canvasOverlay, ctx, zoom );
       __.mapTiles(tileset)[changeOverlay]();
       
 
