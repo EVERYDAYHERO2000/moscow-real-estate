@@ -11,7 +11,7 @@ __.mapTiles = function(tileset){
     
     if (tiles._url != simple) {
       tiles.setUrl(simple);
-      $map.addClass('map_light').removeClass('map_dark');
+      $map.addClass('map_light').removeClass('map_dark');  
     }
     
     
