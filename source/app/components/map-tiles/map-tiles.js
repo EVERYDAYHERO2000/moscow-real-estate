@@ -13,7 +13,7 @@ __.mapTiles = function(tileset){
       tiles.setUrl(simple);
       
     }
-    $map.addClass('map_light').removeClass('map_dark');  
+    changeClass('map_dark','map_light');
     
   }
   
@@ -23,7 +23,7 @@ __.mapTiles = function(tileset){
       tiles.setUrl(dark);
       
     }
-    $map.removeClass('map_light').addClass('map_dark'); 
+    changeClass('map_light','map_dark');
   }
   
   this.railroad = function(){
@@ -32,7 +32,7 @@ __.mapTiles = function(tileset){
       tiles.setUrl(dark);
       
     }
-    $map.removeClass('map_light').addClass('map_dark');
+    changeClass('map_light','map_dark');
   }
   
   this.car = function(){
@@ -41,7 +41,12 @@ __.mapTiles = function(tileset){
       tiles.setUrl(dark);
       
     }
-    $map.removeClass('map_light').addClass('map_dark');
+    changeClass('map_light','map_dark');
+  }
+  
+  function changeClass(from,to){
+    $map.removeClass(from).addClass(to);
+    return false;
   }
   
   return this;

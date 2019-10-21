@@ -4,7 +4,7 @@ __.core.$mapControls = function () {
 
     let layers = {
         default: {
-          title: 'Нет'
+          title: 'Карта'
         },
         eco: {
           title: 'Экология',
@@ -18,6 +18,7 @@ __.core.$mapControls = function () {
         }
       },
       l = '';
+    
 
     $.each(layers, function (i, e) {
       let selected = (e.selected) ? 'selected' : ''
@@ -45,6 +46,6 @@ __.core.$mapControls = function () {
 
 
 
-  }).trigger('create');
+  }).trigger('create');    
 
 }

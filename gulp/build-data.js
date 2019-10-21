@@ -7,11 +7,11 @@ const calcDistance = require(DEV_PATH + '/gulp/calc-distance.js');
 
 
 
-let buildData = function(){
+let buildData = function(places, writeFile){
   
   let dataPath = DEV_PATH + '/source/data/';
   let tempData = {
-    places : require(dataPath + 'places/places.json'),
+    places : (places) ? places : require(dataPath + 'places/places.json'),
     railroad : (function(){
       const stations = require(dataPath + 'railroad/points.json');
       const routes = require(dataPath + 'railroad/route.json');
@@ -310,12 +310,42 @@ let buildData = function(){
   });
   
   
-  
-  fs.writeFile(DEV_PATH + '/bin/data/data.json', JSON.stringify(json), function(err) {
-    if (err) {
-      console.log('buildData -->', err); 
-    } 
-  });
+  if (writeFile) {
+    
+    fs.writeFile(DEV_PATH + '/bin/data/data.json', JSON.stringify(json), function(err) {
+      if (err) {
+        console.log('buildData -->', err); 
+      } 
+
+    });
+    
+    
+    _.forEach(tempData.places, function(e){
+      
+      let id = e.id,
+          folder = Math.floor(id/100) * 100,
+          url = DEV_PATH + `/bin/data/places/${folder}/place_` + id;
+      
+      if (id < 2000) fs.mkdir(url, { recursive: true }, (err) => {
+        if (err) {
+          throw err;
+          
+        } else {
+          
+          
+          fs.writeFile(url + '/data.json', JSON.stringify(e), function(err) {
+            if (err) {
+              console.log('buildData -->', err); 
+            } 
+
+          });
+          
+        }
+        
+      });
+    });
+    
+  }
   
   
   

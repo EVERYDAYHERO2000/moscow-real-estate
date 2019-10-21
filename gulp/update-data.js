@@ -4,6 +4,7 @@ const _ = require('lodash');
 const https = require('https');
 const iconv = require("iconv-lite");
 const CSVToArray = require(DEV_PATH + '/gulp/csv-to-array.js');
+const buildData = require(DEV_PATH + '/gulp/build-data.js');
 
 let updateData = function(){
   
@@ -68,7 +69,11 @@ let updateData = function(){
       fs.writeFile(DEV_PATH + '/source/data/places/places.json', JSON.stringify(places), function(err) {
         if (err) {
           console.log('updateData -->', err); 
+        } else {
+          console.log('updateData -->', 'done'); 
+          buildData(places, true);
         } 
+        
       });
       
     });
