@@ -3,7 +3,6 @@
 #map {
   height: 100vh;
   flex-basis: 100%;
-  background: #fbf8f3;
   
   @media screen and (max-width: 500px) {
     flex-basis: 100%;
@@ -20,3 +19,10 @@
   padding: 10px;
 }
 
+.map_light {
+  background: #fbf8f3;
+}
+
+.map_dark {
+  background: #0e0e0e;
+}

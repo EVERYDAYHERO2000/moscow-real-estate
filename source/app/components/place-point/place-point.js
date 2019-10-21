@@ -63,7 +63,22 @@ __.placePoint = function (params) {
     changeColor = $('#select-layer').val(),    
     color = __.fs.colorize()[changeColor](params.place);
   
+  
+  
   params.ctx.fillStyle = color;
+  
+  if (params.zoom > 10){
+    params.ctx.lineWidth = 1;
+    params.ctx.strokeStyle = 'rgba(255, 255, 255,.5)';
+    params.ctx.stroke();
+  }
+  
+  if (params.zoom > 11){
+    params.ctx.lineWidth = 1;
+    params.ctx.strokeStyle = 'rgb(255, 255, 255)';
+    params.ctx.stroke();
+    
+  }
 
   var dot = params.canvasOverlay._map.latLngToContainerPoint([params.place.point[1], params.place.point[0]]);
   params.ctx.beginPath();
