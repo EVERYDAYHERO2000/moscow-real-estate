@@ -1,6 +1,7 @@
 function decodeData(data) {
   var places = [];
   var eco = {};
+  var rail = {};
 
   $.each(data.p, function (i, e) {
 
@@ -41,8 +42,11 @@ function decodeData(data) {
                   m: s[6]
                 }
               }
+              
+              rail[obj.id] = obj;
             }
           });
+          
           return obj;
         })(data.r, e[5])
       },
@@ -91,9 +95,12 @@ function decodeData(data) {
 
   });
   
+  
+  
   return {
     places : places,
-    eco : eco
+    eco : eco,
+    railroad : rail
   };
 
 
