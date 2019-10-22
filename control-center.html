@@ -132,6 +132,9 @@
       }
       
     </style>
+    <script>
+      window.letitgo = 'ilovedesign';
+    </script>
     <script src="source/libs/jquery.min.js"></script>
     <link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7.2/leaflet.css" />
     <script src="source/libs/leaflet.min.js"></script>
@@ -152,7 +155,22 @@
     <!-- /Yandex.Metrika counter -->
     <script>
 $(function(){
-  var urls = {
+  
+  if (!localStorage.auth) {
+    
+    var auth = prompt('pass', ''); 
+    
+    if (auth == window.letitgo){
+      localStorage.setItem('auth', auth);
+      editor();
+    }
+    
+  } else {
+    editor();
+  }
+  
+  function editor(){
+    var urls = {
     get : 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT8QUn2_IpcV0Q_i9uJfsmKMYZErXyAVGMv4u9a1sG36S4450_Wr5vv6LUMsgPYZpoxmdclHMVmg7U6/pub?gid=1270687964&single=true&output=csv&version=c_' + Math.round(Math.random() * 100),
     set : 'https://script.google.com/macros/s/AKfycbxVZXhYott7f6jONtAIjfX5mDu5I_QjCa1h9Kv76bbY_68-6fw/exec?params=',
     tiles : 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
@@ -164,11 +182,19 @@ $(function(){
   $.get(urls.get, function(d){
     data = scvToArray(d);
     
+    $('#app').css({display:'flex'});
+    
+    
+    
     $.each(data, function(i,e){
       
       if (i > 0) $('#places').append(`<div class="place-item" id="place-${e[0]}"><div>${e[0]}</div><div>${e[1]}</div></div>`);
       
     });
+    
+    
+    
+    
     
     $('#places').on('click', '.place-item', function(e){
       
@@ -228,13 +254,32 @@ $(function(){
         
       });
       leafletMap.addLayer(marker);
+
       leafletMap.setView(new L.LatLng(curData[2], curData[3]), 14);
       
-      
-      //
+      setTimeout(function(){
+        $('#form').scrollTop(0);
+      },100); 
       
     });
     
+    if ( location.hash ){
+      
+      var hash = location.hash.replace('#','');
+      
+      $('.place-item').each(function(i,e){
+        
+        if ( $(e).attr('id').replace('place-','') == hash  ) {
+          
+          $(e).click();
+          
+          return false;
+          
+        }
+        
+      });
+      
+    }
     
     $('#submit').click(function(e){
       
@@ -282,17 +327,13 @@ $(function(){
       
     });
     
-    
-    
-    
   });
   
   var leafletMap = L.map('map').setView([55.751244, 37.618423], 9);
   //L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}.png")
   L.tileLayer(urls.tiles)
     .addTo(leafletMap);
-  
-  
+  }
   
   function scvToArray( strData, strDelimiter ){
         // Check to see if the delimiter is defined. If not,
@@ -379,10 +420,10 @@ $(function(){
 
   
 });
-    </script>
+  </script>
   </head>
   <body>
-    <div id="app">
+    <div id="app" style="display: none">
       <div id="places">
       </div>
       <div id="form">

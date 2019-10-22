@@ -13,7 +13,10 @@ __.core.$map = function(){
         x < el.canvas.x2 &&
         y > el.canvas.y1 &&
         y < el.canvas.y2) {
-        console.log(y, el);
+        
+        let link = `${location.origin}/control-center.html#${el.id}`  
+        
+        console.log('id: '+ el.id, link);
       }
 
     });
@@ -30,8 +33,6 @@ __.core.$map = function(){
     var leafletMap = L.map(id).setView([55.751244, 37.618423], 9);
     var tiles = L.tileLayer(t.dark)
       .addTo(leafletMap);
-    
-    
     
     $(event.target).data('map', leafletMap);
     $(event.target).data('tiles', tiles);

@@ -22,14 +22,12 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
 
       $.each(railroad, function (i, e) {
 
-        var ico = '';
+        let ico = '';
       
         if (zoom > 9) ico = icons.point_blue;
         if (zoom > 11) ico = icons.railroad;
 
-        var dot = canvasOverlay._map.latLngToContainerPoint([e.point[1], e.point[0]]);
-
-        if (ico) ctx.drawImage(img, 0, ico, size, size, dot.x - resize / 2, dot.y - resize / 2, resize, resize);
+        drawImage(e, ctx, canvasOverlay, img, size, ico, resize);
 
       });
 
@@ -53,7 +51,7 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
 
       $.each(eco, function (i, e) {
 
-        var ico = null;
+        let ico = null;
 
         if (zoom > 9) {
 
@@ -72,9 +70,7 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
 
         }
 
-        var dot = canvasOverlay._map.latLngToContainerPoint([e.point[1], e.point[0]]);
-
-        if (ico) ctx.drawImage(img, 0, ico, size, size, dot.x - resize / 2, dot.y - resize / 2, resize, resize);
+        drawImage(e, ctx, canvasOverlay, img, size, ico, resize);
 
       });
 
@@ -83,6 +79,13 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
     }, false);
     
 
+  }
+  
+  function drawImage(e, ctx, canvasOverlay, img, size, ico, resize){
+    
+    let dot = canvasOverlay._map.latLngToContainerPoint([e.point[1], e.point[0]]);
+    if (ico) ctx.drawImage(img, 0, ico, size, size, dot.x - resize / 2, dot.y - resize / 2, resize, resize);
+    return img;
   }
 
   return this;
