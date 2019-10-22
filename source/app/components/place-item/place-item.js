@@ -50,7 +50,7 @@ __.placeItem = function(params){
         folder = Math.floor(id/100) * 100,
         origin = location.origin,
         pathname = location.pathname,
-        url = `${origin}${pathname}/bin/data/places/${folder}/place_${id}/data.json`;
+        url = `./bin/data/places/${folder}/place_${id}/data.json`;
     
     $.each(DATA, function(i,e){
       
