@@ -46,7 +46,9 @@ __.placeItem = function(params){
     
     var DATA = $('#app').data('data').places,
         map = $('#map').data('map'),
-        id = $(e.currentTarget).attr('id').split('-')[1];
+        id = $(e.currentTarget).attr('id').split('-')[1],
+        folder = Math.floor(id/100) * 100,
+        url = `/bin/data/places/${folder}/place_${id}/data.json`;
     
     $.each(DATA, function(i,e){
       
@@ -57,6 +59,11 @@ __.placeItem = function(params){
       
     });
     
+    console.log(url);
+    
+    $.get(url, function(data){
+      console.log(data);  
+    });
     
       
   })

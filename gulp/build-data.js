@@ -326,7 +326,7 @@ let buildData = function(places, writeFile){
           folder = Math.floor(id/100) * 100,
           url = DEV_PATH + `/bin/data/places/${folder}/place_` + id;
       
-      if (id < 2000) fs.mkdir(url, { recursive: true }, (err) => {
+      fs.mkdir(url, { recursive: true }, (err) => {
         if (err) {
           throw err;
           

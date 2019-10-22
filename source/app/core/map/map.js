@@ -1,11 +1,12 @@
 __.core.$map = function(){
   
+    
     $('#map').click(function (e) {
 
     var DATA = $('#app').data('data').places,
         x = e.offsetX,
         y = e.offsetY;
-    
+  
 
     $.each(DATA, function (i, el) {
 
@@ -37,6 +38,14 @@ __.core.$map = function(){
     $(event.target).data('map', leafletMap);
     $(event.target).data('tiles', tiles);
     $(event.target).data('tileset', t);  
+      
+      
+    $('.leaflet-bar').find('a').each(function(i,e){
+      $(e).click(function(event){
+        event.preventDefault();
+      });
+    });
+      
     
   }).bind('renderMap', function (event, params) {
 
