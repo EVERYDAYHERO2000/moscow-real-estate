@@ -18,8 +18,6 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
 
     let railroad = params.data.railroad;
     
-     console.log(params.data);
-    
      img.addEventListener('load', function () {
 
       $.each(railroad, function (i, e) {

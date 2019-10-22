@@ -29,10 +29,11 @@ function decodeData(data) {
       railroad: {
         distance: e[4],
         closest: (function (railroad, stationId) {
-          var obj = {}
+          var obj = {},
+              m_obj = {}
           $.each(railroad, function (i, s) {
-            if (stationId == s[0]) {
-              obj = {
+            
+            obj = {
                 id: s[0],
                 name: s[2],
                 point: [s[1], s[3]],
@@ -41,13 +42,16 @@ function decodeData(data) {
                   h: s[5],
                   m: s[6]
                 }
-              }
-              
-              rail[obj.id] = obj;
+            }
+            
+            rail[obj.id] = obj;
+            
+            if (stationId == s[0]) {
+              m_obj = obj;
             }
           });
           
-          return obj;
+          return m_obj;
         })(data.r, e[5])
       },
       city: {
@@ -69,20 +73,24 @@ function decodeData(data) {
       eco: {
         distance: e[9],
         closest: (function (ecos, ecoId) {
-          var obj = {}
+          var obj = {},
+              m_obj = {};
+          
           $.each(ecos, function (i, ec) {
-            if (ecoId == ec[0]) {
-              obj = {
-                id: ec[0],
-                name: ec[2],
-                point: [ec[1], ec[3]],
-                type: ec[4]
-              }
+            obj = {
+              id: ec[0],
+              name: ec[2],
+              point: [ec[1], ec[3]],
+              type: ec[4]
+            }
               
-              eco[obj.id] = obj;
+            eco[obj.id] = obj;
+            
+            if (ecoId == ec[0]) {
+              m_obj = obj;
             }
           });
-          return obj;
+          return m_obj;
         })(data.e, e[10])
       },
       canvas : {
