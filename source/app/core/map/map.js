@@ -43,6 +43,7 @@ __.core.$map = function(){
     $('.leaflet-bar').find('a').each(function(i,e){
       $(e).click(function(event){
         event.preventDefault();
+        $('#app').scrollTop(0);
       });
     });
       
