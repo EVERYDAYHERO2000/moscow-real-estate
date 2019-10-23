@@ -1,0 +1,23 @@
+#select-layer {
+  padding-left: 33px;
+  background-image: url(../../source/assets/img/icons/sprites.svg);
+  background-size: 30px auto;
+  background-repeat: no-repeat;
+  background-position: 2px 2px; 
+}
+
+#select-layer[data-ico=default] {
+  background-position:2px 2px; 
+}
+
+#select-layer[data-ico=eco] {
+  background-position:2px -28px; 
+}
+
+#select-layer[data-ico=railroad] {
+  background-position:2px -56px; 
+}
+
+#select-layer[data-ico=car] {
+  background-position:2px -85px; 
+}
