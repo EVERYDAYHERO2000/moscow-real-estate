@@ -7,6 +7,12 @@
   cursor: pointer;
 }
 
+.place-item_active {
+  background: #e5e6ef;
+  transition: background .1s ease;
+  box-shadow: none;
+}
+
 .place-item__title {
   display: flex;
   align-items: baseline;

@@ -50,6 +50,9 @@ __.placeItem = function(params){
         folder = Math.floor(id/100) * 100,
         url = `./bin/data/places/${folder}/place_${id}/data.json`;
     
+        $('.place-item').removeClass('place-item_active');
+        $(this).addClass('place-item_active');
+    
     $.each(DATA, function(i,e){
       
       if (e.id == id){
