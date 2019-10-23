@@ -95,6 +95,8 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
       
     }
     
+    return img;
+    
   }
   
   
