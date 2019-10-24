@@ -11,7 +11,7 @@ __.core.$mapControls = function () {
           selected: true
         },
         railroad: {
-          title: 'Электирички'
+          title: 'Электрички'
         },
         car: {
           title: 'Автомобиль'
