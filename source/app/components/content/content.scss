@@ -1,0 +1,41 @@
+.content {
+  
+}
+
+.content__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+  
+  @media screen and (max-width: 500px) {
+    
+    display: block;
+    
+  }
+  
+}
+
+.content__item:last-child {
+  border-bottom: none;
+}
+
+.content__item-title {
+  
+  @media screen and (max-width: 500px) {
+    
+    opacity: .8;
+    font-size: 13px;
+  }
+  
+}
+
+.content__item-value {
+  
+  @media screen and (max-width: 500px) {
+    
+    padding-top: 10px;
+    
+  }
+  
+}

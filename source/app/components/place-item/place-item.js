@@ -4,8 +4,8 @@ __.placeItem = function(params){
   let _price = (function(price){
       
     let p = {
-      from : (price.from) ? (typeof global != 'undefined') ? global.component('cost', {value : price.from })[0] : __.fs.cost({value : price.from })[0] : '',
-      to   : (price.to)   ? (typeof global != 'undefined') ? global.component('cost', {value : price.to })[0]   : __.fs.cost({value : price.to })[0]   : ''
+      from : (price.from) ? (typeof global != 'undefined') ? global.component('cost', {value : price.from })[0] : __.cost({value : price.from })[0] : '',
+      to   : (price.to)   ? (typeof global != 'undefined') ? global.component('cost', {value : price.to })[0]   : __.cost({value : price.to })[0]   : ''
     }  
     
     return {
@@ -52,10 +52,11 @@ __.placeItem = function(params){
     
         $('.place-item').not(this).removeClass('place-item_active');
     
-        $('#detail-screen').remove();
+        
         
         if ( $(this).is('.place-item_active') ){
           $(this).removeClass('place-item_active');
+          $('#detail-screen').remove();
           
         } else {
           $(this).addClass('place-item_active');

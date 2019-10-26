@@ -1,4 +1,4 @@
-__.fs.cost = function(params) {
+__.cost = function(params) {
   
     let value = params.value;
     value = (/\.\d/.test(value)) ? value + '' : value + '.00';
