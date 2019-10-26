@@ -55,7 +55,7 @@ __.fs.colorize = function(params){
   //car distance
   this.car = function(params) {
     
-    var time = __.fs.timeToInt(params.car.time.h,params.car.time.m);
+    var time = __.fs.time.toInt(params.car.time.h,params.car.time.m);
     var color;
 
     if (time <= 30) color = rgba(0, 177, 255, 0.3);

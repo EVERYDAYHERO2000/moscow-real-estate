@@ -2,51 +2,47 @@ __.mapTiles = function(tileset){
   
   let simple = tileset.simple,
       dark = tileset.dark,
-      $map = $('#map'),
-      tiles = $map.data('tiles');
+      $map = __.core.$map,
+      tiles = $map.data('tiles'),
+      d = 'map_dark',
+      l = 'map_light';
   
   
   
   this.default = function(){
     
-    if (tiles._url != simple) {
-      tiles.setUrl(simple);
-      
-    }
-    changeClass('map_dark','map_light');
+    setTiles(simple);
+    changeClass(d,l);
     
   }
   
   this.eco = function(){
     
-    if (tiles._url != dark) {
-      tiles.setUrl(dark);
-      
-    }
-    changeClass('map_light','map_dark');
+    setTiles(dark);
+    changeClass(l,d);
   }
   
   this.railroad = function(){
     
-    if (tiles._url != dark) {
-      tiles.setUrl(dark);
-      
-    }
-    changeClass('map_light','map_dark');
+    setTiles(dark);
+    changeClass(l,d);
   }
   
   this.car = function(){
     
-    if (tiles._url != dark) {
-      tiles.setUrl(dark);
-      
-    }
-    changeClass('map_light','map_dark');
+    setTiles(dark);
+    changeClass(l,d);
   }
   
   function changeClass(from,to){
     $map.removeClass(from).addClass(to);
     return false;
+  }
+  
+  function setTiles(n){
+    if (tiles._url != n) {
+      tiles.setUrl(n);
+    }
   }
   
   return this;

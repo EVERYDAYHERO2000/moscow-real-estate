@@ -1,6 +1,6 @@
-__.cost = function(params) {
+__.fs.cost = function(params) {
   
-    var value = params.value;
+    let value = params.value;
     value = (/\.\d/.test(value)) ? value + '' : value + '.00';
     value = (/\.\d{2}/.test(value)) ? value : value + '0';
     value = (value).replace(/\d(?=(\d{3})+\.)/g, '$& ');

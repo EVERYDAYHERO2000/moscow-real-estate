@@ -33,3 +33,23 @@
 .panel__header_overlay {
   padding:0;
 }
+
+.panel_detail {
+  
+  position: absolute;
+  left: 30%;
+  width: calc(100% - 30%);
+  z-index: 1000;
+  box-sizing: border-box;
+  top: 0;
+  
+  @media screen and (max-width: 500px) {
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+}
+

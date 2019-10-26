@@ -5,10 +5,8 @@ var runApp = function(){
 
   $.get('bin/data/data.json', function (places) {
     
-    var data = decodeData(places);
+    let data = __.fs.decodeData(places);
 
-    
-    
     __.core.$app.data('data', data);
     
     __.core.$map.trigger('createMap').trigger('renderMap', {

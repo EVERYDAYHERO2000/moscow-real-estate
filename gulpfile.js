@@ -69,7 +69,7 @@ gulp.task('js', function () {
        presets: ['@babel/env']
     }))
     .pipe(uglify())
-    .pipe(gap.prependText('var __={core:{},fs:{}};'))
+    .pipe(gap.prependText('var __={core:{},fs:{D:atob}};'))
     .pipe(gap.appendText('$(function(){runApp()})'))
     .pipe(replace(/\\n+/g, ''))
     .pipe(replace(/\s+/g, ' '))

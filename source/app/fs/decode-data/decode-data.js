@@ -1,4 +1,4 @@
-function decodeData(data) {
+__.fs.decodeData = function (data) {
   var places = [];
   var eco = {};
   var rail = {};

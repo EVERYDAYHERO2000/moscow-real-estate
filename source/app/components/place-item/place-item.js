@@ -4,8 +4,8 @@ __.placeItem = function(params){
   let _price = (function(price){
       
     let p = {
-      from : (price.from) ? (typeof global != 'undefined') ? global.component('cost', {value : price.from })[0] : __.cost({value : price.from })[0] : '',
-      to   : (price.to)   ? (typeof global != 'undefined') ? global.component('cost', {value : price.to })[0]   : __.cost({value : price.to })[0]   : ''
+      from : (price.from) ? (typeof global != 'undefined') ? global.component('cost', {value : price.from })[0] : __.fs.cost({value : price.from })[0] : '',
+      to   : (price.to)   ? (typeof global != 'undefined') ? global.component('cost', {value : price.to })[0]   : __.fs.cost({value : price.to })[0]   : ''
     }  
     
     return {
@@ -42,7 +42,7 @@ __.placeItem = function(params){
   </div>
 </div>`;
     
-  if (typeof global == 'undefined') bindEvent('.place-item', 'click', function(e){
+  if (typeof global == 'undefined') __.fs.event.bind('.place-item', 'click', function(e){
     
     var DATA = $('#app').data('data').places,
         map = $('#map').data('map'),
@@ -50,23 +50,34 @@ __.placeItem = function(params){
         folder = Math.floor(id/100) * 100,
         url = `./bin/data/places/${folder}/place_${id}/data.json`;
     
-        $('.place-item').removeClass('place-item_active');
-        $(this).addClass('place-item_active');
+        $('.place-item').not(this).removeClass('place-item_active');
     
-    $.each(DATA, function(i,e){
+        $('#detail-screen').remove();
+        
+        if ( $(this).is('.place-item_active') ){
+          $(this).removeClass('place-item_active');
+          
+        } else {
+          $(this).addClass('place-item_active');
+          
+          $.each(DATA, function(i,e){
       
-      if (e.id == id){
-        map.setView(new L.LatLng(e.point[1], e.point[0]), 14);
-        return false;
-      }
-      
-    });
+            if (e.id == id){
+              map.setView(new L.LatLng(e.point[1], e.point[0]), 14);
+              return false;
+            }
+
+          });
+
+          $.get(url, function(data){
+
+            __.detailScreen(data);
+
+          });
+          
+        }
     
-    console.log(url);
     
-    $.get(url, function(data){
-      console.log(data);  
-    });
     
       
   })
