@@ -6,7 +6,7 @@ __.detailScreen = function (data){
   let _city = contentItem('Ближайший город', data.city.closest.name, function(v){ return `${v} в ${data.city.distance}км` });
   let _moscow = contentItem('Расстояние от Москвы', data.moscow.distance, function(v){ return `${v}км` });
   let _car = contentItem('На автомобиле до Москвы', data.car.distance, function(v){ return `${v}км, ${data.car.time.h}ч ${data.car.time.m}мин без учета пробок` });
-  let _railroad = contentItem('Ближайшая ж/д станция', data.railroad.closest.name, function(v){ return `${v} в ${data.railroad.distance}км` });
+  let _railroad = contentItem('Ближайшая ж/д станция', data.railroad.closest.name, function(v){ return `${v} в ${data.railroad.distance}км, до Москвы ${data.railroad.closest.time.h}ч ${data.railroad.closest.time.m}мин` });
   
   let container_tpl = `
 <h1>${_type} <span>${data.name}</span></h1>
