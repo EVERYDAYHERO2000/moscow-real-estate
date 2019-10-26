@@ -56,5 +56,11 @@
 .panel__container {
   box-sizing: border-box;
   padding: 20px;
+  overflow-x: hidden;
+  
+  @media screen and (max-width: 500px) {
+    padding: 10px;
+  }
+  
 }
 
