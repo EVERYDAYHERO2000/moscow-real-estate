@@ -9,9 +9,10 @@ __.detailScreen = function (data){
   let _railroad = contentItem('Ближайшая ж/д станция', data.railroad.closest.name, function(v){ return `${v} в ${data.railroad.distance}км<br> до Москвы ${data.railroad.closest.time.h}ч ${data.railroad.closest.time.m}мин` });
   let _eco = contentItem('Ближайший источник загрязнения', data.eco.closest.name, function(v){ 
     let description = (data.eco.closest.description) ? `<br>${data.eco.closest.description}` : '';
-    return `${data.eco.distance}км до ${v} ${description}`
+    return `${data.eco.distance}км<br>${v} ${description}`
   });
   let _price = (function(price){
+    
     
     let from = (price.from) ? `от ${__.cost({value:price.from})[0]}руб. ` : '',
         to = (price.to) ? `<br>до ${__.cost({value:price.to})[0]}руб.` : '',
@@ -23,6 +24,7 @@ __.detailScreen = function (data){
   })(data.price);
   let _developer = contentItem('Застройщик', data.developer, function(v){ return v; });
   let _site = contentItem('Сайт', data.site, function(v){ return `<a href="${v}">${v}</a>`; });
+  let _medic = contentItem('Ближайшая станция скорой помощи Москвы и Московской области', data.medic.closest, function(v){ return `${data.medic.distance}км<br>${data.medic.closest.name}`; });
   
   let container_tpl = `
 <h1>${_type} <span>${data.name}</span></h1>
@@ -43,6 +45,7 @@ __.detailScreen = function (data){
   <section>
     <h2>Инфраструктура</h2>
     ${_city}
+    ${_medic}
   </section>
   <section>
     <h2>Экология</h2>
