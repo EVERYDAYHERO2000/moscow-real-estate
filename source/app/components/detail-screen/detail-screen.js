@@ -26,6 +26,19 @@ __.detailScreen = function (data){
   let _site = contentItem('Сайт', data.site, function(v){ return `<a href="${v}">${v}</a>`; });
   let _medic = contentItem('Ближайшая станция скорой помощи Москвы и Московской области', data.medic.closest, function(v){ return `${data.medic.distance}км<br>${data.medic.closest.name}`; });
   
+  let _markets = (function(point){
+    
+    let cian_url = `https://cian.ru/map/?deal_type=sale&engine_version=2&object_type%5B0%5D=1&offer_type=suburban&zoom=16&center=${point[1]},${point[0]}`;
+    
+    let yandex_url = `https://realty.yandex.ru/moskovskaya_oblast/kupit/dom/karta/?&leftLongitude=${point[0] - 0.009066}&topLatitude=${point[1] + 0.00304}&rightLongitude=${point[0] + 0.009066}&bottomLatitude=${point[1] - 0.00304}`;
+    
+    return `<div class="content__item">
+    <div class="content__item-title">Предложения</div>
+    <div class="content__item-value"><a rel="noreferrer noopener" target="_blank" href="${cian_url}">Циан</a><br><a rel="noreferrer noopener nofollow" target="_blank" href="${yandex_url}">Яндекс.Недвижимость</a></div>
+  </div>`
+    
+  })(data.point);
+  
   let container_tpl = `
 <h1>${_type} <span>${data.name}</span></h1>
 <div class="panel__content content">
@@ -36,6 +49,7 @@ __.detailScreen = function (data){
     ${_site}
     ${_address}
     ${_moscow}
+    ${_markets}
   </section>
   <section>
     <h2>Транспорт</h2>
