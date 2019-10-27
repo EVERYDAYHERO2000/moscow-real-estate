@@ -32,10 +32,7 @@ __.detailScreen = function (data){
     
     let yandex_url = `https://realty.yandex.ru/moskovskaya_oblast/kupit/dom/karta/?&leftLongitude=${point[0] - 0.009066}&topLatitude=${point[1] + 0.00304}&rightLongitude=${point[0] + 0.009066}&bottomLatitude=${point[1] - 0.00304}`;
     
-    return `<div class="content__item">
-    <div class="content__item-title">Предложения</div>
-    <div class="content__item-value"><a rel="noreferrer noopener nofollow" target="_blank" href="${cian_url}">Циан</a><br><a rel="noreferrer noopener nofollow" target="_blank" href="${yandex_url}">Яндекс.Недвижимость</a></div>
-  </div>`
+    return simpleItem('Предложения', `<a rel="noreferrer noopener nofollow" target="_blank" href="${cian_url}">Циан</a><br><a rel="noreferrer noopener nofollow" target="_blank" href="${yandex_url}">Яндекс.Недвижимость</a>`); 
     
   })(data.point);
   
@@ -79,12 +76,18 @@ __.detailScreen = function (data){
   
   function contentItem(name, value, callback){
         
-    return (value) ? `<div class="content__item">
-    <div class="content__item-title">${name}</div>
-    <div class="content__item-value">${callback(value)}</div>
-  </div>` : '';
+    return (value) ? simpleItem( name, callback(value) ) : '';
     
   } 
+  
+  function simpleItem(name, value){
+    
+    return `<div class="content__item">
+    <div class="content__item-title">${name}</div>
+    <div class="content__item-value">${value}</div>
+  </div>`
+    
+  }
   
    
   let $screen = (__.core.$detailScreen) ? __.core.$detailScreen : $(detail_tpl);
