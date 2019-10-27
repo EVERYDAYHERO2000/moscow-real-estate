@@ -23,7 +23,7 @@ __.detailScreen = function (data){
     
   })(data.price);
   let _developer = contentItem('Застройщик', data.developer, function(v){ return v; });
-  let _site = contentItem('Сайт', data.site, function(v){ return `<a href="${v}">${v}</a>`; });
+  let _site = contentItem('Сайт', data.site, function(v){ return `<a rel="noreferrer noopener nofollow" target="_blank" href="${v}">${v}</a>`; });
   let _medic = contentItem('Ближайшая станция скорой помощи Москвы и Московской области', data.medic.closest, function(v){ return `${data.medic.distance}км<br>${data.medic.closest.name}`; });
   
   let _markets = (function(point){
@@ -34,7 +34,7 @@ __.detailScreen = function (data){
     
     return `<div class="content__item">
     <div class="content__item-title">Предложения</div>
-    <div class="content__item-value"><a rel="noreferrer noopener" target="_blank" href="${cian_url}">Циан</a><br><a rel="noreferrer noopener nofollow" target="_blank" href="${yandex_url}">Яндекс.Недвижимость</a></div>
+    <div class="content__item-value"><a rel="noreferrer noopener nofollow" target="_blank" href="${cian_url}">Циан</a><br><a rel="noreferrer noopener nofollow" target="_blank" href="${yandex_url}">Яндекс.Недвижимость</a></div>
   </div>`
     
   })(data.point);
