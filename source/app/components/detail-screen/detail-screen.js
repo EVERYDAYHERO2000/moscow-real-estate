@@ -32,7 +32,16 @@ __.detailScreen = function (data){
     
     let yandex_url = `https://realty.yandex.ru/moskovskaya_oblast/kupit/dom/karta/?&leftLongitude=${point[0] - 0.009066}&topLatitude=${point[1] + 0.00304}&rightLongitude=${point[0] + 0.009066}&bottomLatitude=${point[1] - 0.00304}`;
     
-    return simpleItem('Предложения', `<a rel="noreferrer noopener nofollow" target="_blank" href="${cian_url}">Циан</a><br><a rel="noreferrer noopener nofollow" target="_blank" href="${yandex_url}">Яндекс.Недвижимость</a>`); 
+    let avito_url = `https://www.avito.ru/moskva/doma_dachi_kottedzhi?map=` + btoa(JSON.stringify(
+      {"searchArea":{
+        "latBottom": point[1] - 0.00304,
+        "latTop": point[1] + 0.00304,
+        "lonLeft": point[0] - 0.009066,
+        "lonRight": point[0] + 0.009066
+      } 
+      }));
+    
+    return simpleItem('Предложения', `<a rel="noreferrer noopener nofollow" target="_blank" href="${cian_url}">Циан</a><br><a rel="noreferrer noopener nofollow" target="_blank" href="${yandex_url}">Яндекс.Недвижимость</a><br><a rel="noreferrer noopener nofollow" target="_blank" href="${avito_url}">Авито</a>`); 
     
   })(data.point);
   
