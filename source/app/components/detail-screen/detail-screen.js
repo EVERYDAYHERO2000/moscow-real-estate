@@ -28,18 +28,40 @@ __.detailScreen = function (data){
   
   let _markets = (function(point){
     
-    let cian_url = `https://cian.ru/map/?deal_type=sale&engine_version=2&object_type%5B0%5D=1&offer_type=suburban&zoom=16&center=${point[1]},${point[0]}`;
+    let latT = point[1] + 0.00304,
+        latB = point[1] - 0.00304,
+        lonL = point[0] - 0.009066,
+        lonR = point[0] + 0.009066,
+        https = 'https://';
     
-    let yandex_url = `https://realty.yandex.ru/moskovskaya_oblast/kupit/dom/karta/?&leftLongitude=${point[0] - 0.009066}&topLatitude=${point[1] + 0.00304}&rightLongitude=${point[0] + 0.009066}&bottomLatitude=${point[1] - 0.00304}`;
     
-    let avito_url = `https://www.avito.ru/moskva/doma_dachi_kottedzhi?map=` + btoa(JSON.stringify(
+    let cian_url = __.fs.url.objToUrl(`${https}cian.ru/map/`, { 
+      deal_type : 'sale',
+      engine_version : 2,
+      'object_type[0]' : 1,
+      offer_type : 'suburban',
+      zoom : 16,
+      center : `${point[1]},${point[0]}`
+    });
+    
+    let yandex_url = __.fs.url.objToUrl(`${https}realty.yandex.ru/moskovskaya_oblast/kupit/dom/karta/`, { 
+      leftLongitude : lonL, 
+      topLatitude : latT, 
+      rightLongitude : lonR, 
+      bottomLatitude : latB
+    });
+    
+    
+    let avito_url = __.fs.url.objToUrl(`${https}www.avito.ru/moskva/doma_dachi_kottedzhi`, {
+      map : btoa(JSON.stringify(
       {"searchArea":{
-        "latBottom": point[1] - 0.00304,
-        "latTop": point[1] + 0.00304,
-        "lonLeft": point[0] - 0.009066,
-        "lonRight": point[0] + 0.009066
+        "latBottom": latB,
+        "latTop": latT,
+        "lonLeft": lonL,
+        "lonRight": lonR
       } 
-      }));
+      }))
+    });
     
     return simpleItem('Предложения', `<a rel="noreferrer noopener nofollow" target="_blank" href="${cian_url}">Циан</a><br><a rel="noreferrer noopener nofollow" target="_blank" href="${yandex_url}">Яндекс.Недвижимость</a><br><a rel="noreferrer noopener nofollow" target="_blank" href="${avito_url}">Авито</a>`); 
     
