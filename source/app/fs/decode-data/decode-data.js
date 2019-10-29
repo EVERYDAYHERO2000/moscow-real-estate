@@ -2,6 +2,8 @@ __.fs.decodeData = function (data) {
   var places = [];
   var eco = {};
   var rail = {};
+    
+  
 
   $.each(data.p, function (i, e) {
 
@@ -41,7 +43,10 @@ __.fs.decodeData = function (data) {
                 time: {
                   h: s[5],
                   m: s[6]
-                }
+                },
+                route : (s[7] > -1) ? data.g[s[7]] : null,
+                type : (s[8] > -1) ? data.q[s[8]] : null,
+                count : s[9]
             }
             
             rail[obj.id] = obj;

@@ -19,7 +19,10 @@ let buildData = function(places, writeFile){
       
       var result = _.clone(stations);
       
-      return result;
+      return {
+          stations : _.clone(stations),
+          settings : _.clone(settings)
+      };
     })(),
     geo : require(dataPath + 'geo/cities.json'),
     eco : (function(){
@@ -87,7 +90,7 @@ let buildData = function(places, writeFile){
       var __distance = 10000000;
       var railroadStation = {};
 
-      _.forEach(tempData.railroad, function(r){
+      _.forEach(tempData.railroad.stations, function(r){
         let currentDist = calcDistance(e.point[1], e.point[0], r.point[1], r.point[0], 'K');
 
         if (currentDist <= __distance) {
@@ -226,6 +229,8 @@ let buildData = function(places, writeFile){
     r:[], //railroad stations
     e:[], //eco
     c:[], //cities
+    g:[], //railroad stations route  
+    q:[]  //railroad station type 
   };
   
   _.forEach(tempData.places,function(e){
@@ -270,21 +275,30 @@ let buildData = function(places, writeFile){
     json.k.push(e.class);  
   });
   
-  _.forEach(tempData.railroad,function(e){
+  _.forEach(tempData.railroad.stations,function(e){
     var railroad = [
       e.id,                 //0
       e.point[0],           //1
       e.name,               //2
       e.point[1],           //3
       e.distance,           //4
-      e.time.h,             //5
-      e.time.m              //6
+      e.time.h,                              //5
+      e.time.m,                              //6
+      (e.routeId) ? e.routeId - 1 : -1,      //7
+      (e.typeId) ? e.typeId - 1 : -1,        //8  
+      e.count                                //9
     ]
     
     json.r.push(railroad);
   });
-  
-  
+    
+  _.forEach(tempData.railroad.settings.route,function(e){      
+    json.g.push(e.name);
+  });
+    
+  _.forEach(tempData.railroad.settings.type,function(e){      
+    json.q.push(e.name);
+  });    
   
   _.forEach(tempData.eco,function(e){
     var eco = [
@@ -310,7 +324,7 @@ let buildData = function(places, writeFile){
   });
   
   
-  if (writeFile) {
+
     
     fs.writeFile(DEV_PATH + '/bin/data/data.json', JSON.stringify(json), function(err) {
       if (err) {
@@ -319,6 +333,7 @@ let buildData = function(places, writeFile){
 
     });
     
+  if (writeFile) {    
     
     _.forEach(tempData.places, function(e){
       

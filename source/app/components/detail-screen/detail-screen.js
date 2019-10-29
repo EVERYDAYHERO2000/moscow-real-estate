@@ -1,73 +1,95 @@
-__.detailScreen = function (data){
-  
-  let _type = (data.type) ? `<span>${data.type}</span>` : '';
-  let _class = contentItem('Класс', data.class, function(v){ return v });
-  let _address = contentItem('Адрес', data.address.name, function(v){ return v });
-  let _city = contentItem('Ближайший город', data.city.closest.name, function(v){ return `${v} в ${data.city.distance}км` });
-  let _moscow = contentItem('Расстояние от Москвы', data.moscow.distance, function(v){ return `${v}км` });
-  let _car = contentItem('На автомобиле до Москвы', data.car.distance, function(v){ return `${v}км<br> ${data.car.time.h}ч ${data.car.time.m}мин без учета пробок` });
-  let _railroad = contentItem('Ближайшая ж/д станция', data.railroad.closest.name, function(v){ return `${v} в ${data.railroad.distance}км<br> до Москвы ${data.railroad.closest.time.h}ч ${data.railroad.closest.time.m}мин` });
-  let _eco = contentItem('Ближайший источник загрязнения', data.eco.closest.name, function(v){ 
-    let description = (data.eco.closest.description) ? `<br>${data.eco.closest.description}` : '';
-    return `${data.eco.distance}км<br>${v} ${description}`
-  });
-  let _price = (function(price){
-    
-    
-    let from = (price.from) ? `от ${__.cost({value:price.from})[0]}руб. ` : '',
-        to = (price.to) ? `<br>до ${__.cost({value:price.to})[0]}руб.` : '',
-        p = from + to;
-    
-    return (p) ? contentItem('Цена', p, function(v){ return v }) : '';
-    
-    
-  })(data.price);
-  let _developer = contentItem('Застройщик', data.developer, function(v){ return v; });
-  let _site = contentItem('Сайт', data.site, function(v){ return `<a rel="noreferrer noopener nofollow" target="_blank" href="${v}">${v}</a>`; });
-  let _medic = contentItem('Ближайшая станция скорой помощи Москвы и Московской области', data.medic.closest, function(v){ return `${data.medic.distance}км<br>${data.medic.closest.name}`; });
-  
-  let _markets = (function(point){
-    
-    let latT = point[1] + 0.00304,
-        latB = point[1] - 0.00304,
-        lonL = point[0] - 0.009066,
-        lonR = point[0] + 0.009066,
-        https = 'https://';
-    
-    
-    let cian_url = __.fs.url.objToUrl(`${https}cian.ru/map/`, { 
-      deal_type : 'sale',
-      engine_version : 2,
-      'object_type[0]' : 1,
-      offer_type : 'suburban',
-      zoom : 16,
-      center : `${point[1]},${point[0]}`
+__.detailScreen = function (data) {
+
+    let _type = (data.type) ? `<span>${data.type}</span>` : '';
+    let _class = contentItem('Класс', data.class, function (v) {
+        return v
     });
-    
-    let yandex_url = __.fs.url.objToUrl(`${https}realty.yandex.ru/moskovskaya_oblast/kupit/dom/karta/`, { 
-      leftLongitude : lonL, 
-      topLatitude : latT, 
-      rightLongitude : lonR, 
-      bottomLatitude : latB
+    let _address = contentItem('Адрес', data.address.name, function (v) {
+        return v
     });
-    
-    
-    let avito_url = __.fs.url.objToUrl(`${https}www.avito.ru/moskva/doma_dachi_kottedzhi`, {
-      map : btoa(JSON.stringify(
-      {"searchArea":{
-        "latBottom": latB,
-        "latTop": latT,
-        "lonLeft": lonL,
-        "lonRight": lonR
-      } 
-      }))
+    let _city = contentItem('Ближайший город', data.city.closest.name, function (v) {
+        return `${v} в ${data.city.distance}км`
     });
-    
-    return simpleItem('Предложения', `<a rel="noreferrer noopener nofollow" target="_blank" href="${cian_url}">Циан</a><br><a rel="noreferrer noopener nofollow" target="_blank" href="${yandex_url}">Яндекс.Недвижимость</a><br><a rel="noreferrer noopener nofollow" target="_blank" href="${avito_url}">Авито</a>`); 
-    
-  })(data.point);
-  
-  let container_tpl = `
+    let _moscow = contentItem('Расстояние от Москвы', data.moscow.distance, function (v) {
+        return `${v}км`
+    });
+    let _car = contentItem('На автомобиле до Москвы', data.car.distance, function (v) {
+        return `${v}км<br> ${data.car.time.h}ч ${data.car.time.m}мин без учета пробок`
+    });
+    let _railroad = contentItem('Ближайшая ж/д станция', data.railroad.closest.name, function (v) {
+        return `${v} в ${data.railroad.distance}км<br> до Москвы ${data.railroad.closest.time.h}ч ${data.railroad.closest.time.m}мин`
+    });
+    let _eco = contentItem('Ближайший источник загрязнения', data.eco.closest.name, function (v) {
+        let description = (data.eco.closest.description) ? `<br>${data.eco.closest.description}` : '';
+        return `${data.eco.distance}км<br>${v} ${description}`
+    });
+    let _price = (function (price) {
+
+
+        let from = (price.from) ? `от ${__.cost({value:price.from})[0]}руб. ` : '',
+            to = (price.to) ? `<br>до ${__.cost({value:price.to})[0]}руб.` : '',
+            p = from + to;
+
+        return (p) ? contentItem('Цена', p, function (v) {
+            return v
+        }) : '';
+
+
+    })(data.price);
+    let _developer = contentItem('Застройщик', data.developer, function (v) {
+        return v;
+    });
+    let _site = contentItem('Сайт', data.site, function (v) {
+        return link(v, v);
+    });
+    let _medic = contentItem('Ближайшая станция скорой помощи Москвы и Московской области', data.medic.closest, function (v) {
+        return `${data.medic.distance}км<br>${data.medic.closest.name}`;
+    });
+
+    let _markets = (function (point) {
+
+        let latT = point[1] + 0.00304,
+            latB = point[1] - 0.00304,
+            lonL = point[0] - 0.009066,
+            lonR = point[0] + 0.009066,
+            https = 'https://',
+            objToUrl = __.fs.url.objToUrl;
+
+
+        let cian_url = objToUrl(`${https}cian.ru/map/`, {
+            deal_type: 'sale',
+            engine_version: 2,
+            'object_type[0]': 1,
+            offer_type: 'suburban',
+            zoom: 16,
+            center: `${point[1]},${point[0]}`
+        });
+
+        let yandex_url = objToUrl(`${https}realty.yandex.ru/moskovskaya_oblast/kupit/dom/karta/`, {
+            leftLongitude: lonL,
+            topLatitude: latT,
+            rightLongitude: lonR,
+            bottomLatitude: latB
+        });
+
+
+        let avito_url = objToUrl(`${https}www.avito.ru/moskva/doma_dachi_kottedzhi`, {
+            map: btoa(JSON.stringify({
+                "searchArea": {
+                    "latBottom": latB,
+                    "latTop": latT,
+                    "lonLeft": lonL,
+                    "lonRight": lonR
+                }
+            }))
+        });
+
+        return simpleItem('Предложения',
+            `${link(cian_url, 'Циан')}<br>${link(yandex_url, 'Яндекс.Недвижимость')}<br>${link(avito_url, 'Авито', 'on-mobile_hide')}`);
+
+    })(data.point);
+
+    let container_tpl = `
 <h1>${_type} <span>${data.name}</span></h1>
 <div class="panel__content content">
   <section>
@@ -94,53 +116,58 @@ __.detailScreen = function (data){
     ${_eco}
   </section>
 </div>
-  `; 
-  
-  let detail_tpl = `
+  `;
+
+    let detail_tpl = `
 <div id="detail-screen" class="panel panel_detail">
   <div class="header-mobile">
-    <button id="close-screen" class="btn">Назад</button>
+    <button id="close-screen" class="btn btn_back">Назад</button>
   </div>
   <div class="panel__container">${container_tpl}</div>
 </div>`;
-  
-  
-  function contentItem(name, value, callback){
-        
-    return (value) ? simpleItem( name, callback(value) ) : '';
-    
-  } 
-  
-  function simpleItem(name, value){
-    
-    return `<div class="content__item">
+
+
+    function contentItem(name, value, callback) {
+
+        return (value) ? simpleItem(name, callback(value)) : '';
+
+    }
+
+    function simpleItem(name, value) {
+
+        return `<div class="content__item">
     <div class="content__item-title">${name}</div>
     <div class="content__item-value">${value}</div>
   </div>`
-    
-  }
-  
-   
-  let $screen = (__.core.$detailScreen) ? __.core.$detailScreen : $(detail_tpl);
-  
-  let $container = $screen.find('.panel__container').empty().append(container_tpl);
-  
-  
-  
-  
-  $screen.find('#close-screen').click(function(e){
-    
-    $('#main').find('#detail-screen').remove();
-    
-  });
-  
-  console.log(data);
-  
-  __.core.$detailScreen = $screen;
-  
-  if ( !$('#detail-screen').length ) $('#main').append($screen);
-  
-  
-  return detail_tpl;
-  
+
+    }
+
+    function link(href, text, classname) {
+        classname = (classname) ? `class="${classname}"` : '';
+        return `<a ${classname} rel="noreferrer noopener nofollow" target="_blank" href="${href}">${text}</a>`
+    }
+
+
+    let $screen = (__.core.$detailScreen) ? __.core.$detailScreen : $(detail_tpl);
+
+    let $container = $screen.find('.panel__container').empty().append(container_tpl);
+
+
+
+
+    $screen.find('#close-screen').click(function (e) {
+
+        $('#main').find('#detail-screen').remove();
+
+    });
+
+    console.log(data);
+
+    __.core.$detailScreen = $screen;
+
+    if (!$('#detail-screen').length) $('#main').append($screen);
+
+
+    return detail_tpl;
+
 }
