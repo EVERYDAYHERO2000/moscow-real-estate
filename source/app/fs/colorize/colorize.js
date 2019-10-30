@@ -12,17 +12,18 @@ __.fs.colorize = function(params){
     
     var r = 10;
     switch (params.eco.closest.type) {
-      case 'K':
+      case 3:
         r = 3;
         break;
-      case 'p':
+      case 4:
         r = 3;
         break;
-      case 'n':
+      case 6:
         r = 5;
         break;
     }
 
+    
     var distance = params.eco.distance;
     var alphaMax = 0.6;
     var alpha = (distance < r) ? alphaMax - interpolation(0, r, distance, 0, alphaMax) : 0;

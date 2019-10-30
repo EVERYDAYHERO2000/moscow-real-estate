@@ -54,14 +54,14 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
 
         if (zoom > 9) {
 
-          if (e.type == 'n') ico = icons.recicle;
-          if (e.type == 'a') ico = icons.airport;
-          if (e.type == 'w') ico = icons.trash;
-          if (e.type == 'r' || e.type == 'q') ico = icons.radiation;
-          if (e.type == 'o' || e.type == 'E') ico = icons.factory;
-          if (e.type == 's') ico = icons.water;
-          if (e.type == 'p') ico = icons.energy;
-          if (e.type == 'K') ico = icons.power;
+          if (e.type == 6) ico = icons.recicle;
+          if (e.type == 10) ico = icons.airport;
+          if (e.type == 7 || e.type == 9) ico = icons.trash;
+          if (e.type == 2 || e.type == 1) ico = icons.radiation;
+          if (e.type == 8 || e.type == 11) ico = icons.factory;
+          if (e.type == 5) ico = icons.water;
+          if (e.type == 4) ico = icons.energy;
+          if (e.type == 3) ico = icons.power;
 
         } else {
 

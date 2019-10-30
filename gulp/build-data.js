@@ -2,7 +2,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const _ = require('lodash');
 const calcDistance = require(DEV_PATH + '/gulp/calc-distance.js');
-
+const writeFiles = require(DEV_PATH + '/gulp/write-files.js');
 
 
 
@@ -32,7 +32,7 @@ let buildData = function(places, writeFile){
       
       _.forEach(airport, function(e){
         
-        e.type = 'a';
+        e.type = 10;
         e.id = eco.length + 1;
         eco.push(e);
         
@@ -332,37 +332,10 @@ let buildData = function(places, writeFile){
       } 
 
     });
+  
+    writeFiles(tempData, writeFile);
     
-  if (writeFile) {    
-    
-    _.forEach(tempData.places, function(e){
-      
-      let id = e.id,
-          folder = Math.floor(id/100) * 100,
-          url = DEV_PATH + `/bin/data/places/${folder}/place_` + id;
-      
-      fs.mkdir(url, { recursive: true }, (err) => {
-        if (err) {
-          throw err;
-          
-        } else {
-          
-          
-          fs.writeFile(url + '/data.json', JSON.stringify(e), function(err) {
-            if (err) {
-              console.log('buildData -->', err); 
-            } 
 
-          });
-          
-        }
-        
-      });
-    });
-    
-  }
-  
-  
   
 }
 
