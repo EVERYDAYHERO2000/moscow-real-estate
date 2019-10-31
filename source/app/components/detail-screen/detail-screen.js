@@ -161,7 +161,7 @@ __.detailScreen = function (data) {
 
     });
 
-    console.log(data);
+    
 
     __.core.$detailScreen = $screen;
 

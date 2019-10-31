@@ -27,7 +27,9 @@ let createPage = function(){
     <script src="source/libs/jquery.min.js"></script>
     <script src="source/libs/leaflet.min.js"></script>
     <script src="bin/app/main.js"></script>
-    <link rel="manifest" href="manifest.webmanifest">    
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="yandex-verification" content="8ff483d8f74a9661">
+    <meta name="google-site-verification" content="6IYvZOGu3jhh3buc1gm-Cjmk475IfPG4HXZDWt-pbY0">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};

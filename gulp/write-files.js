@@ -8,9 +8,14 @@ let writeFiles = function(data, allPages){
   
   if (allPages) {    
     
-    let sitemap = '',
-        domain = 'https://site.com',
-        currentDate = new Date().toISOString();
+    let domain = 'https://myhousehub.ru',
+        currentDate = new Date().toISOString(),
+        sitemap = `
+    <url>
+        <loc>${domain}/</loc>
+        <lastmod>${currentDate}</lastmod>
+        <priority>1</priority>
+    </url>`;
     
     _.forEach(data.places, function(e){
       
@@ -22,6 +27,7 @@ let writeFiles = function(data, allPages){
     <url>
         <loc>${domain}/bin/data/places/${folder}/place_${id}/</loc>
         <lastmod>${currentDate}</lastmod>
+        <priority>0.5</priority>
     </url>`;
       
       fs.mkdir(url, { recursive: true }, (err) => {
