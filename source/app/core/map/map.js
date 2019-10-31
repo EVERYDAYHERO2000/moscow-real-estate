@@ -50,7 +50,7 @@ __.core.$map = function(){
     var _this = this,
         places = params.data.places,
         map = $(event.target).data('map');
-    
+     
 
     var c = L.canvasOverlay().drawing(drawingOnCanvas).addTo(map);
     

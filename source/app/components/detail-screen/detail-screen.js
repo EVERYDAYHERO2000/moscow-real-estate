@@ -190,16 +190,33 @@ __.detailScreen = function (data) {
       setTimeout(function(){
         
         if ($('#place-map').length){ 
+          
           $('#place-map').empty();
-          let myIcon = L.divIcon({className: 'place-marker'});
-          let marker = new L.marker([data.point[1],data.point[0]], {icon: myIcon});
-          let leafletMap = L.map('place-map', {
+          
+          let marker = new L.marker([data.point[1],data.point[0]], {icon: L.divIcon({className: 'place-marker'})});
+          
+          let map = L.map('place-map', {
             center: [data.point[1], data.point[0]],
             zoom: 14,
             gestureHandling: true
           });
-          L.tileLayer(__.fs.mapTiles.simple).addTo(leafletMap);
-          leafletMap.addLayer(marker);
+          
+          
+          L.tileLayer(__.fs.mapTiles.simple).addTo(map);
+          map.addLayer(marker);
+          
+          let c = L.canvasOverlay().drawing(drawingOnCanvas).addTo(map);
+          
+          function drawingOnCanvas(canvasOverlay, p) {
+            let ctx = p.canvas.getContext('2d'),
+                zoom = map.getZoom();
+            
+            ctx.clearRect(0, 0, p.canvas.width, p.canvas.height);
+            
+            __.mapOverlay()['eco']( {data: $('#app').data('data')}, canvasOverlay, ctx, zoom );
+            __.mapOverlay()['railroad']( {data: $('#app').data('data')}, canvasOverlay, ctx, zoom );
+            
+          }
           
         }
         
