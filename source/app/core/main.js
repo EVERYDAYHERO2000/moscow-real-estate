@@ -4,22 +4,32 @@ var runApp = function(){
   
   let location = window.location.pathname;
   
-  if (location == '/' || location == '/index.html') $.get('bin/data/data.json', function (places) {
+  if (location == '/' || location == '/index.html') {
     
-    let data = __.fs.decodeData(places);
+      $.get('bin/data/data.json', function (places) {
 
-    __.core.$app.data('data', data);
+      let data = __.fs.decodeData(places);
+
+      __.core.$app.data('data', data);
+
+      __.core.$map.trigger('createMap').trigger('renderMap', {
+        data: data
+      });
+
+      __.core.$places.trigger('renderList', {
+        places: data.places,
+        onlyVisible: false
+      });
+
+    });
     
-    __.core.$map.trigger('createMap').trigger('renderMap', {
-      data: data
-    });
-
-    __.core.$places.trigger('renderList', {
-      places: data.places,
-      onlyVisible: false
-    });
-
-  });
+  } 
+  
+  if (location.includes('/places/')) {
+    
+    __.detailScreen();
+    
+  }
   
   
 }

@@ -1,12 +1,23 @@
 __.detailScreen = function (data) {
+  
+    let detail_tpl = '',
+        container_tpl = '';
+  
+    if (data){
 
     let _type = (data.type) ? `<span>${data.type}</span>` : '';
     let _class = contentItem('Класс', data.class, function (v) {
         return v
     });
-    let _address = contentItem('Адрес', data.address.name, function (v) {
-        return v
-    });
+    
+    let _address = simpleItem('Адрес', (function(){
+      
+      let a = (data.address.name) ? data.address.name : 'На карте';
+      
+      return `<a href="#place-map">${a}</a>`; 
+      
+    })());  
+      
     let _city = contentItem('Ближайший город', data.city.closest.name, function (v) {
         return `${v} в ${data.city.distance}км`
     });
@@ -92,7 +103,7 @@ __.detailScreen = function (data) {
 
     })(data.point);
 
-    let container_tpl = `
+    container_tpl = `
 <h1>${_type} <span>${data.name}</span></h1>
 <div class="panel__content content">
   <section>
@@ -118,10 +129,13 @@ __.detailScreen = function (data) {
     <h2>Экология</h2>
     ${_eco}
   </section>
+  <section>
+    <div id="place-map" class="map"></map>
+  </section>
 </div>
   `;
 
-    let detail_tpl = `
+    detail_tpl = `
 <div id="detail-screen" class="panel panel_detail">
   <div class="header-mobile">
     <a href="/" id="close-screen" class="btn btn_back">Назад</a>
@@ -129,7 +143,13 @@ __.detailScreen = function (data) {
   <div class="panel__container">${container_tpl}</div>
 </div>`;
 
-
+    } else {
+      
+      detail_tpl = $('#detail-screen')[0].outerHTML;
+      
+    }
+      
+  
     function contentItem(name, value, callback) {
 
         return (value) ? simpleItem(name, callback(value)) : '';
@@ -161,8 +181,30 @@ __.detailScreen = function (data) {
   
       let $screen = (__.core.$detailScreen) ? __.core.$detailScreen : $(detail_tpl);
 
-      let $container = $screen.find('.panel__container').empty().append(container_tpl);
-
+      if (data){
+      
+        $screen.find('.panel__container').empty().append(container_tpl);
+        
+      }
+      
+      setTimeout(function(){
+        
+        if ($('#place-map').length){ 
+          $('#place-map').empty();
+          let myIcon = L.divIcon({className: 'place-marker'});
+          let marker = new L.marker([data.point[1],data.point[0]], {icon: myIcon});
+          let leafletMap = L.map('place-map', {
+            center: [data.point[1], data.point[0]],
+            zoom: 14,
+            gestureHandling: true
+          });
+          L.tileLayer(__.fs.mapTiles.simple).addTo(leafletMap);
+          leafletMap.addLayer(marker);
+          
+        }
+        
+      },100);
+        
       $screen.find('#close-screen').click(function (e) {
 
           e.preventDefault();
@@ -175,7 +217,8 @@ __.detailScreen = function (data) {
       if (!$('#detail-screen').length) $('#main').append($screen);
       
     }
-
+  
+    
 
     return detail_tpl;
 

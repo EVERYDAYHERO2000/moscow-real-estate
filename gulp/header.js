@@ -16,6 +16,7 @@ let header = function(params){
     <script src="${root}source/libs/leaflet.min.js"></script>
     <script src="${root}bin/app/main.js"></script>
     <link rel="manifest" href="${root}manifest.webmanifest">
+    <meta name="pinterest" content="nopin" />
     
     <meta name="yandex-verification" content="8ff483d8f74a9661">
     <meta name="google-site-verification" content="6IYvZOGu3jhh3buc1gm-Cjmk475IfPG4HXZDWt-pbY0">

@@ -18,6 +18,10 @@
   align-items: baseline;
 }
 
+.place-item__title a {
+  color:inherit;
+}
+
 .place-item__distance {
   margin-left: -5px;
   color: rgba(0,0,0,.6);

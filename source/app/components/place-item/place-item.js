@@ -25,14 +25,15 @@ __.placeItem = function(params){
   
   let _rjd = (params.railroad.distance < 3) ? `<div class="place-item__train">ст. ${params.railroad.closest.name} в ${params.railroad.distance}км,<br>до Москвы: ${params.railroad.closest.time.h}ч ${params.railroad.closest.time.m}мин (${params.railroad.closest.distance}км)</div>` : ''; 
   
-
+  let folder = Math.floor(params.id/100) * 100,
+      url = `./places/${folder}/place_${params.id}/index.html`;
   
   let tpl = 
 `<div class="place-item" id="place-${params.id}">
   <div class="place-item__title">
     <div class="place-item__pin" style="background:${_color}"></div>
     <div>
-      ${_type}<span class="place-item__name">${params.name}</span>
+      <a href="${url}">${_type}<span class="place-item__name">${params.name}</a></span>
     </div>
   </div>
   <div class="place-item__price">${_price.from} ${_price.to}</div>
@@ -43,6 +44,8 @@ __.placeItem = function(params){
 </div>`;
     
   if (typeof global == 'undefined') __.fs.event.bind('.place-item', 'click', function(e){
+    
+    e.preventDefault();
     
     var DATA = $('#app').data('data').places,
         map = $('#map').data('map'),
@@ -60,7 +63,7 @@ __.placeItem = function(params){
           
         } else {
           $(this).addClass('place-item_active');
-          
+          /*
           $.each(DATA, function(i,e){
       
             if (e.id == id){
@@ -69,7 +72,7 @@ __.placeItem = function(params){
             }
 
           });
-
+          */  
           $.get(url, function(data){
 
             __.detailScreen(data);
