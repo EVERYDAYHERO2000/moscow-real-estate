@@ -1,14 +1,14 @@
 const fs = require('fs-extra');
 const path = require('path');
 const _ = require('lodash');
-
+const createPage = require(DEV_PATH + '/gulp/create-place-page.js');
 
 
 let writeFiles = function(data, allPages){
   
   if (allPages) {    
     
-    let domain = 'https://myhousehub.ru',
+    let domain = SETTINGS.domain,
         currentDate = new Date().toISOString(),
         sitemap = `
     <url>
@@ -21,7 +21,12 @@ let writeFiles = function(data, allPages){
       
       let id = e.id,
           folder = Math.floor(id/100) * 100,
-          url = DEV_PATH + `/bin/data/places/${folder}/place_${id}`;
+          url = DEV_PATH + `/bin/data/places/${folder}/place_${id}`,
+          html = createPage({
+            url : `bin/data/places/${folder}/place_${id}/`,
+            title : '',
+            place : e
+          });
       
           sitemap += `
     <url>
@@ -38,6 +43,14 @@ let writeFiles = function(data, allPages){
           
           
           fs.writeFile(url + '/data.json', JSON.stringify(e), function(err) {
+            if (err) {
+              console.log('buildData -->', err); 
+            } 
+
+          });
+          
+          
+          fs.writeFile(url + '/index.html', html, function(err) {
             if (err) {
               console.log('buildData -->', err); 
             } 

@@ -19,7 +19,9 @@ const DEV_PATH = __dirname;
 global.DEV_PATH = DEV_PATH;
 
 const config = require( DEV_PATH + '/package.json');
+const settings = require( DEV_PATH + '/gulp/settings.json');
 
+global.SETTINGS = settings;
 
 /*
 data build
@@ -32,8 +34,8 @@ gulp.task('data', function () {
 index.html
 */
 gulp.task('html', function () {
-  delete require.cache[require.resolve(DEV_PATH + '/gulp/create-page.js')];
-  (require(DEV_PATH + '/gulp/create-page.js'))();
+  delete require.cache[require.resolve(DEV_PATH + '/gulp/create-main-page.js')];
+  (require(DEV_PATH + '/gulp/create-main-page.js'))();
 });
 
 
@@ -90,7 +92,7 @@ npm run dev
 gulp.task('default',['sass','js','data','html'], function () {
     
   
-    watch( DEV_PATH + '/gulp/create-page.js', function () {
+    watch( DEV_PATH + '/gulp/create-main-page.js', function () {
       gulp.start('html'); 
     });
   

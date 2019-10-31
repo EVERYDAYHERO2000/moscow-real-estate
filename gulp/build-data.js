@@ -277,11 +277,11 @@ let buildData = function(places, writeFile){
   
   _.forEach(tempData.railroad.stations,function(e){
     var railroad = [
-      e.id,                 //0
-      e.point[0],           //1
-      e.name,               //2
-      e.point[1],           //3
-      e.distance,           //4
+      e.id,                                  //0
+      e.point[0],                            //1
+      e.name,                                //2
+      e.point[1],                            //3
+      e.distance,                            //4
       e.time.h,                              //5
       e.time.m,                              //6
       (e.routeId) ? e.routeId - 1 : -1,      //7

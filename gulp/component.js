@@ -4,6 +4,10 @@ const _ = require('lodash');
 
 let component = function(component, params){
   
+  global.btoa = function(str) {
+    return Buffer.from(str).toString('base64');
+  }
+  
   global.__ = global.__ || {};
   
   let comp = fs.readFileSync(DEV_PATH + `/source/app/components/${component}/${component}.js` , 'utf8');

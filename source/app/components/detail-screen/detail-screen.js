@@ -25,9 +25,13 @@ __.detailScreen = function (data) {
     });
     let _price = (function (price) {
 
-
-        let from = (price.from) ? `от ${__.cost({value:price.from})[0]}руб. ` : '',
-            to = (price.to) ? `<br>до ${__.cost({value:price.to})[0]}руб.` : '',
+        let cost = {
+          from : (price.from) ? (typeof global != 'undefined') ? global.component('cost', {value : price.from })[0] : __.cost({value : price.from })[0] : '',
+          to   : (price.to)   ? (typeof global != 'undefined') ? global.component('cost', {value : price.to })[0]   : __.cost({value : price.to })[0]   : ''
+        } 
+    
+        let from = (price.from) ? `от ${cost.from}руб. ` : '',
+            to = (price.to) ? `<br>до ${cost.to}руб.`    : '',
             p = from + to;
 
         return (p) ? contentItem('Цена', p, function (v) {
@@ -52,8 +56,7 @@ __.detailScreen = function (data) {
             latB = point[1] - 0.00304,
             lonL = point[0] - 0.009066,
             lonR = point[0] + 0.009066,
-            https = 'https://',
-            objToUrl = __.fs.url.objToUrl;
+            https = 'https://';
 
 
         let cian_url = objToUrl(`${https}cian.ru/map/`, {
@@ -146,26 +149,31 @@ __.detailScreen = function (data) {
         classname = (classname) ? `class="${classname}"` : '';
         return `<a ${classname} rel="noreferrer noopener nofollow" target="_blank" href="${href}">${text}</a>`
     }
+  
+    function objToUrl(url,obj){
+      url = url + '?' || '' 
+      let uri = encodeURIComponent;
+      return url + Object.entries(obj).map(([key, val]) => `${uri(key)}=${uri(val)}`).join('&');
+    }
 
 
-    let $screen = (__.core.$detailScreen) ? __.core.$detailScreen : $(detail_tpl);
+    if (typeof global == 'undefined'){
+  
+      let $screen = (__.core.$detailScreen) ? __.core.$detailScreen : $(detail_tpl);
 
-    let $container = $screen.find('.panel__container').empty().append(container_tpl);
+      let $container = $screen.find('.panel__container').empty().append(container_tpl);
 
+      $screen.find('#close-screen').click(function (e) {
 
+          $('#main').find('#detail-screen').remove();
 
+      });
 
-    $screen.find('#close-screen').click(function (e) {
+      __.core.$detailScreen = $screen;
 
-        $('#main').find('#detail-screen').remove();
-
-    });
-
-    
-
-    __.core.$detailScreen = $screen;
-
-    if (!$('#detail-screen').length) $('#main').append($screen);
+      if (!$('#detail-screen').length) $('#main').append($screen);
+      
+    }
 
 
     return detail_tpl;
