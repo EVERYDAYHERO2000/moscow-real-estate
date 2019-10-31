@@ -53,6 +53,13 @@
   
 }
 
+.place-page .panel_detail {
+  position: absolute;
+  width: 100%;
+  flex-basis: 100%;
+  left: 0;
+}
+
 .panel__container {
   box-sizing: border-box;
   padding: 20px;

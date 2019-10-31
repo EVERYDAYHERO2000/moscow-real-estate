@@ -124,7 +124,7 @@ __.detailScreen = function (data) {
     let detail_tpl = `
 <div id="detail-screen" class="panel panel_detail">
   <div class="header-mobile">
-    <button id="close-screen" class="btn btn_back">Назад</button>
+    <a href="/" id="close-screen" class="btn btn_back">Назад</a>
   </div>
   <div class="panel__container">${container_tpl}</div>
 </div>`;
@@ -165,8 +165,9 @@ __.detailScreen = function (data) {
 
       $screen.find('#close-screen').click(function (e) {
 
+          e.preventDefault();
           $('#main').find('#detail-screen').remove();
-
+          
       });
 
       __.core.$detailScreen = $screen;

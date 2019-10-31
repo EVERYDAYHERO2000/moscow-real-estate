@@ -2,8 +2,9 @@ var runApp = function(){
     
   __.core = __.fs.coreModuls(['$window','$app','$header','$map','$places','$placeSearch','$mapControls']);
   
-
-  $.get('bin/data/data.json', function (places) {
+  let location = window.location.pathname;
+  
+  if (location == '/' || location == '/index.html') $.get('bin/data/data.json', function (places) {
     
     let data = __.fs.decodeData(places);
 

@@ -17,7 +17,7 @@ let createPage = function(params){
     title : ''
   })}
   <body>
-    <div id="app">
+    <div id="app" class="place-page">
       <div id="header">
         <div class="header-mobile">
           <button id="change-view" class="btn">На карте</button>
