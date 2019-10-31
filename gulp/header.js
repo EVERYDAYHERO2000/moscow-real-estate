@@ -2,7 +2,7 @@ let header = function(params){
   
   let url = `${SETTINGS.domain}/${params.url}` || `${SETTINGS.domain}/`,
       title = params.title || '',
-      root = (url !== `${SETTINGS.domain}/`) ? '../../../../../' : '';
+      root = (url !== `${SETTINGS.domain}/`) ? '../../../' : '';
   
   
   
