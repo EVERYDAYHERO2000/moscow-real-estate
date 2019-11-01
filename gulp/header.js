@@ -4,7 +4,7 @@ let header = function(params){
       title = params.title || '',
       root = (url !== `${SETTINGS.domain}/`) ? '../../../' : '';
   
-  
+
   
   let h = `
   <head>

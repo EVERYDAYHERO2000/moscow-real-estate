@@ -4,6 +4,7 @@ const _ = require('lodash');
 const calcDistance = require(DEV_PATH + '/gulp/calc-distance.js');
 const component = require(DEV_PATH + '/gulp/component.js');
 const header = require(DEV_PATH + '/gulp/header.js');
+const titleGenerator = require(DEV_PATH + '/gulp/title-generator.js');
 
 global.component = global.component || component;
 
@@ -14,7 +15,7 @@ let createPage = function(params){
 `<html>
   ${header({
     url : params.url,
-    title : ''
+    title : titleGenerator(place)
   })}
   <body>
     <div id="app" class="place-page">
