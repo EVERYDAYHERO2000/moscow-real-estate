@@ -20,6 +20,7 @@ let header = function(params){
     
     <meta name="yandex-verification" content="8ff483d8f74a9661">
     <meta name="google-site-verification" content="6IYvZOGu3jhh3buc1gm-Cjmk475IfPG4HXZDWt-pbY0">
+    <meta name="msvalidate.01" content="C30D1D7C51ECE986D47AE97984D8F3B3" />
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
