@@ -330,7 +330,6 @@ let buildData = function(places, writeFile){
       if (err) {
         console.log('buildData -->', err); 
       } 
-
     });
   
     writeFiles(tempData, writeFile);

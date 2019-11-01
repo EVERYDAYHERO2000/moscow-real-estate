@@ -4,7 +4,7 @@ var runApp = function(){
   
   let location = window.location.pathname;
   
-  if (location == '/' || location == '/index.html') {
+  if (location == '/' || location == '/index.html') { 
     
       $.get('bin/data/data.json', function (places) {
 

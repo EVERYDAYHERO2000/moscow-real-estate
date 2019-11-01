@@ -5,7 +5,7 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
     icons = __.fs.mapSprites(scale),
     size = 20 * scale,
     resize = size * 0.65,
-    src = `source/assets/img/map/pins@${scale}x.png`,
+    src = __.fs.baseUrl() + `source/assets/img/map/pins@${scale}x.png`,
     img = img = new Image();
   
     img.src = src;
