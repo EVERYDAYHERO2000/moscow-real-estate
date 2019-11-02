@@ -10,6 +10,7 @@ let header = function(params){
   <head>
     <title>${title}</title>
     <link rel="canonical" href="${url}">
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="${root}bin/app/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <script src="${root}source/libs/jquery.min.js"></script>

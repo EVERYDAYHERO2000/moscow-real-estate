@@ -14,7 +14,7 @@ let createPage = function(params){
       page = 
 `
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   ${header({
     url : params.url,
     title : titleGenerator(place)

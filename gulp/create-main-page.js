@@ -23,7 +23,7 @@ let createPage = function(){
   page = 
 `
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   ${header({
     url : '',
     title : 'Коттеджние поселки подмосковья'
