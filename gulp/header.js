@@ -16,6 +16,10 @@ let header = function(params){
     <script src="${root}source/libs/leaflet.min.js"></script>
     <script src="${root}bin/app/main.js"></script>
     <link rel="manifest" href="${root}manifest.webmanifest">
+    <link rel="shortcut icon" href="${root}/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="${root}/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="${root}/favicon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="${root}/favicon-32.png">
     <meta name="pinterest" content="nopin" />
     
     <meta name="yandex-verification" content="8ff483d8f74a9661">
