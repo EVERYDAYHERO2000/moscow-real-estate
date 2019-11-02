@@ -44,8 +44,6 @@ scss -> css
 */
 gulp.task('sass', function () {
   
-  
-  
   gulp.src(DEV_PATH + '/source/app/**/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
@@ -54,7 +52,6 @@ gulp.task('sass', function () {
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(DEV_PATH + '/bin/app/'));
     
-  
 });
 
 
@@ -72,7 +69,7 @@ gulp.task('js', function () {
     }))
     .pipe(uglify())
     .pipe(gap.prependText('var __={core:{},fs:{}};'))
-    .pipe(gap.appendText('$(function(){runApp()})'))
+    .pipe(gap.appendText(`$(function(){runApp();console.log("${config.version}");})`))
     .pipe(replace(/\\n+/g, ''))
     .pipe(replace(/\s+/g, ' '))
     .pipe(sourcemaps.write('.'))

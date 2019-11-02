@@ -12,7 +12,9 @@ let createPage = function(params){
   
   let place = params.place,
       page = 
-`<html>
+`
+<!DOCTYPE html>
+<html>
   ${header({
     url : params.url,
     title : titleGenerator(place)

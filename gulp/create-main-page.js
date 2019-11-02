@@ -21,10 +21,12 @@ let createPage = function(){
   });
   
   page = 
-`<html>
+`
+<!DOCTYPE html>
+<html>
   ${header({
     url : '',
-    title : ''
+    title : 'Коттеджние поселки подмосковья'
   })}
   <body>
     <div id="app">

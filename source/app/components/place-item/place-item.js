@@ -1,6 +1,5 @@
 __.placeItem = function(params){
   
-  
   let _price = (function(price){
       
     let p = {
