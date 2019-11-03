@@ -5,6 +5,7 @@ const calcDistance = require(DEV_PATH + '/gulp/calc-distance.js');
 const component = require(DEV_PATH + '/gulp/component.js');
 const header = require(DEV_PATH + '/gulp/header.js');
 const titleGenerator = require(DEV_PATH + '/gulp/title-generator.js');
+const descriptionGenerator = require(DEV_PATH + '/gulp/description-generator.js');
 
 global.component = global.component || component;
 
@@ -17,7 +18,8 @@ let createPage = function(params){
 <html lang="ru">
   ${header({
     url : params.url,
-    title : titleGenerator(place)
+    title : titleGenerator(place),
+    description : descriptionGenerator(place)
   })}
   <body>
     <div id="app" class="place-page">

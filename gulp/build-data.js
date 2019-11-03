@@ -19,6 +19,20 @@ let buildData = function(places, writeFile){
       
       var result = _.clone(stations);
       
+      _.forEach(result, function(e){
+        
+        _.forEach(settings.route, function(e2){
+          
+          if (e.routeId == e2.id){
+            
+            e.route = e2.name;
+            
+          }
+          
+        });
+        
+      });
+      
       return {
           stations : _.clone(stations),
           settings : _.clone(settings)
