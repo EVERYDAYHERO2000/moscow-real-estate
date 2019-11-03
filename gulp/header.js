@@ -19,10 +19,6 @@ let header = function(params){
     <script src="${root}source/libs/leaflet.min.js"></script>
     <script src="${root}bin/app/main.js"></script>
     <link rel="manifest" href="${root}manifest.webmanifest">
-    <link rel="shortcut icon" href="${root}favicon.ico" type="image/x-icon">
-    <link rel="icon" href="${root}favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" sizes="16x16" href="${root}favicon-16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="${root}favicon-32.png">
 
     <meta property="og:locale" content="ru_RU">
     <meta property="og:url" content="${url}">
@@ -45,6 +41,17 @@ let header = function(params){
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="x-dns-prefetch-control" content="on">
+
+    <link rel="shortcut icon" href="${root}favicon.ico" type="image/x-icon">
+    <link rel="icon" href="${root}favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="${root}favicon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="${root}favicon-32.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="${root}source/assets/img/touch/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="${root}source/assets/img/touch/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="${root}source/assets/img/touch/touch-icon-ipad-pro.png">
+    <meta name="msapplication-TileImage" content="${root}source/assets/img/touch/homescreen144.png">
+    <meta name="theme-color" content="#7D48DD">
+    <meta name="msapplication-TileColor" content="#7D48DD">
 
     <meta name="pinterest" content="nopin" />
     

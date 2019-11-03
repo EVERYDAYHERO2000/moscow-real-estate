@@ -3,7 +3,7 @@
   "short_name": "Househub",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#fff",
+  "background_color": "#7D48DD",
   "orientation": "portrait-primary",    
   "description": "Коттеджные поселки Москвы",
   "icons": [{
