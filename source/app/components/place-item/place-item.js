@@ -48,9 +48,7 @@ __.placeItem = function(params){
     
     var DATA = $('#app').data('data').places,
         map = $('#map').data('map'),
-        id = $(e.currentTarget).data('id').split('-')[1],
-        folder = Math.floor(id/100) * 100,
-        url = `./bin/data/places/${folder}/place_${id}/data.json`;
+        id = $(e.currentTarget).data('id').split('-')[1];
     
         $('.place-item').not(this).removeClass('place-item_active');
     
@@ -71,12 +69,14 @@ __.placeItem = function(params){
             }
 
           });
-          */  
-          $.get(url, function(data){
-
+          */ 
+          
+          __.fs.placeGet(id, function(data){
+            
             __.detailScreen(data);
-
+            
           });
+          
           
         }
     

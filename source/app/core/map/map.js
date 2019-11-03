@@ -2,25 +2,8 @@ __.core.$map = function(){
   
     
     $('#map').click(function (e) {
-
-    var DATA = $('#app').data('data').places,
-        x = e.offsetX,
-        y = e.offsetY;
-  
-
-    $.each(DATA, function (i, el) {
-
-      if (x > el.canvas.x1 &&
-        x < el.canvas.x2 &&
-        y > el.canvas.y1 &&
-        y < el.canvas.y2) {
-        
-        let link = `${location.origin}/control-center.html#${el.id}`  
-        
-        console.log('id: '+ el.id, link);
-      }
-
-    });
+      
+      __.placeSelect(e);
 
   }).bind('createMap', function(event){
     
