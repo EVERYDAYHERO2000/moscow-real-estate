@@ -32,12 +32,12 @@
   
 }
 
-section .content__item {
+.content section .content__item {
   border-bottom: 1px solid #e5e5e5;
 }
 
-section .content__item:last-child {
-  //border-bottom: none;
+.content .content__item:last-child {
+  border-bottom: none;
 }
 
 .content__item-title {
@@ -62,4 +62,12 @@ section .content__item:last-child {
     
   }
   
+}
+
+#place-map {
+  margin: 0 -20px -20px;
+  
+  @media screen and (max-width: 500px) {
+    margin: 0 -10px -10px;  
+  }
 }

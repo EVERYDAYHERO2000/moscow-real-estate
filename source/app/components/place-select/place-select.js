@@ -13,7 +13,9 @@ __.placeSelect = function(event){
       if (x > el.canvas.x1 - 10 &&
           x < el.canvas.x2 + 10 &&
           y > el.canvas.y1 - 10 &&
-          y < el.canvas.y2 + 10) {
+          y < el.canvas.y2 + 10 && 
+          el.canvas.visible) {
+        
         
         //let link = `${location.origin}/control-center.html#${el.id}`  
         //console.log('id: '+ el.id, link);

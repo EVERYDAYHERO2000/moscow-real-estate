@@ -18,6 +18,12 @@ __.core.$map = function(){
     $(event.target).data('map', leafletMap);
     $(event.target).data('tiles', tiles);
     $(event.target).data('tileset', t);  
+      
+    leafletMap.on('dragstart zoomstart', function (e) { 
+      
+      $('#map-controls').find('.place-select').remove();
+    
+    });  
         
       
     $('.leaflet-bar').find('a').each(function(i,e){
