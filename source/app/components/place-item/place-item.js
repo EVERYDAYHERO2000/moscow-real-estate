@@ -28,7 +28,7 @@ __.placeItem = function(params){
       url = `./places/${folder}/place_${params.id}/index.html`;
   
   let tpl = 
-`<div class="place-item" id="place-${params.id}">
+`<div class="place-item" data-id="place-${params.id}">
   <div class="place-item__title">
     <div class="place-item__pin" style="background:${_color}"></div>
     <div>
@@ -48,7 +48,7 @@ __.placeItem = function(params){
     
     var DATA = $('#app').data('data').places,
         map = $('#map').data('map'),
-        id = $(e.currentTarget).attr('id').split('-')[1],
+        id = $(e.currentTarget).data('id').split('-')[1],
         folder = Math.floor(id/100) * 100,
         url = `./bin/data/places/${folder}/place_${id}/data.json`;
     
