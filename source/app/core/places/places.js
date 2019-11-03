@@ -4,7 +4,7 @@ __.core.$places = function(){
     $('#places').scroll(function (e) {
     var _this = this,
         $last = $(_this).find('.place-item').last(),
-        lastId = $last.attr('id').split('-')[1],
+        lastId = $last.data('id').split('-')[1],
         length = $(_this).find('.place-item').length,
         map = $('#map').data('map');
 
@@ -12,6 +12,7 @@ __.core.$places = function(){
 
       var DATA = $('#app').data('data').places,
           count = 100;
+      
       
       $.each(DATA, function (i, e) {
         if (length < i) {
