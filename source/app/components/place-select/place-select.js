@@ -54,6 +54,7 @@ __.placeSelect = function(event){
       
       __.fs.placeGet( $(this).data('id'), function(data){
         __.detailScreen(data);
+        
       });
       
     });
