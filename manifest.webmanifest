@@ -1,11 +1,11 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Househub",
+  "short_name": "Househub",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
   "orientation": "portrait-primary",    
-  "description": "",
+  "description": "Коттеджные поселки Москвы",
   "icons": [{
     "src": "source/assets/img/touch/homescreen48.png",
     "sizes": "48x48",
@@ -30,8 +30,5 @@
     "src": "source/assets/img/touch/homescreen192.png",
     "sizes": "192x192",
     "type": "image/png"
-  }],
-  "related_applications": [{
-    "platform": "web"
   }]
 }

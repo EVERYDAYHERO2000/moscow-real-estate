@@ -2,25 +2,50 @@ let header = function(params){
   
   let url = `${SETTINGS.domain}/${params.url}` || `${SETTINGS.domain}/`,
       title = params.title || '',
-      root = (url !== `${SETTINGS.domain}/`) ? '../../../' : '';
+      root = (url !== `${SETTINGS.domain}/`) ? '../../../' : '',
+      description = params.description || '';
   
 
   
   let h = `
   <head>
     <title>${title}</title>
+    <meta name="description" content="${description}">
     <link rel="canonical" href="${url}">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="${root}bin/app/main.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
     <script src="${root}source/libs/jquery.min.js"></script>
     <script src="${root}source/libs/leaflet.min.js"></script>
     <script src="${root}bin/app/main.js"></script>
     <link rel="manifest" href="${root}manifest.webmanifest">
-    <link rel="shortcut icon" href="${root}/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="${root}/favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" sizes="16x16" href="${root}/favicon-16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="${root}/favicon-32.png">
+    <link rel="shortcut icon" href="${root}favicon.ico" type="image/x-icon">
+    <link rel="icon" href="${root}favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="${root}favicon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="${root}favicon-32.png">
+
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:url" content="${url}">
+    <meta property="og:site_name" content="Househub">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="${title}">
+    <meta property="og:description" content="${description}">
+    <meta property="og:image" content="${root}source/assets/cover/main.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${title}">
+    <meta name="twitter:description" content="${description}">
+    <meta name="twitter:image" content="${root}source/assets/cover/main.png">
+    <meta name="twitter:url" content="${url}">
+
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
     <meta name="pinterest" content="nopin" />
     
     <meta name="yandex-verification" content="8ff483d8f74a9661">
