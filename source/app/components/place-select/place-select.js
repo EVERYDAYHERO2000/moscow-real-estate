@@ -54,7 +54,17 @@ __.placeSelect = function(event){
       removeSelect();
       
       
-      __.fs.placeGet( $(this).data('id'), function(data){
+      __.fs.placeGet( $(this).data('id'), function(data, url){
+        
+        __.fs.dataLayer('select_place',{
+        
+          place_id : data.id,
+          place_name : data.name,
+          place_url : url,
+          target : 'map'
+        
+        });
+        
         __.detailScreen(data);
         
       });

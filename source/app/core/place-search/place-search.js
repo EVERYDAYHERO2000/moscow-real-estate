@@ -1,12 +1,17 @@
 __.core.$placeSearch = function(){
   
-    $('#place-search').bind('search', function(event, params){
+  $('#place-search').bind('search', function(event, params){
     
-    var _this = this;
+    let _this = this,
+        value = $(this).find('input').val();
     
     __.search({
-      text: $(this).find('input').val()
+      text: value
     });
+    
+    __.fs.dataLayer('search_place', {
+      value : $(this).find('input').val() 
+    })
     
   }).keyup(function(e){
     

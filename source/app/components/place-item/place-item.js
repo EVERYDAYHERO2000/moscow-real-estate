@@ -71,7 +71,17 @@ __.placeItem = function(params){
           });
           */ 
           
-          __.fs.placeGet(id, function(data){
+          
+          __.fs.placeGet(id, function(data, url){
+            
+            __.fs.dataLayer('select_place',{
+        
+              place_id : data.id,
+              place_name : data.name,
+              place_url : url,
+              target: 'list'
+        
+            });
             
             __.detailScreen(data);
             

@@ -5,7 +5,7 @@ __.fs.placeGet = function(id, callback){
   
   $.get(url, function(data){
 
-    callback(data);
+    callback(data, url);
 
   });
   

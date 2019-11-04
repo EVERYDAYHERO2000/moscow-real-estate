@@ -11,6 +11,12 @@ __.core.$header = function(){
       
     $('#main').toggleClass('main_screen-2');
     
+    __.fs.dataLayer('change_view', {
+      
+      change_to : $(this).text() 
+      
+    });
+    
   });
   
   return $('#header'); 

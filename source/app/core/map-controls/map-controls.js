@@ -39,6 +39,13 @@ __.core.$mapControls = function () {
 
 
       $('#map').data('canvas').redraw();
+      
+      __.fs.dataLayer('change_map-mode',{
+        
+        mode : val
+        
+      });
+      
 
     });
 
