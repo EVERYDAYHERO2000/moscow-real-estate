@@ -176,9 +176,10 @@ __.detailScreen = function (place) {
 
   }
 
-  function link(href, text, classname) {
+  function link(href, text, classname, data) {
+    data = (data) ? `data-link="${data}"` : '';
     classname = (classname) ? `class="${classname}"` : '';
-    return `<a ${classname} rel="noreferrer noopener nofollow" target="_blank" href="${href}">${text}</a>`
+    return `<a ${classname} ${data} rel="noreferrer noopener nofollow" target="_blank" href="${href}">${text}</a>`
   }
 
   function objToUrl(url, obj) {
@@ -276,6 +277,34 @@ __.detailScreen = function (place) {
 
     }, 100);
 
+    $screen.find('a').click(function (e){
+      
+      let href = $(this).attr('href');  
+      
+      if ( href.includes('cian.ru') ) {
+        __.fs.analytics('cta_go-to-store', {
+          store : 'cian',
+        });
+        console.log('cian')
+      }
+      
+      if ( href.includes('realty.yandex.ru') ) {
+        __.fs.analytics('cta_go-to-store', {
+          store : 'yandex'
+        });
+        console.log('yandex')
+      }
+      
+      if ( href.includes('avito.ru') ) {
+        __.fs.analytics('cta_go-to-store', {
+          store : 'avito'
+        });
+        console.log('avito')
+      }
+      
+      
+    });
+    
     $screen.find('#close-screen').click(function (e) {
 
       e.preventDefault();
