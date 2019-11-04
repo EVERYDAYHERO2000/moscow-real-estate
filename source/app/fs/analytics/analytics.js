@@ -12,6 +12,7 @@ __.fs.analytics = function(name, params){
   });
     
   if (window.amplitude) amplitude.getInstance().logEvent(name, event);
+  if (window.ym) ym(55798045, 'reachGoal', name, event);
     
   
   
