@@ -74,7 +74,7 @@ __.placeItem = function(params){
           
           __.fs.placeGet(id, function(data, url){
             
-            __.fs.dataLayer('select_place',{
+            __.fs.analytics('select_place',{
         
               place_id : data.id,
               place_name : data.name,

@@ -9,7 +9,7 @@ __.core.$placeSearch = function(){
       text: value
     });
     
-    __.fs.dataLayer('search_place', {
+    __.fs.analytics('search_place', {
       value : $(this).find('input').val() 
     })
     
