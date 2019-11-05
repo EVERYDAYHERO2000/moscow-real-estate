@@ -1,5 +1,6 @@
 __.detailScreen = function (place) {
 
+  
   let detail_tpl = '',
     container_tpl = '';
 
@@ -115,6 +116,7 @@ __.detailScreen = function (place) {
     })(place.point);
 
     container_tpl = `
+<div id="close-panel">×</div> 
 <h1>${_type} <span>${_name}</span></h1>
 <div class="panel__content content">
   <section>
@@ -151,12 +153,16 @@ __.detailScreen = function (place) {
   <div class="header-mobile">
     <a href="/" id="close-screen" class="btn btn_back">Назад</a>
   </div>
-  <div class="panel__container">${container_tpl}</div>
+  <div class="panel__container">
+    ${container_tpl} 
+  </div>
 </div>`;
 
   } else {
 
     detail_tpl = $('#detail-screen')[0].outerHTML;
+    
+    
 
   }
 
@@ -305,10 +311,12 @@ __.detailScreen = function (place) {
       
     });
     
-    $screen.find('#close-screen').click(function (e) {
+    $screen.find('#close-screen, #close-panel').click(function (e) {
 
       e.preventDefault();
       $('#main').find('#detail-screen').remove();
+      
+      __.fs.analytics('close_detail-screen');
 
     });
 

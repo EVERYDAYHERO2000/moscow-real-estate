@@ -5,3 +5,25 @@
 .main_screen-2 #detail-screen {
   transform: translate(100vw, -54px);
 }
+
+.not-mobile #close-panel {
+  position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    color: #818181;
+}
+
+.mobile #close-panel {
+  display: none;
+}

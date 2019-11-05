@@ -5,7 +5,7 @@ __.fs.analytics = function(name, params){
   }
   
     
-  $.each(params, function(i,e){
+  if (params) $.each(params, function(i,e){
       
     event[i] = e;
       
