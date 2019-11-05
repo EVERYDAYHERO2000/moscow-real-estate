@@ -2,7 +2,6 @@ let header = function(params){
   
   let url = `${SETTINGS.domain}/${params.url}` || `${SETTINGS.domain}/`,
       title = params.title || '',
-      root = (url !== `${SETTINGS.domain}/`) ? '../../../' : '',
       description = params.description || '';
   
 
@@ -13,12 +12,12 @@ let header = function(params){
     <meta name="description" content="${description}">
     <link rel="canonical" href="${url}">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="${root}bin/app/main.css" />
+    <link rel="stylesheet" type="text/css" href="/bin/app/main.css" />
     
-    <script src="${root}source/libs/jquery.min.js"></script>
-    <script src="${root}source/libs/leaflet.min.js"></script>
-    <script src="${root}bin/app/main.js"></script>
-    <link rel="manifest" href="${root}manifest.webmanifest">
+    <script src="/source/libs/jquery.min.js"></script>
+    <script src="/source/libs/leaflet.min.js"></script>
+    <script src="/bin/app/main.js"></script>
+    <link rel="manifest" href="/manifest.webmanifest">
 
     <meta property="og:locale" content="ru_RU">
     <meta property="og:url" content="${url}">
@@ -26,14 +25,14 @@ let header = function(params){
     <meta property="og:type" content="website">
     <meta property="og:title" content="${title}">
     <meta property="og:description" content="${description}">
-    <meta property="og:image" content="${root}source/assets/cover/main.png">
+    <meta property="og:image" content="/source/assets/cover/main.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${title}">
     <meta name="twitter:description" content="${description}">
-    <meta name="twitter:image" content="${root}source/assets/cover/main.png">
+    <meta name="twitter:image" content="/source/assets/cover/main.png">
     <meta name="twitter:url" content="${url}">
 
     <meta name="referrer" content="no-referrer-when-downgrade">
@@ -42,14 +41,14 @@ let header = function(params){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="x-dns-prefetch-control" content="on">
 
-    <link rel="shortcut icon" href="${root}favicon.ico" type="image/x-icon">
-    <link rel="icon" href="${root}favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" sizes="16x16" href="${root}favicon-16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="${root}favicon-32.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="${root}source/assets/img/touch/touch-icon-ipad.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="${root}source/assets/img/touch/touch-icon-iphone-retina.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="${root}source/assets/img/touch/touch-icon-ipad-pro.png">
-    <meta name="msapplication-TileImage" content="${root}source/assets/img/touch/homescreen144.png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/source/assets/img/touch/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/source/assets/img/touch/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/source/assets/img/touch/touch-icon-ipad-pro.png">
+    <meta name="msapplication-TileImage" content="/source/assets/img/touch/homescreen144.png">
     <meta name="theme-color" content="#7D48DD">
     <meta name="msapplication-TileColor" content="#7D48DD">
 

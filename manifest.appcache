@@ -1,0 +1,17 @@
+CACHE MANIFEST
+# v4
+/source/libs/jquery.min.js
+/source/libs/leaflet.min.js
+/source/assets/img/icons/car.svg
+/source/assets/img/icons/sprites.svg 
+/source/assets/img/map/pins@2x.png 
+/bin/app/main.css 
+/bin/app/main.js
+/favicon.ico
+/favicon-16.png
+/favicon-32.png
+/bin/data/data.json 
+/index.html
+
+https://mc.yandex.ru/metrika/tag.js
+https://cdn.amplitude.com/libs/amplitude-5.2.2-min.gz.js

@@ -211,7 +211,7 @@ __.detailScreen = function (place) {
           
           place = place || null;
 
-          $.get(__.fs.baseUrl() + 'bin/data/data.json', function (places) {
+          $.get('/bin/data/data.json', function (places) {
 
             data = __.fs.decodeData(places),
             id = $('#detail-screen').data('id');
@@ -285,21 +285,21 @@ __.detailScreen = function (place) {
         __.fs.analytics('cta_go-to-store', {
           store : 'cian',
         });
-        console.log('cian')
+        
       }
       
       if ( href.includes('realty.yandex.ru') ) {
         __.fs.analytics('cta_go-to-store', {
           store : 'yandex'
         });
-        console.log('yandex')
+        
       }
       
       if ( href.includes('avito.ru') ) {
         __.fs.analytics('cta_go-to-store', {
           store : 'avito'
         });
-        console.log('avito')
+        
       }
       
       
