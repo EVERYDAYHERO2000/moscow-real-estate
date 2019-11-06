@@ -43,10 +43,10 @@
 .place-item__car:before {
   content:'';
   display: block;
-  background:url(../../source/assets/img/icons/car.svg);
+  background:url(../../source/assets/img/icons/sprites.svg); 
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: auto;
+  background-position: 0px -149px;
   width: 22px;
   height: 22px;
   min-width: 22px;
@@ -61,10 +61,10 @@
 .place-item__train:before {
   content:'';
   display: block;
-  background:url(../../source/assets/img/icons/train.svg);
+  background:url(../../source/assets/img/icons/sprites.svg);
   background-repeat: no-repeat;
-  background-size: 55%;
-  background-position: center;
+  background-size: auto;
+  background-position: 0 -179px;
   width: 22px;
   height: 22px;
   min-width: 22px;

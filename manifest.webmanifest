@@ -1,8 +1,10 @@
 {
   "name": "Househub",
   "short_name": "Househub",
-  "start_url": ".",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "theme_color": "#7D48DD",
   "background_color": "#7D48DD",
   "orientation": "portrait-primary",    
   "description": "Коттеджные поселки Москвы",

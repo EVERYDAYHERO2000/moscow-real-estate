@@ -52,6 +52,10 @@ let header = function(params){
     <meta name="theme-color" content="#7D48DD">
     <meta name="msapplication-TileColor" content="#7D48DD">
 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Househub">
+
     <meta name="pinterest" content="nopin" />
     
     <meta name="yandex-verification" content="8ff483d8f74a9661">

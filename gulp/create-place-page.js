@@ -37,6 +37,11 @@ let createPage = function(params){
   </body>
 </html>`;
   
+page = page.replace(/\s+/g, ' ')
+       .replace(/\s\,\s/g, ', ')
+       .replace(/>\s+</g, '><')
+		   .trim();  
+  
 return page;  
   
 }
