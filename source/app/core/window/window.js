@@ -2,7 +2,8 @@ __.core.$window = function() {
   
   
   let headerHeight = $('#header').outerHeight(),
-      windowHeight = $(window).outerHeight();
+      windowHeight = $(window).innerHeight(),
+      vh = window.innerHeight * 0.01;
   
   resize();
   
@@ -13,10 +14,13 @@ __.core.$window = function() {
   });
   
   function resize(){
+    
     $('#main').css({
-      height : `calc(100vh - ${headerHeight}px)`
+      height : `calc(100% - ${headerHeight}px)`
     });
     
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
   }
   
   return $(window);
