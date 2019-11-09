@@ -3,7 +3,11 @@ __.core.$map = function(){
     
     $('#map').click(function (e) {
       
-      __.placeSelect(e);
+      let id = $(this).attr('id');
+      
+      __.selectOnMap( e, id, $('#select-layer').val() );
+      
+      
 
   }).bind('createMap', function(event){
     
@@ -46,8 +50,9 @@ __.core.$map = function(){
     $(_this).data('canvas', c);
 
     function drawingOnCanvas(canvasOverlay, p) {
-      var ctx = p.canvas.getContext('2d'),
-          zoom = $(_this).data('map').getZoom();
+      let ctx = p.canvas.getContext('2d'),
+          zoom = $(_this).data('map').getZoom(),
+          mapId = $(_this).attr('id');
       
       
           
@@ -59,6 +64,7 @@ __.core.$map = function(){
       $.each(places, function (i, e) {
 
         if (e.canvas.visible) e.canvas = __.placePoint({
+          mapId : mapId, 
           ctx: ctx,
           canvasOverlay: canvasOverlay,
           zoom: zoom,
@@ -70,7 +76,8 @@ __.core.$map = function(){
       let changeOverlay = $('#select-layer').val();
       let tileset = $('#map').data('tileset');
       
-      __.mapOverlay()[changeOverlay]( params, canvasOverlay, ctx, zoom );
+      
+      __.mapOverlay()[changeOverlay]( params, canvasOverlay, ctx, zoom, mapId );
       __.mapTiles(tileset)[changeOverlay]();
       
 

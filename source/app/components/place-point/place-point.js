@@ -87,13 +87,15 @@ __.placePoint = function (params) {
   params.ctx.closePath();
 
 
-  return {
+  params.place.canvas[params.mapId] = {
     x1: dot.x,
     y1: dot.y,
     x2: dot.x + size,
     y2: dot.y + size,
-    color: color,
-    visible : params.place.canvas.visible
-  };
+  }
+  
+  params.place.canvas.color = color;
+  
+  return params.place.canvas;
 
 }

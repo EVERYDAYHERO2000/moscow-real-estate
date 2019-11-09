@@ -1,6 +1,7 @@
-__.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
+__.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
 
-
+  
+  
   let scale = 2,
     icons = __.fs.mapSprites(scale),
     size = 20 * scale,
@@ -14,8 +15,10 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
     return false
   };
 
-  this.railroad = function (params, canvasOverlay, ctx, zoom) {
+  this.railroad = function (params, canvasOverlay, ctx, zoom, mapId) {
 
+    
+    
     let railroad = params.data.railroad;
     
     
@@ -28,8 +31,13 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
         if (zoom > 9) ico = icons.point_blue;
         if (zoom > 11) ico = icons.railroad;
 
-        drawIcons(e, ctx, canvasOverlay, img, size, ico, resize);
+        let bb = drawIcons(e, ctx, canvasOverlay, img, size, ico, resize);
 
+        
+        
+        e.canvas = e.canvas || {}; 
+        e.canvas[mapId] = bb;
+        
       });
       
     });
@@ -42,7 +50,9 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
   };
 
 
-  this.eco = function (params, canvasOverlay, ctx, zoom) {
+  this.eco = function (params, canvasOverlay, ctx, zoom, mapId) {
+    
+    
 
     let eco = params.data.eco;
     
@@ -62,6 +72,7 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
           if (e.type == 5) ico = icons.water;
           if (e.type == 4) ico = icons.energy;
           if (e.type == 3) ico = icons.power;
+          
 
         } else {
 
@@ -69,7 +80,12 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
 
         }
 
-        drawIcons(e, ctx, canvasOverlay, img, size, ico, resize);
+        let bb = drawIcons(e, ctx, canvasOverlay, img, size, ico, resize);
+        
+        
+        
+        e.canvas = e.canvas || {}; 
+        e.canvas[mapId] = bb;
 
       });
       
@@ -102,9 +118,16 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom) {
   
   function drawIcons(e, ctx, canvasOverlay, img, size, ico, resize){
     
-    let dot = canvasOverlay._map.latLngToContainerPoint([e.point[1], e.point[0]]);
+    let dot = canvasOverlay._map.latLngToContainerPoint([e.point[1], e.point[0]]),
+        bb = {
+          x1: dot.x,
+          x2: dot.x + (resize), 
+          y1: dot.y,
+          y2: dot.y + (resize)
+        };
+    
     if (ico) ctx.drawImage(img, 0, ico, size, size, dot.x - resize / 2, dot.y - resize / 2, resize, resize);
-    return img;
+    return bb;
   }
 
   return this;

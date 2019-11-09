@@ -1,7 +1,7 @@
 {
     "name": "moscow-real-estate",
     "description": "moscow real estate",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "repository": "https://github.com/EVERYDAYHERO2000/moscow-real-estate.git",
     "license": "MIT",
     "scripts": {

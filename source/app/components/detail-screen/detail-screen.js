@@ -271,10 +271,10 @@ __.detailScreen = function (place) {
 
             __.mapOverlay()['eco']({
               data: data
-            }, canvasOverlay, ctx, zoom);
+            }, canvasOverlay, ctx, zoom, 'place-map');
             __.mapOverlay()['railroad']({
               data: data
-            }, canvasOverlay, ctx, zoom);
+            }, canvasOverlay, ctx, zoom, 'place-map');
 
           }
         }

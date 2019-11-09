@@ -1,0 +1,99 @@
+.place-select {
+  position: absolute;
+  z-index: 10000;
+  background: #fff;
+  flex-direction: column;
+  border-radius: 4px;
+  overflow: hidden;
+  overflow-y: scroll;
+  box-shadow: rgba(0, 0, 0, 0.65) 0px 1px 5px;
+  box-sizing: border-box;
+  max-height: 80vh;
+  width: 200px;
+  padding: 8px 0;
+}
+
+.place-select__item {
+  padding: 6px 12px;
+  cursor:pointer;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: keep-all;
+  color: inherit;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.place-select__item:hover {
+  background: #7915dd;
+  color:#fff;
+}
+
+.place-select__item .icon[data-ico] {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(../../source/assets/img/map/pins@2x.png);
+  background-size: 20px auto;
+  background-repeat: no-repeat;
+  background-position: 0 0; 
+  transform: translate(-5px, 5px);
+}
+
+//radiation
+.place-select__item .icon.icon_eco[data-ico="1"] {
+  background-position: 0 -20px; 
+}
+//radiation
+.place-select__item .icon.icon_eco[data-ico="2"] {
+  background-position: 0 -20px;
+}
+//power
+.place-select__item .icon.icon_eco[data-ico="3"] {
+  background-position: 0 -160px;
+}
+//energy
+.place-select__item .icon.icon_eco[data-ico="4"] {
+  background-position: 0 -100px; 
+}
+//water
+.place-select__item .icon.icon_eco[data-ico="5"] {
+  background-position: 0 -120px;
+}
+//recicle
+.place-select__item .icon.icon_eco[data-ico="6"] {
+  background-position: 0 0px;
+}
+//trash
+.place-select__item .icon.icon_eco[data-ico="7"] {
+  background-position: 0 -60px;
+}
+//factory
+.place-select__item .icon.icon_eco[data-ico="8"] {
+  background-position: 0 -40px;
+}
+//trash
+.place-select__item .icon.icon_eco[data-ico="9"] {
+  background-position: 0 -60px;
+}
+//airport
+.place-select__item .icon.icon_eco[data-ico="10"] {
+  background-position: 0 -80px;
+}
+//factory
+.place-select__item .icon.icon_eco[data-ico="11"] {
+  background-position: 0 -40px;
+}
+//railroad
+.place-select__item .icon.icon_railroad {
+  background-position: 0 -220px;
+}
+
+.place-select .place-select__item_object:last-of-type + .place-select__item_place {
+  
+  border-top: 1px solid #ccc;
+}
+
+

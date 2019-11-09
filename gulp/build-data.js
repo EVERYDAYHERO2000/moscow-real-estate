@@ -52,6 +52,12 @@ let buildData = function(places, writeFile){
         
       });
       
+      _.forEach(eco, function(e){
+        
+        delete e.geom;
+        
+      });
+      
       return eco;
     
     })(),
@@ -235,7 +241,7 @@ let buildData = function(places, writeFile){
     
   
   
-  var json = {
+  var simpleJSON = {
     p:[], //places
     t:[], //types
     n:[], //names
@@ -246,6 +252,11 @@ let buildData = function(places, writeFile){
     g:[], //railroad stations route  
     q:[]  //railroad station type 
   };
+  
+  var objectsJSON = {
+    railroad : tempData.railroad.stations,
+    eco : tempData.eco
+  }
   
   _.forEach(tempData.places,function(e){
     
@@ -273,20 +284,20 @@ let buildData = function(places, writeFile){
       (e.class) ? _class[e.class].id : -1,  //18  
     ]
     
-    json.p.push(place);
+    simpleJSON.p.push(place);
     
   });
   
   _.forEach(_types,function(e){
-    json.t.push(e.type);  
+    simpleJSON.t.push(e.type);  
   });
   
   _.forEach(_names,function(e){
-    json.n.push(e.name);  
+    simpleJSON.n.push(e.name);  
   });
   
   _.forEach(_class,function(e){
-    json.k.push(e.class);  
+    simpleJSON.k.push(e.class);  
   });
   
   _.forEach(tempData.railroad.stations,function(e){
@@ -303,15 +314,15 @@ let buildData = function(places, writeFile){
       e.count                                //9
     ]
     
-    json.r.push(railroad);
+    simpleJSON.r.push(railroad);
   });
     
   _.forEach(tempData.railroad.settings.route,function(e){      
-    json.g.push(e.name);
+    simpleJSON.g.push(e.name);
   });
     
   _.forEach(tempData.railroad.settings.type,function(e){      
-    json.q.push(e.name);
+    simpleJSON.q.push(e.name);
   });    
   
   _.forEach(tempData.eco,function(e){
@@ -323,7 +334,7 @@ let buildData = function(places, writeFile){
       e.type
     ]
     
-    json.e.push(eco);
+    simpleJSON.e.push(eco);
   });
   
   _.forEach(tempData.geo,function(e){
@@ -334,13 +345,19 @@ let buildData = function(places, writeFile){
       e.point[1]
     ]
     
-    json.c.push(city);
+    simpleJSON.c.push(city);
   });
   
   
 
     
-    fs.writeFile(DEV_PATH + '/bin/data/data.json', JSON.stringify(json), function(err) {
+    fs.writeFile(DEV_PATH + '/bin/data/data.json', JSON.stringify(simpleJSON), function(err) {
+      if (err) {
+        console.log('buildData -->', err); 
+      } 
+    });
+  
+    fs.writeFile(DEV_PATH + '/bin/data/objects.json', JSON.stringify(objectsJSON), function(err) {
       if (err) {
         console.log('buildData -->', err); 
       } 
