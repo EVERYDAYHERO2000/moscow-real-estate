@@ -1,6 +1,6 @@
 .panel {
   flex-basis: 30%;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   overflow-y: scroll; 
   
@@ -48,7 +48,7 @@
     left: 0;
     top: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
   }
   
 }
