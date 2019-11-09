@@ -5,9 +5,11 @@ __.core.$map = function(){
       
       let id = $(this).attr('id');
       
-      if ( $(e.target).is('canvas') ) __.selectOnMap( e, id, $('#select-layer').val() );
-      
-      
+      if ( $(e.target).is('canvas') ) {
+       
+        __.selectOnMap( e, id, $('#select-layer').val() );
+        
+      }
       
       
 
