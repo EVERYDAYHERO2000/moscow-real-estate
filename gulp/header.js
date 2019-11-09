@@ -51,6 +51,7 @@ let header = function(params){
     <meta name="msapplication-TileImage" content="/source/assets/img/touch/homescreen144.png">
     <meta name="theme-color" content="#7D48DD">
     <meta name="msapplication-TileColor" content="#7D48DD">
+    <meta name="yandex-tableau-widget" content="logo=https://myhousehub.rusource/assets/img/touch/homescreen96.png, color=#7D48DD" />
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
