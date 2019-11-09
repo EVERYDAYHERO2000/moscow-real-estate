@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="30px" height="229px" viewBox="0 0 30 229" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="30px" height="240px" viewBox="0 0 30 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>sprites</title>
     <desc>Created with Sketch.</desc>
@@ -33,6 +33,12 @@
             <polygon id="Path-5-Copy" fill="#7D48DD" transform="translate(14.002948, 8.527088) scale(-1, 1) translate(-14.002948, -8.527088) " points="12 5 16.0058959 6.99978959 16.0058959 12.0541751 12 12.0541751"></polygon>
             <polygon id="Path-7" fill="#8447F2" points="3.98797469 7.04718018 7.99526643 5.00320864 7.99526643 0.543771439 0 5.00320864"></polygon>
             <polygon id="Path-7" fill="#6A35CB" transform="translate(12.000000, 3.760586) scale(-1, 1) translate(-12.000000, -3.760586) " points="11.9927083 6.99331023 16 5.00049139 16 0.527862426 8 5.00049139"></polygon>
+        </g>
+        <g id="Group-4" opacity="0.5" transform="translate(7.000000, 217.000000)" stroke="#000000" stroke-linecap="square">
+            <g id="Line">
+                <path d="M5.57142857,0.428571429 L0.357632117,5.64236788" stroke-width="1.5" fill-rule="nonzero"></path>
+                <path d="M5.57142857,0.428571429 L0.357632117,5.64236788" stroke-width="1.5" fill-rule="nonzero" transform="translate(3.000000, 3.000000) scale(-1, 1) translate(-3.000000, -3.000000) "></path>
+            </g>
         </g>
     </g>
 </svg>

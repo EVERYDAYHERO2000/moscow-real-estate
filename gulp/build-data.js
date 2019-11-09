@@ -55,6 +55,7 @@ let buildData = function(places, writeFile){
       _.forEach(eco, function(e){
         
         delete e.geom;
+        delete e.props;
         
       });
       

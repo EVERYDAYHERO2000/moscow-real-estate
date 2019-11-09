@@ -8,20 +8,8 @@
 
 .not-mobile #close-panel {
   position: absolute;
-    right: 10px;
-    top: 10px;
-    width: 20px;
-    height: 20px;
-    border: 1px solid #e5e5e5;
-    border-radius: 50%;
-    cursor: pointer;
-    text-align: center;
-    line-height: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 100;
-    color: #818181;
+  right: 10px;
+  top: 10px;
 }
 
 .mobile #close-panel {

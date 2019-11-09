@@ -1,0 +1,22 @@
+.close-icon {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  color: #818181;
+  background-image: url(../../source/assets/img/icons/sprites.svg); 
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 -210px;
+}
+
+.close-icon:hover {
+  border: 1px solid #c3c3c3;
+}

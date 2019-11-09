@@ -116,7 +116,7 @@ __.detailScreen = function (place) {
     })(place.point);
 
     container_tpl = `
-<div id="close-panel">×</div> 
+<div class="close-icon" id="close-panel"></div> 
 <h1>${_type} <span>${_name}</span></h1>
 <div class="panel__content content">
   <section>
