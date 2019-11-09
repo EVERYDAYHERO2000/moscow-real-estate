@@ -15,6 +15,10 @@ __.core.$window = function() {
   
   function resize(){
     
+    $('#app').css({
+      height: windowHeight + 'px'
+    });
+    
     $('#main').css({
       height : `calc(100% - ${headerHeight}px)`
     });
