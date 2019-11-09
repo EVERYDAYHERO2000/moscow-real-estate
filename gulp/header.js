@@ -11,6 +11,7 @@ let header = function(params){
     <title>${title}</title>
     <meta name="description" content="${description}">
     <link rel="canonical" href="${url}">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/bin/app/main.css" />
     
