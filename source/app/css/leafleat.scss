@@ -322,8 +322,9 @@
 
 .leaflet-container .leaflet-control-attribution {
 	background: #fff;
-	background: rgba(255, 255, 255, 0.7);
-	margin: 0;
+	background: rgba(255, 255, 255, 0.3);
+  margin: 4px;
+  border-radius: 3px;
 	}
 .leaflet-control-attribution,
 .leaflet-control-scale-line {
@@ -332,6 +333,7 @@
 	}
 .leaflet-control-attribution a {
 	text-decoration: none;
+  color: #fff;
 	}
 .leaflet-control-attribution a:hover {
 	text-decoration: underline;
