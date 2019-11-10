@@ -5,7 +5,14 @@
   padding: 10px; 
   min-height: 100px;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
 }
+
+.place-item__content {
+  
+}
+
 
 .place-item_active {
   background: #e5e6ef;

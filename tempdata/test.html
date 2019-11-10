@@ -1,0 +1,79 @@
+<style>
+  .mm {
+    background: url(../source/assets/img/icons/moscow.svg);
+    width: 80px;
+    height: 80px;
+    background-size: auto;
+    background-position: 9.5px 15px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .marker {
+    position: absolute;
+    background: #4ea3ff;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    left: calc(50% - 3px);
+    top: calc(50% - 3px);
+    transform-origin: center;
+    box-shadow: 0 0 0 1px rgba(255,255,255,1), 0 1px 3px rgba(0,0,0,.5);
+  }
+</style>  
+<body>
+  <div class="mm">
+    <div class="marker"></div>
+  </div>
+</body>
+<script src="../source/libs/jquery.min.js"></script>
+<script>
+  $(function(){
+    
+    var moscow = [55.751244, 37.618423];
+    
+    var point =[51.796338, 45.284897];
+    
+    var result = [];
+    var size = 80
+    var offsetT = 1,
+        offsetL = 1;
+    
+    //top -> bot
+    if (moscow[0] > point[0]){
+      
+      result[0] =  moscow[0] - point[0]
+      offsetT = 1
+    } else {
+      
+      result[0] = point[0] - moscow[0]; 
+      offsetT = -1
+    }
+    
+    //left -> right
+    if (moscow[1] > point[1]){
+      
+      result[1] = point[1] - moscow[1]
+      offsetL = 1
+    } else {
+      
+      result[1] = moscow[1] - point[1]; 
+      offsetL = -1
+    }
+    
+    result[0] = (((result[0]*size)/360) * 180) * offsetT;
+    result[1] = (((result[1]*size)/180) * 30) * offsetL;
+    
+    result[0] = (result[0] < -40) ? -40 : result[0];
+    result[0] = (result[0] > 40) ? 40 : result[0];
+    
+    result[1] = (result[1] < -40) ? -40 : result[1];
+    result[1] = (result[1] > 40) ? 40 : result[1];
+    
+    
+    $('.marker').css({
+      transform: `translate(${result[1]}px, ${result[0]}px)`
+    })
+    
+    
+  });
+</script>

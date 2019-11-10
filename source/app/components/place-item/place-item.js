@@ -14,6 +14,8 @@ __.placeItem = function(params){
         
   })(params.price);
   
+  let _miniMap = (typeof global != 'undefined') ? global.component('mini-map', {lat: params.point[1], lon: params.point[0]}) : __.miniMap({lat: params.point[1], lon: params.point[0]});
+  
   let _color = (typeof global != 'undefined') ? '#fafafa' : params.canvas.color;
   
   let _type = (params.type) ? `<span class="place-item__type">${params.type}</span>` : ''; 
@@ -29,17 +31,16 @@ __.placeItem = function(params){
   
   let tpl = 
 `<div class="place-item" data-id="place-${params.id}">
-  <div class="place-item__title">
-    <div class="place-item__pin" style="background:${_color}"></div>
-    <div>
+  <div class="place-item__content">
+    <div class="place-item__title">
       <a href="${url}">${_type}<span class="place-item__name">${params.name}</a></span>
     </div>
+    <div class="place-item__distance">
+      ${_car}
+      ${_rjd}
+    </div>
   </div>
-  <div class="place-item__price">${_price.from} ${_price.to}</div>
-  <div class="place-item__distance">
-    ${_car}
-    ${_rjd}
-  </div>
+  ${_miniMap}
 </div>`;
     
   if (typeof global == 'undefined') __.fs.event.bind('.place-item', 'click', function(e){

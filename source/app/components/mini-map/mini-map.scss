@@ -1,0 +1,24 @@
+.mini-map {
+    background: url(../../../source/assets/img/icons/moscow.svg);
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    background-size: auto;
+    background-position: 9.5px 15px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+.mini-map__marker {
+    position: absolute;
+    background: #4ea3ff;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    left: calc(50% - 3px);
+    top: calc(50% - 3px);
+    transform-origin: center;
+  }
