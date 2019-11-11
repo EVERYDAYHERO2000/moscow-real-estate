@@ -2,7 +2,7 @@ __.miniMap = function(params){
   
     var moscow = [55.751244, 37.618423];
     
-    var point =[params.lat, params.lon];
+    var point = [params.lat, params.lon];
     
     var result = [];
     var size = 80

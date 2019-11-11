@@ -26,6 +26,8 @@ __.fs.mapObjectGet = function(id, type, callback) {
           
       let DATA = $('#app').data('data');
       
+      
+      
       $.each(DATA.eco, function(i,e){
         
         for(var k in data.eco[i]) {

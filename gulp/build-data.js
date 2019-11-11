@@ -255,8 +255,30 @@ let buildData = function(places, writeFile){
   };
   
   var objectsJSON = {
-    railroad : tempData.railroad.stations,
-    eco : tempData.eco
+    railroad : (function(railroad){
+      let obj = {};
+      
+      _.forEach(railroad, function(e){
+        
+        obj[e.id] = e;
+        
+      })
+      
+      
+      return obj;
+    })(tempData.railroad.stations),
+    eco : (function(eco){
+      let obj = {};
+      
+      _.forEach(eco, function(e){
+        
+        obj[e.id] = e;
+        
+      })
+      
+      
+      return obj;
+    })(tempData.eco) 
   }
   
   _.forEach(tempData.places,function(e){
