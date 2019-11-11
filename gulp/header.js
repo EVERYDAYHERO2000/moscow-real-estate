@@ -42,7 +42,7 @@ let header = function(params){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="x-dns-prefetch-control" content="on">
 
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="//myhousehub.ru/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
