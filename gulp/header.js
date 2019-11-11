@@ -65,8 +65,15 @@ let header = function(params){
     <meta name="msvalidate.01" content="C30D1D7C51ECE986D47AE97984D8F3B3" />
     <meta name='wmail-verification' content='c27ab276a1de6c1fe3fb36af2d9a330c' />
 
-    <link rel= "preconnect" href="https://mc.yandex.ru/" />
-    <link rel= "preconnect" href="https://cdn.amplitude.com/" />
+    
+    <link rel= "preconnect" href="https://a.tiles.mapbox.com/" />
+    <link rel= "preconnect" href="https://b.tiles.mapbox.com/" />
+    <link rel= "preconnect" href="https://c.tiles.mapbox.com/" />
+    
+    <link rel= "preconnect" href="https://a.basemaps.cartocdn.com/" />
+    <link rel= "preconnect" href="https://b.basemaps.cartocdn.com/" />
+    <link rel= "preconnect" href="https://c.basemaps.cartocdn.com/" />
+
     <link rel= "preconnect" href="https://api.amplitude.com/" />
 
     <!-- Yandex.Metrika counter -->
