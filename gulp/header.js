@@ -66,22 +66,25 @@ let header = function(params){
     <meta name='wmail-verification' content='c27ab276a1de6c1fe3fb36af2d9a330c' />
 
     
-    <link rel= "dns-prefetch" href="https://a.tiles.mapbox.com/" />
-    <link rel= "dns-prefetch" href="https://b.tiles.mapbox.com/" />
-    <link rel= "dns-prefetch" href="https://c.tiles.mapbox.com/" />
-    <link rel= "preconnect" href="https://a.tiles.mapbox.com/" />
-    <link rel= "preconnect" href="https://b.tiles.mapbox.com/" />
-    <link rel= "preconnect" href="https://c.tiles.mapbox.com/" />
+    <link rel= "dns-prefetch" href="https://a.tiles.mapbox.com" />
+    <link rel= "dns-prefetch" href="https://b.tiles.mapbox.com" />
+    <link rel= "dns-prefetch" href="https://c.tiles.mapbox.com" />
+    <link rel= "preconnect" href="https://a.tiles.mapbox.com" />
+    <link rel= "preconnect" href="https://b.tiles.mapbox.com" />
+    <link rel= "preconnect" href="https://c.tiles.mapbox.com" />
     
-    <link rel= "dns-prefetch" href="https://a.tiles.mapbox.com/" />
-    <link rel= "dns-prefetch" href="https://b.tiles.mapbox.com/" />
-    <link rel= "dns-prefetch" href="https://c.tiles.mapbox.com/" />
-    <link rel= "preconnect" href="https://a.basemaps.cartocdn.com/" />
-    <link rel= "preconnect" href="https://b.basemaps.cartocdn.com/" />
-    <link rel= "preconnect" href="https://c.basemaps.cartocdn.com/" />
+    <link rel= "dns-prefetch" href="https://a.tiles.mapbox.com" />
+    <link rel= "dns-prefetch" href="https://b.tiles.mapbox.com" />
+    <link rel= "dns-prefetch" href="https://c.tiles.mapbox.com" />
+    <link rel= "preconnect" href="https://a.basemaps.cartocdn.com" />
+    <link rel= "preconnect" href="https://b.basemaps.cartocdn.com" />
+    <link rel= "preconnect" href="https://c.basemaps.cartocdn.com" />
 
-    <link rel= "dns-prefetch" href="https://api.amplitude.com/" />
-    <link rel= "preconnect" href="https://api.amplitude.com/" />
+    <link rel= "dns-prefetch" href="https://mc.yandex.ru" />
+    <link rel= "preconnect" href="https://mc.yandex.ru" />
+
+    <link rel= "dns-prefetch" href="https://api.amplitude.com" />
+    <link rel= "preconnect" href="https://api.amplitude.com" />
 
 
     <!-- Yandex.Metrika counter -->
