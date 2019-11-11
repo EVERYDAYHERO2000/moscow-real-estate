@@ -1,22 +1,20 @@
 __.core.$window = function() {
   
   
-  let headerHeight = $('#header').outerHeight(),
-      windowHeight = $(window).innerHeight(),
+  var headerHeight = $('#header').outerHeight(),
       vh = window.innerHeight * 0.01;
   
   resize();
   
   $(window).resize(function(e){
-    
     resize();
     
   });
   
   function resize(){
-    
+
     $('#app').css({
-      height: windowHeight + 'px'
+      height: $(window).innerHeight() + 'px'
     });
     
     $('#main').css({
