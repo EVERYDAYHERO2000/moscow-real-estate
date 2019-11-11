@@ -52,7 +52,7 @@ let header = function(params){
     <meta name="msapplication-TileImage" content="/source/assets/img/touch/homescreen144.png">
     <meta name="theme-color" content="#7D48DD">
     <meta name="msapplication-TileColor" content="#7D48DD">
-    <meta name="yandex-tableau-widget" content="logo=https://myhousehub.rusource/assets/img/touch/homescreen96.png, color=#7D48DD" />
+    <meta name="yandex-tableau-widget" content="logo=//myhousehub.ru/source/assets/img/touch/homescreen96.png, color=#7D48DD" />
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -64,6 +64,10 @@ let header = function(params){
     <meta name="google-site-verification" content="6IYvZOGu3jhh3buc1gm-Cjmk475IfPG4HXZDWt-pbY0">
     <meta name="msvalidate.01" content="C30D1D7C51ECE986D47AE97984D8F3B3" />
     <meta name='wmail-verification' content='c27ab276a1de6c1fe3fb36af2d9a330c' />
+
+    <link rel= "preconnect" href="https://mc.yandex.ru/" />
+    <link rel= "preconnect" href="https://cdn.amplitude.com/" />
+    <link rel= "preconnect" href="https://api.amplitude.com/" />
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
