@@ -32,5 +32,9 @@
     "src": "source/assets/img/touch/homescreen192.png",
     "sizes": "192x192",
     "type": "image/png"
+  }, {
+    "src": "source/assets/img/touch/homescreen512.png",
+    "sizes": "512x512",
+    "type": "image/png"
   }]
 }
