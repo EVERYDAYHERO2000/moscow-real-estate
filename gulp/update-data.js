@@ -6,7 +6,6 @@ const iconv = require("iconv-lite");
 const CSVToArray = require(DEV_PATH + '/gulp/csv-to-array.js');
 const buildData = require(DEV_PATH + '/gulp/build-data.js');
 
-
 let updateData = function(){
   
   var csvURL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT8QUn2_IpcV0Q_i9uJfsmKMYZErXyAVGMv4u9a1sG36S4450_Wr5vv6LUMsgPYZpoxmdclHMVmg7U6/pub?gid=1270687964&single=true&output=csv';

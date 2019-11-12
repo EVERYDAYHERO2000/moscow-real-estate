@@ -8,6 +8,7 @@ __.detailScreen = function (place) {
 
     let _id = place.id;
     let _name = place.name;
+    let _description = place.description;
     let _type = (place.type) ? `<span>${place.type}</span>` : '';
     let _class = contentItem('Класс', place.class, function (v) {
       return v
@@ -118,6 +119,7 @@ __.detailScreen = function (place) {
     container_tpl = `
 <div class="close-icon" id="close-panel"></div> 
 <h1>${_type} <span>${_name}</span></h1>
+<p>${_description}</p>
 <div class="panel__content content">
   <section>
     ${_class}

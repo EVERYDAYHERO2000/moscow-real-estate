@@ -49,7 +49,7 @@ let descriptionGenerator = function(data){
   
   let _class = (function(c){
         
-    return (c) ? c + ' класса' : ''
+    return (c && c != 'элитный') ? c + ' класса' : ''
     
   })(data.class)
   
@@ -67,7 +67,7 @@ let descriptionGenerator = function(data){
     
   })(data.car.time);
   
-  let _distance = (!_time) ? `${data.moscow.distance}км от Москвы` : `${data.moscow.distance}км от Москвы (${_time} до центра без учета пробок)`;
+  let _distance = (!_time) ? `${data.moscow.distance} км от Москвы` : `${data.moscow.distance} км от Москвы (${_time} до центра без учета пробок)`;
   
   let _railroad = (function(railroad){
     

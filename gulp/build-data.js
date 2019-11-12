@@ -4,7 +4,7 @@ const _ = require('lodash');
 const calcDistance = require(DEV_PATH + '/gulp/calc-distance.js');
 const writeFiles = require(DEV_PATH + '/gulp/write-files.js');
 
-
+const textGen = require(DEV_PATH + '/gulp/place-description.js');
 
 
 let buildData = function(places, writeFile){
@@ -104,6 +104,7 @@ let buildData = function(places, writeFile){
       }
         
     })();
+    
 
     //train station
     (function(){
@@ -231,6 +232,13 @@ let buildData = function(places, writeFile){
       e.eco = {};
       e.eco.closest = eco;
       e.eco.distance = +__distance.toFixed(2);
+      
+    })();
+    
+    //description
+    (function(){
+      
+      e.description = textGen(e);
       
     })();
     

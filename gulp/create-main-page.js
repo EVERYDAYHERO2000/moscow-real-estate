@@ -5,6 +5,8 @@ const calcDistance = require(DEV_PATH + '/gulp/calc-distance.js');
 const component = require(DEV_PATH + '/gulp/component.js');
 const header = require(DEV_PATH + '/gulp/header.js');
 
+
+
 global.component = global.component || component;
 
 let createPage = function(){
@@ -18,6 +20,7 @@ let createPage = function(){
     
     places += component('place-item', e);
     
+    
   });
   
   page = 
@@ -27,7 +30,7 @@ let createPage = function(){
   ${header({
     url : '',
     title : 'Коттеджние поселки подмосковья',
-    description : 'Найти коттеджный посёлок рядом с Москвой. Загородное жильё с хорошей транспортной доступностью, рядом со станцией Электрички, в экологически чистом районе'
+    description : 'Найти коттеджный посёлок рядом с Москвой. Загородное жильё с хорошей транспортной доступностью, рядом со станцией электрички, в экологически чистом районе'
   })}
   <body>
     <div id="app">
