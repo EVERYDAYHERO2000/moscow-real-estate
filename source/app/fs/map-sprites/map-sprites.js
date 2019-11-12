@@ -12,6 +12,7 @@ __.fs.mapSprites = function (scale) {
     power: 160 * scale,
     point_blue: 180 * scale,
     point_green: 200 * scale,
-    railroad: 220 * scale
+    railroad: 220 * scale,
+    black_mesa : 240 * scale
   }
 }

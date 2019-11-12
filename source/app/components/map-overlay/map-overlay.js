@@ -72,6 +72,7 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
           if (e.type == 5) ico = icons.water;
           if (e.type == 4) ico = icons.energy;
           if (e.type == 3) ico = icons.power;
+          if (e.type == 12) ico = icons.black_mesa;
           
 
         } else {
