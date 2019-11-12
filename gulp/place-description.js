@@ -72,21 +72,26 @@ let placeDescription = function(data){
     let t_lat = 0,
         t_lon = 0;
     
-    if (moscow[0] > point[0]){
+    if (+moscow[0] > +point[0]){
       
       t_lat = 0;
       
-    } else if (moscow[0] < point[0]){
+    } 
+    
+    if (+moscow[0] < +point[0]){
       
       t_lat = 1;
       
     }  
     
-    if (moscow[1] > point[1]){
+    
+    if (+moscow[1] > +point[1]){
       
       t_lon = 0;
       
-    } else if (moscow[1] < point[1]){
+    }
+    
+    if (+moscow[1] < +point[1]){
       
       t_lon = 1;
       
@@ -104,7 +109,7 @@ let placeDescription = function(data){
     
     return d;
     
-  })(data.point, [55.751244, 37.618423]);
+  })(data.point, [37.618423, 55.751244]);
   
   let _nearCity = (function(city){
 
