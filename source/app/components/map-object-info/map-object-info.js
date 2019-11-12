@@ -23,6 +23,7 @@ __.mapObjectInfo = function(data, type, mapId){
   <div class="close-icon"></div>
 </div>`;
   }
+
   
   if (type == 'railroad') {
     
