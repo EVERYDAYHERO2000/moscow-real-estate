@@ -74,37 +74,37 @@ let placeDescription = function(data){
     
     if (+moscow[0] > +point[0]){
       
-      t_lat = 0;
+      t_lon = 0;
       
     } 
     
     if (+moscow[0] < +point[0]){
       
-      t_lat = 1;
+      t_lon = 1;
       
     }  
     
     
     if (+moscow[1] > +point[1]){
       
-      t_lon = 0;
+      t_lat = 0;
       
     }
     
     if (+moscow[1] < +point[1]){
       
-      t_lon = 1;
+      t_lat = 1;
       
     } 
     
     if (t_lat && t_lon) {
-      d = 'в юго-восточном направлении'
-    } else if (t_lat && !t_lon) {
-      d = 'в юго-западном направлении'
-    } else if (!t_lat && !t_lon) {
-      d = 'в северо-западном направлении'
-    } else if (!t_lat && t_lon) {
       d = 'в северо-восточном направлении'
+    } else if (t_lat && !t_lon) {
+      d = 'в северо-западном направлении'
+    } else if (!t_lat && !t_lon) {
+      d = 'в юго-западном направлении'
+    } else if (!t_lat && t_lon) {
+      d = 'в юго-восточном направлении'
     }
     
     return d;
@@ -152,7 +152,14 @@ let placeDescription = function(data){
     let t = '';
     
     if (car.time.m) {
-      t = `${car.time.h} час ${car.time.m} мин`;
+      
+      if (car.time.h >= 1){
+        t = `${car.time.h} час ${car.time.m} мин`;
+      } else {
+        t = `${car.time.m} мин`;
+      }
+      
+      
     } else {
       t = `${car.time.h} час`;
     }
@@ -179,7 +186,26 @@ let placeDescription = function(data){
     if (railroad.closest.route == 'Смоленское направление') s = 'Беларусский';
     
     if (railroad.closest.time.m) {
-      t = `${railroad.closest.time.h} час ${railroad.closest.time.m} мин`
+      
+      if (railroad.closest.time.m > 0) {
+        
+        if (railroad.closest.time.h >=1) {
+        
+          t = `${railroad.closest.time.h} час ${railroad.closest.time.m} мин`
+          
+        } else {
+          
+          t = `${railroad.closest.time.m} мин`
+          
+        }
+        
+      } else {
+        
+        t = `${railroad.closest.time.h} час`
+        
+      }
+      
+      
     }
     
     if (railroad.distance <= 3){
@@ -199,7 +225,7 @@ let placeDescription = function(data){
     if (car.time.h < 1 && car.time.m) t_c = 1;
     if (railroad.distance <= 3) t_r = 1;
     
-    if (t_r && t_c){
+    if (t_r || t_c){
       
       d = `Благодоря хорошей транспортной доступности поселок подойдет людям планирующим проживать в пригороде и работать в Москве.`
       
