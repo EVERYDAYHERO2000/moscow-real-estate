@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="28px" viewBox="0 0 32 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>myhousehub</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="myhousehub" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Path" fill-rule="nonzero">
+            <polygon fill="#7D48DD" points="16 0.0274529921 0.042402209 9.43494811 0.042402209 9.86617231 8.42378877 14.2975551 8.42378877 13.7142857 16 9.43494811 23.5579627 13.7142857 23.5579627 23.9864275 31.9381435 23.9864275 31.9381435 9.43494811"></polygon>
+            <polygon id="Path-5" fill="#7ED321" points="-3.59011066e-14 9.42693411 8.45143253 13.7142857 8.45143253 23.9948461 -3.59011066e-14 23.9948461"></polygon>
+            <polygon id="Path-7" fill="#8447F2" points="8.43085018 13.7142857 16 9.43317746 16 0.00436283098 0 9.43317746"></polygon>
+            <polygon id="Path-5" fill="#7D48DD" transform="translate(27.774284, 16.712527) scale(-1, 1) translate(-27.774284, -16.712527) " points="23.5485675 9.42857143 32 13.715923 32 23.9964834 23.5485675 23.9964834"></polygon>
+            <polygon id="Path-7" fill="#6A35CB" transform="translate(24.000000, 6.859324) scale(-1, 1) translate(-24.000000, -6.859324) " points="24.4308502 13.7142857 32 9.43317746 32 0.00436283098 16 9.43317746"></polygon>
+        </g>
+    </g>
+</svg>

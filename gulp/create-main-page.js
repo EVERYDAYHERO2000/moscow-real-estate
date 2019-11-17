@@ -35,6 +35,9 @@ let createPage = function(){
   <body>
     <div id="app">
       <div id="header">
+        <div class="header-desktop">
+          ${component('logo',{title:'<h1 class="header__title">Найти коттеджный посёлок</h1>'})}
+        </div>
         <div class="header-mobile">
           <button id="change-view" class="btn">На карте</button>
         </div>

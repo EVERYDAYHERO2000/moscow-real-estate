@@ -64,14 +64,15 @@ let buildData = function(places, writeFile){
     })(),
     structure : {
       medic : require(dataPath + 'structure/medic.json'),
-      shcool : require(dataPath + 'structure/shcool.json')
+      shcool : require(dataPath + 'structure/shcool.json'),
+      market : require(dataPath + 'structure/market.json')
     }
   }
   
   //temp objects
-  var _types = {}, _t = 0,
-      _names = {}, _n = 0,
-      _class = {}, _c = 0;
+  var _types  = {}, _t = 0,
+      _names  = {}, _n = 0,
+      _class  = {}, _c = 0;
 
   _.forEach(tempData.places, function(e){
 
@@ -105,6 +106,8 @@ let buildData = function(places, writeFile){
         
     })();
     
+    
+    
 
     //train station
     (function(){
@@ -127,6 +130,34 @@ let buildData = function(places, writeFile){
       e.railroad.distance = +__distance.toFixed(2); 
       
     })();
+    
+    
+    //markets
+    (function(){
+      
+      var __distance = 10000000;
+      var market = {};
+      
+      _.forEach(tempData.structure.market, function(m){
+        let currentDist = calcDistance(e.point[1], e.point[0], m.lat, m.lon, 'K')
+        
+        if (currentDist <= __distance) {
+          __distance = currentDist;
+          market = m;
+        }
+        
+        
+        
+      });
+      
+      
+      
+      e.market = {};
+      e.market.closest = market;
+      e.market.distance = +__distance.toFixed(2); 
+      
+    })();
+    
     
     //cities
     (function(){
@@ -259,7 +290,8 @@ let buildData = function(places, writeFile){
     e:[], //eco
     c:[], //cities
     g:[], //railroad stations route  
-    q:[]  //railroad station type 
+    q:[], //railroad station type 
+    m:[], //markets
   };
   
   var objectsJSON = {
@@ -272,7 +304,6 @@ let buildData = function(places, writeFile){
         
       })
       
-      
       return obj;
     })(tempData.railroad.stations),
     eco : (function(eco){
@@ -283,10 +314,27 @@ let buildData = function(places, writeFile){
         obj[e.id] = e;
         
       })
+    
+      return obj;
+    })(tempData.eco),
+    /*
+    markets : (function(markets){
+      let obj = {};
+      
+      _.forEach(markets, function(e){
+        
+        obj[e.id] = {
+          id : e.id,
+          name : e.name,
+          point : [e.lon,e.lat]
+        };
+        
+      })
       
       
       return obj;
-    })(tempData.eco) 
+    })(tempData.structure.market)
+    */
   }
   
   _.forEach(tempData.places,function(e){
@@ -312,7 +360,11 @@ let buildData = function(places, writeFile){
       e.point[0],                           //15
       (e.type) ? _types[e.type].id : -1,    //16
       _names[e.name].id,                    //17
-      (e.class) ? _class[e.class].id : -1,  //18  
+      (e.class) ? _class[e.class].id : -1,  //18
+      /*
+      e.market.closest.id,                  //19
+      e.market.distance                     //20
+      */
     ]
     
     simpleJSON.p.push(place);
@@ -330,6 +382,7 @@ let buildData = function(places, writeFile){
   _.forEach(_class,function(e){
     simpleJSON.k.push(e.class);  
   });
+  
   
   _.forEach(tempData.railroad.stations,function(e){
     var railroad = [
@@ -379,8 +432,19 @@ let buildData = function(places, writeFile){
     simpleJSON.c.push(city);
   });
   
+  _.forEach(tempData.structure.market, function(e){
+    var market = [
+      e.id,
+      e.lat,
+      e.lon,
+      e.name
+    ]
+    
+    simpleJSON.m.push(market);
+  });
   
-
+  
+  
     
     fs.writeFile(DEV_PATH + '/bin/data/data.json', JSON.stringify(simpleJSON), function(err) {
       if (err) {

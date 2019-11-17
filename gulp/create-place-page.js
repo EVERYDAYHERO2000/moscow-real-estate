@@ -24,6 +24,9 @@ let createPage = function(params){
   <body>
     <div id="app" class="place-page">
       <div id="header">
+        <div class="header-desktop">
+          ${component('logo',{})}
+        </div>
         <div class="header-mobile">
           <button id="change-view" class="btn">На карте</button>
         </div>

@@ -2,9 +2,10 @@ __.fs.decodeData = function (data) {
   var places = [];
   var eco = {};
   var rail = {};
-    
+  var market = {};  
   
 
+  
   $.each(data.p, function (i, e) {
 
     var p = {
@@ -98,6 +99,35 @@ __.fs.decodeData = function (data) {
           return m_obj;
         })(data.e, e[10])
       },
+      /*
+      market: {
+        distance: e[20],
+        closest : (function(markets, marketId){
+          var obj = {},
+              m_obj = {};
+          
+          $.each(markets, function(i, ec){
+            
+            
+            
+            obj = {
+              id : ec[0],
+              name : ec[3],
+              point: [ec[2],ec[1]]
+            }
+            
+            market[obj.id] = obj;
+            
+            if (marketId == ec[0]) {
+              m_obj = obj;
+            }
+            
+          });
+          
+          return m_obj;
+        })(data.m, e[19])
+      },
+      */
       canvas : {
         visible : true
       }
@@ -113,7 +143,8 @@ __.fs.decodeData = function (data) {
   return {
     places : places,
     eco : eco,
-    railroad : rail
+    railroad : rail,
+    market : market
   };
 
 

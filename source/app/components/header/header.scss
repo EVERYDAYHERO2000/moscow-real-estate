@@ -11,6 +11,19 @@
 
 }
 
+
+.header-desktop {
+  display: flex;
+  background: #fff;
+  min-height: 54px;
+  width: 100%;
+  
+  @media screen and (max-width: 500px) {
+   display: none; 
+  }
+  
+}
+
 .header-mobile {
   display: none;
   background: #7d48dd;
@@ -56,4 +69,31 @@
     box-sizing: border-box;
 }
 
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__icon {
+  height: 30px;
+  padding: 0 10px;
+  transform: translateY(4px);
+}
+
+.header__sitename {
+  text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-weight: bold;
+    color: #7c48dd;
+}
+
+.header__title {
+  margin:0;
+  padding:0;
+  font-size: 13px;
+  font-weight: 100;
+  color: rgba(0,0,0,.5);
+}
 

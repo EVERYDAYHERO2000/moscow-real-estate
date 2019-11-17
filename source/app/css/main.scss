@@ -4,9 +4,10 @@ body {
   font-family: Roboto, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5;
+  overflow: hidden; 
   
   @media screen and (max-width: 500px) {
-    overflow: hidden;  
+     
   }
   
 }
