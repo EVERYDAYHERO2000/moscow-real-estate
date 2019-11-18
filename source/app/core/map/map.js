@@ -64,7 +64,7 @@ __.core.$map = function(){
       
       ctx.clearRect(0, 0, p.canvas.width, p.canvas.height);
 
-      
+      /*
       $.each(places, function (i, e) {
 
         if (e.canvas.visible) e.canvas = __.placePoint({
@@ -83,7 +83,7 @@ __.core.$map = function(){
       
       __.mapOverlay()[changeOverlay]( params, canvasOverlay, ctx, zoom, mapId );
       __.mapTiles(tileset)[changeOverlay]();
-      
+      */
 
     };
 

@@ -244,7 +244,7 @@ let placeDescription = function(data){
   }
   
   
-  description = `${_typeAndClass} ${_name} ${_raspolojen} в ${_distanceToMoscow} км от Москвы, ${_direction}. ${_nearCity} ${_eco} ${_car} ${_railroad} ${_dostupnost}`
+  description = `${_typeAndClass} ${_name} ${_raspolojen} в ${_distanceToMoscow} км от центра Москвы, ${_direction}. ${_nearCity} ${_eco} ${_car} ${_railroad} ${_dostupnost}`
   
   description = description.replace(/\s+/g, ' ').trim();
   

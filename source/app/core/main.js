@@ -15,12 +15,12 @@ var runApp = function(){
       __.core.$map.trigger('createMap').trigger('renderMap', {
         data: data
       });
-
+      /*  
       __.core.$places.trigger('renderList', {
         places: data.places,
         onlyVisible: false
       });
-
+      */  
     });
     
   } 

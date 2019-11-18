@@ -1,5 +1,6 @@
 __.placeItem = function(params){
   
+  /*
   let _price = (function(price){
       
     let p = {
@@ -13,14 +14,15 @@ __.placeItem = function(params){
     }
         
   })(params.price);
+  */
   
   let _miniMap = (typeof global != 'undefined') ? global.component('mini-map', {lat: params.point[1], lon: params.point[0]}) : __.miniMap({lat: params.point[1], lon: params.point[0]});
   
-  let _color = (typeof global != 'undefined') ? '#fafafa' : params.canvas.color;
+  //let _color = (typeof global != 'undefined') ? '#fafafa' : params.canvas.color;
   
   let _type = (params.type) ? `<span class="place-item__type">${params.type}</span>` : ''; 
   
-  let _eco = (params.eco.distance < 10) ? `<div>${params.eco.closest.name} в ${params.eco.distance}км</div>` : '';
+  //let _eco = (params.eco.distance < 10) ? `<div>${params.eco.closest.name} в ${params.eco.distance}км</div>` : '';
     
   let _car = `<div class="place-item__car">до Москвы: ${params.car.time.h}ч ${params.car.time.m}мин (${params.car.distance}км)</div>`;
   

@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"name": "stations",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osm_id": 1821428692, "highway": "bus_stop", "name": "81 км", "public_transport": "stop_position", "bus": "yes" }, "geometry": { "type": "Point", "coordinates": [ 38.4915012, 55.2775182 ] } },
+{ "type": "Feature", "properties": { "osm_id": 1821428693, "highway": "bus_stop", "name": "81 км", "public_transport": "stop_position", "bus": "yes" }, "geometry": { "type": "Point", "coordinates": [ 38.4940991, 55.2786871 ] } },
+{ "type": "Feature", "properties": { "osm_id": 2471002571, "highway": null, "name": null, "public_transport": "stop_position", "bus": null }, "geometry": { "type": "Point", "coordinates": [ 38.9026716, 55.8623426 ] } },
+{ "type": "Feature", "properties": { "osm_id": 2471002575, "highway": null, "name": null, "public_transport": "stop_position", "bus": null }, "geometry": { "type": "Point", "coordinates": [ 38.9028613, 55.8625057 ] } },
+{ "type": "Feature", "properties": { "osm_id": 2471002603, "highway": null, "name": null, "public_transport": "stop_position", "bus": null }, "geometry": { "type": "Point", "coordinates": [ 38.9223056, 55.8675407 ] } },
+{ "type": "Feature", "properties": { "osm_id": 2471002635, "highway": null, "name": null, "public_transport": "stop_position", "bus": null }, "geometry": { "type": "Point", "coordinates": [ 38.9232472, 55.8676724 ] } },
+{ "type": "Feature", "properties": { "osm_id": 1730682650, "highway": null, "name": null, "public_transport": "stop_position", "bus": "yes" }, "geometry": { "type": "Point", "coordinates": [ 36.7024263, 56.3264108 ] } },
+{ "type": "Feature", "properties": { "osm_id": 1730682662, "highway": null, "name": null, "public_transport": "stop_position", "bus": "yes" }, "geometry": { "type": "Point", "coordinates": [ 36.7055878, 56.3278153 ] } },
+{ "type": "Feature", "properties": { "osm_id": 1730682666, "highway": null, "name": null, "public_transport": "stop_position", "bus": "yes" }, "geometry": { "type": "Point", "coordinates": [ 36.7071921, 56.327979 ] } },
+{ "type": "Feature", "properties": { "osm_id": 2366869905, "highway": null, "name": "Рынок", "public_transport": "stop_position", "bus": "yes" }, "geometry": { "type": "Point", "coordinates": [ 36.72136, 56.3308881 ] } },
+{ "type": "Feature", "properties": { "osm_id": 362385202, "highway": null, "name": "Рынок", "public_transport": "stop_position", "bus": "yes" }, "geometry": { "type": "Point", "coordinates": [ 36.722529, 56.3311223 ] } },
+{ "type": "Feature", "properties": { "osm_id": 1730583443, "highway": null, "name": null, "public_transport": "stop_position", "bus": null }, "geometry": { "type": "Point", "coordinates": [ 36.7341758, 56.3348785 ] } },
+{ "type": "Feature", "properties": { "osm_id": 1259825140, "highway": null, "name": "Cоветская площадь", "public_transport": "stop_position", "bus": "yes" }, "geometry": { "type": "Point", "coordinates": [ 36.734966, 56.3353884 ] } },
+{ "type": "Feature", "properties": { "osm_id": 2366869782, "highway": null, "name": "Cоветская площадь", "public_transport": "stop_position", "bus": "yes" }, "geometry": { "type": "Point", "coordinates": [ 36.7351016, 56.3354614 ] } },
+{ "type": "Feature", "properties": { "osm_id": 1730583445, "highway": null, "name": null, "public_transport": "stop_position", "bus": "yes" }, "geometry": { "type": "Point", "coordinates": [ 36.7397656, 56.3383913 ] } },
+{ "type": "Feature", "properties": { "osm_id": 1730583446, "highway": null, "name": null, "public_transport": "stop_position", "bus": "yes" }, "geometry": { "type": "Point", "coordinates": [ 36.7411401, 56.3392866 ] } },
+{ "type": "Feature", "properties": { "osm_id": 2371058654, "highway": null, "name": "Опалево-1", "public_transport": "stop_position", "bus": "yes" }, "geometry": { "type": "Point", "coordinates": [ 36.826879, 56.3773228 ] } },
+{ "type": "Feature", "properties": { "osm_id": 2371058658, "highway": null, "name": "Опалево-1", "public_transport": "stop_position", "bus": "yes" }, "geometry": { "type": "Point", "coordinates": [ 36.8278627, 56.3773282 ] } }
+]
+}

@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "stations",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osm_id": 1368122452, "name": "Новобутаково", "public_transport": "stop_position", "bus": "yes", "share_taxi": null }, "geometry": { "type": "Point", "coordinates": [ 37.4335868, 55.8783764 ] } },
+{ "type": "Feature", "properties": { "osm_id": 1368122451, "name": "Новобутаково", "public_transport": "stop_position", "bus": "yes", "share_taxi": null }, "geometry": { "type": "Point", "coordinates": [ 37.4343221, 55.8783471 ] } },
+{ "type": "Feature", "properties": { "osm_id": 1088106798, "name": null, "public_transport": "stop_position", "bus": "yes", "share_taxi": "yes" }, "geometry": { "type": "Point", "coordinates": [ 37.8429181, 55.7681682 ] } },
+{ "type": "Feature", "properties": { "osm_id": 1088106841, "name": null, "public_transport": "stop_position", "bus": "yes", "share_taxi": "yes" }, "geometry": { "type": "Point", "coordinates": [ 37.8433872, 55.7684959 ] } }
+]
+}

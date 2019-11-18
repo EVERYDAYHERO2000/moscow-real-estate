@@ -56,6 +56,8 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
 
     let eco = params.data.eco;
     
+    console.log(eco);
+    
     getIcons(img, function(img){
       
       $.each(eco, function (i, e) {

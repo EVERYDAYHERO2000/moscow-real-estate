@@ -13,14 +13,34 @@ __.core.$places = function(){
       var DATA = $('#app').data('data').places,
           count = 100;
       
+      if (!DATA[0].railroad.closest.name) {
+
+        $.get('/bin/data/railroad.json', function (data) {
+
+          $.each(data, function (i, e2) {
+
+            $('#app').data('data').railroad[e2.id].name = e2.name;
+            $('#app').data('data').railroad[e2.id].time = e2.time;
+
+          });
+
+        })
+      }
       
       $.each(DATA, function (i, e) {
         if (length < i) {
+          
           $(_this).append(__.placeItem(e));
           count--;
+          
         }
         if (!count) return false;
       });
+      
+      function appendItem(e){
+        
+      }
+      
     }
 
   }).bind('renderList', function (event, params) {
@@ -40,12 +60,13 @@ __.core.$places = function(){
         }
 
       } else {
-
+        
         if (i < 100) {
           $(_this).append(__.placeItem(e));
         } else {
           return false;
         }
+        
       }
 
     });
