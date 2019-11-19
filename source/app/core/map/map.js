@@ -22,8 +22,10 @@ __.core.$map = function(){
     var leafletMap = L.map(id).setView([55.751244, 37.618423], 9);
     var tiles = L.tileLayer(t.dark)
       .addTo(leafletMap);
+      
+      leafletMap.search = false;
     
-    $(event.target).data('map', leafletMap);
+    $(event.target).data('map', leafletMap); 
     $(event.target).data('tiles', tiles);
     $(event.target).data('tileset', t);  
       
@@ -64,26 +66,30 @@ __.core.$map = function(){
       
       ctx.clearRect(0, 0, p.canvas.width, p.canvas.height);
 
-      /*
-      $.each(places, function (i, e) {
-
-        if (e.canvas.visible) e.canvas = __.placePoint({
-          mapId : mapId, 
-          ctx: ctx,
-          canvasOverlay: canvasOverlay,
-          zoom: zoom,
-          place: e
-        });
-
-      });
-      
       let changeOverlay = $('#select-layer').val();
       let tileset = $('#map').data('tileset');
       
+      __.mapData()[changeOverlay](drawData);
       
-      __.mapOverlay()[changeOverlay]( params, canvasOverlay, ctx, zoom, mapId );
-      __.mapTiles(tileset)[changeOverlay]();
-      */
+      function drawData(){
+      
+        $.each(places, function (i, e) {
+
+          if (e.canvas.visible) e.canvas = __.placePoint({
+            mapId : mapId, 
+            ctx: ctx,
+            canvasOverlay: canvasOverlay,
+            zoom: zoom,
+            place: e
+          });
+
+        });      
+
+        __.mapOverlay()[changeOverlay]( params, canvasOverlay, ctx, zoom, mapId );
+        __.mapTiles(tileset)[changeOverlay]();
+        
+      }
+      
 
     };
 

@@ -6,48 +6,52 @@ __.fs.decodeData = function (data) {
   var medic = {};
   var cities = {};
   
-  $.each(data, function(i, place) {
-
-      place.canvas = {
-        visible : true
-      }
-  
-      eco[place.eco.closestId] = {
-        id : place.eco.closestId
-      }
-      
-      railroad[place.railroad.closestId] = {
-        id : place.railroad.closestId
-      }
-    
-      markets[place.market.closestId] = {
-        id : place.market.closestId
-      }  
-      
-      medic[place.medic.closestId] = {
-        id : place.medic.closestId
-      }
-      
-      cities[place.city.closestId] = {
-        id : place.city.closestId
-      }
-      
-      place.eco.closest = eco[place.eco.closestId];
-      place.railroad.closest = railroad[place.railroad.closestId];
-      place.market.closest = markets[place.market.closestId];
-      place.medic.closest = medic[place.medic.closestId];
-      place.city.closest = cities[place.city.closestId];
-        
-  });
-  
-  return {
+  window.DATA = {
     places : places,
     eco : eco,
     railroad : railroad,
     markets : markets,
     medic : medic,
     cities : cities
-  };
+  }
+  
+  $.each(data, function(i, place) {
+
+      place.canvas = {
+        visible : true
+      }
+  
+      if (!window.DATA.eco[place.eco.closestId]) window.DATA.eco[place.eco.closestId] = {
+        id : place.eco.closestId
+      }
+      
+      if (!window.DATA.railroad[place.railroad.closestId]) window.DATA.railroad[place.railroad.closestId] = {
+        id : place.railroad.closestId
+      }
+    
+      if (!window.DATA.markets[place.market.closestId]) window.DATA.markets[place.market.closestId] = {
+        id : place.market.closestId
+      }  
+      
+      if (!window.DATA.medic[place.medic.closestId]) window.DATA.medic[place.medic.closestId] = {
+        id : place.medic.closestId
+      }
+      
+      if (!window.DATA.cities[place.city.closestId]) window.DATA.cities[place.city.closestId] = {
+        id : place.city.closestId
+      }
+      
+      
+      
+      place.eco.closest = window.DATA.eco[place.eco.closestId];
+      place.railroad.closest = window.DATA.railroad[place.railroad.closestId];
+      place.market.closest = window.DATA.markets[place.market.closestId];
+      place.medic.closest = window.DATA.medic[place.medic.closestId];
+      place.city.closest = window.DATA.cities[place.city.closestId];
+        
+  });
+  
+  return window.DATA;
 
 
 }
