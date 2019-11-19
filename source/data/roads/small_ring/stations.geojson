@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "stations",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osm_id": 6761952987, "name": "50 км", "public_transport": "stop_position", "highway": null, "ref": null, "bus": "yes", "share_taxi": "yes" }, "geometry": { "type": "Point", "coordinates": [ 37.5308152, 55.3327688 ] } },
+{ "type": "Feature", "properties": { "osm_id": 6761952986, "name": "Сады-1", "public_transport": "stop_position", "highway": null, "ref": null, "bus": "yes", "share_taxi": "yes" }, "geometry": { "type": "Point", "coordinates": [ 37.5429493, 55.3324595 ] } },
+{ "type": "Feature", "properties": { "osm_id": 6761952985, "name": "Михалицы", "public_transport": "stop_position", "highway": null, "ref": null, "bus": "yes", "share_taxi": "yes" }, "geometry": { "type": "Point", "coordinates": [ 37.578801, 55.3315129 ] } },
+{ "type": "Feature", "properties": { "osm_id": 6761909184, "name": "Сады-2", "public_transport": "stop_position", "highway": null, "ref": null, "bus": "yes", "share_taxi": "yes" }, "geometry": { "type": "Point", "coordinates": [ 37.5884946, 55.3315795 ] } },
+{ "type": "Feature", "properties": { "osm_id": 6761909183, "name": "Подстанция", "public_transport": "stop_position", "highway": null, "ref": null, "bus": "yes", "share_taxi": "yes" }, "geometry": { "type": "Point", "coordinates": [ 37.5973583, 55.3316294 ] } },
+{ "type": "Feature", "properties": { "osm_id": 5166523666, "name": null, "public_transport": null, "highway": "bus_stop", "ref": null, "bus": null, "share_taxi": null }, "geometry": { "type": "Point", "coordinates": [ 36.9422917, 55.8735426 ] } },
+{ "type": "Feature", "properties": { "osm_id": 5166523664, "name": null, "public_transport": null, "highway": "bus_stop", "ref": null, "bus": null, "share_taxi": null }, "geometry": { "type": "Point", "coordinates": [ 36.9438333, 55.8813456 ] } },
+{ "type": "Feature", "properties": { "osm_id": 5166517679, "name": null, "public_transport": null, "highway": "bus_stop", "ref": null, "bus": null, "share_taxi": null }, "geometry": { "type": "Point", "coordinates": [ 36.9441331, 55.8876162 ] } },
+{ "type": "Feature", "properties": { "osm_id": 1379141421, "name": "Зелёный городок", "public_transport": "stop_position", "highway": null, "ref": "319", "bus": null, "share_taxi": null }, "geometry": { "type": "Point", "coordinates": [ 36.960237, 55.9380992 ] } },
+{ "type": "Feature", "properties": { "osm_id": 309659016, "name": "Лисавино", "public_transport": "stop_position", "highway": null, "ref": "319", "bus": null, "share_taxi": null }, "geometry": { "type": "Point", "coordinates": [ 36.992385, 55.9692701 ] } }
+]
+}

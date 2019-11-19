@@ -22,6 +22,39 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
     let railroad = params.data.railroad;
     
     
+    ///////
+    $.each(railroad, function (i, e) {
+        if (e.path){
+        var line = e.path.points;
+
+        
+        
+        ctx.beginPath();
+        ctx.strokeStyle = 'rgba(22,109,253, .5)';
+        ctx.lineWidth = 1;
+        ctx.lineJoin = 'round';
+        ctx.lineCap = 'round';
+          
+
+        for (var p = 0; p < line.length; p++) {
+
+          var from = canvasOverlay._map.latLngToContainerPoint([line[p][1], line[p][0]]);
+          var to = (line[p + 1]) ? canvasOverlay._map.latLngToContainerPoint([line[p + 1][1], line[p + 1][0]]) : from;
+
+          ctx.moveTo(from.x, from.y);
+          ctx.lineTo(to.x, to.y);
+
+        }
+
+        ctx.stroke();
+          
+        }
+
+    });
+    //////
+    
+    
+    
     getIcons(img, function(img){
       
       $.each(railroad, function (i, e) {
@@ -55,6 +88,7 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
     
 
     let eco = params.data.eco;
+    
     
     getIcons(img, function(img){
       

@@ -270,13 +270,23 @@ __.detailScreen = function (place) {
               zoom = map.getZoom();
 
             ctx.clearRect(0, 0, p.canvas.width, p.canvas.height);
-
-            __.mapOverlay()['eco']({
-              data: data
-            }, canvasOverlay, ctx, zoom, 'place-map');
-            __.mapOverlay()['railroad']({
-              data: data
-            }, canvasOverlay, ctx, zoom, 'place-map');
+            
+            __.mapData()['eco'](function(){
+              
+              __.mapOverlay()['eco']({
+                  data: data
+                }, canvasOverlay, ctx, zoom, 'place-map');
+              
+            });
+            
+            __.mapData()['railroad'](function(){
+              
+              __.mapOverlay()['railroad']({
+                data: data
+              }, canvasOverlay, ctx, zoom, 'place-map');
+              
+            });
+            
 
           }
         }

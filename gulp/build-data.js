@@ -7,188 +7,257 @@ const writeFiles = require(DEV_PATH + '/gulp/write-files.js');
 const textGen = require(DEV_PATH + '/gulp/place-description.js');
 
 
-let buildData = function(places, writeFile){
+
+let buildData = function (places, writeFile) {
   
   let dataPath = DEV_PATH + '/source/data/';
-  let tempData = {
-    places : (places) ? places : require(dataPath + 'places/places.json'),
-    railroad : (function(){
-      const stations = require(dataPath + 'railroad/points.json');
-      const routes = require(dataPath + 'railroad/route.json');
-      const settings = require(dataPath + 'railroad/settings.json');
+  
+  let placesData = (function(places){
+    
+    let result = (places) ? places : require(dataPath + 'places/places.json'); 
+    
+    console.log(`World data: ${result.length} places loaded`)
+
+    return result;
+    
+  })();
+
+  const worldData = {
+
+    railroad: buildRailroad(),
+    eco: buildEco(),
+    cities: buildCities(),
+    markets: buildMarkets(),
+    medic: buildMedic()
+
+  }
+  
+  _.forEach(placesData, function(place){
+    
+    place.eco = getEco(place,worldData.eco);
+    place.railroad = getRailroad(place,worldData.railroad);
+    place.moscow = getMoscow(place);
+    place.city = getCity(place,worldData.cities);
+    place.car = getCar(place, placesData);
+    place.medic = getMedic(place, worldData.medic)
+    place.market = getMarket(place, worldData.markets);
+    
+    place.description = textGen(place);
+    
+  });
+
+  console.log(`World data: All object is maped`);
+  
+  placesData = _.sortBy(placesData, [function(o) { return o.moscow.distance; }, function(o) { return o.price.from; }]);
+  
+  global.DATA = placesData;
+  
+  writePlacesData();
+  writeWorldData(worldData.eco, 'eco');
+  writeWorldData(worldData.railroad, 'railroad');
+  writeWorldData(worldData.markets, 'markets');
+  writeWorldData(worldData.cities, 'cities');
+  writeWorldData(worldData.medic, 'medic');
+
+  
+  writeFiles({
+    places : placesData,
+    railroad: worldData.railroad,
+    eco: worldData.eco,
+    cities: worldData.cities,
+    markets: worldData.markets,
+    medic: worldData.medic
+  }, writeFile);
+
+
+  function buildRailroad() {
+    const stations = require(dataPath + 'railroad/points.json');
+    const routes = require(dataPath + 'railroad/route.json');
+    const settings = require(dataPath + 'railroad/settings.json');
+
+    var result = _.clone(stations);
+
+    _.forEach(result, function (e) {
+
+      _.forEach(settings.route, function (e2) {
+
+        if (e.routeId == e2.id) {
+
+          e.route = e2.name;
+
+        }
+
+      });
       
-      var result = _.clone(stations);
-      
-      _.forEach(result, function(e){
+      _.forEach(routes, function(e3){
         
-        _.forEach(settings.route, function(e2){
+        if (e.pathId == e3.id) {
           
-          if (e.routeId == e2.id){
-            
-            e.route = e2.name;
-            
-          }
+          e.path = e3;
           
-        });
+        }
         
       });
       
-      return {
-          stations : _.clone(stations),
-          settings : _.clone(settings)
-      };
-    })(),
-    geo : require(dataPath + 'geo/cities.json'),
-    eco : (function(){
+      _.forEach(settings.type, function (e4) {
+        
+        if (e.typeId == e4.id) {
+          
+          e.type = e4.name;
+          
+        }
+        
+      });
       
-      var eco = _.clone(require(dataPath + 'eco/eco.json'));
-      var airport = require(dataPath + 'eco/airport.json');
+      delete e.pathId;
+      delete e.typeId;
+      delete e.routeId;
+      delete e.trains;
+
+    });
+    
+    console.log(`World data: ${result.length} railroad station loaded`)
+
+    return result;
+  }
+
+  function buildEco() {
+    let result = _.clone(require(dataPath + 'eco/eco.json')),
+        airport = require(dataPath + 'eco/airport.json');
+        
       
       _.forEach(airport, function(e){
         
         e.type = 10;
-        e.id = eco.length + 1;
-        eco.push(e);
+        e.id = result.length + 1;
+        result.push(e);
         
       });
       
-      _.forEach(eco, function(e){
+      _.forEach(result, function(e){
         
         delete e.geom;
         delete e.props;
         
       });
-      
-      return eco;
     
-    })(),
-    structure : {
-      medic : require(dataPath + 'structure/medic.json'),
-      shcool : require(dataPath + 'structure/shcool.json'),
-      market : require(dataPath + 'structure/market.json')
-    }
+      console.log(`World data: ${result.length} eco point loaded`)
+      
+      return result;  
   }
-  
-  //temp objects
-  var _types  = {}, _t = 0,
-      _names  = {}, _n = 0,
-      _class  = {}, _c = 0;
 
-  _.forEach(tempData.places, function(e){
-
-    //type id
-    (function(){
+  function buildCities() {
+    let cities = require(dataPath + 'geo/cities.json'),
+        result = [];
+    
+    _.forEach(cities, function(e){
       
-      if ( e.type && !_types[e.type] ){
-        _types[e.type] = {type: e.type, id: _t};
-        _t++
+      let city = {
+        id : e.id,
+        point : e.point,
+        name : e.name
       }
-        
-    })();
-    
-    //name id
-    (function(){
       
-      if ( e.name && !_names[e.name] ){
-        _names[e.name] = {name: e.name, id: _n};
-        _n++
-      }
-        
-    })();
-    
-    //class id
-    (function(){
+      result.push(city);
       
-      if ( e.class && !_class[e.class] ){
-        _class[e.class] = {class: e.class, id: _c};
-        _c++
-      }
-        
-    })();
+    });
     
+    console.log(`World data: ${result.length} cities loaded`)
     
-    
+    return result;
+  }
 
-    //train station
-    (function(){
+  function buildMarkets() {
+    let markets = require(dataPath + 'structure/market.json'),
+        result = [];
+    
+    _.forEach(markets, function(e){
       
-      var __distance = 10000000;
-      var railroadStation = {};
+      let market = {
+        id : e.id,
+        name : e.name,
+        point : [e.lon,e.lat],
+        address : e.address
+      };
+      
+      result.push(market);
+    });
+    
+    console.log(`World data: ${result.length} market loaded`)
+    
+    return result;
+    
+  }
 
-      _.forEach(tempData.railroad.stations, function(r){
-        let currentDist = calcDistance(e.point[1], e.point[0], r.point[1], r.point[0], 'K');
+  function buildMedic() {
+    let medic = require(dataPath + 'structure/medic.json'),
+        result = [];
+    
+    _.forEach(medic, function(e){
+      
+      let point = e.map.split(',');
+      
+      let station = {
+        id : e.id,
+        name : e.name,
+        point : [+point[1],+point[0]],
+        address : e.address,
+        city : e.rayon_name
+      };
+      
+      result.push(station);
+      
+    });
+    
+    console.log(`World data: ${result.length} medic station loaded`)
+    
+    return result;
+    
+  }
 
-        if (currentDist <= __distance) {
-          __distance = currentDist;
-          railroadStation = r;
+  function getMarket(place, data){
+    let result = getClosest(place.point, data);
+    return result;
+  }
+
+  function getMedic(place, data){
+    let result = getClosest(place.point, data)
+    return result;
+  }
+
+  function getEco(place, data){
+    let result = getClosest(place.point, data)
+    return result;
+  }
+
+  function getRailroad(place, data){
+    let result = getClosest(place.point, data);
+    return result;
+  }
+
+  function getMoscow(place){
+    let currentDist = calcDistance(place.point[1], place.point[0], 55.751244, 37.618423, 'K'),
+        result = {
+          distance : +currentDist.toFixed(2)
         }
+    
+    return result;
+  }
 
-      });
+  function getCity(place, data){
+    let result = getClosest(place.point, data)
+    return result;
+  }
 
-      e.railroad = {}; 
-      e.railroad.closest = railroadStation;  
-      e.railroad.distance = +__distance.toFixed(2); 
+  function getCar(place, placesData){
+    let result = {};
+    if (!place.car.distance) {
       
-    })();
-    
-    
-    //markets
-    (function(){
+      let __distance = 10000000,
+          similar = {};
       
-      var __distance = 10000000;
-      var market = {};
-      
-      _.forEach(tempData.structure.market, function(m){
-        let currentDist = calcDistance(e.point[1], e.point[0], m.lat, m.lon, 'K')
-        
-        if (currentDist <= __distance) {
-          __distance = currentDist;
-          market = m;
-        }
-        
-        
-        
-      });
-      
-      
-      
-      e.market = {};
-      e.market.closest = market;
-      e.market.distance = +__distance.toFixed(2); 
-      
-    })();
-    
-    
-    //cities
-    (function(){
-      
-      var __distance = 10000000;
-      var city = {};
-      
-      _.forEach(tempData.geo, function(c){
-        let currentDist = calcDistance(e.point[1], e.point[0], c.point[1], c.point[0], 'K');
-        
-        if (currentDist <= __distance) {
-          __distance = currentDist;
-          city = c;
-        }
-        
-      });
-      
-      e.city = {};
-      e.city.closest = city;
-      e.city.distance = +__distance.toFixed(2); 
-      
-    })();
-    
-    //car distance/time
-    if (!e.car.distance) (function(){
-      
-      var __distance = 10000000;
-      var similar = {};
-      
-      _.forEach(tempData.places, function(s){
-        let currentDist = calcDistance(e.point[1], e.point[0], s.point[1], s.point[0], 'K');
+      _.forEach(placesData, function(s){
+        let currentDist = calcDistance(place.point[1], place.point[0], s.point[1], s.point[0], 'K');
         
         if (currentDist <= __distance && s.car.distance) {
           __distance = currentDist;
@@ -197,271 +266,65 @@ let buildData = function(places, writeFile){
         
       });
       
-      e.car = similar;
+      result = similar;
       
-    })();
+    } else {
+      result = place.car;
+    }
     
-    //distance to moscow
-    (function(){
-      
-      let currentDist = calcDistance(e.point[1], e.point[0], 55.751244, 37.618423, 'K');
-      
-      e.moscow = {};
-      e.moscow.distance = +currentDist.toFixed(2);
-      
-    })();
+    return result;
     
-    //dictance to medic
-    (function(){
-      
-      var __distance = 10000000;
-      var medic = {};
-      
-      _.forEach(tempData.structure.medic, function(m){
-        
-        if (m.map) m.point = (function(){
-          var temp = m.map.split(',');
-          temp[0] = +temp[0];
-          temp[1] = +temp[1];
-          _.reverse(temp);
-          delete m.map;
-          return temp;
-        })();
-        
-        let currentDist = calcDistance(e.point[1], e.point[0], m.point[1], m.point[0], 'K');
-        
-        if (currentDist <= __distance) {
-          __distance = currentDist;
-          medic = m;
-        }
-        
-      });
-      
-      e.medic = {};
-      e.medic.closest = medic;
-      e.medic.distance = +__distance.toFixed(2);
-      
-    })();
-    
-    //eco
-    (function(){
-      
-      var __distance = 10000000;
-      var eco = {};
-      
-      _.forEach(tempData.eco, function(t){
-      
-        let currentDist = calcDistance(e.point[1], e.point[0], t.point[1], t.point[0], 'K');  
-        
-        if (currentDist <= __distance) {
-          __distance = currentDist;
-          eco = t;
-        }
-        
-      });
-      
-      e.eco = {};
-      e.eco.closest = eco;
-      e.eco.distance = +__distance.toFixed(2);
-      
-    })();
-    
-    //description
-    (function(){
-      
-      e.description = textGen(e);
-      
-    })();
-    
-  });
-  
-  tempData.places = _.sortBy(tempData.places, [function(o) { return o.moscow.distance; }, function(o) { return o.price.from; }]);
-  
-  global.DATA = tempData.places;
-    
-  
-  
-  var simpleJSON = {
-    p:[], //places
-    t:[], //types
-    n:[], //names
-    k:[], //class
-    r:[], //railroad stations
-    e:[], //eco
-    c:[], //cities
-    g:[], //railroad stations route  
-    q:[], //railroad station type 
-    m:[], //markets
-  };
-  
-  var objectsJSON = {
-    railroad : (function(railroad){
-      let obj = {};
-      
-      _.forEach(railroad, function(e){
-        
-        obj[e.id] = e;
-        
-      })
-      
-      return obj;
-    })(tempData.railroad.stations),
-    eco : (function(eco){
-      let obj = {};
-      
-      _.forEach(eco, function(e){
-        
-        obj[e.id] = e;
-        
-      })
-    
-      return obj;
-    })(tempData.eco),
-    /*
-    markets : (function(markets){
-      let obj = {};
-      
-      _.forEach(markets, function(e){
-        
-        obj[e.id] = {
-          id : e.id,
-          name : e.name,
-          point : [e.lon,e.lat]
-        };
-        
-      })
-      
-      
-      return obj;
-    })(tempData.structure.market)
-    */
   }
-  
-  _.forEach(tempData.places,function(e){
-    
-    
-    
-    var place = [
-      e.point[1],                           //0
-      e.car.distance,                       //1
-      e.car.time.h,                         //2
-      e.car.time.m,                         //3
-      e.railroad.distance,                  //4
-      e.railroad.closest.id,                //5
-      (e.readyDate) ? e.readyDate : -1,     //6 
-      e.id,                                 //7    
-      e.moscow.distance,                    //8 
-      e.eco.distance,                       //9
-      e.eco.closest.id,                     //10
-      e.city.distance,                      //11
-      e.city.closest.id,                    //12 
-      (e.price.from) ? e.price.from : -1,   //13
-      (e.price.to) ? e.price.to : -1,       //14
-      e.point[0],                           //15
-      (e.type) ? _types[e.type].id : -1,    //16
-      _names[e.name].id,                    //17
-      (e.class) ? _class[e.class].id : -1,  //18
-      /*
-      e.market.closest.id,                  //19
-      e.market.distance                     //20
-      */
-    ]
-    
-    simpleJSON.p.push(place);
-    
-  });
-  
-  _.forEach(_types,function(e){
-    simpleJSON.t.push(e.type);  
-  });
-  
-  _.forEach(_names,function(e){
-    simpleJSON.n.push(e.name);  
-  });
-  
-  _.forEach(_class,function(e){
-    simpleJSON.k.push(e.class);  
-  });
-  
-  
-  _.forEach(tempData.railroad.stations,function(e){
-    var railroad = [
-      e.id,                                  //0
-      e.point[0],                            //1
-      e.name,                                //2
-      e.point[1],                            //3
-      e.distance,                            //4
-      e.time.h,                              //5
-      e.time.m,                              //6
-      (e.routeId) ? e.routeId - 1 : -1,      //7
-      (e.typeId) ? e.typeId - 1 : -1,        //8  
-      e.count                                //9
-    ]
-    
-    simpleJSON.r.push(railroad);
-  });
-    
-  _.forEach(tempData.railroad.settings.route,function(e){      
-    simpleJSON.g.push(e.name);
-  });
-    
-  _.forEach(tempData.railroad.settings.type,function(e){      
-    simpleJSON.q.push(e.name);
-  });    
-  
-  _.forEach(tempData.eco,function(e){
-    var eco = [
-      e.id,
-      e.point[0],
-      e.name,
-      e.point[1],
-      e.type
-    ]
-    
-    simpleJSON.e.push(eco);
-  });
-  
-  _.forEach(tempData.geo,function(e){
-    var city = [
-      e.id,
-      e.point[0],
-      e.name,
-      e.point[1]
-    ]
-    
-    simpleJSON.c.push(city);
-  });
-  
-  _.forEach(tempData.structure.market, function(e){
-    var market = [
-      e.id,
-      e.lat,
-      e.lon,
-      e.name
-    ]
-    
-    simpleJSON.m.push(market);
-  });
-  
-  
-  
-    
-    fs.writeFile(DEV_PATH + '/bin/data/data.json', JSON.stringify(simpleJSON), function(err) {
-      if (err) {
-        console.log('buildData -->', err); 
-      } 
-    });
-  
-    fs.writeFile(DEV_PATH + '/bin/data/objects.json', JSON.stringify(objectsJSON), function(err) {
-      if (err) {
-        console.log('buildData -->', err); 
-      } 
-    });
-  
-    writeFiles(tempData, writeFile);
-    
 
+  function getClosest(point, data){
+    let __distance = 10000000,
+          similar = {};
+      
+      _.forEach(data, function(d){
+        let currentDist = calcDistance(point[1], point[0], d.point[1], d.point[0], 'K');
+        
+        if (currentDist <= __distance) {
+          __distance = currentDist;
+          similar = d;
+        }
+        
+      });
+      
+      return {
+        closestId : +similar.id,
+        closest : similar,
+        distance : +__distance.toFixed(2)
+      }
+  }
+
+  function writePlacesData(){
+    
+    let places = JSON.parse(JSON.stringify(placesData));
+    
+    _.forEach(places, function(place){
+      
+      delete place.eco.closest;
+      delete place.railroad.closest;
+      delete place.city.closest;
+      delete place.market.closest;
+      delete place.medic.closest;
+      delete place.description;
+      
+    });
+    
+    writeWorldData(places, 'data');
   
+  }
+
+  function writeWorldData(dataset, filename) {
+    fs.writeFile(DEV_PATH + `/bin/data/${filename}.json`, JSON.stringify(dataset), function (err) {
+      if (err) {
+        console.log('buildData -->', err);
+      } else {
+        console.log(`World data: "/bin/data/${filename}.json" is saved`);
+      }
+    });
+  }
+
 }
-
 module.exports = buildData;

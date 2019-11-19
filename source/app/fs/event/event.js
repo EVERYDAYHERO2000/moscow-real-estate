@@ -1,6 +1,8 @@
 __.fs.event = {
   bind: function (elem, eventName, event) {
     
+
+    
     let listners = __.core.$app.data('listners') || {};
     if (!listners[elem + '|' + eventName]) {
       listners[elem + '|' + eventName] = {

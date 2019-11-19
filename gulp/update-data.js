@@ -30,33 +30,42 @@ let updateData = function(){
       _.forEach(arr,function(p, i){
         
         if (i > 0){
-        
-        
           
         var obj = {
           "name": p[1],
-          "type": (p[8]) ? p[8] : null,
+          "type": (p[8]) ? p[8] : '',
           "point": [ +((+p[3]).toFixed(6)), +((+p[2]).toFixed(6)) ],
-          "site": (p[14]) ? p[14] : null,
+          "site": (p[14]) ? p[14] : '',
           "car": {
-            "distance": (p[10]) ? +p[10] : null,
+            "distance": (p[10]) ? +p[10] : '',
             "time": {
-              "h": (p[11]) ? +(p[11].split(':')[0]) : null,
-              "m": (p[11]) ? +(p[11].split(':')[1]) : null
+              "h": (p[11]) ? +(p[11].split(':')[0]) : '',
+              "m": (p[11]) ? +(p[11].split(':')[1]) : ''
             }
           },
-          "developer": (p[13]) ? p[13] : null,
-          "class": (p[9]) ? p[9] : null,
+          "developer": (p[13]) ? p[13] : '',
+          "class": (p[9]) ? p[9] : '',
           "price": {
-            "from": (p[5]) ? +p[5] : null,
-            "to": (p[6]) ? +p[6] : null
+            "from": (p[5]) ? +p[5] : '',
+            "to": (p[6]) ? +p[6] : ''
           },
           "address": {
-            "name": (p[4]) ? p[4] : null
+            "name": (p[4]) ? p[4] : ''
           },
-          "description": (p[12]) ? p[12] : null,
-          "readyDate": (p[7]) ? +p[7] : null,
-          "id": +p[0]
+          "description": (p[12]) ? p[12] : '',
+          "readyDate": (p[7]) ? +p[7] : '',
+          "id": +p[0],
+          "props" : {
+            "energy" : (p[16]) ? p[16] : '',
+            "water"  : (p[17]) ? p[17] : '',
+            "drainage" : (p[18]) ? p[18] : '',
+            "gas" : (p[19]) ? p[19] : '',
+            "scurity" : (p[20]) ? p[20] : '',
+          },
+          "nature" : {
+            "forest" : (p[22]) ? p[22] : '',
+            "water"  : (p[23]) ? p[23] : ''
+          }
         }
         
         places.push(obj);
@@ -68,9 +77,9 @@ let updateData = function(){
       
       fs.writeFile(DEV_PATH + '/source/data/places/places.json', JSON.stringify(places), function(err) {
         if (err) {
-          console.log('updateData -->', err); 
+          console.log('Data udate error -->', err); 
         } else {
-          console.log('updateData -->', 'done'); 
+          console.log(`${places.length} village created`); 
           buildData(places, true);
         } 
         
