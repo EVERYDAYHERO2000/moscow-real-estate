@@ -34,6 +34,7 @@ __.mapObjectInfo = function(data, type, mapId){
       <p class="map-object-info__description">${data.address}</p>
     </div>
   </div>
+  <div class="close-icon"></div>
 </div>`;
   }
 
