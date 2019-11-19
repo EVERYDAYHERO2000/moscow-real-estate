@@ -7,6 +7,23 @@ __.fs.colorize = function(params){
     
   }
   
+  //markets
+  this.markets = function(params) {
+    
+    var distance = params.markets.distance;
+    var alphaMax = 1;
+    var alpha = (distance < 3) ? alphaMax - interpolation(0, 3, distance, 0, alphaMax) : 0;
+
+    var color = blendColors(
+    [226, 30, 220, .1],
+    [0, 98, 255, alpha]
+    );
+
+    return rgba(color[0],color[1],color[2],color[3]);
+    
+  }
+  
+  
   //ecology
   this.eco = function(params) {
     

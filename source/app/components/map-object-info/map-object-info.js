@@ -23,6 +23,19 @@ __.mapObjectInfo = function(data, type, mapId){
   <div class="close-icon"></div>
 </div>`;
   }
+  
+  if (type == 'markets') {
+    tpl=`
+<div class="map-object-info">
+  <div class="map-object-info__inner">
+    <div class="icon icon_${type}" data-ico=""></div>  
+    <div class="map-object-info__content">
+      <span class="map-object-info__title">${data.name}</span>
+      <p class="map-object-info__description">${data.address}</p>
+    </div>
+  </div>
+</div>`;
+  }
 
   
   if (type == 'railroad') {

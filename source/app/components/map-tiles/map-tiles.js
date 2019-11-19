@@ -16,6 +16,12 @@ __.mapTiles = function(tileset){
     
   }
   
+  this.markets = function(){
+    
+    setTiles(dark);
+    changeClass(l,d);
+  }
+  
   this.eco = function(){
     
     setTiles(dark);

@@ -40,7 +40,7 @@ let buildData = function (places, writeFile) {
     place.city = getCity(place,worldData.cities);
     place.car = getCar(place, placesData);
     place.medic = getMedic(place, worldData.medic)
-    place.market = getMarket(place, worldData.markets);
+    place.markets = getMarket(place, worldData.markets);
     
     place.description = textGen(place);
     
@@ -306,7 +306,7 @@ let buildData = function (places, writeFile) {
       delete place.eco.closest;
       delete place.railroad.closest;
       delete place.city.closest;
-      delete place.market.closest;
+      delete place.markets.closest;
       delete place.medic.closest;
       delete place.description;
       

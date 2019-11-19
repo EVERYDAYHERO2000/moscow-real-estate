@@ -14,6 +14,38 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
   this.default = function () {
     return false
   };
+  
+  this.markets = function (params, canvasOverlay, ctx, zoom, mapId) {
+    
+    let markets = params.data.markets;
+    
+    
+    getIcons(img, function(img){
+      
+      $.each(markets, function (i, e) {
+
+        let ico = '';
+      
+        if (zoom > 9)  ico = icons.point_green;
+        if (zoom > 11) ico = icons.markets;
+
+
+        let bb = drawIcons(e, ctx, canvasOverlay, img, size, ico, resize);
+
+        
+        
+        e.canvas = e.canvas || {}; 
+        e.canvas[mapId] = bb;
+        
+      });
+      
+    });
+    
+    return false;
+    
+    
+  }
+  
 
   this.railroad = function (params, canvasOverlay, ctx, zoom, mapId) {
 
@@ -30,7 +62,7 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
         
         
         ctx.beginPath();
-        ctx.strokeStyle = 'rgba(22,109,253, .5)';
+        ctx.strokeStyle = 'rgba(0, 196, 255, 0.5)';
         ctx.lineWidth = 1;
         ctx.lineJoin = 'round';
         ctx.lineCap = 'round';

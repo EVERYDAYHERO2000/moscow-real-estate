@@ -16,6 +16,12 @@ __.mapData = function(){
     
   }
   
+  this.markets = function(callback){
+    
+    getData('markets', callback);
+    
+  }
+  
   this.car = function(callback){
     
     callback();
@@ -37,6 +43,7 @@ __.mapData = function(){
     } else {
       
       $.get(`/bin/data/${name}.json`, function (data) {
+          
           
           
           $.each(data, function (i, e2) {

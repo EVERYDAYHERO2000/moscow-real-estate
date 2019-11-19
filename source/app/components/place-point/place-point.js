@@ -81,6 +81,7 @@ __.placePoint = function (params) {
   }
 
   var dot = params.canvasOverlay._map.latLngToContainerPoint([params.place.point[1], params.place.point[0]]);
+  
   params.ctx.beginPath();
   params.ctx.arc(dot.x, dot.y, size / 2, 0, Math.PI * 2);
   params.ctx.fill();

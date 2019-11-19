@@ -8,8 +8,11 @@ __.selectOnMap = function(event, mapId, layer){
       y = event.offsetY,
       objects = '';
   
+
       
     if (layer && mapId == 'map'){
+      
+      
       
       $.each( DATA[layer], function(i, el) {
         
@@ -20,13 +23,15 @@ __.selectOnMap = function(event, mapId, layer){
          
             objects += `<div data-type="${layer}" data-id="${el.id}" class="place-select__item place-select__item_object"><span class="icon icon_${layer}" data-ico="${el.type}"></span><span>${el.name}</span></div>`;
           
+          
         }
         
       });
       
     }
   
-  
+    
+    
     //each places
     $.each(dataPlaces, function (i, el) {
 
@@ -36,7 +41,7 @@ __.selectOnMap = function(event, mapId, layer){
           y < el.canvas[mapId].y2 + 10 && 
           el.canvas.visible) {
         
-        
+          
         
         let folder = Math.floor(el.id/100) * 100,
             url = `./places/${folder}/place_${el.id}/index.html`,

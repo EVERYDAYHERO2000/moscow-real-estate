@@ -34,6 +34,9 @@ __.detailScreen = function (place) {
     let _railroad = contentItem('Ближайшая ж/д станция', place.railroad.closest.name, function (v) {
       return `${v} в ${place.railroad.distance}км<br> до Москвы ${place.railroad.closest.time.h}ч ${place.railroad.closest.time.m}мин`
     });
+    let _market = contentItem('Ближайший крупный магазин сети', place.markets.closest.name, function (v) {
+      return `${v} в ${place.markets.distance}км`
+    });
     let _eco = contentItem('Ближайший источник загрязнения', place.eco.closest.name, function (v) {
       let description = (place.eco.closest.description) ? `<br>${place.eco.closest.description}` : '';
       return `${place.eco.distance}км<br>${v} ${description}`
@@ -138,6 +141,7 @@ __.detailScreen = function (place) {
   <section>
     <h2>Инфраструктура</h2>
     ${_city}
+    ${_market}
     ${_medic}
   </section>
   <section>
@@ -221,10 +225,12 @@ __.detailScreen = function (place) {
 
           $.get('/bin/data/data.json', function (places) {
 
+            
+            
             data = __.fs.decodeData(places),
             id = $('#detail-screen').data('id');
             
-            
+            console.log(data)
             
             $.each(data.places,function(i,e){
               
