@@ -80,11 +80,11 @@ let header = function(params){
     <link rel= "preconnect" href="https://b.basemaps.cartocdn.com" />
     <link rel= "preconnect" href="https://c.basemaps.cartocdn.com" />
 
-    <link rel="prefetch" href="/bin/data/eco.json" as="fetch" />
-    <link rel="preload" href="/bin/data/eco.json" as="fetch" />
+    <link rel="prefetch" href="/bin/data/eco.json" as="fetch" type="application/json" crossorigin="anonymous" />
+    <link rel="preload" href="/bin/data/eco.json" as="fetch" type="application/json" crossorigin="anonymous" />
 
-    <link rel="prefetch" href="/bin/data/railroad.json" as="fetch" />
-    <link rel="preload" href="/bin/data/railroad.json" as="fetch" />
+    <link rel="prefetch" href="/bin/data/railroad.json" as="fetch" type="application/json" crossorigin="anonymous" />
+    <link rel="preload" href="/bin/data/railroad.json" as="fetch" type="application/json" crossorigin="anonymous" />
 
     <link rel= "dns-prefetch" href="https://mc.yandex.ru" />
     <link rel= "preconnect" href="https://mc.yandex.ru" />
