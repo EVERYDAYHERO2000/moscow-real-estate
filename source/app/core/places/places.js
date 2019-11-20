@@ -1,7 +1,38 @@
 __.core.$places = function () {
 
   let getData = false;
+  
+  let marker = new L.marker([], {
+    icon: L.divIcon({
+      className: 'place-marker'
+    })
+  }).on('click', function(e) {
+    showDetailScreen(e.target.options.id);
+  });
 
+  $('#places').on('mouseenter', '.place-item', function (e) {
+    let DATA = $('#app').data('data').places;
+    let id = $(e.currentTarget).data('id').split('-')[1];
+    let map = $('#map').data('map');
+    
+
+    $.each(DATA, function (i, e) {
+
+      if (e.id == id) {
+        
+        marker.setLatLng( [e.point[1], e.point[0]]); 
+        marker.options.id = e.id;
+        
+        if ( !map.hasLayer(marker) ) map.addLayer(marker);
+                          
+        return false;
+      }
+
+    });
+
+
+  });
+  
   $('#places').on('click', '.place-item', function (e) {
 
     e.preventDefault();
@@ -20,19 +51,20 @@ __.core.$places = function () {
 
     } else {
       $(this).addClass('place-item_active');
-      /*
-          $.each(DATA, function(i,e){
       
-            if (e.id == id){
-              map.setView(new L.LatLng(e.point[1], e.point[0]), 14);
-              return false;
-            }
-
-          });
-          */
+          
+      showDetailScreen(id);    
 
 
-      __.fs.placeGet(id, function (data, url) {
+      
+
+
+    }
+
+  })
+
+  function showDetailScreen(id){
+    __.fs.placeGet(id, function (data, url) {
 
         __.fs.analytics('select_place', {
 
@@ -46,12 +78,8 @@ __.core.$places = function () {
         __.detailScreen(data);
 
       });
-
-
-    }
-
-  })
-
+  }
+  
 
   $('#places').scroll(function (e) {
     var _this = this,
