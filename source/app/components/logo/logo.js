@@ -6,7 +6,7 @@ __.logo = function(params){
   return `<div class="header__logo">
             <a href="/"><img alt="myhousehub" class="header__icon" src="/source/assets/img/myhousehub.svg" /></a>
             <div>
-              <div class="header__sitename">MYHOUSEHUB</div>
+              <a href="/" class="header__sitename">MYHOUSEHUB</a>
               ${title}
             </div>
           </div>`;

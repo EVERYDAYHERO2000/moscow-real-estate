@@ -81,9 +81,8 @@ let header = function(params){
     <link rel= "preconnect" href="https://c.basemaps.cartocdn.com" />
 
     <link rel="prefetch" href="/bin/data/eco.json" as="fetch" type="application/json" crossorigin="anonymous" />
-
-
     <link rel="prefetch" href="/bin/data/railroad.json" as="fetch" type="application/json" crossorigin="anonymous" />
+    <link rel="prefetch" href="/bin/data/markets.json" as="fetch" type="application/json" crossorigin="anonymous" />
 
 
     <link rel= "dns-prefetch" href="https://mc.yandex.ru" />
@@ -137,7 +136,13 @@ let header = function(params){
       amplitude.getInstance().init("bca95aa4837d94c0c018228dbc7490f5");
     </script>
 
-    
+    <style>
+      html,body {
+        font-family:sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+      }
+    </style>
 
   </head>`
   
