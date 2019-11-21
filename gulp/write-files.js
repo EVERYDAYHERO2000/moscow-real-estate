@@ -17,7 +17,11 @@ let writeFiles = function(data, allPages){
         <priority>1</priority>
     </url>`;
     
+    
+    process.stdout.write('Start file generator');
+    
     _.forEach(data.places, function(e){
+      
       
       let id = e.id,
           folder = Math.floor(id/100) * 100,
@@ -28,6 +32,10 @@ let writeFiles = function(data, allPages){
             title : '',
             place : e
           });
+      
+          process.stdout.clearLine();
+          process.stdout.cursorTo(0);
+          process.stdout.write(`World data: /bin/data/places/${folder}/place_${id} writed`);
       
           sitemap += `
     <url>
@@ -63,13 +71,14 @@ let writeFiles = function(data, allPages){
             if (err) {
               console.log('buildData -->', err); 
             } 
-
           });
           
         }
       });
       
     });
+    
+    process.stdout.write(`\n`);
     
     sitemap = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${sitemap}</urlset>`;
     

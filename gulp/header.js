@@ -144,6 +144,15 @@ let header = function(params){
       }
     </style>
 
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "myhousehub",
+        "url": "https://myhousehub.ru"
+      }
+</script>
+
   </head>`
   
   return h;

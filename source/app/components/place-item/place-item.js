@@ -33,10 +33,10 @@ __.placeItem = function(params){
       url = `./places/${folder}/place_${params.id}/index.html`;
   
   let tpl = 
-`<div class="place-item" data-id="place-${params.id}">
+`<div itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement" class="place-item" data-id="place-${params.id}">
   <div class="place-item__content">
-    <div class="place-item__title">
-      <a href="${url}">${_type}<span class="place-item__name">${params.name}</a></span>
+    <div class="place-item__title" itemprop="name">
+      <a href="${url}" itemprop="url">${_type}<span class="place-item__name">${params.name}</a></span>
     </div>
     <div class="place-item__distance">
       ${_car}
