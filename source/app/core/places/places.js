@@ -11,9 +11,13 @@ __.core.$places = function () {
   });
 
   $('#places').on('mouseenter', '.place-item', function (e) {
-    let DATA = $('#app').data('data').places;
+    
+    let DATA = ( $('#app').data('data') ) ? $('#app').data('data').places : [];
+        
+    if (DATA.length){  
     let id = $(e.currentTarget).data('id').split('-')[1];
     let map = $('#map').data('map');
+    
     
 
     $.each(DATA, function (i, e) {
@@ -29,8 +33,8 @@ __.core.$places = function () {
       }
 
     });
-
-
+    }
+    
   });
   
   $('#places').on('click', '.place-item', function (e) {

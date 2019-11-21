@@ -25,9 +25,9 @@ __.placeItem = function(params){
   //let _eco = (params.eco.distance < 10) ? `<div>${params.eco.closest.name} в ${params.eco.distance}км</div>` : '';
   
   
-  let _car = `<div class="place-item__car">до Москвы: ${params.car.time.h}ч ${params.car.time.m}мин (${params.car.distance}км)</div>`;
+  let _car = `<div class="place-item__car">до Москвы: ${params.car.time.h} ч ${params.car.time.m} мин (${params.car.distance} км)</div>`;
   
-  let _rjd = (params.railroad.distance < 3) ? `<div class="place-item__train">ст. ${params.railroad.closest.name} в ${params.railroad.distance}км,<br>до Москвы: ${params.railroad.closest.time.h}ч ${params.railroad.closest.time.m}мин (${params.railroad.closest.distance}км)</div>` : ''; 
+  let _rjd = (params.railroad.distance < 3) ? `<div class="place-item__train">ст. ${params.railroad.closest.name} в ${params.railroad.distance} км,<br>до Москвы: ${params.railroad.closest.time.h} ч ${params.railroad.closest.time.m} мин (${params.railroad.closest.distance} км)</div>` : ''; 
   
   let folder = Math.floor(params.id/100) * 100,
       url = `./places/${folder}/place_${params.id}/index.html`;

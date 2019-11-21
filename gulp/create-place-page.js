@@ -12,7 +12,24 @@ global.component = global.component || component;
 let createPage = function(params){
   
   let place = params.place,
-      page = 
+      places = (global._places) ? global._places : '';
+  
+  if (!global._places) {
+  
+    _.forEach(DATA,function(e,i){
+
+      if (i+1 > 100) return false;
+
+      places += component('place-item', e);
+
+    });
+    
+    global._places = places;
+
+  }
+      
+      
+  let page = 
 `
 <!DOCTYPE html>
 <html lang="ru">
@@ -22,7 +39,7 @@ let createPage = function(params){
     description : descriptionGenerator(place)
   })}
   <body>
-    <div id="app" class="place-page">
+    <div id="app" >
       <div id="header">
         <div class="header-desktop">
           ${component('logo',{})}
@@ -32,7 +49,22 @@ let createPage = function(params){
         </div>
       </div>
       <div id="main">
-        
+        <div class="panel">
+          <div class="panel__header">
+            <div id="place-search" class="place-search"><input placeholder="Название посёлка" type="search" /><button>Найти</button></div>
+          </div>
+          <div id="places">
+            ${places}
+          </div>
+        </div>
+        <div class="panel panel_2-col">
+          <div id="map-controls" class="panel__header panel__header_overlay">
+            <div class="layers-controls">
+            </div>
+          </div>
+          <div id="map"></div>
+        </div>
+
         ${ component('detail-screen', place) }
         
       </div>
@@ -42,7 +74,6 @@ let createPage = function(params){
   
 page = page.replace(/\s+/g, ' ')
        .replace(/\s\,\s/g, ', ')
-       .replace(/>\s+</g, '><')
 		   .trim();  
   
 return page;  

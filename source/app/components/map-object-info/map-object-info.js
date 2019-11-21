@@ -65,6 +65,7 @@ __.mapObjectInfo = function(data, type, mapId){
   });
   
   $container.find('.map-object-info').remove();
+  
   $container.append(tpl);
   
   function capitalizeFirstLetter(string) {

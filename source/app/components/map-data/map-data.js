@@ -36,7 +36,8 @@ __.mapData = function(){
   
   function getData(name, callback) {
     
-    if (DATA.places[0][name].closest.name) {
+    if (DATA.places[0][name].closest.name && !location.href.includes('/places/')) {
+      
       
       callback();
       
@@ -63,6 +64,8 @@ __.mapData = function(){
           });
           
           $('#app').data('data', window.DATA);
+        
+          
 
           callback();
           

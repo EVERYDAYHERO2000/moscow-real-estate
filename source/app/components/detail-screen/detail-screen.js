@@ -1,6 +1,7 @@
 __.detailScreen = function (place) {
 
   
+  
   let detail_tpl = '',
     container_tpl = '';
 
@@ -23,23 +24,23 @@ __.detailScreen = function (place) {
     })());
 
     let _city = contentItem('Ближайший город', place.city.closest.name, function (v) {
-      return `${v} в ${place.city.distance}км`
+      return `${v} в ${place.city.distance} км`
     });
     let _moscow = contentItem('Расстояние от Москвы', place.moscow.distance, function (v) {
-      return `${v}км`
+      return `${v} км`
     });
     let _car = contentItem('На автомобиле до Москвы', place.car.distance, function (v) {
-      return `${v}км<br> ${place.car.time.h}ч ${place.car.time.m}мин без учета пробок`
+      return `${v} км<br> ${place.car.time.h} ч ${place.car.time.m} мин без учета пробок`
     });
     let _railroad = contentItem('Ближайшая ж/д станция', place.railroad.closest.name, function (v) {
-      return `${v} в ${place.railroad.distance}км<br> до Москвы ${place.railroad.closest.time.h}ч ${place.railroad.closest.time.m}мин`
+      return `${v} в ${place.railroad.distance} км<br> до Москвы ${place.railroad.closest.time.h} ч ${place.railroad.closest.time.m} мин`
     });
-    let _market = contentItem('Ближайший крупный магазин сети', place.markets.closest.name, function (v) {
-      return `${v} в ${place.markets.distance}км`
+    let _market = contentItem('Ближайший магазин крупной сети', place.markets.closest.name, function (v) {
+      return `${v} в ${place.markets.distance} км`
     });
     let _eco = contentItem('Ближайший источник загрязнения', place.eco.closest.name, function (v) {
       let description = (place.eco.closest.description) ? `<br>${place.eco.closest.description}` : '';
-      return `${place.eco.distance}км<br>${v} ${description}`
+      return `${place.eco.distance} км<br>${v} ${description}`
     });
     let _price = (function (price) {
 
@@ -56,8 +57,8 @@ __.detailScreen = function (place) {
         })[0] : ''
       }
 
-      let from = (price.from) ? `от ${cost.from}руб. ` : '',
-        to = (price.to) ? `<br>до ${cost.to}руб.` : '',
+      let from = (price.from) ? `от ${cost.from} руб. ` : '',
+        to = (price.to) ? `<br>до ${cost.to} руб.` : '',
         p = from + to;
 
       return (p) ? contentItem('Цена', p, function (v) {
@@ -74,7 +75,7 @@ __.detailScreen = function (place) {
       return link(v, v);
     });
     let _medic = contentItem('Ближайшая станция скорой помощи Москвы и Московской области', place.medic.closest, function (v) {
-      return `${place.medic.distance}км<br>${place.medic.closest.name}`;
+      return `${place.medic.distance} км<br>${place.medic.closest.name}`;
     });
 
     let _markets = (function (point) {
@@ -202,14 +203,18 @@ __.detailScreen = function (place) {
 
 
   if (typeof global == 'undefined') {
+    
+    $('#detail-screen').remove();
 
     let $screen = (__.core.$detailScreen) ? __.core.$detailScreen : $(detail_tpl);
 
     if (place) $screen.find('.panel__container').empty().append(container_tpl);
 
-
+    
 
     setTimeout(function () {
+      
+      
 
       if ($('#place-map').length) {
 
@@ -230,7 +235,7 @@ __.detailScreen = function (place) {
             data = __.fs.decodeData(places),
             id = $('#detail-screen').data('id');
             
-            console.log(data)
+            
             
             $.each(data.places,function(i,e){
               
@@ -241,7 +246,15 @@ __.detailScreen = function (place) {
               
             });
             
-            if (place) drawMap();
+            if (place) {
+              
+              
+              
+              drawMap();
+              
+              
+              
+            }
           
           });
 
@@ -253,7 +266,9 @@ __.detailScreen = function (place) {
 
 
         function drawMap (){
-        
+
+          
+          
           let marker = new L.marker([place.point[1], place.point[0]], {
             icon: L.divIcon({
               className: 'place-marker'
@@ -277,7 +292,10 @@ __.detailScreen = function (place) {
 
             ctx.clearRect(0, 0, p.canvas.width, p.canvas.height);
             
+            
             __.mapData()['eco'](function(){
+              
+               
               
               __.mapOverlay()['eco']({
                   data: data

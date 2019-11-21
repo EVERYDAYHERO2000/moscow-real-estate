@@ -12,7 +12,9 @@ global.component = global.component || component;
 let createPage = function(){
   
   var page = '',
-      places = '';
+      places = (global._places) ? global._places : '';
+  
+  if (!global._places) {
   
   _.forEach(DATA,function(e,i){
     
@@ -20,9 +22,12 @@ let createPage = function(){
     
     places += component('place-item', e);
     
-    
   });
-  
+    
+    global._places = places;
+
+  }
+    
   page = 
 `
 <!DOCTYPE html>
@@ -65,7 +70,6 @@ let createPage = function(){
   
   page = page.replace(/\s+/g, ' ')
              .replace(/\s\,\s/g, ', ')
-             .replace(/>\s+</g, '><')
 		         .trim();
   
   fs.writeFile(DEV_PATH + '/index.html', page, function(err) {
