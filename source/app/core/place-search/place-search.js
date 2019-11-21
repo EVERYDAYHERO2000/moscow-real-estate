@@ -5,6 +5,8 @@ __.core.$placeSearch = function(){
     let _this = this,
         value = $(this).find('input').val();
     
+    
+    
     __.search({
       text: value
     });
@@ -15,9 +17,10 @@ __.core.$placeSearch = function(){
     
   }).keyup(function(e){
     
+    
     var code = e.which;
     if(code==13)e.preventDefault();
-    if(code==32||code==13||code==188||code==186){
+    if(code==32||code==13){
      
       $(this).trigger('search');
       

@@ -1,42 +1,42 @@
 __.core.$places = function () {
 
   let getData = false;
-  
+
   let marker = new L.marker([], {
     icon: L.divIcon({
       className: 'place-marker'
     })
-  }).on('click', function(e) {
+  }).on('click', function (e) {
     showDetailScreen(e.target.options.id);
   });
 
   $('#places').on('mouseenter', '.place-item', function (e) {
-    
-    let DATA = ( $('#app').data('data') ) ? $('#app').data('data').places : [];
-        
-    if (DATA.length){  
-    let id = $(e.currentTarget).data('id').split('-')[1];
-    let map = $('#map').data('map');
-    
-    
 
-    $.each(DATA, function (i, e) {
+    let DATA = ($('#app').data('data')) ? $('#app').data('data').places : [];
 
-      if (e.id == id) {
-        
-        marker.setLatLng( [e.point[1], e.point[0]]); 
-        marker.options.id = e.id;
-        
-        if ( !map.hasLayer(marker) ) map.addLayer(marker);
-                          
-        return false;
-      }
+    if (DATA.length) {
+      let id = $(e.currentTarget).data('id').split('-')[1];
+      let map = $('#map').data('map');
 
-    });
+
+
+      $.each(DATA, function (i, e) {
+
+        if (e.id == id) {
+
+          marker.setLatLng([e.point[1], e.point[0]]);
+          marker.options.id = e.id;
+
+          if (!map.hasLayer(marker)) map.addLayer(marker);
+
+          return false;
+        }
+
+      });
     }
-    
+
   });
-  
+
   $('#places').on('click', '.place-item', function (e) {
 
     e.preventDefault();
@@ -55,35 +55,35 @@ __.core.$places = function () {
 
     } else {
       $(this).addClass('place-item_active');
-      
-          
-      showDetailScreen(id);    
 
 
-      
+      showDetailScreen(id);
+
+
+
 
 
     }
 
   })
 
-  function showDetailScreen(id){
+  function showDetailScreen(id) {
     __.fs.placeGet(id, function (data, url) {
 
-        __.fs.analytics('select_place', {
+      __.fs.analytics('select_place', {
 
-          place_id: data.id,
-          place_name: data.name,
-          place_url: url,
-          target: 'list'
-
-        });
-
-        __.detailScreen(data);
+        place_id: data.id,
+        place_name: data.name,
+        place_url: url,
+        target: 'list'
 
       });
+
+      __.detailScreen(data);
+
+    });
   }
-  
+
 
   $('#places').scroll(function (e) {
     var _this = this,
@@ -156,29 +156,81 @@ __.core.$places = function () {
 
     var _this = this,
       onlyVisible = params.onlyVisible || false,
-      places = params.places;
+      places = params.places,
+      DATA = $('#app').data('data').places;
+
+
+
 
     $(_this).empty();
 
-    $.each(places, function (i, e) {
 
-      if (onlyVisible) {
+    if (!DATA[0].railroad.closest.name && !getData) {
 
-        if (e.canvas.visible) {
-          $(_this).append(__.placeItem(e));
-        }
+      getData = true;
 
-      } else {
+      $.get('/bin/data/railroad.json', function (data) {
 
-        if (i < 100) {
-          $(_this).append(__.placeItem(e));
+
+        $.each(data, function (i, e2) {
+
+
+          if (window.DATA.railroad[e2.id]) {
+
+            for (var k in e2) window.DATA.railroad[e2.id][k] = e2[k];
+
+          } else {
+
+            window.DATA.railroad[e2.id] = e2;
+
+          }
+
+
+        });
+
+        $('#app').data('data', window.DATA);
+
+        render();
+
+      });
+
+
+    } else {
+
+      render();
+
+
+    }
+
+    function render() {
+
+      $.each(places, function (i, e) {
+
+
+
+        if (onlyVisible) {
+
+
+          if (e.canvas.visible) {
+
+            $(_this).append(__.placeItem(e));
+          }
+
+
         } else {
-          return false;
+
+          if (i < 100) {
+            $(_this).append(__.placeItem(e));
+          } else {
+            return false;
+          }
+
         }
 
-      }
+      });
 
-    });
+    }
+
 
   });
 

@@ -8,7 +8,10 @@ __.search = function(params){
       keys = {};
   
   
+  
   if (params.text){
+    
+    
     
     searchdata = search.inArray(params.text, DATA, function(e){ return e.name; }, function(e){
       e.canvas.visible = true;
@@ -17,6 +20,8 @@ __.search = function(params){
       e.canvas.visible = false;
       
     });
+    
+    
     
     map.search = (searchdata.length) ? true : false;
     
@@ -32,7 +37,11 @@ __.search = function(params){
     });
     
     
+    
     $('#places').trigger('renderList', {places : results, onlyVisible: true}).scrollTop(0);
+    
+    
+    
     
   } else {
     
@@ -47,6 +56,9 @@ __.search = function(params){
   }
   
   $('#map').data('canvas').redraw();
+  
+  
+  
   
   return results;
   
