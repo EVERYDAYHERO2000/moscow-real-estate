@@ -122,6 +122,18 @@ __.detailScreen = function (place) {
 
     container_tpl = `
 <div class="close-icon" id="close-panel"></div> 
+<ol class="breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+  <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+    <span itemprop="name">
+      <a itemprop="item" href="/">Коттеджные посёлки Москвы</a>
+      <meta itemprop="position" content="1">
+    </span>
+  </li>
+  <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+    <span itemprop="name">${_name}</span>
+    <meta itemprop="position" content="2">
+  </li>
+</ol>
 <h1>${_type} <span>${_name}</span></h1>
 <p>${_description}</p>
 <div class="panel__content content">
