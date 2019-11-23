@@ -3,6 +3,11 @@
   padding:0;
   list-style: none;
   display: block;
+  
+  @media screen and (max-width: 500px) {
+    display: none;  
+  }
+  
 }
 
 .breadcrumbs li {

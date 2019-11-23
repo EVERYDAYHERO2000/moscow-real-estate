@@ -2,6 +2,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const _ = require('lodash');
 const createPage = require(DEV_PATH + '/gulp/create-place-page.js');
+const createPageAMP = require(DEV_PATH + '/gulp/create-place-page-amp.js');
 
 
 let writeFiles = function(data, allPages){
@@ -27,8 +28,14 @@ let writeFiles = function(data, allPages){
           folder = Math.floor(id/100) * 100,
           dataUrl = DEV_PATH + `/bin/data/places/${folder}/place_${id}`,
           pageUrl = DEV_PATH + `/places/${folder}/place_${id}`,
+          pageUrlAMP = DEV_PATH + `/places/${folder}/place_${id}/amp/`,
           html = createPage({
-            url : `places/${folder}/place_${id}/`,
+            url : `/places/${folder}/place_${id}/`,
+            title : '',
+            place : e
+          }),
+          htmlAMP = createPageAMP({
+            url : `/places/${folder}/place_${id}/`,
             title : '',
             place : e
           });
@@ -68,6 +75,21 @@ let writeFiles = function(data, allPages){
         } else {
           
           fs.writeFile(pageUrl + '/index.html', html, function(err) {
+            if (err) {
+              console.log('buildData -->', err); 
+            } 
+          });
+          
+        }
+      });
+      
+      fs.mkdir(pageUrlAMP, { recursive: true }, (err) => {
+        if (err) {
+          throw err;
+          
+        } else {
+          
+          fs.writeFile(pageUrlAMP + '/index.html', htmlAMP, function(err) {
             if (err) {
               console.log('buildData -->', err); 
             } 

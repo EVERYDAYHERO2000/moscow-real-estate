@@ -36,7 +36,8 @@ let createPage = function(params){
   ${header({
     url : params.url,
     title : titleGenerator(place),
-    description : descriptionGenerator(place)
+    description : descriptionGenerator(place),
+    amp: true
   })}
   <body>
     <div id="app" >

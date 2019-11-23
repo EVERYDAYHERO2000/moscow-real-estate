@@ -84,9 +84,13 @@ __.core.$map = function(){
           });
 
         });      
+        
+        
 
         __.mapOverlay()[changeOverlay]( params, canvasOverlay, ctx, zoom, mapId );
         __.mapTiles(tileset)[changeOverlay]();
+        
+        
         
       }
       

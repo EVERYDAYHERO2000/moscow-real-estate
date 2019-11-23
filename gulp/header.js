@@ -1,8 +1,10 @@
 let header = function(params){
   
-  let url = `${SETTINGS.domain}/${params.url}` || `${SETTINGS.domain}/`,
+  let url = `${SETTINGS.domain}${params.url}` || `${SETTINGS.domain}/`,
       title = params.title || '',
-      description = params.description || '';
+      description = params.description || '',
+      amp = (params.amp) ? `<link rel="amphtml" href="${url}amp/">` : '';
+  
   
 
   
@@ -11,6 +13,7 @@ let header = function(params){
     <title>${title}</title>
     <meta name="description" content="${description}">
     <link rel="canonical" href="${url}">
+    ${amp}
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/bin/app/main.css" />

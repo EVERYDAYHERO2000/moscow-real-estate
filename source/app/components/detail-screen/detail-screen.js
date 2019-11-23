@@ -1,6 +1,4 @@
 __.detailScreen = function (place) {
-
-  
   
   let detail_tpl = '',
     container_tpl = '';
