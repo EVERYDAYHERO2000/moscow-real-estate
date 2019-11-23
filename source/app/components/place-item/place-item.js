@@ -82,7 +82,7 @@ __.placeItem = function(params){
         
             });
             
-            __.detailScreen(data);
+            __.detailScreen({place:data});
             
           });
           

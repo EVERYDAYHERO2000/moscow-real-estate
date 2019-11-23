@@ -91,7 +91,7 @@ __.selectOnMap = function(event, mapId, layer){
 
           });
 
-          __.detailScreen(data);
+          __.detailScreen({place:data});
 
         });
         

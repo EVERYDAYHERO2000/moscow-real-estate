@@ -12,8 +12,8 @@ let createPageAMP = function(params){
   
   let url = `${SETTINGS.domain}/${params.url}` || `${SETTINGS.domain}/`,
       place = params.place,
-      title = titleGenerator(params.place),
-      description = descriptionGenerator(params.place);
+      title = params.title,
+      description = params.description;
   
   let page = `
 <!DOCTYPE html>
@@ -273,11 +273,7 @@ let createPageAMP = function(params){
   </div>  
   <main class="main">
 
-    ${ component('detail-screen', place) }
-
-    <a href="${url}">
-      <amp-img alt="map" src="https://static-maps.yandex.ru/1.x/?ll=${place.point[0]},${place.point[1]}&size=450,450&z=13&l=map&pt=${place.point[0]},${place.point[1]}" layout="responsive" width="450" height="450" />
-    </a> 
+    ${ params.content }
 
   </main>
   <div class="section">

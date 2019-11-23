@@ -84,7 +84,7 @@ __.core.$places = function () {
 
       });
 
-      __.detailScreen(data);
+      __.detailScreen({place : data});
 
     });
   }

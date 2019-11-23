@@ -1,14 +1,41 @@
-__.detailScreen = function (place) {
+__.detailScreen = function (params) {
   
   let detail_tpl = '',
-    container_tpl = '';
+    container_tpl = '',
+    place = params.place;  
 
   if (place) {
-
+    
     let _id = place.id;
     let _name = place.name;
     let _description = place.description;
     let _type = (place.type) ? `<span>${place.type}</span>` : '';
+    
+    let _mobileHeader = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="header-mobile">
+    <a href="/" id="close-screen" class="btn btn_back">Назад</a>
+  </div>`;
+    
+    let _close = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="close-icon" id="close-panel"></div>`;
+    
+    let _map = (function(mode, url){
+      let map = ''
+      if (mode == 'turbo'){
+        map = 
+    `<a href="${url}">
+      <img alt="map" src="https://static-maps.yandex.ru/1.x/?ll=${place.point[0]},${place.point[1]}&size=450,450&z=13&l=map&pt=${place.point[0]},${place.point[1]}" />
+    </a> `;        
+      }
+      if (mode == 'amp'){
+        map = 
+    `<a href="${url}">
+      <amp-img alt="map" src="https://static-maps.yandex.ru/1.x/?ll=${place.point[0]},${place.point[1]}&size=450,450&z=13&l=map&pt=${place.point[0]},${place.point[1]}" layout="responsive" width="450" height="450" />
+    </a> `;
+      }
+      
+      return map;
+      
+    })(params.mode, params.canonical);
+    
     let _class = contentItem('Класс', place.class, function (v) {
       return v
     });
@@ -119,11 +146,11 @@ __.detailScreen = function (place) {
     })(place.point);
 
     container_tpl = `
-<div class="close-icon" id="close-panel"></div> 
+${_close} 
 <ol class="breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
-  <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+  <li class="breadcrumbs_item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
     <span itemprop="name">
-      <a itemprop="item" href="/">Коттеджные посёлки Москвы</a>
+      <a class="breadcrumbs_link" itemprop="item" href="/">Коттеджные посёлки Москвы</a>
       <meta itemprop="position" content="1">
     </span>
   </li>
@@ -160,16 +187,14 @@ __.detailScreen = function (place) {
     ${_eco}
   </section>
   <section>
-    <div id="place-map" class="map"></map>
+    <div id="place-map" class="map">${_map}</div>
   </section>
 </div>
   `;
 
     detail_tpl = `
 <div id="detail-screen" data-id="${_id}" class="panel panel_detail">
-  <div class="header-mobile">
-    <a href="/" id="close-screen" class="btn btn_back">Назад</a>
-  </div>
+  ${_mobileHeader}
   <div class="panel__container">
     ${container_tpl} 
   </div>
@@ -179,8 +204,6 @@ __.detailScreen = function (place) {
 
     detail_tpl = $('#detail-screen')[0].outerHTML;
     
-    
-
   }
 
 

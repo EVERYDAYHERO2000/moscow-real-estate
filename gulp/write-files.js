@@ -3,7 +3,13 @@ const path = require('path');
 const _ = require('lodash');
 const createPage = require(DEV_PATH + '/gulp/create-place-page.js');
 const createPageAMP = require(DEV_PATH + '/gulp/create-place-page-amp.js');
+const createPageTurbo = require(DEV_PATH + '/gulp/create-place-page-turbo.js');
+const component = require(DEV_PATH + '/gulp/component.js');
+const titleGenerator = require(DEV_PATH + '/gulp/title-generator.js');
+const descriptionGenerator = require(DEV_PATH + '/gulp/description-generator.js');
+const yandexTurbo = require(DEV_PATH + '/gulp/yandex-turbo.js');
 
+global.component = global.component || component;
 
 let writeFiles = function(data, allPages){
   
@@ -11,6 +17,8 @@ let writeFiles = function(data, allPages){
     
     let domain = SETTINGS.domain,
         currentDate = new Date().toISOString(),
+        rssPages = '',
+        yandexRSS = '',
         sitemap = `
     <url>
         <loc>${domain}/</loc>
@@ -29,15 +37,33 @@ let writeFiles = function(data, allPages){
           dataUrl = DEV_PATH + `/bin/data/places/${folder}/place_${id}`,
           pageUrl = DEV_PATH + `/places/${folder}/place_${id}`,
           pageUrlAMP = DEV_PATH + `/places/${folder}/place_${id}/amp/`,
+          canonical = `/places/${folder}/place_${id}/`,
+          title = titleGenerator(e),
+          description = descriptionGenerator(e),
+          
           html = createPage({
-            url : `/places/${folder}/place_${id}/`,
-            title : '',
-            place : e
+            url : canonical,
+            place : e,
+            title : title,
+            description : description,
+            content : component('detail-screen', {place:e, mode:'html', canonical:canonical})
           }),
+          
           htmlAMP = createPageAMP({
-            url : `/places/${folder}/place_${id}/`,
-            title : '',
-            place : e
+            url : canonical,
+            place : e,
+            title : title,
+            description : description,
+            content : component('detail-screen', {place:e, mode:'amp', canonical:canonical})
+          });
+          
+          rssPages += createPageTurbo({
+            url : canonical,
+            place : e,
+            title : title,
+            description : description,
+            content : component('detail-screen', {place:e, mode:'turbo', canonical:canonical}),
+            date : currentDate
           });
       
           process.stdout.clearLine();
@@ -108,7 +134,19 @@ let writeFiles = function(data, allPages){
       if (err) {
         console.log('buildData -->', err); 
       } 
-
+    });
+    
+    yandexRSS = yandexTurbo({
+      pages : rssPages,
+      date : currentDate,
+      title : 'Коттеджние поселки подмосковья',
+      description : 'Найти коттеджный посёлок рядом с Москвой. Загородное жильё с хорошей транспортной доступностью, рядом со станцией электрички, в экологически чистом районе'
+    });
+    
+    fs.writeFile(DEV_PATH + '/rss.xml', yandexRSS, function(err) {
+      if (err) {
+        console.log('buildData -->', err); 
+      } 
     });
     
   }

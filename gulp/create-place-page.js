@@ -35,8 +35,8 @@ let createPage = function(params){
 <html lang="ru">
   ${header({
     url : params.url,
-    title : titleGenerator(place),
-    description : descriptionGenerator(place),
+    title : params.title,
+    description : params.description,
     amp: true
   })}
   <body>
@@ -66,7 +66,7 @@ let createPage = function(params){
           <div id="map"></div>
         </div>
 
-        ${ component('detail-screen', place) }
+        ${ params.content }
         
       </div>
     <div>

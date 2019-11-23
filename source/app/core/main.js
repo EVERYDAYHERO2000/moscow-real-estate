@@ -27,7 +27,7 @@ var runApp = function(){
   
   if (location.includes('/places/')) {
     
-    __.detailScreen();
+    __.detailScreen({});
     
   }
   
