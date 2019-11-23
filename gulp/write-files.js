@@ -57,6 +57,8 @@ let writeFiles = function(data, allPages){
             content : component('detail-screen', {place:e, mode:'amp', canonical:canonical})
           });
           
+          if (folder < 1){
+      
           rssPages += createPageTurbo({
             url : canonical,
             place : e,
@@ -65,6 +67,8 @@ let writeFiles = function(data, allPages){
             content : component('detail-screen', {place:e, mode:'turbo', canonical:canonical}),
             date : currentDate
           });
+            
+          }
       
           process.stdout.clearLine();
           process.stdout.cursorTo(0);

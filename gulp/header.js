@@ -14,7 +14,6 @@ let header = function(params){
     <meta name="description" content="${description}">
     <link rel="canonical" href="${url}">
     ${amp}
-    <link rel="alternate" type="application/rss+xml" title="Коттеджные посёлки Москвы RSS-лента" href="/rss.xml" />
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/bin/app/main.css" />
