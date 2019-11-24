@@ -38,9 +38,9 @@ let writeFiles = function(data, allPages){
           pageUrlAMP = DEV_PATH + `/places/${folder}/place_${id}/amp/`,
           canonical = `/places/${folder}/place_${id}/`,
           title = titleGenerator(e),
-          description = descriptionGenerator(e);
+          description = descriptionGenerator(e),
           
-          e.title = title;
+          
           
           html = createPage({
             url : canonical,
@@ -71,6 +71,7 @@ let writeFiles = function(data, allPages){
             date : currentDate
           }));
             
+          e.title = title;
           
       
           process.stdout.clearLine();
