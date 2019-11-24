@@ -17,8 +17,7 @@ let writeFiles = function(data, allPages){
     
     let domain = SETTINGS.domain,
         currentDate = new Date().toISOString(),
-        rssPages = '',
-        yandexRSS = '',
+        rssPages = {},
         sitemap = `
     <url>
         <loc>${domain}/</loc>
@@ -57,18 +56,20 @@ let writeFiles = function(data, allPages){
             content : component('detail-screen', {place:e, mode:'amp', canonical:canonical})
           });
           
-          if (folder < 1){
+          if (!rssPages[folder]) {
+            rssPages[folder] = [];
+          }    
       
-          rssPages += createPageTurbo({
+          rssPages[folder].push(createPageTurbo({
             url : canonical,
             place : e,
             title : title,
             description : description,
             content : component('detail-screen', {place:e, mode:'turbo', canonical:canonical}),
             date : currentDate
-          });
+          }));
             
-          }
+          
       
           process.stdout.clearLine();
           process.stdout.cursorTo(0);
@@ -140,17 +141,23 @@ let writeFiles = function(data, allPages){
       } 
     });
     
-    yandexRSS = yandexTurbo({
-      pages : rssPages,
-      date : currentDate,
-      title : 'Коттеджние поселки подмосковья',
-      description : 'Найти коттеджный посёлок рядом с Москвой. Загородное жильё с хорошей транспортной доступностью, рядом со станцией электрички, в экологически чистом районе'
-    });
     
-    fs.writeFile(DEV_PATH + '/rss.xml', yandexRSS, function(err) {
-      if (err) {
-        console.log('buildData -->', err); 
-      } 
+    _.forEach(rssPages, function(e,i){
+      
+      let path = `/places/${i}/turbo.xml`;
+      let yandexRSS = yandexTurbo({
+        pages : e.join(''),
+        date : currentDate,
+        title : 'Коттеджние поселки подмосковья',
+        description : 'Найти коттеджный посёлок рядом с Москвой. Загородное жильё с хорошей транспортной доступностью, рядом со станцией электрички, в экологически чистом районе'
+      });
+      
+      fs.writeFile(DEV_PATH + path, yandexRSS, function(err) {
+        if (err) {
+          console.log('buildData -->', err); 
+        } 
+      });
+      
     });
     
   }

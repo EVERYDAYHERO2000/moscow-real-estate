@@ -11,10 +11,12 @@ global.component = global.component || component;
 
 let createPageTurbo = function(params){
   
+  let url = `${SETTINGS.domain}${params.url}`;
+  
   let page = `
 <item turbo="true">
   
-  <link>${params.url}</link>
+  <link>${url}</link>
   <turbo:source></turbo:source>
   <turbo:topic></turbo:topic>
   <title>${params.title}</title>
@@ -24,7 +26,7 @@ let createPageTurbo = function(params){
     <yandex schema_identifier="Идентификатор">
       <breadcrumblist>
         <breadcrumb url="https://myhousehub/" text="Коттеджные поселки Москвы"/>
-        <breadcrumb url="${params.url}" text="${params.title}"/>
+        <breadcrumb url="${url}" text="${params.title}"/>
       </breadcrumblist>
     </yandex>
   </metrics>

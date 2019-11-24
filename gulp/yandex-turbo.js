@@ -13,7 +13,6 @@ let rss = `
         <description>${params.description}</description>
         <language>ru</language>
         <turbo:analytics type="Yandex" id="55798045"></turbo:analytics>
-        <turbo:adNetwork></turbo:adNetwork>
         ${params.pages}
     </channel>
 </rss>
