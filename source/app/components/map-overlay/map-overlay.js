@@ -100,7 +100,7 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
 
         
         
-        e.canvas = e.canvas || {}; 
+        e.canvas = e.canvas || {visible:true}; 
         e.canvas[mapId] = bb;
         
       });
@@ -155,12 +155,14 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
         
         
         
-        e.canvas = e.canvas || {}; 
+        e.canvas = e.canvas || {visible:true}; 
         e.canvas[mapId] = bb;
 
       });
       
     });
+    
+
 
   }
   

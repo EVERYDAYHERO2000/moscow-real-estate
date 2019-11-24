@@ -20,16 +20,24 @@ var runApp = function(){
         places: data.places,
         onlyVisible: false
       });
-      */  
+      */ 
+        
+      if (location.includes('/place_')) {
+
+        $.get(`/bin/data${location}data.json`, function(place){
+          
+          __.detailScreen({place:place});
+          
+        });
+        
+      }  
+        
+        
     });
     
   //} 
   
-  if (location.includes('/places/')) {
-    
-    __.detailScreen({});
-    
-  }
+
   
   
 }

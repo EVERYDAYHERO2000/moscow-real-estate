@@ -82,15 +82,16 @@ __.core.$map = function(){
             zoom: zoom,
             place: e
           });
-
+          
+          
         });      
         
+        window.DATA.places = places;
         
-
+        $('#app').data('data',window.DATA);
+        
         __.mapOverlay()[changeOverlay]( params, canvasOverlay, ctx, zoom, mapId );
         __.mapTiles(tileset)[changeOverlay]();
-        
-        
         
       }
       
