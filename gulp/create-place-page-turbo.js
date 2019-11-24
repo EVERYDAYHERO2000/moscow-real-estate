@@ -19,9 +19,6 @@ let createPageTurbo = function(params){
   <link>${url}</link>
   <turbo:source></turbo:source>
   <turbo:topic></turbo:topic>
-  <title>${params.title}</title>
-  <pubDate>${params.date}</pubDate>
-  <author>Илья А</author>
   <metrics>
     <yandex schema_identifier="Идентификатор">
       <breadcrumblist>
