@@ -19,12 +19,6 @@ __.detailScreen = function (params) {
     
     let _map = (function(mode, url){
       let map = ''
-      if (mode == 'turbo'){
-        map = 
-    `<a href="${url}">
-      <img alt="map" src="https://static-maps.yandex.ru/1.x/?ll=${place.point[0]},${place.point[1]}&size=450,450&z=13&l=map&pt=${place.point[0]},${place.point[1]}" />
-    </a> `;        
-      }
       if (mode == 'amp'){
         map = 
     `<a href="${url}">
@@ -139,9 +133,19 @@ __.detailScreen = function (params) {
           }
         }))
       });
+      
+      let cian_img = image(params.mode, `https://favicon.yandex.net/favicon/cian.ru`, 'cian.ru', 16, 16, 'favicon');
+      let yandex_img = image(params.mode, `http://favicon.yandex.net/favicon/realty.yandex.ru`, 'realty.yandex.ru', 16, 16, 'favicon');
+      let avito_img = image(params.mode, `http://favicon.yandex.net/favicon/avito.ru`, 'realty.yandex.ru', 16, 16, 'favicon');
 
       return simpleItem('Предложения',
-        `${link(cian_url, 'Циан')}<br>${link(yandex_url, 'Яндекс.Недвижимость')}<br>${link(avito_url, 'Авито', 'on-mobile_hide')}`);
+        `
+<ul class="simple-list">
+<li class="simple-list__item flex-line">${cian_img} ${link(cian_url, 'Циан')}</li>
+<li class="simple-list__item flex-line">${yandex_img} ${link(yandex_url, 'Яндекс.Недвижимость')}</li>
+<li class="simple-list__item flex-line">${avito_img} ${link(avito_url, 'Авито', 'on-mobile_hide')}</li>
+</ul>`
+      );
 
     })(place.point);
 
@@ -206,6 +210,17 @@ ${_close}
     
   }
 
+  function image(mode, src, alt, width, height, classname){
+    
+    mode = mode || 'html';
+    classname = (classname) ? `class="${classname}"` : '';
+    
+    let tpl = (mode != 'amp') ? `<img src="${src}" alt="${alt}" ${classname} />` : `<amp-img src="${src}" alt="${alt}" ${classname} layout="responsive" width="${width}" height="${height}"></amp-img>`;
+    
+    return tpl;
+    
+  }
+  
 
   function contentItem(name, value, callback) {
 

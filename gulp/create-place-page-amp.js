@@ -196,7 +196,31 @@ let createPageAMP = function(params){
     section .content__item:last-child {
       border-bottom: none;
     }
-    
+
+    .simple-list {
+      list-style: none;
+      margin:0;
+      padding:0;
+    }
+
+    .simple-list__item {
+      margin: 8px 0;
+    }
+
+    .flex-line {
+      display: flex;
+      align-items: center;
+      align-content: center;
+    }
+
+    .favicon {
+      width: 16px;
+      height: 16px;
+      min-width: 16px;
+      min-height: 16px;
+      margin: 0 8px 0 0;
+    }
+
   </style>
 
   <style amp-boilerplate> 
