@@ -102,3 +102,9 @@ gulp.task('default',['sass','js','data','html'], function () {
     });
   
 });
+
+gulp.task('build',['data'], function () {
+  gulp.start('html'); 
+  gulp.start('sass');
+  gulp.start('js');
+});
