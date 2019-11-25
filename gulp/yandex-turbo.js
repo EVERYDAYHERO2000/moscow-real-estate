@@ -19,6 +19,7 @@ let rss = `
 `;
   
   
+  
   rss = rss.replace(/\s+/g, ' ')
         .replace(/\s\,\s/g, ', ')
 		    .trim();
