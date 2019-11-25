@@ -23,6 +23,7 @@ jobs:
       run: |
         npm install
         npm run update-data
+        npm run build
     - name: Commit files
       run: |
         git config --local user.email "ilyaflare@gmail.com"
