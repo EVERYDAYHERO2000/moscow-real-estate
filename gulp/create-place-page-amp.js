@@ -221,6 +221,10 @@ let createPageAMP = function(params){
       margin: 0 8px 0 0;
     }
 
+    .on-mobile_hide {
+      display: none;
+    }
+
   </style>
 
   <style amp-boilerplate> 
