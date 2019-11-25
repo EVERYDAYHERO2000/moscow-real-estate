@@ -244,6 +244,10 @@ ${_close}
     if (place) $screen.find('.panel__container').empty().append(container_tpl);
 
     
+    let folder = Math.floor(place.id/100) * 100; 
+    history.pushState(place,place.name,`/places/${folder}/place_${place.id}/`);
+    $('title').text(place.title); 
+    
 
     setTimeout(function () {
       
@@ -385,8 +389,11 @@ ${_close}
       e.preventDefault();
       $('#main').find('#detail-screen').remove();
       
+      history.pushState({},"Коттеджние поселки подмосковья","/");
+      $('title').text('Коттеджние поселки подмосковья');
+      
       __.fs.analytics('close_detail-screen');
-
+  
     });
 
     __.core.$detailScreen = $screen;

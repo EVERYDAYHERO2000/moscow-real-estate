@@ -52,8 +52,7 @@ __.core.$places = function () {
     if ($(this).is('.place-item_active')) {
       $(this).removeClass('place-item_active');
       $('#detail-screen').remove();
-      history.pushState({},"Title","/");
-      $('title').text('Коттеджние поселки подмосковья');
+
 
     } else {
       $(this).addClass('place-item_active');
@@ -72,10 +71,6 @@ __.core.$places = function () {
   function showDetailScreen(id) {
     __.fs.placeGet(id, function (data, url) {
 
-      let folder = Math.floor(id/100) * 100;
-      
-      history.pushState(data,data.name,`/places/${folder}/place_${id}/`);
-      $('title').text(data.title);
       
       __.fs.analytics('select_place', {
 

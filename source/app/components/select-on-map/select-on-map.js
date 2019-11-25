@@ -93,10 +93,6 @@ __.selectOnMap = function(event, mapId, layer){
 
           __.detailScreen({place:data});
           
-          let folder = Math.floor(data.id/100) * 100;
-          
-          history.pushState(data,data.name,`/places/${folder}/place_${data.id}/`);
-          $('title').text(data.title); 
 
         });
         
