@@ -44,7 +44,7 @@ __.selectOnMap = function(event, mapId, layer){
           
         
         let folder = Math.floor(el.id/100) * 100,
-            url = `./places/${folder}/place_${el.id}/index.html`,
+            url = `./places/${folder}/place_${el.id}/`,
             title = (el.type) ? el.type + ' ' + el.name : el.name;
         
         objects += `<a class="place-select__item place-select__item_place" data-id="${el.id}" href="${url}">${title}</a>`;

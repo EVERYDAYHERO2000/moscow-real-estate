@@ -30,7 +30,7 @@ __.placeItem = function(params){
   let _rjd = (params.railroad.distance < 3) ? `<div class="place-item__train">ст. ${params.railroad.closest.name} в ${params.railroad.distance} км,<br>до Москвы: ${params.railroad.closest.time.h} ч ${params.railroad.closest.time.m} мин (${params.railroad.closest.distance} км)</div>` : ''; 
   
   let folder = Math.floor(params.id/100) * 100,
-      url = `./places/${folder}/place_${params.id}/index.html`;
+      url = `/places/${folder}/place_${params.id}/`;
   
   let tpl = 
 `<div itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement" class="place-item" data-id="place-${params.id}">
