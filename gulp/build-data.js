@@ -52,12 +52,21 @@ let buildData = function (places, writeFile) {
   
   global.DATA = placesData;
   
+  fs.mkdir(DEV_PATH + `/bin/data/`, { recursive: true }, (err) => {
+        if (err) {
+          throw err;
+          
+        } else {
+  
   writePlacesData();
   writeWorldData(worldData.eco, 'eco');
   writeWorldData(worldData.railroad, 'railroad');
   writeWorldData(worldData.markets, 'markets');
   writeWorldData(worldData.cities, 'cities');
   writeWorldData(worldData.medic, 'medic');
+          
+        }
+  });
 
   
   writeFiles({
@@ -312,7 +321,17 @@ let buildData = function (places, writeFile) {
       
     });
     
+    fs.mkdir(DEV_PATH + `/bin/data/`, { recursive: true }, (err) => {
+        if (err) {
+          throw err;
+          
+        } else {
+    
     writeWorldData(places, 'data');
+          
+        }
+      
+    });
   
   }
 

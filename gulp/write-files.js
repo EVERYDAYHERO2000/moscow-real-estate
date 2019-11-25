@@ -151,7 +151,8 @@ let writeFiles = function(data, allPages){
     
     _.forEach(rssPages, function(e,i){
       
-      let path = `/places/${i}/turbo.xml`;
+      let folder = `/places/${i}/`
+      let path = `${folder}turbo.xml`;
       let yandexRSS = yandexTurbo({
         pages : e.join(''),
         date : currentDate,
@@ -159,10 +160,20 @@ let writeFiles = function(data, allPages){
         description : 'Найти коттеджный посёлок рядом с Москвой. Загородное жильё с хорошей транспортной доступностью, рядом со станцией электрички, в экологически чистом районе'
       });
       
-      fs.writeFile(DEV_PATH + path, yandexRSS, function(err) {
+      //
+      fs.mkdir(DEV_PATH + folder, { recursive: true }, (err) => {
         if (err) {
-          console.log('buildData -->', err); 
-        } 
+          throw err;
+          
+        } else {
+      
+          fs.writeFile(DEV_PATH + path, yandexRSS, function(err) {
+            if (err) {
+              console.log('buildData -->', err); 
+            } 
+          });
+          
+        }
       });
       
     });
