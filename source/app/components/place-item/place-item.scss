@@ -27,6 +27,11 @@
 
 .place-item__title a {
   color:inherit;
+  opacity: 1;
+}
+
+.place-item__title a:visited {
+  opacity: 0.5;
 }
 
 .place-item__distance {
