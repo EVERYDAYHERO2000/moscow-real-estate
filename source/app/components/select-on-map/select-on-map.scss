@@ -31,6 +31,10 @@
   color:#fff;
 }
 
+.place-select__item:visited {
+  color: #6a6a6a;
+}
+
 .place-select__item .icon[data-ico] {
   width: 20px;
   height: 20px;
