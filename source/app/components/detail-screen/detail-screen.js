@@ -91,7 +91,8 @@ __.detailScreen = function (params) {
       return v;
     });
     let _site = contentItem('Сайт', place.site, function (v) {
-      return link(v, v);
+      let src = v.replace(/^(http|https):\/\//g, '')
+      return `<div class="flex-line">${image(params.mode, `https://favicon.yandex.net/favicon/${src}`, src, 16, 16, 'favicon')} ${link(v, src)}</div>`;
     });
     let _medic = contentItem('Ближайшая станция скорой помощи Москвы и Московской области', place.medic.closest, function (v) {
       return `${place.medic.distance} км<br>${place.medic.closest.name}`;
@@ -143,7 +144,7 @@ __.detailScreen = function (params) {
 <ul class="simple-list">
 <li class="simple-list__item flex-line">${cian_img} ${link(cian_url, 'Циан')}</li>
 <li class="simple-list__item flex-line">${yandex_img} ${link(yandex_url, 'Яндекс.Недвижимость')}</li>
-<li class="simple-list__item flex-line">${avito_img} ${link(avito_url, 'Авито', 'on-mobile_hide')}</li>
+<li class="simple-list__item flex-line on-mobile_hide">${avito_img} ${link(avito_url, 'Авито')}</li>
 </ul>`
       );
 
