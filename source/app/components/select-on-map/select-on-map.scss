@@ -32,7 +32,12 @@
 }
 
 .place-select__item:visited {
-  color: #6a6a6a;
+  color: #868686;
+}
+
+.place-select__item:visited:hover {
+  color: #c993ff;
+  background: #7915dd;
 }
 
 .place-select__item .icon[data-ico] {
