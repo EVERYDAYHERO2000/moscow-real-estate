@@ -42,7 +42,7 @@ jobs:
       run: |
         git config --local user.email "ilyaflare@gmail.com"
         git config --local user.name "EVERYDAYHERO2000"
-        git commit -m "Add changes" -a
+        git commit -m "Add changes" -a -f
     - name: info
       run: |
         ls -al
