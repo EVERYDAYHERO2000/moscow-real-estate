@@ -28,7 +28,10 @@ let buildData = function (places, writeFile) {
     eco: buildEco(),
     cities: buildCities(),
     markets: buildMarkets(),
-    medic: buildMedic()
+    medic: buildMedic(),
+    roads: {
+      mcad: buildMcad() 
+    }
 
   }
   
@@ -41,6 +44,9 @@ let buildData = function (places, writeFile) {
     place.car = getCar(place, placesData);
     place.medic = getMedic(place, worldData.medic)
     place.markets = getMarket(place, worldData.markets);
+    place.roads = {
+      mcad : getMcad(place, worldData.roads.mcad)
+    }
     
     place.description = textGen(place);
     
@@ -64,6 +70,7 @@ let buildData = function (places, writeFile) {
   writeWorldData(worldData.markets, 'markets');
   writeWorldData(worldData.cities, 'cities');
   writeWorldData(worldData.medic, 'medic');
+  writeWorldData(worldData.roads.mcad, 'mcad');        
           
         }
   });
@@ -75,7 +82,10 @@ let buildData = function (places, writeFile) {
     eco: worldData.eco,
     cities: worldData.cities,
     markets: worldData.markets,
-    medic: worldData.medic
+    medic: worldData.medic,
+    roads: {
+      mcad : worldData.roads.mcad
+    }
   }, writeFile);
 
 
@@ -223,6 +233,56 @@ let buildData = function (places, writeFile) {
     return result;
     
   }
+  
+  function buildMcad() {
+    
+    let mcad = require(dataPath + `roads/mcad/roads.json`).features,
+        result = [];
+    
+    _.forEach(mcad, function(e, i){
+      
+      let road = {
+        points : e.geometry.coordinates,
+        name : e.properties.name,
+        id : i
+      }
+      
+      result.push(road);
+      
+    });
+    
+    return result;
+    
+  }
+  
+  function getMcad(place, data){
+    let result = {},
+        point = place.point,
+        __distance = 10000000,
+        similar = {};
+    
+    _.forEach(data, function(d){
+      
+      _.forEach(d.points, function(p){
+        
+        let currentDist = calcDistance(point[1], point[0], p[1], p[0], 'K');
+        
+        if (currentDist <= __distance) {
+          __distance = currentDist;
+          similar = d;
+        }
+        
+      });
+      
+    });
+    
+    return {
+      closestId : +similar.id,
+      closest : similar,
+      distance : +__distance.toFixed(2)
+    }
+    
+  }
 
   function getMarket(place, data){
     let result = getClosest(place.point, data);
@@ -313,6 +373,7 @@ let buildData = function (places, writeFile) {
     _.forEach(places, function(place){
       
       delete place.eco.closest;
+      delete place.roads; //delete place.roads.mcad.closest;
       delete place.railroad.closest;
       delete place.city.closest;
       delete place.markets.closest;

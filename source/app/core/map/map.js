@@ -21,7 +21,11 @@ __.core.$map = function(){
     
     var leafletMap = L.map(id).setView([55.751244, 37.618423], 9);
     var tiles = L.tileLayer(t.dark)
-      .addTo(leafletMap);
+       
+      tiles.on('tileload', function (tileEvent) {
+        tileEvent.tile.setAttribute('alt', 'Map tile image');
+        tileEvent.tile.setAttribute('role', 'presentation');
+      }).addTo(leafletMap);
       
       leafletMap.search = false;
     

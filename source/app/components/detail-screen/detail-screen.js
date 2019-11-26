@@ -12,10 +12,10 @@ __.detailScreen = function (params) {
     let _type = (place.type) ? `<span>${place.type}</span>` : '';
     
     let _mobileHeader = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="header-mobile">
-    <a href="/" id="close-screen" class="btn btn_back">Назад</a>
+    <a href="/" id="close-screen" role="button" class="btn btn_back">Назад</a>
   </div>`;
     
-    let _close = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="close-icon" id="close-panel"></div>`;
+    let _close = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="close-icon" role="button" id="close-panel"></div>`;
     
     let _map = (function(mode, url){
       let map = ''
