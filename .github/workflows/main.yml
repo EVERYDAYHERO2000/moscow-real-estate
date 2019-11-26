@@ -23,9 +23,13 @@ jobs:
       run: |
         ls -al
         git --version
+        git branch -l
         git status
     - name: Create local changes
       run: |
+        git branch -l
+        git checkout -b gh-pages
+        git branch -l
         npm install
         npm run update-data
         npm run build
