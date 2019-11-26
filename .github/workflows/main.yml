@@ -22,7 +22,7 @@ jobs:
     - name: info
       run: |
         ls -al
-        git -v
+        git --version
         git status
     - name: Create local changes
       run: |
@@ -32,7 +32,7 @@ jobs:
     - name: info
       run: |
         ls -al
-        git -v
+        git --version
         git status
     - name: Commit files
       run: |
@@ -42,7 +42,7 @@ jobs:
     - name: info
       run: |
         ls -al
-        git -v
+        git --version
         git status
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.5.0
