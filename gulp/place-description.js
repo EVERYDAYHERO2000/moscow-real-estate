@@ -1,4 +1,6 @@
-let placeDescription = function(data){
+const calcDistance = require(DEV_PATH + '/gulp/calc-distance.js');
+
+const placeDescription = function(data){
   
   let description = '';
   
@@ -21,6 +23,16 @@ let placeDescription = function(data){
     return t;
     
   })(data.type);
+  
+  let _mcad = (function(mcad, point, moscow){
+
+    let dist_mcad = calcDistance(mcad.point[1], mcad.point[0], 55.751244, 37.618423, 'K'),
+        dist_place = moscow.distance,
+        result = ( dist_mcad <= dist_place ) ? `${mcad.distance.toFixed()} км до МКАД` : 'в пределах МКАД';
+      
+    return result;
+    
+  })(data.roads.mcad, data.point, data.moscow);
   
   let _typeAndClass = (function(placeClass, type){
     
@@ -244,7 +256,8 @@ let placeDescription = function(data){
   }
   
   
-  description = `${_typeAndClass} ${_name} ${_raspolojen} в ${_distanceToMoscow} км от центра Москвы, ${_direction}. ${_nearCity} ${_eco} ${_car} ${_railroad} ${_dostupnost}`
+  description = `${_typeAndClass} ${_name} ${_raspolojen} в ${_distanceToMoscow} км от центра Москвы (${_mcad}), ${_direction}. ${_nearCity} ${_eco} ${_car} ${_railroad} ${_dostupnost}`
+  
   
   description = description.replace(/\s+/g, ' ').trim();
   

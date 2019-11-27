@@ -259,7 +259,8 @@ let buildData = function (places, writeFile) {
     let result = {},
         point = place.point,
         __distance = 10000000,
-        similar = {};
+        similar = {},
+        __p = [];
     
     _.forEach(data, function(d){
       
@@ -270,6 +271,7 @@ let buildData = function (places, writeFile) {
         if (currentDist <= __distance) {
           __distance = currentDist;
           similar = d;
+          __p = p;
         }
         
       });
@@ -279,7 +281,8 @@ let buildData = function (places, writeFile) {
     return {
       closestId : +similar.id,
       closest : similar,
-      distance : +__distance.toFixed(2)
+      distance : +__distance.toFixed(2),
+      point : __p
     }
     
   }
