@@ -164,7 +164,7 @@ ${_close}
     <meta itemprop="position" content="2">
   </li>
 </ol>
-<div itemscope itemtype="http://schema.org/Dataset">
+<main itemscope itemtype="http://schema.org/Dataset">
   <h1 itemprop="name">${_type} <span>${_name}</span></h1>
   <p itemprop="description">${_description}</p>
   <div class="panel__content content">
@@ -202,7 +202,7 @@ ${_close}
       <div id="place-map" class="map">${_map}</div>
     </section>
   </div>
-</div>
+</main>
   `;
 
     detail_tpl = `

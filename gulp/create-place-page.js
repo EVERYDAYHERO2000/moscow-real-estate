@@ -41,23 +41,23 @@ let createPage = function(params){
   })}
   <body>
     <div id="app" >
-      <div id="header">
+      <header id="header">
         <div class="header-desktop">
           ${component('logo',{})}
         </div>
         <div class="header-mobile">
           <button id="change-view" class="btn">На карте</button>
         </div>
-      </div>
+      </header>
       <div id="main">
-        <div class="panel">
+        <aside class="panel">
           <div class="panel__header">
             <div id="place-search" class="place-search"><input placeholder="Название посёлка" type="search" /><button>Найти</button></div>
           </div>
           <div id="places">
             ${places}
           </div>
-        </div>
+        </aside>
         <div class="panel panel_2-col">
           <div id="map-controls" class="panel__header panel__header_overlay">
             <div class="layers-controls">

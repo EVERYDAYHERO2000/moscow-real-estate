@@ -284,7 +284,7 @@ let createPageAMP = function(params){
 
 <body>
 
-  <div class="header">
+  <header class="header">
     <div class="header__logo">
       <a class="header__logo-icon-link" href="/">
         <amp-img alt="myhousehub" src="/source/assets/img/touch/homescreen72.png" layout="responsive" width="40" height="40" />
@@ -294,12 +294,12 @@ let createPageAMP = function(params){
         <span>Найти коттеджный посёлок</span>
       </div>
     </div>
-  </div>  
-  <main class="main">
+  </header>  
+  <div class="main">
 
     ${ params.content }
 
-  </main>
+  </div>
   <div class="section">
     <a href="/" class="btn">Поиск коттеджных поселков</a>
   </div>
