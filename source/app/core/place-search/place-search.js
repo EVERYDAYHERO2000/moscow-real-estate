@@ -17,7 +17,6 @@ __.core.$placeSearch = function(){
     
   }).keyup(function(e){
     
-    
     var code = e.which;
     if(code==13)e.preventDefault();
     if(code==32||code==13){
@@ -25,6 +24,8 @@ __.core.$placeSearch = function(){
       $(this).trigger('search');
       
     }
+    
+    $(this).find('input').attr('data-value', $(this).find('input').val());
     
   }).find('button').click(function(e){
     

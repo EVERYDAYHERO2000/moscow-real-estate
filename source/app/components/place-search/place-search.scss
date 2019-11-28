@@ -1,5 +1,6 @@
 .place-search {
   display: flex;
+  position: relative;
 }
 
 .place-search input {
@@ -11,6 +12,26 @@
 
 .place-search input::placeholder {
   color: rgba(0,0,0,.3);
+}
+
+.place-search label {
+  position: absolute;
+  color: rgba(0,0,0,.3);
+  box-shadow: none;
+  box-sizing: border-box;
+  line-height: 1.3;
+}
+
+.place-search input:not([data-value=""]) + label {
+  pointer-events: none;
+  opacity: 0;
+  transition: all .2s;
+}
+
+.place-search input:focus + label {
+  pointer-events: none;
+  opacity: 0;
+  transition: all .2s;
 }
 
 .place-search button {

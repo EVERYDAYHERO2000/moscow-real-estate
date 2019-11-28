@@ -52,7 +52,11 @@ let createPage = function(params){
       <div id="main">
         <aside class="panel">
           <div class="panel__header">
-            <div id="place-search" class="place-search"><input placeholder="Название посёлка" type="search" /><button>Найти</button></div>
+            <div id="place-search" class="place-search">
+              <input id="place-search-input" type="search" data-value="" />
+              <label for="place-search-input">Название посёлка</label>
+              <button>Найти</button>
+            </div>
           </div>
           <div id="places">
             ${places}
