@@ -23,8 +23,7 @@ let writeFiles = function(data, allPages){
         <loc>${domain}/</loc>
         <lastmod>${currentDate}</lastmod>
         <priority>1</priority>
-    </url>`,
-        sitemapAMP = ``;
+    </url>`;
     
     if (process.stdout.clearLine){
       process.stdout.write('Start file generator');
@@ -84,16 +83,12 @@ let writeFiles = function(data, allPages){
           sitemap += `
     <url>
         <loc>${domain}/places/${folder}/place_${id}/</loc>
+        <xhtml:link rel="amphtml" href="${domain}/places/${folder}/place_${id}/amp/"/>
         <lastmod>${currentDate}</lastmod>
         <priority>0.5</priority>
     </url>`;
       
-          sitemapAMP += `
-    <url>
-        <loc>${domain}/places/${folder}/place_${id}/amp/</loc>
-        <lastmod>${currentDate}</lastmod>
-        <priority>0.5</priority>
-    </url>`;
+          
       
       fs.mkdir(dataUrl, { recursive: true }, (err) => {
         if (err) {
@@ -150,7 +145,7 @@ let writeFiles = function(data, allPages){
     
     sitemap = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${sitemap}</urlset>`;
     
-    sitemapAMP = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${sitemapAMP}</urlset>`;
+    
     
     fs.writeFile(DEV_PATH + '/sitemap.xml', sitemap, function(err) {
       if (err) {
@@ -158,11 +153,7 @@ let writeFiles = function(data, allPages){
       } 
     });
     
-    fs.writeFile(DEV_PATH + '/sitemap-amp.xml', sitemapAMP, function(err) {
-      if (err) {
-        console.log('buildData -->', err); 
-      } 
-    });
+    
     
     
     _.forEach(rssPages, function(e,i){
