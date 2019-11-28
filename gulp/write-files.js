@@ -42,7 +42,6 @@ let writeFiles = function(data, allPages){
           description = descriptionGenerator(e),
           
           
-          
           html = createPage({
             url : canonical,
             place : e,

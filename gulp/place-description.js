@@ -79,49 +79,57 @@ const placeDescription = function(data){
   
   let _distanceToMoscow = data.moscow.distance.toFixed();
   
-  let _direction = (function(point, moscow){
-    let d = '';
-    let t_lat = 0,
-        t_lon = 0;
+  let _direction = (function(angle){
     
-    if (+moscow[0] > +point[0]){
-      
-      t_lon = 0;
-      
-    } 
+    d = ''
     
-    if (+moscow[0] < +point[0]){
-      
-      t_lon = 1;
-      
-    }  
-    
-    
-    if (+moscow[1] > +point[1]){
-      
-      t_lat = 0;
-      
+
+    if ( angle >= 339 && angle <= 360 ){
+      d = 'в западном направлении';
+    }
+
+    if ( angle >= 0 && angle <= 23 ){
+      d = 'в западном направлении'
     }
     
-    if (+moscow[1] < +point[1]){
-      
-      t_lat = 1;
-      
-    } 
-    
-    if (t_lat && t_lon) {
-      d = 'в северо-восточном направлении'
-    } else if (t_lat && !t_lon) {
-      d = 'в северо-западном направлении'
-    } else if (!t_lat && !t_lon) {
+
+    if ( angle >= 24 && angle <= 68){
       d = 'в юго-западном направлении'
-    } else if (!t_lat && t_lon) {
+    }
+    
+
+    if ( angle >= 69 && angle <= 113 ){
+      d = 'в южном направлении'
+    }
+    
+
+    if ( angle >= 114 && angle <= 158){
       d = 'в юго-восточном направлении'
+    }
+    
+
+    if ( angle >= 159 && angle <= 203 ){
+      d = 'в восточном направлении'
+    }
+    
+
+    if ( angle >= 204 && angle <= 225 ){
+      d = 'в северо-восточном направлении'
+    }
+    
+
+    if ( angle >= 226 && angle <= 293){
+      d = 'в северном направлении'
+    }
+    
+
+    if ( angle >= 294 && angle <= 338 ){
+      d = 'в северо-западном направлении'
     }
     
     return d;
     
-  })(data.point, [37.618423, 55.751244]);
+  })(data.moscow.angle);
   
   let _nearCity = (function(city){
 

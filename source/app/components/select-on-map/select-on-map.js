@@ -23,6 +23,7 @@ __.selectOnMap = function(event, mapId, layer){
          
             objects += `<div data-type="${layer}" data-id="${el.id}" class="place-select__item place-select__item_object"><span class="icon icon_${layer}" data-ico="${el.type}"></span><span>${el.name}</span></div>`;
           
+            
           
         }
         
@@ -30,7 +31,6 @@ __.selectOnMap = function(event, mapId, layer){
       
     }
   
-    
     
     //each places
     $.each(dataPlaces, function (i, el) {
@@ -48,6 +48,8 @@ __.selectOnMap = function(event, mapId, layer){
             title = (el.type) ? el.type + ' ' + el.name : el.name;
         
         objects += `<a class="place-select__item place-select__item_place" data-id="${el.id}" href="${url}">${title}</a>`;
+        
+
         
       }
  

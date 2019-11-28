@@ -9,6 +9,8 @@ __.core.$map = function(){
        
         __.selectOnMap( e, id, $('#select-layer').val() );
         
+        
+        
       }
       
       
