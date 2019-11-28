@@ -164,36 +164,44 @@ ${_close}
     <meta itemprop="position" content="2">
   </li>
 </ol>
-<h1>${_type} <span>${_name}</span></h1>
-<p>${_description}</p>
-<div class="panel__content content">
-  <section>
-    ${_class}
-    ${_price}
-    ${_developer}
-    ${_site}
-    ${_address}
-    ${_moscow}
-    ${_markets}
-  </section>
-  <section>
-    <h2>Транспорт</h2>
-    ${_car}
-    ${_railroad}
-  </section>
-  <section>
-    <h2>Инфраструктура</h2>
-    ${_city}
-    ${_market}
-    ${_medic}
-  </section>
-  <section>
-    <h2>Экология</h2>
-    ${_eco}
-  </section>
-  <section>
-    <div id="place-map" class="map">${_map}</div>
-  </section>
+<div itemscope itemtype="http://schema.org/Dataset">
+  <h1 itemprop="name">${_type} <span>${_name}</span></h1>
+  <p itemprop="description">${_description}</p>
+  <div class="panel__content content">
+    <section>
+      ${_class}
+      ${_price}
+      ${_developer}
+      ${_site}
+      ${_address}
+      ${_moscow}
+      ${_markets}
+    </section>
+    <section itemscope itemtype="http://schema.org/Dataset">
+      <h2 itemprop="name">Транспорт</h2>
+      <div itemprop="description">
+        ${_car}
+        ${_railroad}
+      </div>
+    </section>
+    <section itemscope itemtype="http://schema.org/Dataset">
+      <h2 itemprop="name">Инфраструктура</h2>
+      <div itemprop="description">
+        ${_city}
+        ${_market}
+        ${_medic}
+      </div>
+    </section>
+    <section itemscope itemtype="http://schema.org/Dataset">
+      <h2 itemprop="name">Экология</h2>
+      <div itemprop="description">
+        ${_eco}
+      </div>
+    </section>
+    <section>
+      <div id="place-map" class="map">${_map}</div>
+    </section>
+  </div>
 </div>
   `;
 
