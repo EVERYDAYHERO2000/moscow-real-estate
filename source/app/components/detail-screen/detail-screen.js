@@ -199,7 +199,7 @@ ${_close}
       </div>
     </section>
     <section>
-      <div id="place-map" class="map">${_map}</div>
+      <figure id="place-map" class="map">${_map}</figure>
     </section>
   </div>
 </main>

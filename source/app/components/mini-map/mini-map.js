@@ -40,9 +40,9 @@ __.miniMap = function(params){
     result[1] = (result[1] < -40) ? -40 : result[1];
     result[1] = (result[1] > 40) ? 40 : result[1];
       
-  let tpl = `<div class="mini-map">
+  let tpl = `<figure class="mini-map">
     <div class="mini-map__marker" style="transform: translate(${result[1]}px, ${result[0]}px)"></div>
-  </div>`;
+  </figure>`;
   
   return tpl;
   

@@ -65,7 +65,7 @@ let createPage = function(){
             <div class="layers-controls">
             </div>
           </div>
-          <div id="map"></div>
+          <figure id="map"></figure>
         </div>
       </div>
     <div>
