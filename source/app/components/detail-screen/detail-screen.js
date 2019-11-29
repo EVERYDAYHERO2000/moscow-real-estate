@@ -12,7 +12,7 @@ __.detailScreen = function (params) {
     let _type = (place.type) ? `<span>${place.type}</span>` : '';
     
     let _mobileHeader = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="header-mobile">
-    <a href="/" id="close-screen" role="button" class="btn btn_back">Назад</a>
+    <a href="/" id="close-screen" name="close-screen" role="button" class="btn btn_back">Назад</a>
   </div>`;
     
     let _close = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="close-icon" role="button" id="close-panel"></div>`;
@@ -389,6 +389,8 @@ ${_close}
           store : 'cian',
         });
         
+        preventOpenInBrowser(href);
+        
       }
       
       if ( href.includes('realty.yandex.ru') ) {
@@ -396,12 +398,27 @@ ${_close}
           store : 'yandex'
         });
         
+        preventOpenInBrowser(href);
+        
       }
       
       if ( href.includes('avito.ru') ) {
         __.fs.analytics('cta_go-to-store', {
           store : 'avito'
         });
+        
+        preventOpenInBrowser(href);
+        
+      }
+      
+      function preventOpenInBrowser(href){
+      
+        if ( $('#app').is('.mobile') ){
+
+          e.preventDefault();
+          location.href = href;
+          
+        }
         
       }
       
