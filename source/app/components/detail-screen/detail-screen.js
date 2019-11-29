@@ -43,23 +43,23 @@ __.detailScreen = function (params) {
     })());
 
     let _city = contentItem('Ближайший город', place.city.closest.name, function (v) {
-      return `${v} в ${place.city.distance} км`
+      return `${v} в <b class="value">${place.city.distance} км</b>`
     });
     let _moscow = contentItem('Расстояние от Москвы', place.moscow.distance, function (v) {
-      return `${v} км`
+      return `<b class="value">${v} км</b>`
     });
     let _car = contentItem('На автомобиле до Москвы', place.car.distance, function (v) {
-      return `${v} км<br> ${place.car.time.h} ч ${place.car.time.m} мин без учета пробок`
+      return `<b class="value">${v} км</b><br><span class="value">${place.car.time.h} ч</span> <span class="value">${place.car.time.m} мин</span> без учета пробок`
     });
     let _railroad = contentItem('Ближайшая ж/д станция', place.railroad.closest.name, function (v) {
-      return `${v} в ${place.railroad.distance} км<br> до Москвы ${place.railroad.closest.time.h} ч ${place.railroad.closest.time.m} мин`
+      return `${v} в <b class="value">${place.railroad.distance} км</b><br> до Москвы <span class="value">${place.railroad.closest.time.h} ч</span> <span class="value">${place.railroad.closest.time.m} мин</span>`
     });
     let _market = contentItem('Ближайший магазин крупной сети', place.markets.closest.name, function (v) {
-      return `${v} в ${place.markets.distance} км`
+      return `${v} в <b class="value">${place.markets.distance} км</b>`
     });
     let _eco = contentItem('Ближайший источник загрязнения', place.eco.closest.name, function (v) {
       let description = (place.eco.closest.description) ? `<br>${place.eco.closest.description}` : '';
-      return `${place.eco.distance} км<br>${v} ${description}`
+      return `<b class="value">${place.eco.distance} км</b><br><span>${v}</span><p>${description}</p>`
     });
     let _price = (function (price) {
 
@@ -95,7 +95,7 @@ __.detailScreen = function (params) {
       return `<div class="flex-line">${image(params.mode, `https://favicon.yandex.net/favicon/${src}`, src, 16, 16, 'favicon')} ${link(v, src)}</div>`;
     });
     let _medic = contentItem('Ближайшая станция скорой помощи Москвы и Московской области', place.medic.closest, function (v) {
-      return `${place.medic.distance} км<br>${place.medic.closest.name}`;
+      return `<b class="value">${place.medic.distance} км</b><br>${place.medic.closest.name}`;
     });
 
     let _markets = (function (point) {
