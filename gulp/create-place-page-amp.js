@@ -221,6 +221,11 @@ let createPageAMP = function(params){
       margin: 0 8px 0 0;
     }
 
+    #place-map {
+      margin:0;
+      padding:0;
+    }
+
   </style>
 
   <style amp-boilerplate> 

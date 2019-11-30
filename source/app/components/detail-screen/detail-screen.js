@@ -91,7 +91,7 @@ __.detailScreen = function (params) {
       return v;
     });
     let _site = contentItem('Сайт', place.site, function (v) {
-      let src = v.replace(/^(http|https):\/\//g, '')
+      let src = (URL) ? new URL(v).host : v.replace(/^(http|https):\/\//g, '');
       return `<div class="flex-line">${image(params.mode, `https://favicon.yandex.net/favicon/${src}`, src, 16, 16, 'favicon')} ${link(v, src)}</div>`;
     });
     let _medic = contentItem('Ближайшая станция скорой помощи Москвы и Московской области', place.medic.closest, function (v) {
@@ -435,6 +435,20 @@ ${_close}
       
       __.fs.analytics('close_detail-screen');
   
+    });
+    
+    $screen.find('a[href="#place-map"]').click(function(e){
+      
+      e.preventDefault();
+      
+      $('#detail-screen').stop().animate({
+        scrollTop: $('#place-map').offset().top
+      }, 500, 'swing', function() { 
+        $('html, body').scrollTop(0)
+        
+      });
+      
+      
     });
 
     __.core.$detailScreen = $screen;
