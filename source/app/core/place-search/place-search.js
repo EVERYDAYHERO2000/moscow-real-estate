@@ -7,6 +7,7 @@ __.core.$placeSearch = function(){
     
     
     
+    
     __.search({
       text: value
     });

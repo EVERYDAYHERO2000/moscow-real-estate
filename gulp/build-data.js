@@ -36,6 +36,7 @@ let buildData = function (places, writeFile) {
 
   }
   
+  
   _.forEach(placesData, function(place){
     
     place.eco = getEco(place,worldData.eco);
