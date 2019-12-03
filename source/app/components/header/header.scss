@@ -90,6 +90,15 @@
     display: block;  
 }
 
+.header__sitename:after {
+  content: 'ß';
+  display: inline-block;
+  color: #7ed320;
+  transform: translate(1px,-5px);
+  font-size: 15px;
+  text-transform: none;
+}
+
 .header__title {
   margin:0;
   padding:0;
@@ -97,4 +106,5 @@
   font-weight: 100;
   color: rgba(0,0,0,.5);
 }
+
 

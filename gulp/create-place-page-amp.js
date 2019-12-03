@@ -184,6 +184,13 @@ let createPageAMP = function(params){
       padding: 0 20px 0 0;
       box-sizing: border-box;
     }
+
+    .content__item-title h3 {
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+      font-weight: 500;
+    }
     
     .content__item-value {
       width: 50%;

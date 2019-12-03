@@ -240,7 +240,7 @@ ${_close}
   function simpleItem(name, value) {
 
     return `<div class="content__item">
-    <div class="content__item-title">${name}</div>
+    <div class="content__item-title"><h3>${name}</h3></div>
     <div class="content__item-value">${value}</div>
   </div>`
 
