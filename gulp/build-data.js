@@ -30,7 +30,8 @@ let buildData = function (places, writeFile) {
     markets: buildMarkets(),
     medic: buildMedic(),
     roads: {
-      mcad: buildMcad() 
+      mcad: buildMcad(),
+      primary: buildPrimary() 
     }
 
   }
@@ -45,13 +46,14 @@ let buildData = function (places, writeFile) {
     place.medic = getMedic(place, worldData.medic)
     place.markets = getMarket(place, worldData.markets);
     place.roads = {
-      mcad : getMcad(place, worldData.roads.mcad)
+      mcad : getMcad(place, worldData.roads.mcad),
+      primary: getPrimary(place, worldData.roads.primary) 
     }
     
     place.description = textGen(place);
     
-    
   });
+  
 
   console.log(`World data: All object is maped`);
   
@@ -253,6 +255,51 @@ let buildData = function (places, writeFile) {
     });
     
     return result;
+    
+  }
+  
+  function buildPrimary(){
+    
+    let roads = require(dataPath + `roads/roads.json`);
+        
+    
+    return roads;
+    
+  }
+  
+  function getPrimary(place, data) {
+    
+    let result = {},
+        point = place.point,
+        __distance = 10000000,
+        similar = {};
+    
+    _.forEach(data, function (group, k) {
+
+      _.forEach(group, function (points) {
+        
+        _.forEach(points, function (p) {
+
+          let currentDist = calcDistance(point[1], point[0], p[1], p[0], 'K');
+
+          if (currentDist <= __distance) {
+            __distance = currentDist;
+            similar = k;
+          }
+
+        })
+
+
+      });
+
+    });
+    
+    return {
+      distance : +__distance.toFixed(2),
+      closest : {
+        name : similar
+      }    
+    }
     
   }
   

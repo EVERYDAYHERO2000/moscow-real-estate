@@ -24,6 +24,69 @@ const placeDescription = function(data){
     
   })(data.type);
   
+  let _primary = (function(point, primary){
+    
+    let route_name = primary.closest.name,
+        result = '';
+    
+    if (primary.distance <= 6) {
+    
+      if (route_name == 'Алтуфьевское шоссе') {
+        result = 'по Алтуфьевскому шоссе';
+
+      } else if (route_name == 'Варшавское шоссе') {
+        result = 'по Варшавскому шоссе';
+
+      } else if (route_name == 'Волоколамское шоссе') {
+        result = 'по Волоколамскому шоссе';
+
+      } else if (route_name == 'Дмитровское шоссе') {
+        result = 'по Дмитровскому шоссе';
+
+      } else if (route_name == 'Калужское шоссе') {
+        result = 'по Калужскому шоссе';
+
+      } else if (route_name == 'Каширское шоссе') {
+        result = 'по Каширскому шоссе';
+
+      } else if (route_name == 'Киевское шоссе') {
+        result = 'по Киевскому шоссе';
+
+      } else if (route_name == 'Ленинградское шоссе') {
+        result = 'по Ленинградскому шоссе';
+
+      } else if (route_name == 'Минское шоссе') {
+        result = 'по Минскому шоссе';
+
+      } else if (route_name == 'Можайское шоссе') {
+        result = 'по Можайскому шоссе';
+
+      } else if (route_name == 'Новорязанское шоссе') {
+        result = 'по Новорязанскому шоссе';
+
+      } else if (route_name == 'Пятницкое шоссе') {
+        result = 'по Пятницкому шоссе';
+
+      } else if (route_name == 'Рублёвское шоссе') {
+        result = 'по Рублёвскому шоссе';
+
+      } else if (route_name == 'Щёлковское шоссе') {  
+        result = 'по Щёлковскому шоссе';
+
+      } else if (route_name == 'Ярославское шоссе') {  
+        result = 'по Ярославскому шоссе';
+
+      } else if (route_name == 'шоссе Энтузиастов') {    
+        result = 'по шоссе Энтузиастов';
+
+      }
+      
+    }
+    
+    return result;
+    
+  })(data.point, data.roads.primary)
+  
   let _mcad = (function(mcad, point, moscow){
 
     let dist_mcad = calcDistance(mcad.point[1], mcad.point[0], 55.751244, 37.618423, 'K'),
@@ -264,10 +327,10 @@ const placeDescription = function(data){
   }
   
   
-  description = `${_typeAndClass} ${_name} ${_raspolojen} в ${_distanceToMoscow} км от центра Москвы (${_mcad}), ${_direction}. ${_nearCity} ${_eco} ${_car} ${_railroad} ${_dostupnost}`
+  description = `${_typeAndClass} ${_name} ${_raspolojen} в ${_distanceToMoscow} км от центра Москвы (${_mcad}), ${_direction} ${_primary}. ${_nearCity} ${_eco} ${_car} ${_railroad} ${_dostupnost}`
   
   
-  description = description.replace(/\s+/g, ' ').trim();
+  description = description.replace(/\s+/g, ' ').replace(/\s+\./g, '.').trim();
   
   return description;
 }

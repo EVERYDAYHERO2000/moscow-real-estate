@@ -42,5 +42,7 @@
         "pretty": "^2.0.0",
         "sharp": "^0.21.3"
     },
-    "dependencies": {}
+    "dependencies": {
+        "big-json": "^3.0.0"
+    }
 }

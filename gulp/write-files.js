@@ -34,6 +34,7 @@ let writeFiles = function(data, allPages){
       
       let id = e.id,
           folder = Math.floor(id/100) * 100,
+          catalogUrl = DEV_PATH + `/bin/data/places/${folder}/`,
           dataUrl = DEV_PATH + `/bin/data/places/${folder}/place_${id}`,
           pageUrl = DEV_PATH + `/places/${folder}/place_${id}`,
           pageUrlAMP = DEV_PATH + `/places/${folder}/place_${id}/amp/`,
@@ -58,6 +59,7 @@ let writeFiles = function(data, allPages){
             content : component('detail-screen', {place:e, mode:'amp', canonical:canonical})
           });
           
+      
           if (!rssPages[folder]) {
             rssPages[folder] = [];
           }    
