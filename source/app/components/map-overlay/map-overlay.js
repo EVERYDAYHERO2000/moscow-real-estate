@@ -1,7 +1,5 @@
 __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
 
-  
-  
   let scale = 2,
     icons = __.fs.mapSprites(scale),
     size = 20 * scale,
@@ -110,8 +108,48 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
     return false
   };
 
-  this.car = function () {
+  this.car = function (params, canvasOverlay, ctx, zoom, mapId) {
+  
+    /*  
+    let roads = params.data.roads;
+    
+    
+
+    $.each(roads, function (i, route) {
+      
+        $.each(route, function (i, e) {  
+      
+        var line = e;  
+        
+        ctx.beginPath();
+        ctx.strokeStyle = 'rgba(0, 196, 255, 0.3)';
+        ctx.lineWidth = 1;
+        ctx.lineJoin = 'round';
+        ctx.lineCap = 'round';
+          
+
+        for (var p = 0; p < line.length; p++) {
+
+          var from = canvasOverlay._map.latLngToContainerPoint([line[p][1], line[p][0]]);
+          var to = (line[p + 1]) ? canvasOverlay._map.latLngToContainerPoint([line[p + 1][1], line[p + 1][0]]) : from;
+
+          ctx.moveTo(from.x, from.y);
+          ctx.lineTo(to.x, to.y);
+
+        }
+
+        ctx.stroke();
+          
+        
+           
+        });
+
+    });
+    */
+    
+    
     return false
+    
   };
 
 

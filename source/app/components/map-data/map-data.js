@@ -23,8 +23,8 @@ __.mapData = function(){
   }
   
   this.car = function(callback){
-    
-    callback();
+
+    getData('roads', callback);
         
   }
   
@@ -36,16 +36,19 @@ __.mapData = function(){
   
   function getData(name, callback) {
     
-    if (DATA.places[0][name].closest.name && !location.href.includes('/places/')) {
-      
+    
+    
+    if (DATA.places[0][name] && DATA.places[0][name].closest && DATA.places[0][name].closest.name && !location.href.includes('/places/')) {
       
       callback();
       
     } else {
       
+      
+      
       $.get(`/bin/data/${name}.json`, function (data) {
           
-          
+          if (name != 'roads'){
           
           $.each(data, function (i, e2) {
             
@@ -64,8 +67,16 @@ __.mapData = function(){
   
 
           });
+            
+          } else {
+            
+            window.DATA[name] = data;
+            
+          }
           
           $('#app').data('data', window.DATA);
+            
+            
         
           
 

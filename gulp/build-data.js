@@ -74,7 +74,8 @@ let buildData = function (places, writeFile) {
   writeWorldData(worldData.markets, 'markets');
   writeWorldData(worldData.cities, 'cities');
   writeWorldData(worldData.medic, 'medic');
-  writeWorldData(worldData.roads.mcad, 'mcad');        
+  writeWorldData(worldData.roads.mcad, 'mcad');
+  writeWorldData(worldData.roads.primary, 'roads');        
           
         }
   });
@@ -88,7 +89,8 @@ let buildData = function (places, writeFile) {
     markets: worldData.markets,
     medic: worldData.medic,
     roads: {
-      mcad : worldData.roads.mcad
+      mcad : worldData.roads.mcad,
+      primary : worldData.roads.primary
     }
   }, writeFile);
 
@@ -437,7 +439,8 @@ let buildData = function (places, writeFile) {
     _.forEach(places, function(place){
       
       delete place.eco.closest;
-      delete place.roads; //delete place.roads.mcad.closest;
+      delete place.roads.mcad.closest;
+      delete place.roads.primary.closest;
       delete place.railroad.closest;
       delete place.city.closest;
       delete place.markets.closest;

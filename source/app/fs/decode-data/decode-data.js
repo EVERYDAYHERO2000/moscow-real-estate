@@ -6,7 +6,8 @@ __.fs.decodeData = function (data) {
   var medic = {};
   var cities = {};
   var roads = {
-    mcad : {}
+    mcad : {},
+    primary : {}
   };
   
   window.DATA = {
@@ -16,7 +17,7 @@ __.fs.decodeData = function (data) {
     markets : markets,
     medic : medic,
     cities : cities,
-    //roads : roads
+    roads : roads
   }
   
   $.each(data, function(i, place) {
@@ -44,18 +45,18 @@ __.fs.decodeData = function (data) {
       if (!window.DATA.cities[place.city.closestId]) window.DATA.cities[place.city.closestId] = {
         id : place.city.closestId
       }
-      /*
+      
       if (!window.DATA.roads.mcad[place.roads.mcad.closestId]) window.DATA.roads.mcad[place.roads.mcad.closestId] = {
         id : place.roads.mcad.closestId
       }
-      */
+      
       
       place.eco.closest = window.DATA.eco[place.eco.closestId];
       place.railroad.closest = window.DATA.railroad[place.railroad.closestId];
       place.markets.closest = window.DATA.markets[place.markets.closestId];
       place.medic.closest = window.DATA.medic[place.medic.closestId];
       place.city.closest = window.DATA.cities[place.city.closestId];
-      //place.roads.mcad.closest = window.DATA.roads.mcad[place.roads.mcad.closestId];
+      place.roads.mcad.closest = window.DATA.roads.mcad[place.roads.mcad.closestId];
         
   });
   

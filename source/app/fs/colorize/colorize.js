@@ -74,6 +74,8 @@ __.fs.colorize = function(params){
   this.car = function(params) {
     
     var time = __.fs.time.toInt(params.car.time.h,params.car.time.m);
+    var mcad_road = params.roads.mcad.distance;
+    var primary_road = params.roads.primary.distance;
     var color;
 
     if (time <= 30) color = rgba(0, 177, 255, 0.3);
@@ -82,7 +84,13 @@ __.fs.colorize = function(params){
     if (time > 70) color = rgba(226, 0, 255, 0.3);
     if (time > 100) color = rgba(255, 0, 128, 0.3);
     if (time > 150) color = rgba(255, 0, 0, 0.3);
+    
+    if (primary_road < 4 ) color = rgba(118, 0, 255, 0.3);
+    if (primary_road < 4 && time < 120) color = rgba(29, 0, 255, 0.3);
+    if (mcad_road < 6) color = rgba(0, 118, 255, 0.5);
+    if (primary_road < 2 && time < 40) color = rgba(0, 118, 255, 0.5);  
 
+    
     return color;
     
   }
