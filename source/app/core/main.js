@@ -34,6 +34,15 @@ var runApp = function(){
         
         
     });
+  
+  
+    window.addEventListener('popstate', function(e){
+      window.location.href = window.location.href; 
+      
+
+          
+      
+    }, false);
     
   //} 
   

@@ -69,6 +69,10 @@ __.selectOnMap = function(event, mapId, layer){
         top  : (posY + r.height > rect.height) ? (rect.height - r.height) + 'px' : posY + 'px' 
       });
       
+      setTimeout(function(){
+        $('#map-controls .place-select').addClass('place-select_visible')
+      },10);
+      
     }
   
     __.fs.event.bind('.place-select', 'mouseleave', function(e){

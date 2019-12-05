@@ -4,13 +4,23 @@
   background: #fff;
   flex-direction: column;
   border-radius: 4px;
-  overflow: hidden;
-  overflow-y: scroll;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   box-shadow: rgba(0, 0, 0, 0.65) 0px 1px 5px;
   box-sizing: border-box;
   max-height: 80vh;
   width: 200px;
   padding: 8px 0;
+  opacity: 0.5;
+  //transform-origin: center;
+  //transform:scale(.98);
+}
+
+.place-select_visible {
+  opacity: 1;
+  transition: all .1s ease;
+  //transform: scale(1);
 }
 
 .place-select__item {

@@ -82,8 +82,8 @@ __.fs.colorize = function(params){
     if (time > 30) color = rgba(29, 0, 255, 0.3);
     if (time > 50) color = rgba(118, 0, 255, 0.3);
     if (time > 70) color = rgba(226, 0, 255, 0.3);
-    if (time > 100) color = rgba(255, 0, 128, 0.3);
-    if (time > 150) color = rgba(255, 0, 0, 0.3);
+    if (time > 100) color = rgba(255, 0, 128, 0.2);
+    if (time > 150) color = rgba(255, 0, 0, 0.2);
     
     if (primary_road < 4 ) color = rgba(118, 0, 255, 0.3);
     if (primary_road < 4 && time < 120) color = rgba(29, 0, 255, 0.3);
