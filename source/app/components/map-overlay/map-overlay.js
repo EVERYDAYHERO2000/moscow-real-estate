@@ -110,16 +110,16 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
 
   this.car = function (params, canvasOverlay, ctx, zoom, mapId) {
   
-    /*  
+      
     let roads = params.data.roads;
     
     
 
-    $.each(roads, function (i, route) {
+    
       
-        $.each(route, function (i, e) {  
+        $.each(roads, function (i, e) {  
       
-        var line = e;  
+        var line = e.points;  
         
         ctx.beginPath();
         ctx.strokeStyle = 'rgba(0, 196, 255, 0.3)';
@@ -135,6 +135,8 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
 
           ctx.moveTo(from.x, from.y);
           ctx.lineTo(to.x, to.y);
+          
+          
 
         }
 
@@ -144,8 +146,8 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
            
         });
 
-    });
-    */
+        
+    
     
     
     return false

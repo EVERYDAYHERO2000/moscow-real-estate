@@ -36,7 +36,7 @@ __.placeItem = function(params){
 `<div itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement" class="place-item" data-id="place-${params.id}">
   <div class="place-item__content">
     <div class="place-item__title" itemprop="name">
-      <a href="${url}" itemprop="url">${_type}<span class="place-item__name">${params.name}</a></span>
+      <a href="${url}" itemprop="url">${_type}<span class="place-item__name">${params.name}</span></a>
     </div>
     <div class="place-item__distance">
       ${_car}

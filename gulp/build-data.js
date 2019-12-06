@@ -277,31 +277,29 @@ let buildData = function (places, writeFile) {
         __distance = 10000000,
         similar = {};
     
-    _.forEach(data, function (group, k) {
+    _.forEach(data, function (road) {
 
-      _.forEach(group, function (points) {
-        
-        _.forEach(points, function (p) {
+        if (road.role == 'primary'){
+      
+        _.forEach(road.points, function (p) {
 
           let currentDist = calcDistance(point[1], point[0], p[1], p[0], 'K');
 
           if (currentDist <= __distance) {
             __distance = currentDist;
-            similar = k;
+            similar = road;
           }
 
         })
 
-
-      });
-
+      }
+        
     });
     
     return {
+      closestId : +similar.id,
       distance : +__distance.toFixed(2),
-      closest : {
-        name : similar
-      }    
+      closest : similar  
     }
     
   }

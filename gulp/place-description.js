@@ -79,8 +79,42 @@ const placeDescription = function(data){
       } else if (route_name == 'шоссе Энтузиастов') {    
         result = 'по шоссе Энтузиастов';
 
-      }
+      } else if (route_name == 'Боровское шоссе') {
+        result = 'по Боровскому шоссе';
+        
+      } else if (route_name == 'ДОН') {
+        result = 'по трассе М-4 "ДОН"'
+        
+      } else if (route_name == 'Егорьевское шоссе') {
+        result = 'по Егорьевскому шоссе';
+        
+      } else if (route_name == 'Каширсоке шоссе') {
+        result = 'по Каширсокому шоссе';
+        
+      } else if (route_name == 'Новорижское шоссе'){
+        result = 'по Новорижскому шоссе';
+        
+      } else if (route_name == 'Носовихинское шоссе'){
+        result = 'по Носовихинскому шоссе';
+        
+      } else if (route_name == 'Осташковское шоссе'){
+        result = 'по Осташковскому шоссе';
+        
+      } else if (route_name == 'Рублёво-Успенское шоссе'){
+        result = 'по Рублёво-Успенскому шоссе';
+        
+      } else if (route_name == 'Рязанское шоссе'){
+        result = 'по Рязанскому шоссе';
+        
+      } else if (route_name == 'Симферопольское шоссе') {
+        result = 'по Симферопольскому шоссе';
+        
+      } else if (route_name == 'Щелковское шоссе') {
+        result = 'по Щелковскому шоссе';
+        
+      } 
       
+    
     }
     
     return result;
