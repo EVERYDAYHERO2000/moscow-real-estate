@@ -219,6 +219,7 @@ $(function(){
       $('#row_3 .row-control input').val( curData[4] ); //address
       $('#row_4 .row-control input').first().val( curData[5] ); //price from
       $('#row_4 .row-control input').last().val( curData[6] ); //price to
+      $('#row_4 .row-title a').attr( 'href', `https://cian.ru/map/?deal_type=sale&engine_version=2&object_type%5B0%5D=1&offer_type=suburban&zoom=16&center=${curData[2]}%2C${curData[3]}` ); //Cian
       $('#row_5 .row-control input').val( curData[7] ); //ready date
       $('#row_6 .row-control input').val( curData[8] ); //type
       $('#row_7 .row-control input').val( curData[9] ); //class
@@ -251,6 +252,7 @@ $(function(){
           $('#row_2 .row-control input').first().val( position.lat ); //lat
           $('#row_2 .row-control input').last().val( position.lng ); //lon  
           $('#row_2 .row-title a').attr( 'href', `https://yandex.ru/maps/?ll=${position.lng}%2C${position.lat}&z=14&mode=whatshere&whatshere%5Bpoint%5D=${position.lng}%2C${position.lat}` ); //YA maps
+          $('#row_4 .row-title a').attr( 'href', `https://cian.ru/map/?deal_type=sale&engine_version=2&object_type%5B0%5D=1&offer_type=suburban&zoom=16&center=${position.lat}%2C${position.lng}` ); //Cian
         
       });
       leafletMap.addLayer(marker);
@@ -436,7 +438,12 @@ $(function(){
           <div class="row-control"><input type="text" /></div>
         </div>
         <div class="row" id="row_2">
-          <div class="row-title"><div class="col"><div>Координаты (lat — lon)</div><div><a target="_blank" href="https://yandex.ru/maps/">Яндекс.Карта</a></div></div></div>
+          <div class="row-title">
+            <div class="col">
+              <div>Координаты (lat — lon)</div>
+              <div><a target="_blank" href="https://yandex.ru/maps/">Яндекс.Карта</a></div>
+            </div>
+          </div>
           <div class="row-control"><div class="col"><div class="col-row"><div><input type="text" /></div><div><input type="text" /></div></div><div id="map"></div></div></div>
         </div>
         <div class="row" id="row_3">
@@ -444,7 +451,12 @@ $(function(){
           <div class="row-control"><input type="text" /></div>
         </div>
         <div class="row" id="row_4">
-          <div class="row-title">Цена (от — до)</div>
+          <div class="row-title">
+            <div class="col">
+              <div>Цена (от — до)</div>
+              <div><a target="_blank" href="https://cian.ru/map/">Cian</a></div>
+            </div>
+          </div>  
           <div class="row-control"><div><input type="number" /></div><div><input type="number" /></div></div>
         </div>
         <div class="row" id="row_5">
