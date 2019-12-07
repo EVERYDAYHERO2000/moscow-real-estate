@@ -234,7 +234,7 @@ let buildData = function (places, writeFile) {
       
     });
     
-    console.log(`World data: ${result.length} medic station loaded`)
+    console.log(`World data: ${result.length} medic station loaded`);
     
     return result;
     
@@ -257,6 +257,8 @@ let buildData = function (places, writeFile) {
       
     });
     
+    console.log(`World data: ${result.length} roads (MCAD) loaded`);
+    
     return result;
     
   }
@@ -264,7 +266,8 @@ let buildData = function (places, writeFile) {
   function buildPrimary(){
     
     let roads = require(dataPath + `roads/roads.json`);
-        
+    
+    console.log(`World data: roads (primary) loaded`);
     
     return roads;
     
