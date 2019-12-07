@@ -342,7 +342,7 @@ const placeDescription = function(data){
     if (car.time.h < 1 && car.time.m) t_c = 1;
     if (railroad.distance <= 3) t_r = 1;
     
-    if (t_r || t_c){
+    if (t_r && t_c){
       
       d = `Благодоря хорошей транспортной доступности поселок подойдет людям планирующим проживать в пригороде и работать в Москве.`
       
