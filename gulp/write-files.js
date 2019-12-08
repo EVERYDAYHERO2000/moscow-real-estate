@@ -155,6 +155,7 @@ let writeFiles = function(data, allPages){
       } 
     });
     
+    
     _.forEach(rssPages, function(e,i){
       
       let folder = `/places/${i}/`
