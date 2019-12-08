@@ -447,6 +447,7 @@ let buildData = function (places, writeFile) {
       delete place.markets.closest;
       delete place.medic.closest;
       delete place.description;
+      delete place.address;
       
     });
     
