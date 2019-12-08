@@ -18,7 +18,15 @@ let writeFiles = function(data, allPages){
     let domain = SETTINGS.domain,
         currentDate = new Date().toISOString(),
         rssPages = {},
-        sitemap = `
+        
+        sitemapGoogle = `
+    <url>
+        <loc>${domain}/</loc>
+        <lastmod>${currentDate}</lastmod>
+        <priority>1</priority>
+    </url>`;
+    
+        sitemapYandex = `
     <url>
         <loc>${domain}/</loc>
         <lastmod>${currentDate}</lastmod>
@@ -81,10 +89,17 @@ let writeFiles = function(data, allPages){
             process.stdout.write(`World data: /bin/data/places/${folder}/place_${id} writed`);
           }
       
-          sitemap += `
+          sitemapGoogle += `
     <url>
         <loc>${domain}/places/${folder}/place_${id}/</loc>
         <xhtml:link rel="amphtml" href="${domain}/places/${folder}/place_${id}/amp/"></xhtml:link>
+        <lastmod>${currentDate}</lastmod>
+        <priority>0.5</priority>
+    </url>`;
+      
+          sitemapYandex += `
+    <url>
+        <loc>${domain}/places/${folder}/place_${id}/</loc>
         <lastmod>${currentDate}</lastmod>
         <priority>0.5</priority>
     </url>`;
@@ -144,12 +159,21 @@ let writeFiles = function(data, allPages){
       process.stdout.write(`\n`);
     }
     
-    sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${sitemap}</urlset>`;
+    sitemapGoogle = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${sitemapGoogle}</urlset>`;
+    
+    sitemapYandex = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${sitemapYandex}</urlset>`;
     
     
     
-    fs.writeFile(DEV_PATH + '/sitemap.xml', sitemap, function(err) {
+    fs.writeFile(DEV_PATH + '/sitemap.xml', sitemapGoogle, function(err) {
+      if (err) {
+        console.log('buildData -->', err); 
+      } 
+    });
+    
+    fs.writeFile(DEV_PATH + '/sitemap-yandex.xml', sitemapYandex, function(err) {
       if (err) {
         console.log('buildData -->', err); 
       } 
