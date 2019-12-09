@@ -122,6 +122,11 @@ __.detailScreen = function (params) {
         rightLongitude: lonR,
         bottomLatitude: latB
       });
+      
+      let sob_url = objToUrl(`${https}sob.ru/map/prodazha-zagorodnaja-nedvizhimost`, {
+        ll: `${point[1]},${point[0]}`,
+        z: 16
+      }) + '&realty_type[]=3&realty_type[]=4&realty_type[]=5&realty_type[]=6&realty_type[]=7&realty_type[]=8&realty_type[]=9&realty_type[]=10&realty_type[]=11&realty_type[]=12';
 
 
       let avito_url = objToUrl(`${https}www.avito.ru/moskva/doma_dachi_kottedzhi`, {
@@ -138,6 +143,7 @@ __.detailScreen = function (params) {
       let cian_img = image(params.mode, `https://favicon.yandex.net/favicon/cian.ru`, 'cian.ru', 16, 16, 'favicon');
       let yandex_img = image(params.mode, `https://favicon.yandex.net/favicon/realty.yandex.ru`, 'realty.yandex.ru', 16, 16, 'favicon');
       let avito_img = image(params.mode, `https://favicon.yandex.net/favicon/avito.ru`, 'realty.yandex.ru', 16, 16, 'favicon');
+      let sob_img = image(params.mode, `https://favicon.yandex.net/favicon/sob.ru`, 'sob.ru', 16, 16, 'favicon');
 
       return simpleItem('Предложения',
         `
@@ -145,6 +151,7 @@ __.detailScreen = function (params) {
 <li class="simple-list__item flex-line">${cian_img} ${link(cian_url, 'Циан')}</li>
 <li class="simple-list__item flex-line">${yandex_img} ${link(yandex_url, 'Яндекс.Недвижимость')}</li>
 <li class="simple-list__item flex-line on-mobile_hide">${avito_img} ${link(avito_url, 'Авито')}</li>
+<li class="simple-list__item flex-line">${sob_img} ${link(sob_url, 'Sob')}</li>
 </ul>`
       );
 
