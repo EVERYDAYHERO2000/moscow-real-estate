@@ -32,6 +32,7 @@ __.detailScreen = function (params) {
     </a> `;
       }
       
+      
       return map;
       
     })(params.mode, params.canonical);
