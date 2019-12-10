@@ -364,7 +364,7 @@ ${_close}
             __.mapData()['eco'](function(){
               
                
-        
+    
               __.mapOverlay()['eco']({
                   data: data
                 }, canvasOverlay, ctx, zoom, 'place-map');
