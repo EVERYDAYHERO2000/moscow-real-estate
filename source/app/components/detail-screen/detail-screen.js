@@ -8,6 +8,12 @@ __.detailScreen = function (params) {
     
     let _id = place.id;
     let _name = place.name;
+    let _url = (function(id){
+      let folder = Math.floor(id/100) * 100,
+          url = `https://myhousehub.ru/places/${folder}/place_${id}/`;
+      return url;
+      
+    })(place.id);
     let _description = place.description;
     let _type = (place.type) ? `<span>${place.type}</span>` : '';
     
@@ -162,15 +168,17 @@ ${_close}
 <ol class="breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
   <li class="breadcrumbs_item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
     <span itemprop="name">
-      <a class="breadcrumbs_link" itemprop="item" href="/">Коттеджные посёлки Москвы</a>
+      <a class="breadcrumbs_link" itemprop="item" href="https://myhousehub.ru">Коттеджные посёлки Москвы</a>
       <meta itemprop="position" content="1">
     </span>
   </li>
   <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
     <span itemprop="name">${_name}</span>
     <meta itemprop="position" content="2">
+    <meta itemprop="item" content="${_url}">
   </li>
 </ol>
+
 <main itemscope itemtype="http://schema.org/Dataset">
   <h1 itemprop="name">${_type} <span>${_name}</span></h1>
   <p itemprop="description">${_description}</p>

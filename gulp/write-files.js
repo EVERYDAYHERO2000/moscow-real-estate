@@ -89,6 +89,7 @@ let writeFiles = function(data, allPages){
             process.stdout.write(`World data: /bin/data/places/${folder}/place_${id} writed`);
           }
       
+      
           sitemapGoogle += `
     <url>
         <loc>${domain}/places/${folder}/place_${id}/</loc>
