@@ -186,8 +186,8 @@ __.formFilter = function (params) {
         if (id == 'top-left' )    angle.push([294,338]);
         if (id == 'top-right')    angle.push([204,225]);
         if (id == 'bottom')       angle.push([69,113]);
-        if (id == 'bottom-left')  angle.push([114,158]);
-        if (id == 'bottom-right') angle.push([24,68]);
+        if (id == 'bottom-right')  angle.push([114,158]);
+        if (id == 'bottom-left') angle.push([24,68]); 
         if (id == 'left')         angle.push([339, 360], [0,23]);
         if (id == 'right')        angle.push([159,203]);
            
