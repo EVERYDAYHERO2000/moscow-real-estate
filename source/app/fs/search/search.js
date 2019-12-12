@@ -68,8 +68,9 @@ __.fs.substringSearch = function(options) {
 
   }
   
+  
   /*
-    search in the string
+    search in the array
   */
   this.inArray = function (substr, arr, getKey, isFind, isNotFind) {
 

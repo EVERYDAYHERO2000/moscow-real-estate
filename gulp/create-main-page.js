@@ -49,13 +49,21 @@ let createPage = function(){
       </header>
       <div id="main">
         <aside class="panel">
+
           <div class="panel__header">
             <div id="place-search" class="place-search">
-              <input id="place-search-input" type="search" data-value="" />
-              <label for="place-search-input">Название посёлка</label>
-              <button>Найти</button>
+              <button class="place-search__filter" title="Настроить поиск" ></button>
+              <div class="place-search__input">
+                <input id="place-search-input" type="search" data-value="" />
+                <label for="place-search-input">Название посёлка</label>
+                <button class="place-search__search" title="Найти коттеджный посёлок" >Найти</button>
+              </div>
+            </div>
+            <div>
+              ${component('form-filter',{})}
             </div>
           </div>
+
           <div id="places">
             ${places}
           </div>

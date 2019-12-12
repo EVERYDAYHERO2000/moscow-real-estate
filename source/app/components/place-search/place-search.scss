@@ -34,10 +34,26 @@
   transition: all .2s;
 }
 
-.place-search button {
-
+.place-search__search {
   background: #7915dd;
   color: #fff;
   border: none;
   border-radius: 0 4px 4px 0;
+}
+
+.place-search__filter {
+  background-color: transparent;
+  background-image: url(../../source/assets/img/icons/sprites.svg);
+  background-repeat: no-repeat;
+  background-position: 0px -268px;
+  width: 30px;
+  min-width: 30px;
+  margin-right: 5px;
+  box-shadow: none;
+}
+
+.place-search__input {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
 }

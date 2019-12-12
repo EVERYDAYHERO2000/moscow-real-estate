@@ -1,5 +1,7 @@
 __.core.$placeSearch = function(){
   
+  __.formFilter();
+  
   $('#place-search').bind('search', function(event, params){
     
     let _this = this,
@@ -28,7 +30,7 @@ __.core.$placeSearch = function(){
     
     $(this).find('input').attr('data-value', $(this).find('input').val());
     
-  }).find('button').click(function(e){
+  }).find('.place-search__search').click(function(e){
     
     $(this).trigger('search');
    
