@@ -1,11 +1,14 @@
 .filter-form {
   width: 100%;
   padding: 10px 0;
+  max-height: 100vh;
+  transition: all .2s;
 }
 
 .filter-form_hidden {
   overflow: hidden;
   height: 0;
+  max-height: 0;
   padding: 0;
 }
 
@@ -66,6 +69,8 @@
   box-sizing: border-box;
   overflow: hidden;
   height: auto;
+  max-height: 600px;
+  transition: all .2s;
 }
 
 .form-tab_hidden {
@@ -75,6 +80,7 @@
 .form-tab_hidden .form-tab__body {
   height: 0;
   padding-bottom: 0;
+  max-height: 0;
 }
 
 .filter-form label {
@@ -118,9 +124,7 @@
 .svg-select:hover {
   fill: rgba(0, 122, 255, 0.1);
   
-  @media screen and (max-width: 500px) {
-    fill:transparent;
-  }
+  
   
 }
 
@@ -131,9 +135,7 @@
 .svg-select_active:hover {
   fill: rgba(0, 122, 255, 0.45);
   
-  @media screen and (max-width: 500px) {
-    fill:transparent;
-  }
+  
   
 }
 

@@ -9,7 +9,6 @@ __.search = function(params){
       search = new __.fs.substringSearch({ multiply : false }),
       keys = {};
   
-  console.log(params);
   
   if (params.text || 
       params.types != undefined || 
@@ -89,7 +88,7 @@ __.search = function(params){
         
         if (params.distance != undefined) {
           
-          if (params.distance < 200) {
+          if (params.distance < 120) {
             let m = (place.car.time.m < 10) ? '0' + place.car.time.m : place.car.time.m;
             let timeToInt = Number( (''+place.car.time.h) + (''+m) );
             
