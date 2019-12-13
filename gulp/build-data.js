@@ -435,7 +435,7 @@ let buildData = function (places, writeFile) {
 
   function writePlacesData(){
     
-    let places = JSON.parse(JSON.stringify(placesData));
+    let places = _.cloneDeep(placesData);//JSON.parse(JSON.stringify(placesData));
     
     _.forEach(places, function(place){
       
@@ -450,6 +450,7 @@ let buildData = function (places, writeFile) {
       delete place.address;
       
     });
+    
     
     fs.mkdir(DEV_PATH + `/bin/data/`, { recursive: true }, (err) => {
         if (err) {
