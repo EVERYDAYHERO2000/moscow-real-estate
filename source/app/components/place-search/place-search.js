@@ -44,6 +44,7 @@ __.search = function(params){
       
     }
     
+    
     if (searchdata.length){
       
       map.search = true;
