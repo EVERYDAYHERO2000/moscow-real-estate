@@ -117,7 +117,7 @@ __.search = function(params){
         
         if (params.eco != undefined) {
           
-          if (params.eco && place.eco.distance < 3){
+          if (params.eco && place.eco.distance < 3 && place.eco.distance >= 0){
             place.canvas.visible = false;
           } 
           
