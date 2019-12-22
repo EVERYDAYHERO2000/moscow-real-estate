@@ -359,60 +359,62 @@ let buildData = function (places, writeFile) {
         
         let currentDist = calcDistance(point[1], point[0], d.point[1], d.point[0], 'K');
         let r = 10;
-        switch (data.type) {
+        
+        switch (d.type) {
       
-      case 1: //radiation
-        r = 2;
-        break;   
+          case 1: //radiation
+            r = 2;
+            break;   
+
+          case 2: //radiation
+            r = 2;
+            break;
+
+          case 3: //power
+            r = 3;
+            break;
+
+          case 4: //power
+            r = 3;
+            break;
+
+          case 5: // water
+            r = 6;
+            break;  
+
+          case 6: // recicle
+            r = 8;
+            break;
+
+          case 7: // trash
+            r = 8;
+            break;  
+
+          case 8: // factory
+            r = 6;
+            break;  
+
+          case 9: // trash
+            r = 8;
+            break; 
+
+          case 10: //airport
+            r = 10;
+            break;  
+
+          case 11: //factory
+            r = 6;
+            break; 
+
+          case 12: //black messa
+            r = 2;
+            break;  
+
+          case 13: //army
+            r = 2;
+            break;     
+        }
         
-      case 2: //radiation
-        r = 2;
-        break;
-        
-      case 3: //power
-        r = 3;
-        break;
-        
-      case 4: //power
-        r = 3;
-        break;
-        
-      case 5: // water
-        r = 6;
-        break;  
-        
-      case 6: // recicle
-        r = 8;
-        break;
-        
-      case 7: // trash
-        r = 8;
-        break;  
-        
-      case 8: // factory
-        r = 6;
-        break;  
-        
-      case 9: // trash
-        r = 8;
-        break; 
-        
-      case 10: //airport
-        r = 10;
-        break;  
-        
-      case 11: //factory
-        r = 6;
-        break; 
-        
-      case 12: //black messa
-        r = 2;
-        break;  
-        
-      case 13: //army
-        r = 2;
-        break;     
-    }
         
         if (currentDist <= r) {
           
