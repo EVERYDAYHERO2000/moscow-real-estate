@@ -26,53 +26,16 @@ __.fs.colorize = function(params){
   
   //ecology
   this.eco = function(params) {
-    
     var r = 10;
-    switch (params.eco.closest.type) {
-      case 3: //power
-        r = 3;
-        break;
-      case 4: //power
-        r = 3;
-        break;
-      case 6: // recicle
-        r = 8;
-        break;
-      case 7: // trash
-        r = 8;
-        break; 
-      case 9: // trash
-        r = 8;
-        break; 
-      case 5: // water
-        r = 6;
-        break;   
-      case 10: //airport
-        r = 10;
-        break;
-      case 2: //radiation
-        r = 2;
-        break;
-      case 1: //radiation
-        r = 2;
-        break;  
-      case 12: //black messa
-        r = 2;
-        break;   
-      case 13: //army
-        r = 2;
-        break;     
-    }
-
+    var distance = (params.eco.distance >= 0) ? params.eco.distance : 100;
+    var alphaMax = 0.6; 
+    var alpha = (distance <= r) ? alphaMax - interpolation(0, r, distance, 0, alphaMax) : 0;
     
-    var distance = params.eco.distance;
-    var alphaMax = 0.6;
-    var alpha = (distance < r) ? alphaMax - interpolation(0, r, distance, 0, alphaMax) : 0;
-
     var color = blendColors(
     [0, 98, 255, .3],
     [255, 30, 0, alpha]
     );
+    
 
     return rgba(color[0],color[1],color[2],color[3]);
 

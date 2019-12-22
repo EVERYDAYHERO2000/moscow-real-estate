@@ -64,10 +64,26 @@ __.detailScreen = function (params) {
     let _market = contentItem('Ближайший магазин крупной сети', place.markets.closest.name, function (v) {
       return `${v} в <b class="value">${place.markets.distance} км</b>`
     });
-    let _eco = contentItem('Ближайший источник загрязнения', place.eco.closest.name, function (v) {
-      let description = (place.eco.closest.description) ? `<br>${place.eco.closest.description}` : '';
-      return `<b class="value">${place.eco.distance} км</b><br><span>${v}</span><p>${description}</p>`
-    });
+    
+    let _eco = (function(eco){
+      
+      let tpl = '';
+      
+      for (var i = 0; i < eco.length; i++ ){
+        let description = (eco[i].closest.description) ? `${eco[i].closest.description}` : '';
+        tpl += `<div><b class="value">${eco[i].distance.toFixed(1)} км</b><br><span>${eco[i].closest.name}</span><p>${description}</p></div>`
+        
+      }
+      
+      tpl = (tpl.length) ? tpl : 'Чисто'; 
+      
+      return `<div class="content__item">
+        <div class="content__item-title"><h3>Ближайший источник загрязнения</h3></div>
+        <div class="content__item-value">${tpl}</div>
+      </div>`;
+    
+    })(place.eco.closests);
+      
     let _price = (function (price) {
 
       let cost = {

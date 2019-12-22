@@ -171,7 +171,7 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
         if (zoom > 9) {
 
           if (e.type == 6) ico = icons.recicle;
-          if (e.type == 10) ico = icons.airport; 
+          if (e.type == 10) ico = icons.airport;   
           if (e.type == 7 || e.type == 9) ico = icons.trash;
           if (e.type == 2 || e.type == 1) ico = icons.radiation;
           if (e.type == 8 || e.type == 11) ico = icons.factory;

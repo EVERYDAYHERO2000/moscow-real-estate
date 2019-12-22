@@ -26,9 +26,6 @@ __.fs.decodeData = function (data) {
         visible : true
       }
   
-      if (!window.DATA.eco[place.eco.closestId]) window.DATA.eco[place.eco.closestId] = {
-        id : place.eco.closestId
-      }
       
       if (!window.DATA.railroad[place.railroad.closestId]) window.DATA.railroad[place.railroad.closestId] = {
         id : place.railroad.closestId
@@ -51,7 +48,6 @@ __.fs.decodeData = function (data) {
       }
       
       
-      place.eco.closest = window.DATA.eco[place.eco.closestId];
       place.railroad.closest = window.DATA.railroad[place.railroad.closestId];
       place.markets.closest = window.DATA.markets[place.markets.closestId];
       place.medic.closest = window.DATA.medic[place.medic.closestId];
