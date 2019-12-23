@@ -62,7 +62,7 @@ __.fs.colorize = function(params){
     let water = params.water.value;
     let color = rgba(120, 120, 120, 0);
     
-    if (water >= 0){
+    if (water > 0){
       
       if (water < 300) color = rgba(20, 20, 137, 0.2)
       if (water < 250) color = rgba(20, 20, 198, 0.2)
