@@ -6,6 +6,8 @@ __.detailScreen = function (params) {
 
   if (place) {
     
+    
+    
     let _id = place.id;
     let _name = place.name;
     let _url = (function(id){
@@ -64,6 +66,47 @@ __.detailScreen = function (params) {
     let _market = contentItem('Ближайший магазин крупной сети', place.markets.closest.name, function (v) {
       return `${v} в <b class="value">${place.markets.distance} км</b>`
     });
+    
+    let _water = (function(water){
+      
+      let tpl = '';
+
+       
+      for (var i = 0; i < water.closests.length; i++ ){
+        
+
+        
+        if (water.closests[i].closest){
+          
+          if (water.closests[i].closest.min > 0){
+          
+            if (water.closests[i].closest.min != water.closests[i].closest.max){
+          
+              tpl += `<div><b class="value">от ${water.closests[i].closest.min} м. до ${water.closests[i].closest.max} м.</b><br>Средняя глубина водоносного горизонта ${water.closests[i].closest.median} м. (скважены в ${water.closests[i].closest.name})</div>`;
+          
+            } else {
+              
+              tpl += `<div><b class="value">${water.closests[i].closest.median} м.</b><br>Cредняя глубина водоносного горизонта (скважены в ${water.closests[i].closest.name})</div>`;
+              
+            }
+            
+          }
+          
+        }
+      }
+      
+
+      
+      tpl = (tpl.length) ? `<div class="content__item">
+        <div class="content__item-title"><h3>Глубина водоносного горизонта</h3></div>
+        <div class="content__item-value">${tpl}</div>
+      </div>` : ''; 
+      
+
+      
+      return tpl;
+      
+    })(place.water);
     
     let _eco = (function(eco){
       
@@ -234,6 +277,7 @@ ${_close}
     <section itemscope itemtype="http://schema.org/Dataset">
       <h2 itemprop="name">Экология</h2>
       <div itemprop="description">
+        ${_water}
         ${_eco}
       </div>
     </section>
@@ -299,6 +343,8 @@ ${_close}
 
 
   if (typeof global == 'undefined') {
+    
+
     
     $('#detail-screen').remove();
 

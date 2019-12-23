@@ -18,13 +18,16 @@ __.core.$mapControls = function () {
         },
         markets : {
           title: 'Магазины'
+        },
+        water : {
+          title: 'Вода'
         }
       },
       l = '';
     
 
     $.each(layers, function (i, e) {
-      let selected = (e.selected) ? 'selected' : ''
+      let selected = (e.selected) ? 'selected' : ''; 
       l += `<option ${selected} value="${i}">${e.title}</option>`;
     });
 
@@ -33,7 +36,7 @@ __.core.$mapControls = function () {
 
       var options = $(this).data('options'),
         val = $(this).val();
-      
+
       $(this).attr('data-ico',val);
 
       $.each(options, function (i, e) {

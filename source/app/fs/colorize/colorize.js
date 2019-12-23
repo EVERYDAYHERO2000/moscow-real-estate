@@ -41,6 +41,44 @@ __.fs.colorize = function(params){
 
   }
   
+  //water
+  this.water = function(params) {
+    /*
+    let water = params.water.value;
+    let color = [121, 121, 121, 0.05];
+    let alpha = interpolation(20, 150, water, 0, 0.6);
+    
+    if (water >= 0) {
+      
+      color = blendColors(
+      [0, 11, 150, 0.2], //rgba(0, 11, 142, 0)
+      [0, 200, 255, alpha] //rgba(0, 206, 255, 0) 
+      );
+      
+    }
+
+    return rgba(color[0],color[1],color[2],color[3]);
+    */
+    let water = params.water.value;
+    let color = rgba(120, 120, 120, 0);
+    
+    if (water >= 0){
+      
+      if (water < 300) color = rgba(20, 20, 137, 0.2)
+      if (water < 250) color = rgba(20, 20, 198, 0.2)
+      if (water < 200) color = rgba(20, 20, 204, 0.2)
+      if (water < 100) color = rgba(20, 20, 255, 0.3);
+      if (water < 150) color = rgba(40, 60, 255, 0.3);
+      if (water < 100) color = rgba(40, 60, 235, 0.4);
+      if (water < 70)  color = rgba(40, 60, 235, 0.5);
+      if (water < 50)  color = rgba(40, 130, 255, 0.7);
+      if (water < 20)  color = rgba(40, 130, 255, 0.7); 
+    } 
+    
+    
+    return color;
+  }
+  
   //railroad
   this.railroad = function(params) {
     

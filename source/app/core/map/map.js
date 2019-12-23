@@ -77,6 +77,8 @@ __.core.$map = function(){
       
       __.mapData()[changeOverlay](drawData);
       
+      
+      
       function drawData(){
       
         $.each(places, function (i, e) {
@@ -95,6 +97,8 @@ __.core.$map = function(){
         window.DATA.places = places;
         
         $('#app').data('data',window.DATA);
+        
+        
         
         __.mapOverlay()[changeOverlay]( params, canvasOverlay, ctx, zoom, mapId );
         __.mapTiles(tileset)[changeOverlay]();

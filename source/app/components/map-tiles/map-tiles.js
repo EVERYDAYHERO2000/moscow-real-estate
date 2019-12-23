@@ -22,6 +22,12 @@ __.mapTiles = function(tileset){
     changeClass(l,d);
   }
   
+  this.water = function(){
+    
+    setTiles(dark);
+    changeClass(l,d);
+  }
+  
   this.eco = function(){
     
     setTiles(dark);

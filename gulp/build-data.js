@@ -32,7 +32,8 @@ let buildData = function (places, writeFile) {
     roads: {
       mcad: buildMcad(),
       primary: buildPrimary() 
-    }
+    },
+    water: buildWater()
 
   }
   
@@ -49,7 +50,8 @@ let buildData = function (places, writeFile) {
     place.roads = {
       mcad : getMcad(place, worldData.roads.mcad),
       primary: getPrimary(place, worldData.roads.primary) 
-    }
+    };
+    place.water = getWater(place, worldData.water); 
     
     place.description = textGen(place);
     
@@ -75,7 +77,8 @@ let buildData = function (places, writeFile) {
   writeWorldData(worldData.cities, 'cities');
   writeWorldData(worldData.medic, 'medic');
   writeWorldData(worldData.roads.mcad, 'mcad');
-  writeWorldData(worldData.roads.primary, 'roads');        
+  writeWorldData(worldData.roads.primary, 'roads');
+  writeWorldData(worldData.water, 'water');        
           
         }
   });
@@ -91,9 +94,51 @@ let buildData = function (places, writeFile) {
     roads: {
       mcad : worldData.roads.mcad,
       primary : worldData.roads.primary
-    }
+    },
+    water: worldData.water
   }, writeFile);
 
+  
+  
+  function buildWater() {
+    const water_1 = require(dataPath + 'eco/water.json');
+    const water_2 = require(dataPath + 'eco/water_3.json');
+    
+    var result = [];
+    _.forEach(water_1, function(e,i){
+      
+      result.push({
+        median : median(e.val),
+        min : +min(e.val).toFixed(2),
+        max : +max(e.val).toFixed(2),
+        average : +average(e.val).toFixed(2),
+        point : [e.lon, e.lat],
+        name : e.name,
+        id : result.length + i
+      })
+      
+    });
+
+    _.forEach(water_2, function(e,i){
+      
+      result.push({
+        median : +e.value[0],
+        min : +min(e.value).toFixed(2),
+        max : +e.value[0],
+        average : +e.value[0],
+        point : [e.point[1],e.point[0]],
+        name : e.name,
+        id : result.length + i
+      })
+      
+    });
+    
+    console.log(`World data: ${result.length} water point loaded`)
+    
+    return result;
+    
+  }
+  
 
   function buildRailroad() {
     const stations = require(dataPath + 'railroad/points.json');
@@ -349,6 +394,51 @@ let buildData = function (places, writeFile) {
     return result;
   }
 
+  function getWater(place, data){
+    let result = [];
+    let point = place.point;
+    let __distance = 10000000,
+          similar = {};
+    
+    _.forEach(data, function(d){
+      
+      let currentDist = calcDistance(point[1], point[0], d.point[1], d.point[0], 'K');
+      let r = 1.5;
+      
+      if (currentDist <= r) {
+        
+        result.push({
+          
+          closest : d,
+          distance : +currentDist.toFixed(1)
+          
+        });
+        
+      }
+      
+    });
+    
+    
+    return {
+      value : (function(result){
+        
+        let temp = [];
+        
+        _.forEach(result, function(d){
+          
+          temp.push(d.closest.average);
+            
+        });
+   
+        return (temp.length) ? +average(temp).toFixed(2) : -1;
+        
+      })(result),
+      closests : result
+      
+    };
+    
+  }
+  
   function getEco(place, data){
     let result = [];
     let point = place.point;
@@ -508,9 +598,43 @@ let buildData = function (places, writeFile) {
   function min(obj) {
     return Math.min.apply(Math, obj);
   }
+  
+  function max(obj) {
+    return Math.max.apply(Math, obj);
+  }
 
   function average(nums) {
     return nums.reduce((a, b) => (a + b)) / nums.length;
+  }
+  
+  function mode(arr) {
+    var numMapping = {};
+    var greatestFreq = 0;
+    var mode;
+    arr.forEach(function findMode(number) {
+        numMapping[number] = (numMapping[number] || 0) + 1;
+
+        if (greatestFreq < numMapping[number]) {
+            greatestFreq = numMapping[number];
+            mode = number;
+        }
+    });
+    return +mode;
+  }
+  
+  function median(values){
+    if(values.length ===0) return 0;
+
+    values.sort(function(a,b){
+      return a-b;
+    });
+
+    var half = Math.floor(values.length / 2);
+
+    if (values.length % 2)
+      return values[half];
+
+    return (values[half - 1] + values[half]) / 2.0;
   }
   
   function getClosest(point, data){
@@ -541,6 +665,7 @@ let buildData = function (places, writeFile) {
     _.forEach(places, function(place){
       
       delete place.eco.closests;
+      delete place.water.closests;
       delete place.roads.mcad.closest;
       delete place.roads.primary.closest;
       delete place.railroad.closest;

@@ -44,6 +44,11 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
     
   }
   
+  this.water = function (params, canvasOverlay, ctx, zoom, mapId) {
+    
+    return false;  
+  }
+  
 
   this.railroad = function (params, canvasOverlay, ctx, zoom, mapId) {
 

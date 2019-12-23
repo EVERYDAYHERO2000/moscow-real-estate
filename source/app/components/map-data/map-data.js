@@ -28,6 +28,12 @@ __.mapData = function(){
         
   }
   
+  this.water = function(callback){
+
+    getData('roads', callback);
+        
+  }
+  
   this.default = function(callback){
     
     callback();
