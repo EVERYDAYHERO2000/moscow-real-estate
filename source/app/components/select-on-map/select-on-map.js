@@ -109,7 +109,11 @@ __.selectOnMap = function(event, mapId, layer){
         let id = $(this).data('id');
         let type = $(this).data('type');
         
+        
+        
         __.fs.mapObjectGet( id, type, function(data){
+          
+          
           
           __.mapObjectInfo(data, type, mapId);
           

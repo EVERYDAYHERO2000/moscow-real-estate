@@ -30,7 +30,7 @@ __.mapData = function(){
   
   this.water = function(callback){
 
-    getData('roads', callback);
+    getData('water', callback);
         
   }
   

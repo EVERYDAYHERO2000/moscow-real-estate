@@ -64,9 +64,9 @@ __.fs.colorize = function(params){
     
     if (water > 0){
       
-      if (water < 300) color = rgba(20, 20, 137, 0.2)
-      if (water < 250) color = rgba(20, 20, 198, 0.2)
-      if (water < 200) color = rgba(20, 20, 204, 0.2)
+      if (water < 300) color = rgba(20, 20, 137, 0.2);
+      if (water < 250) color = rgba(20, 20, 198, 0.2);
+      if (water < 200) color = rgba(20, 20, 204, 0.2);
       if (water < 100) color = rgba(20, 20, 255, 0.3);
       if (water < 150) color = rgba(40, 60, 255, 0.3);
       if (water < 100) color = rgba(40, 60, 235, 0.4);

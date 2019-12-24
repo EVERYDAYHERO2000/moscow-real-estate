@@ -9,6 +9,7 @@ __.fs.decodeData = function (data) {
     mcad : {},
     primary : {}
   };
+  var water = {};
   
   window.DATA = {
     places : places,
@@ -17,7 +18,8 @@ __.fs.decodeData = function (data) {
     markets : markets,
     medic : medic,
     cities : cities,
-    roads : roads
+    roads : roads,
+    water : water
   }
   
   $.each(data, function(i, place) {

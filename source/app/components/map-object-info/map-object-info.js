@@ -37,6 +37,20 @@ __.mapObjectInfo = function(data, type, mapId){
   <div class="close-icon"></div>
 </div>`;
   }
+  
+  if (type == 'water') {
+    tpl=`
+<div class="map-object-info">
+  <div class="map-object-info__inner">
+    <div class="icon icon_${type}" data-ico=""></div>  
+    <div class="map-object-info__content">
+      <span class="map-object-info__title">Скважена в "${data.name}"</span>
+      <p class="map-object-info__description">Глубина скважены от ${data.min} м. до ${data.max}, средняя глубина ${data.median} м.</p>
+    </div>
+  </div>
+  <div class="close-icon"></div>
+</div>`;
+  }
 
   
   if (type == 'railroad') {

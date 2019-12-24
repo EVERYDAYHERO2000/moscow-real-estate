@@ -46,6 +46,30 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
   
   this.water = function (params, canvasOverlay, ctx, zoom, mapId) {
     
+  
+    let water = params.data.water;
+    
+    getIcons(img, function(img){
+      
+      $.each(water, function (i, e) {
+
+        let ico = '';
+      
+        if (zoom > 9)  ico = icons.point_blue;
+        if (zoom > 11) ico = icons.water; 
+
+
+        let bb = drawIcons(e, ctx, canvasOverlay, img, size, ico, resize);
+
+        
+        
+        e.canvas = e.canvas || {};  
+        e.canvas[mapId] = bb;
+        
+      });
+      
+    });
+    
     return false;  
   }
   
