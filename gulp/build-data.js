@@ -107,13 +107,13 @@ let buildData = function (places, writeFile) {
     var result = [];
     _.forEach(water_1, function(e,i){
       
-      let min = +min(e.val).toFixed(2);
-      let max = +max(e.val).toFixed(2);
+      let min_ = +min(e.val).toFixed(2);
+      let max_ = +max(e.val).toFixed(2);
       
-      if (min != 0 && max != 0) result.push({
+      if (min_ != 0 && max_ != 0) result.push({
         median : median(e.val),
-        min : min,
-        max : max,
+        min : min_,
+        max : max_,
         average : +average(e.val).toFixed(2),
         point : [e.lon, e.lat],
         name : e.name,
@@ -124,13 +124,13 @@ let buildData = function (places, writeFile) {
 
     _.forEach(water_2, function(e,i){
       
-      let min = +min(e.value).toFixed(2);
-      let max = +e.value[0];
+      let min_ = +min(e.value).toFixed(2);
+      let max_ = +e.value[0];
       
-      if (min != 0 && max != 0) result.push({
+      if (min_ != 0 && max_ != 0) result.push({
         median : +e.value[0],
-        min : min,
-        max : max,
+        min : min_,
+        max : max_,
         average : +e.value[0],
         point : [e.point[1],e.point[0]],
         name : e.name,
