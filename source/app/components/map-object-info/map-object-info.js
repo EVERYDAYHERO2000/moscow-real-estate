@@ -44,8 +44,8 @@ __.mapObjectInfo = function(data, type, mapId){
   <div class="map-object-info__inner">
     <div class="icon icon_${type}" data-ico=""></div>  
     <div class="map-object-info__content">
-      <span class="map-object-info__title">Скважена в "${data.name}"</span>
-      <p class="map-object-info__description">Глубина скважены от ${data.min} м. до ${data.max}, средняя глубина ${data.median} м.</p>
+      <span class="map-object-info__title">Скважина в "${data.name}"</span>
+      <p class="map-object-info__description">Глубина скважины от ${data.min} м. до ${data.max}, средняя глубина ${data.median} м.</p>
     </div>
   </div>
   <div class="close-icon"></div>

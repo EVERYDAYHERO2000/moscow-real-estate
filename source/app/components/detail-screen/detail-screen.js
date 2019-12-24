@@ -82,11 +82,11 @@ __.detailScreen = function (params) {
           
             if (water.closests[i].closest.min != water.closests[i].closest.max){
           
-              tpl += `<div><b class="value">от ${water.closests[i].closest.min} м. до ${water.closests[i].closest.max} м.</b><br>Средняя глубина водоносного горизонта ${water.closests[i].closest.median} м. (скважены в ${water.closests[i].closest.name})</div>`;
+              tpl += `<div><b class="value">от ${water.closests[i].closest.min} м. до ${water.closests[i].closest.max} м.</b><br>Средняя глубина водоносного горизонта ${water.closests[i].closest.median} м. (скважины в ${water.closests[i].closest.name})</div>`;
           
             } else {
               
-              tpl += `<div><b class="value">${water.closests[i].closest.median} м.</b><br>Cредняя глубина водоносного горизонта (скважены в ${water.closests[i].closest.name})</div>`;
+              tpl += `<div><b class="value">${water.closests[i].closest.median} м.</b><br>Cредняя глубина водоносного горизонта (скважины в ${water.closests[i].closest.name})</div>`;
               
             }
             
