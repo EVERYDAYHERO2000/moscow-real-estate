@@ -56,7 +56,7 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
         let ico = '';
       
         if (zoom > 9)  ico = icons.point_blue;
-        if (zoom > 11) ico = icons.water; 
+        if (zoom > 11) ico = icons.water_depth; 
 
 
         let bb = drawIcons(e, ctx, canvasOverlay, img, size, ico, resize);
