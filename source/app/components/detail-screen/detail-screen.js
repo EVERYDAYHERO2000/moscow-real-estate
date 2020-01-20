@@ -427,7 +427,7 @@ ${_close}
             gestureHandling: true
           });
 
-          L.tileLayer(__.fs.mapTiles.simple).addTo(map);
+          L.tileLayer(__.fs.mapTiles.simple, {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
           map.addLayer(marker);
 
           let c = L.canvasOverlay().drawing(drawingOnCanvas).addTo(map);
