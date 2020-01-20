@@ -261,7 +261,8 @@ ${_close}
       ${_markets}
     </section>
     <section itemscope itemtype="http://schema.org/Dataset">
-      <h2 itemprop="name">Транспорт</h2>
+      <h2>Транспорт</h2>
+      <meta itemprop="name" content="${_type} ${_name}. Транспорт">
       <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
       <div itemprop="description">
         ${_car}
@@ -269,7 +270,8 @@ ${_close}
       </div>
     </section>
     <section itemscope itemtype="http://schema.org/Dataset">
-      <h2 itemprop="name">Инфраструктура</h2>
+      <h2>Инфраструктура</h2>
+      <meta itemprop="name" content="${_type} ${_name}. Инфраструктура">
       <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
       <div itemprop="description">
         ${_city}
@@ -278,7 +280,8 @@ ${_close}
       </div>
     </section>
     <section itemscope itemtype="http://schema.org/Dataset">
-      <h2 itemprop="name">Экология</h2>
+      <h2>Экология</h2>
+      <meta itemprop="name" content="${_type} ${_name}. Экология">
       <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
       <div itemprop="description">
         ${_water}
