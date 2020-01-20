@@ -248,6 +248,7 @@ ${_close}
 
 <main itemscope itemtype="http://schema.org/Dataset">
   <h1 itemprop="name">${_type} <span>${_name}</span></h1>
+  <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
   <p itemprop="description">${_description}</p>
   <div class="panel__content content">
     <section>
@@ -261,6 +262,7 @@ ${_close}
     </section>
     <section itemscope itemtype="http://schema.org/Dataset">
       <h2 itemprop="name">Транспорт</h2>
+      <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
       <div itemprop="description">
         ${_car}
         ${_railroad}
@@ -268,6 +270,7 @@ ${_close}
     </section>
     <section itemscope itemtype="http://schema.org/Dataset">
       <h2 itemprop="name">Инфраструктура</h2>
+      <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
       <div itemprop="description">
         ${_city}
         ${_market}
@@ -276,6 +279,7 @@ ${_close}
     </section>
     <section itemscope itemtype="http://schema.org/Dataset">
       <h2 itemprop="name">Экология</h2>
+      <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
       <div itemprop="description">
         ${_water}
         ${_eco}
@@ -490,6 +494,24 @@ ${_close}
       if ( href.includes('avito.ru') ) {
         __.fs.analytics('cta_go-to-store', {
           store : 'avito'
+        });
+        
+        preventOpenInBrowser(href);
+        
+      }
+      
+      if ( href.includes('sob.ru') ) {
+        __.fs.analytics('cta_go-to-store', {
+          store : 'sob.ru'
+        });
+        
+        preventOpenInBrowser(href);
+        
+      }
+      
+      if ( href.includes('move.ru') ) {
+        __.fs.analytics('cta_go-to-store', {
+          store : 'move.ru'
         });
         
         preventOpenInBrowser(href);
