@@ -17,7 +17,7 @@ __.detailScreen = function (params) {
       
     })(place.id);
     let _description = place.description;
-    let _type = (place.type) ? `<span>${place.type}</span>` : '';
+    let _type = (place.type) ? `${place.type}` : '';
     
     let _mobileHeader = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="header-mobile">
     <a href="/" id="close-screen" name="close-screen" role="button" class="btn btn_back">Назад</a>
@@ -247,7 +247,7 @@ ${_close}
 </ol>
 
 <main itemscope itemtype="http://schema.org/Dataset">
-  <h1 itemprop="name">${_type} <span>${_name}</span></h1>
+  <h1 itemprop="name"><span>${_type}</span> <span>${_name}</span></h1>
   <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
   <p itemprop="description">${_description}</p>
   <div class="panel__content content">

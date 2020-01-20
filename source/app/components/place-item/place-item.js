@@ -20,7 +20,8 @@ __.placeItem = function(params){
   
   //let _color = (typeof global != 'undefined') ? '#fafafa' : params.canvas.color;
   
-  let _type = (params.type) ? `<span class="place-item__type">${params.type}</span>` : ''; 
+  let _type = (params.type) ? `${params.type}` : '';
+  let _name = `${params.name}`;
   
   //let _eco = (params.eco.distance < 10) ? `<div>${params.eco.closest.name} в ${params.eco.distance}км</div>` : '';
   
@@ -36,8 +37,8 @@ __.placeItem = function(params){
 `<div itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement" class="place-item" data-id="place-${params.id}">
   <div class="place-item__content">
     <div class="place-item__title">
-      <a href="${url}" itemprop="url">${_type}<span class="place-item__name">${params.name}</span></a>
-      <meta itemprop="name" content="${_type} ${params.name}">
+      <a href="${url}" itemprop="url"><span class="place-item__type">${_type}</span><span class="place-item__name">${_name}</span></a>
+      <meta itemprop="name" content="${_type} ${_name}">
     </div>
     <div class="place-item__distance">
       ${_car}
