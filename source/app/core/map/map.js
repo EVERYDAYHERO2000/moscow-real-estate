@@ -23,8 +23,6 @@ __.core.$map = function(){
     
     var leafletMap = L.map(id).setView([55.751244, 37.618423], 9);
     var tiles = L.tileLayer(t.dark, {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'});
-    
-    console.log(tiles);  
       
        
       tiles.on('tileload', function (tileEvent) {
