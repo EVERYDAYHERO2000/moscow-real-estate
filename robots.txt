@@ -1,8 +1,2 @@
 User-agent: *
 Disallow: /control-center.html
-Disallow: /bin/data/eco.json
-Disallow: /bin/data/railroad.json
-Disallow: /bin/data/data.json
-Disallow: /bin/data/markets.json
-Disallow: /bin/data/cities.json
-Disallow: /bin/data/medic.json

@@ -1,7 +1,6 @@
 
 let yandexTurbo = function (params) {
 
-  
 let rss = `
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:media="http://search.yahoo.com/mrss/"

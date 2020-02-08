@@ -1,125 +1,15 @@
-const calcDistance = require(DEV_PATH + '/gulp/calc-distance.js');
+const calcDistance = require('@root/gulp/fs/calc-distance.js');
+const direction = require('@root/gulp/text-gen/direction.js');
+const routeName = require('@root/gulp/text-gen/route-name.js');
+const placeType = require('@root/gulp/text-gen/place-type.js');
 
 const placeDescription = function(data){
   
   let description = '';
   
-  let _type = (function(type){
-    type = (type) ? type.toUpperCase() : '';
-    let t = '';
-    
-    if (type == 'ЖК') {
-      
-      t = 'жилой комплекс';
-      
-    } else if (type == 'КП') {
-      t = 'коттеджный посёлок';
-      
-    } else {
-      t = 'дачный посёлок'; 
-      
-    }
-    
-    return t;
-    
-  })(data.type);
+  let _type = placeType(data.type);
   
-  let _primary = (function(point, primary){
-    
-    let route_name = primary.closest.name,
-        result = '';
-    
-    if (primary.distance <= 6) {
-    
-      if (route_name == 'Алтуфьевское шоссе') {
-        result = 'по Алтуфьевскому шоссе';
-
-      } else if (route_name == 'Варшавское шоссе') {
-        result = 'по Варшавскому шоссе';
-
-      } else if (route_name == 'Волоколамское шоссе') {
-        result = 'по Волоколамскому шоссе';
-
-      } else if (route_name == 'Дмитровское шоссе') {
-        result = 'по Дмитровскому шоссе';
-
-      } else if (route_name == 'Калужское шоссе') {
-        result = 'по Калужскому шоссе';
-
-      } else if (route_name == 'Каширское шоссе') {
-        result = 'по Каширскому шоссе';
-
-      } else if (route_name == 'Киевское шоссе') {
-        result = 'по Киевскому шоссе';
-
-      } else if (route_name == 'Ленинградское шоссе') {
-        result = 'по Ленинградскому шоссе';
-
-      } else if (route_name == 'Минское шоссе') {
-        result = 'по Минскому шоссе';
-
-      } else if (route_name == 'Можайское шоссе') {
-        result = 'по Можайскому шоссе';
-
-      } else if (route_name == 'Новорязанское шоссе') {
-        result = 'по Новорязанскому шоссе';
-
-      } else if (route_name == 'Пятницкое шоссе') {
-        result = 'по Пятницкому шоссе';
-
-      } else if (route_name == 'Рублёвское шоссе') {
-        result = 'по Рублёвскому шоссе';
-
-      } else if (route_name == 'Щёлковское шоссе') {  
-        result = 'по Щёлковскому шоссе';
-
-      } else if (route_name == 'Ярославское шоссе') {  
-        result = 'по Ярославскому шоссе';
-
-      } else if (route_name == 'шоссе Энтузиастов') {    
-        result = 'по шоссе Энтузиастов';
-
-      } else if (route_name == 'Боровское шоссе') {
-        result = 'по Боровскому шоссе';
-        
-      } else if (route_name == 'ДОН') {
-        result = 'по трассе М-4 "ДОН"'
-        
-      } else if (route_name == 'Егорьевское шоссе') {
-        result = 'по Егорьевскому шоссе';
-        
-      } else if (route_name == 'Каширсоке шоссе') {
-        result = 'по Каширсокому шоссе';
-        
-      } else if (route_name == 'Новорижское шоссе'){
-        result = 'по Новорижскому шоссе';
-        
-      } else if (route_name == 'Носовихинское шоссе'){
-        result = 'по Носовихинскому шоссе';
-        
-      } else if (route_name == 'Осташковское шоссе'){
-        result = 'по Осташковскому шоссе';
-        
-      } else if (route_name == 'Рублёво-Успенское шоссе'){
-        result = 'по Рублёво-Успенскому шоссе';
-        
-      } else if (route_name == 'Рязанское шоссе'){
-        result = 'по Рязанскому шоссе';
-        
-      } else if (route_name == 'Симферопольское шоссе') {
-        result = 'по Симферопольскому шоссе';
-        
-      } else if (route_name == 'Щелковское шоссе') {
-        result = 'по Щелковскому шоссе';
-        
-      } 
-      
-    
-    }
-    
-    return result;
-    
-  })(data.point, data.roads.primary)
+  let _primary = routeName(data.roads.primary);
   
   let _mcad = (function(mcad, point, moscow){
 
@@ -176,57 +66,7 @@ const placeDescription = function(data){
   
   let _distanceToMoscow = data.moscow.distance.toFixed();
   
-  let _direction = (function(angle){
-    
-    d = ''
-    
-
-    if ( angle >= 339 && angle <= 360 ){
-      d = 'в западном направлении';
-    }
-
-    if ( angle >= 0 && angle <= 23 ){
-      d = 'в западном направлении'
-    }
-    
-
-    if ( angle >= 24 && angle <= 68){
-      d = 'в юго-западном направлении'
-    }
-    
-
-    if ( angle >= 69 && angle <= 113 ){
-      d = 'в южном направлении'
-    }
-    
-
-    if ( angle >= 114 && angle <= 158){
-      d = 'в юго-восточном направлении'
-    }
-    
-
-    if ( angle >= 159 && angle <= 203 ){
-      d = 'в восточном направлении'
-    }
-    
-
-    if ( angle >= 204 && angle <= 225 ){
-      d = 'в северо-восточном направлении'
-    }
-    
-
-    if ( angle >= 226 && angle <= 293){
-      d = 'в северном направлении'
-    }
-    
-
-    if ( angle >= 294 && angle <= 338 ){
-      d = 'в северо-западном направлении'
-    }
-    
-    return d;
-    
-  })(data.moscow.angle);
+  let _direction = direction(data.moscow.angle);
   
   let _nearCity = (function(city){
 

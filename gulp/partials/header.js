@@ -1,4 +1,4 @@
-let header = function(params){
+const header = function(params){
   
   let url = `${SETTINGS.domain}${params.url}` || `${SETTINGS.domain}/`,
       title = params.title || '',
@@ -67,7 +67,6 @@ let header = function(params){
     <meta name="msvalidate.01" content="C30D1D7C51ECE986D47AE97984D8F3B3" />
     <meta name='wmail-verification' content='c27ab276a1de6c1fe3fb36af2d9a330c' />
 
-    
     <link rel= "dns-prefetch" href="https://a.tiles.mapbox.com" />
     <link rel= "dns-prefetch" href="https://b.tiles.mapbox.com" />
     <link rel= "dns-prefetch" href="https://c.tiles.mapbox.com" />

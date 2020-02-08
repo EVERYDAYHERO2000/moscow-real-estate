@@ -1,4 +1,4 @@
-let CSVToArray = function( strData, strDelimiter ){
+const CSVToArray = function( strData, strDelimiter ){
         // Check to see if the delimiter is defined. If not,
         // then default to comma.
         strDelimiter = (strDelimiter || ",");

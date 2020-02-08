@@ -1,51 +1,10 @@
-let descriptionGenerator = function(data){
+const placeType = require('@root/gulp/text-gen/place-type.js');
+
+const descriptionGenerator = function(data){
   
   let description = '';
   
-  let _type = (function(type){
-    type = (type) ? type.toUpperCase() : '';
-    let t = 'Коттеджный посёлок';
-    switch (type) {
-      case 'СНТ':
-        t = 'Садоводческое некоммерческое товарищество';
-        break;
-        
-      case 'ДНТ':
-        t = 'Дачное некоммерческое товарищество';
-        break;  
-        
-      case 'ДНП':
-        t = 'Дачное некоммерческое партнерство';
-        break;
-        
-      case 'СТ':
-        t = 'Садоводческое товарищество';
-        break;
-        
-      case 'ЖК':
-        t = 'Жилой комплекс';
-        break;
-        
-      case 'ДП':
-        t = 'Дачный поселок';
-        break;
-        
-      case 'ДПК': //дачный потребительский кооператив
-        t = 'Дачный поселок';
-        break;  
-        
-      case 'ДСК': //дачный садоводческий кооператив
-        t = 'Дачный поселок';
-        break;    
-        
-      case 'СПК': //садоводческий потребительский кооперати
-        t = 'Садоводческий кооператив';
-        break;    
-    }
-    
-    return t; 
-    
-  })(data.type);
+  let _type = placeType(data.type);
   
   let _class = (function(c){
         

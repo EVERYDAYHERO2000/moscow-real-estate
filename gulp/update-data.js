@@ -3,12 +3,12 @@ const path = require('path');
 const _ = require('lodash');
 const https = require('https');
 const iconv = require("iconv-lite");
-const CSVToArray = require(DEV_PATH + '/gulp/csv-to-array.js');
-const buildData = require(DEV_PATH + '/gulp/build-data.js');
+const CSVToArray = require('@root/gulp/fs/csv-to-array.js');
+const buildData = require('@root/gulp/build-data.js');
 
-let updateData = function(){
+const updateData = function(){
   
-  var csvURL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT8QUn2_IpcV0Q_i9uJfsmKMYZErXyAVGMv4u9a1sG36S4450_Wr5vv6LUMsgPYZpoxmdclHMVmg7U6/pub?gid=1270687964&single=true&output=csv';
+  const csvURL = global.SETTINGS['places-data'];
 
   https.get(csvURL, (resp) => {
     let data = '',
@@ -27,11 +27,11 @@ let updateData = function(){
       var arr = CSVToArray(data);
       var places = [];
       
-      _.forEach(arr,function(p, i){
+      _.forEach(arr,function(p,i){
         
         if (i > 0){
           
-        var obj = {
+        const obj = {
           "name": p[1],
           "type": (p[8]) ? p[8] : '',
           "point": [ +((+p[3]).toFixed(6)), +((+p[2]).toFixed(6)) ],
@@ -74,12 +74,13 @@ let updateData = function(){
         
       })
       
+      console.log(`World data: ${places.length} loaded from Google Spreadsheet`);
       
       fs.writeFile(DEV_PATH + '/source/data/places/places.json', JSON.stringify(places), function(err) {
         if (err) {
           console.log('Data udate error -->', err); 
         } else {
-          console.log(`${places.length} village created`); 
+          console.log(`${places.length} write in /source/data/places/places.json`); 
           buildData(places, true);
         } 
         

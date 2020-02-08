@@ -1,15 +1,15 @@
 const fs = require('fs-extra');
 const path = require('path');
 const _ = require('lodash');
-const calcDistance = require(DEV_PATH + '/gulp/calc-distance.js');
-const component = require(DEV_PATH + '/gulp/component.js');
-const header = require(DEV_PATH + '/gulp/header.js');
+const calcDistance = require('@root/gulp/fs/calc-distance.js');
+const component = require('@root/gulp/fs/component.js');
+const header = require('@root/gulp/partials/header.js');
 
 
 
 global.component = global.component || component;
 
-let createCatalogPage = function(count){
+const createCatalogPage = function(count){
   
   var page = '',
       places = (global._places) ? global._places : '';

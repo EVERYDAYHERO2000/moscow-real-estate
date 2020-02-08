@@ -1,4 +1,4 @@
-let titleGenerator = function(data){
+const titleGenerator = function(data){
   let type = (data.type) ? data.type : 'КП';
   let title = '';
   

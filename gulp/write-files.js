@@ -1,13 +1,14 @@
 const fs = require('fs-extra');
 const path = require('path');
 const _ = require('lodash');
-const createPage = require(DEV_PATH + '/gulp/create-place-page.js');
-const createPageAMP = require(DEV_PATH + '/gulp/create-place-page-amp.js');
-const createPageTurbo = require(DEV_PATH + '/gulp/create-place-page-turbo.js');
-const component = require(DEV_PATH + '/gulp/component.js');
-const titleGenerator = require(DEV_PATH + '/gulp/title-generator.js');
-const descriptionGenerator = require(DEV_PATH + '/gulp/description-generator.js');
-const yandexTurbo = require(DEV_PATH + '/gulp/yandex-turbo.js');
+const createPage = require('@root/gulp/create-place-page.js');
+const createPageAMP = require('@root/gulp/create-place-page-amp.js');
+const createPageTurbo = require('@root/gulp/create-place-page-turbo.js');
+const component = require('@root/gulp/fs/component.js');
+const titleGenerator = require('@root/gulp/text-gen/title-generator.js');
+const descriptionGenerator = require('@root/gulp/text-gen/description-generator.js');
+const yandexTurbo = require('@root/gulp/yandex-turbo.js');
+const sitemapGenerator = require('@root/gulp/sitemap-generator.js');
 
 global.component = global.component || component;
 
@@ -19,19 +20,16 @@ let writeFiles = function(data, allPages){
         currentDate = new Date().toISOString(),
         rssPages = {},
         
-        sitemapGoogle = `
+        sitemapPart = `
     <url>
         <loc>${domain}/</loc>
         <lastmod>${currentDate}</lastmod>
         <priority>1</priority>
     </url>`;
     
-        sitemapYandex = `
-    <url>
-        <loc>${domain}/</loc>
-        <lastmod>${currentDate}</lastmod>
-        <priority>1</priority>
-    </url>`;
+    sitemapGenerator(data.places, sitemapPart, 'google', 'sitemap.xml');
+    sitemapGenerator(data.places, sitemapPart, 'yandex', 'sitemap-yandex.xml');
+    
     
     if (process.stdout.clearLine){
       process.stdout.write('Start file generator');
@@ -42,7 +40,6 @@ let writeFiles = function(data, allPages){
       
       let id = e.id,
           folder = Math.floor(id/100) * 100,
-          catalogUrl = DEV_PATH + `/bin/data/places/${folder}/`,
           dataUrl = DEV_PATH + `/bin/data/places/${folder}/place_${id}`,
           pageUrl = DEV_PATH + `/places/${folder}/place_${id}`,
           pageUrlAMP = DEV_PATH + `/places/${folder}/place_${id}/amp/`,
@@ -88,23 +85,6 @@ let writeFiles = function(data, allPages){
             process.stdout.cursorTo(0);
             process.stdout.write(`World data: /bin/data/places/${folder}/place_${id} writed`);
           }
-      
-      
-          sitemapGoogle += `
-    <url>
-        <loc>${domain}/places/${folder}/place_${id}/</loc>
-        <xhtml:link rel="amphtml" href="${domain}/places/${folder}/place_${id}/amp/"></xhtml:link>
-        <lastmod>${currentDate}</lastmod>
-        <priority>0.5</priority>
-    </url>`;
-      
-          sitemapYandex += `
-    <url>
-        <loc>${domain}/places/${folder}/place_${id}/</loc>
-        <lastmod>${currentDate}</lastmod>
-        <priority>0.5</priority>
-    </url>`;
-      
           
       
       fs.mkdir(dataUrl, { recursive: true }, (err) => {
@@ -159,27 +139,7 @@ let writeFiles = function(data, allPages){
     if (process.stdout.clearLine){
       process.stdout.write(`\n`);
     }
-    
-    sitemapGoogle = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${sitemapGoogle}</urlset>`;
-    
-    sitemapYandex = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${sitemapYandex}</urlset>`;
-    
-    
-    
-    fs.writeFile(DEV_PATH + '/sitemap.xml', sitemapGoogle, function(err) {
-      if (err) {
-        console.log('buildData -->', err); 
-      } 
-    });
-    
-    fs.writeFile(DEV_PATH + '/sitemap-yandex.xml', sitemapYandex, function(err) {
-      if (err) {
-        console.log('buildData -->', err); 
-      } 
-    });
-    
+      
     
     _.forEach(rssPages, function(e,i){
       

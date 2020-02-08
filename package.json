@@ -40,9 +40,16 @@
         "postcss-custom-properties": "5.0.1",
         "postcss-easy-import": "1.0.1",
         "pretty": "^2.0.0",
-        "sharp": "^0.21.3"
+        "sharp": "^0.21.3",
+        "module-alias": "^2.2.2"
     },
     "dependencies": {
         "big-json": "^3.0.0"
+    },
+    "dependencies": {},
+    "_moduleAliases": {
+        "@root" : ".",
+        "@module" : "./gulp/",
+        "@data" : "./source/data/"
     }
 }

@@ -1,10 +1,10 @@
 const fs = require('fs-extra');
 const path = require('path');
 const _ = require('lodash');
-const calcDistance = require(DEV_PATH + '/gulp/calc-distance.js');
-const component = require(DEV_PATH + '/gulp/component.js');
-const titleGenerator = require(DEV_PATH + '/gulp/title-generator.js');
-const descriptionGenerator = require(DEV_PATH + '/gulp/description-generator.js');
+const calcDistance = require('@root/gulp/fs/calc-distance.js');
+const component = require('@root/gulp/fs/component.js');
+const titleGenerator = require('@root/gulp/text-gen/title-generator.js');
+const descriptionGenerator = require('@root/gulp/text-gen/description-generator.js');
 
 global.component = global.component || component;
 
