@@ -3,7 +3,7 @@ const writeWorldData = require('@root/gulp/build-data/fs/write-world-data.js');
 
 const build = function(){
   
-  const markets = require('@data/structure/markets.json');
+  const markets = require('@data/structure/market.json');
   let result = [];
     
     _.forEach(markets, function(e){
@@ -20,7 +20,7 @@ const build = function(){
     
     console.log(`World data: ${result.length} market loaded`);
 
-    writeWorldData(result, 'market');
+    writeWorldData(result, 'markets');
     
     return result;
 }
