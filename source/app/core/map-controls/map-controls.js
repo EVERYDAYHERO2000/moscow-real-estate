@@ -16,6 +16,9 @@ __.core.$mapControls = function () {
         car: {
           title: 'Автомобиль'
         },
+        cost: {
+          title: 'Цены'
+        },
         markets : {
           title: 'Магазины'
         },

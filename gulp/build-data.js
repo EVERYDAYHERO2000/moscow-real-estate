@@ -10,6 +10,7 @@ const buildMedic = require('@root/gulp/build-data/build-medic.js');
 const buildMcad = require('@root/gulp/build-data/build-mcad.js');
 const buildPrimary = require('@root/gulp/build-data/build-primary.js');
 const buildWater = require('@root/gulp/build-data/build-water.js');
+const buildCost = require('@root/gulp/build-data/build-cost.js');
 
 const matchRailroad = require('@root/gulp/match-data/match-railroad.js');
 const matchEco = require('@root/gulp/match-data/match-eco.js');
@@ -21,6 +22,7 @@ const matchPrimary = require('@root/gulp/match-data/match-primary.js');
 const matchWater = require('@root/gulp/match-data/match-water.js');
 const matchMoscow = require('@root/gulp/match-data/match-moscow.js');
 const matchCar = require('@root/gulp/match-data/match-car.js');
+const matchCost = require('@root/gulp/match-data/match-cost.js');
 
 const writeWorldData = require('@root/gulp/build-data/fs/write-world-data.js');
 
@@ -41,6 +43,7 @@ const buildData = function (places, writeFile) {
   const worldData = {
 
     railroad: buildRailroad(),
+    cost: buildCost(),
     eco: buildEco(),
     cities: buildCities(),
     markets: buildMarkets(),
@@ -56,6 +59,7 @@ const buildData = function (places, writeFile) {
   _.forEach(placesData, function (place) {
 
     place.eco = matchEco(place, worldData.eco);
+    place.price.closest = matchCost(place, worldData.cost);
     place.railroad = matchRailroad(place, worldData.railroad);
     place.moscow = matchMoscow(place);
     place.city = matchCities(place, worldData.cities);

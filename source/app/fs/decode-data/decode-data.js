@@ -2,6 +2,7 @@ __.fs.decodeData = function (data) {
   var places = data;
   var eco = {};
   var railroad = {};
+  var cost = {};
   var markets = {}; 
   var medic = {};
   var cities = {};
@@ -19,7 +20,8 @@ __.fs.decodeData = function (data) {
     medic : medic,
     cities : cities,
     roads : roads,
-    water : water
+    water : water,
+    cost : cost
   }
   
   $.each(data, function(i, place) {

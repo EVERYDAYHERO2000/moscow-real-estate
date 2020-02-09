@@ -72,6 +72,12 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
     
     return false;  
   }
+
+  this.cost = function (params, canvasOverlay, ctx, zoom, mapId) {
+    
+    return false;  
+    
+  }
   
 
   this.railroad = function (params, canvasOverlay, ctx, zoom, mapId) {

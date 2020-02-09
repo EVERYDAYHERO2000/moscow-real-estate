@@ -43,22 +43,6 @@ __.fs.colorize = function(params){
   
   //water
   this.water = function(params) {
-    /*
-    let water = params.water.value;
-    let color = [121, 121, 121, 0.05];
-    let alpha = interpolation(20, 150, water, 0, 0.6);
-    
-    if (water >= 0) {
-      
-      color = blendColors(
-      [0, 11, 150, 0.2], //rgba(0, 11, 142, 0)
-      [0, 200, 255, alpha] //rgba(0, 206, 255, 0) 
-      );
-      
-    }
-
-    return rgba(color[0],color[1],color[2],color[3]);
-    */
     let water = params.water.value;
     let color = rgba(120, 120, 120, 0);
     
@@ -78,6 +62,27 @@ __.fs.colorize = function(params){
     
     return color;
   }
+
+    //cost
+    this.cost = function(params) {
+      let cost = params.price.closest;
+
+      let color = rgba(255, 72, 0, 0.5);
+      
+      if (cost > 0){
+    
+        if (cost < 20000000) color = rgba(255, 131, 0, 0.5);
+        if (cost < 10000000) color = rgba(255, 248, 0, 0.5);
+        if (cost < 8000000) color = rgba(203, 255, 0, 0.5);
+        if (cost < 5000000) color = rgba(73, 255, 0, 0.5);
+        if (cost < 2000000) color = rgba(0, 255, 209, 0.5);
+
+      } 
+
+
+      
+      return color;
+    }
   
   //railroad
   this.railroad = function(params) {

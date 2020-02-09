@@ -33,6 +33,12 @@ __.mapData = function(){
     getData('water', callback);
         
   }
+
+  this.cost = function(callback){
+
+    getData('cost', callback);
+        
+  }
   
   this.default = function(callback){
     
