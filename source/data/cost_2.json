@@ -7498,5 +7498,5009 @@
         "isNewbuilding": false,
         "favoriteOfferIds": [],
         "count": 2
+    },
+    {
+        "id": "4337816495611821568",
+        "geoId": "55.36055,36.54792",
+        "lat": 55.36055,
+        "lon": 36.54792,
+        "price": 3250000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346244594031",
+        "geoId": "55.59335,36.648792",
+        "lat": 55.59335,
+        "lon": 36.648792,
+        "price": 1400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 10
+    },
+    {
+        "id": "8783552542027851777",
+        "geoId": "55.47149,36.690323",
+        "lat": 55.47149,
+        "lon": 36.690323,
+        "price": 730000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 13
+    },
+    {
+        "id": "6789732646693290166",
+        "geoId": "55.34316,36.426342",
+        "lat": 55.34316,
+        "lon": 36.426342,
+        "price": 675000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "244129693641400868",
+        "geoId": "55.424755,36.4995",
+        "lat": 55.424755,
+        "lon": 36.4995,
+        "price": 850000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 23
+    },
+    {
+        "id": "398521068267170305",
+        "geoId": "55.40731,36.682625",
+        "lat": 55.40731,
+        "lon": 36.682625,
+        "price": 3700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "3475560242954289408",
+        "geoId": "55.40737,36.68267",
+        "lat": 55.40737,
+        "lon": 36.68267,
+        "price": 1400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "5203181014634763009",
+        "geoId": "55.375664,36.35673",
+        "lat": 55.375664,
+        "lon": 36.35673,
+        "price": 1750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "3705292542896533249",
+        "geoId": "55.424976,36.49946",
+        "lat": 55.424976,
+        "lon": 36.49946,
+        "price": 2300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7611980330000697345",
+        "geoId": "55.417168,36.68952",
+        "lat": 55.417168,
+        "lon": 36.68952,
+        "price": 12000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "5969301565217063169",
+        "geoId": "55.51748,36.213272",
+        "lat": 55.51748,
+        "lon": 36.213272,
+        "price": 750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "548183636020351745",
+        "geoId": "55.424706,36.499546",
+        "lat": 55.424706,
+        "lon": 36.499546,
+        "price": 1000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "295988935642696961",
+        "geoId": "55.424976,36.4995",
+        "lat": 55.424976,
+        "lon": 36.4995,
+        "price": 2900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1445444903709185086",
+        "geoId": "55.383522,36.695316",
+        "lat": 55.383522,
+        "lon": 36.695316,
+        "price": 8500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6760913794050893569",
+        "geoId": "55.360596,36.547615",
+        "lat": 55.360596,
+        "lon": 36.547615,
+        "price": 4670000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "3906194274598427649",
+        "geoId": "55.563,36.56948",
+        "lat": 55.563,
+        "lon": 36.56948,
+        "price": 1190000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "4925002592694059777",
+        "geoId": "55.38351,36.69529",
+        "lat": 55.38351,
+        "lon": 36.69529,
+        "price": 26000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "2180664656077620993",
+        "geoId": "55.360596,36.547874",
+        "lat": 55.360596,
+        "lon": 36.547874,
+        "price": 700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 27
+    },
+    {
+        "id": "3611867705219767297",
+        "geoId": "55.555565,36.171356",
+        "lat": 55.555565,
+        "lon": 36.171356,
+        "price": 890000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8490791365557343488",
+        "geoId": "55.386703,36.71532",
+        "lat": 55.386703,
+        "lon": 36.71532,
+        "price": 12500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1141649539389956352",
+        "geoId": "55.41699,36.689316",
+        "lat": 55.41699,
+        "lon": 36.689316,
+        "price": 6000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346244534573",
+        "geoId": "55.357296,36.40748",
+        "lat": 55.357296,
+        "lon": 36.40748,
+        "price": 1100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7569504558052818610",
+        "geoId": "55.42593,36.611477",
+        "lat": 55.42593,
+        "lon": 36.611477,
+        "price": 7600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346246319022",
+        "geoId": "55.5569,36.315636",
+        "lat": 55.5569,
+        "lon": 36.315636,
+        "price": 1370000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "3900437087441846016",
+        "geoId": "55.360397,36.547787",
+        "lat": 55.360397,
+        "lon": 36.547787,
+        "price": 1700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "297428565813944318",
+        "geoId": "55.446457,36.960644",
+        "lat": 55.446457,
+        "lon": 36.960644,
+        "price": 19000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 25
+    },
+    {
+        "id": "5179208346244621960",
+        "geoId": "55.144608,37.345264",
+        "lat": 55.144608,
+        "lon": 37.345264,
+        "price": 4500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "8902925031163307521",
+        "geoId": "55.19756,36.91898",
+        "lat": 55.19756,
+        "lon": 36.91898,
+        "price": 950000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 20
+    },
+    {
+        "id": "5179208346245396337",
+        "geoId": "55.388214,37.242447",
+        "lat": 55.388214,
+        "lon": 37.242447,
+        "price": 2200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "5179208346245396552",
+        "geoId": "55.431396,37.138878",
+        "lat": 55.431396,
+        "lon": 37.138878,
+        "price": 13550000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 10
+    },
+    {
+        "id": "5179208346245366547",
+        "geoId": "54.93711,37.24231",
+        "lat": 54.93711,
+        "lon": 37.24231,
+        "price": 1750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "5202999738189304622",
+        "geoId": "55.42334,37.117523",
+        "lat": 55.42334,
+        "lon": 37.117523,
+        "price": 7900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 12
+    },
+    {
+        "id": "7569477296716737227",
+        "geoId": "55.406906,37.21889",
+        "lat": 55.406906,
+        "lon": 37.21889,
+        "price": 17999000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346246297045",
+        "geoId": "55.410667,37.102264",
+        "lat": 55.410667,
+        "lon": 37.102264,
+        "price": 2950000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "4922788707325637888",
+        "geoId": "55.19786,36.91882",
+        "lat": 55.19786,
+        "lon": 36.91882,
+        "price": 3300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "9220285540232339188",
+        "geoId": "55.403603,37.26529",
+        "lat": 55.403603,
+        "lon": 37.26529,
+        "price": 11800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 50
+    },
+    {
+        "id": "7427925901251840769",
+        "geoId": "55.313553,37.18542",
+        "lat": 55.313553,
+        "lon": 37.18542,
+        "price": 21000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346245399348",
+        "geoId": "55.08468,37.393585",
+        "lat": 55.08468,
+        "lon": 37.393585,
+        "price": 2100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 15
+    },
+    {
+        "id": "8365209486220030209",
+        "geoId": "55.35692,37.162533",
+        "lat": 55.35692,
+        "lon": 37.162533,
+        "price": 9900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "5179208346245338962",
+        "geoId": "55.411964,37.18824",
+        "lat": 55.411964,
+        "lon": 37.18824,
+        "price": 19500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 31
+    },
+    {
+        "id": "5179208346243493621",
+        "geoId": "55.216267,37.392483",
+        "lat": 55.216267,
+        "lon": 37.392483,
+        "price": 3000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "9220285540232307537",
+        "geoId": "55.345364,37.399506",
+        "lat": 55.345364,
+        "lon": 37.399506,
+        "price": 12500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 26
+    },
+    {
+        "id": "5202999738189299784",
+        "geoId": "55.453213,37.253727",
+        "lat": 55.453213,
+        "lon": 37.253727,
+        "price": 42000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "855585632007361280",
+        "geoId": "55.084553,37.39349",
+        "lat": 55.084553,
+        "lon": 37.39349,
+        "price": 1500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 20
+    },
+    {
+        "id": "5179208346246319889",
+        "geoId": "55.43355,37.189003",
+        "lat": 55.43355,
+        "lon": 37.189003,
+        "price": 7940000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 21
+    },
+    {
+        "id": "5179208346246319920",
+        "geoId": "55.21733,37.397144",
+        "lat": 55.21733,
+        "lon": 37.397144,
+        "price": 7300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "5202999738189334225",
+        "geoId": "55.462612,37.21224",
+        "lat": 55.462612,
+        "lon": 37.21224,
+        "price": 9500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 24
+    },
+    {
+        "id": "7568790693522091504",
+        "geoId": "55.356773,37.162395",
+        "lat": 55.356773,
+        "lon": 37.162395,
+        "price": 9900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 8
+    },
+    {
+        "id": "7033481894880600833",
+        "geoId": "55.313587,37.185394",
+        "lat": 55.313587,
+        "lon": 37.185394,
+        "price": 30000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6527251989261625856",
+        "geoId": "55.216145,37.39269",
+        "lat": 55.216145,
+        "lon": 37.39269,
+        "price": 1200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "8921622991818041345",
+        "geoId": "55.641743,36.9008",
+        "lat": 55.641743,
+        "lon": 36.9008,
+        "price": 1100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 10
+    },
+    {
+        "id": "5931489173487423042",
+        "geoId": "55.740257,36.892406",
+        "lat": 55.740257,
+        "lon": 36.892406,
+        "price": 14500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 28
+    },
+    {
+        "id": "5179208346244568207",
+        "geoId": "55.64174,36.9008",
+        "lat": 55.64174,
+        "lon": 36.9008,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 98
+    },
+    {
+        "id": "5734423639494820755",
+        "geoId": "55.36149,36.451065",
+        "lat": 55.36149,
+        "lon": 36.451065,
+        "price": 1335000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "5203870567446549529",
+        "geoId": "55.88706,36.86237",
+        "lat": 55.88706,
+        "lon": 36.86237,
+        "price": 1950000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 12
+    },
+    {
+        "id": "1260790257900374273",
+        "geoId": "55.61715,36.862286",
+        "lat": 55.61715,
+        "lon": 36.862286,
+        "price": 2400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "5931489173487422977",
+        "geoId": "55.890472,36.82762",
+        "lat": 55.890472,
+        "lon": 36.82762,
+        "price": 120000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 18
+    },
+    {
+        "id": "6539129578718150401",
+        "geoId": "55.861553,36.76808",
+        "lat": 55.861553,
+        "lon": 36.76808,
+        "price": 16300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 8
+    },
+    {
+        "id": "5203870567446554184",
+        "geoId": "55.880196,36.705845",
+        "lat": 55.880196,
+        "lon": 36.705845,
+        "price": 2650000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "5203870567446549405",
+        "geoId": "55.76632,36.76311",
+        "lat": 55.76632,
+        "lon": 36.76311,
+        "price": 5500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "5179208346244448014",
+        "geoId": "55.617138,36.862385",
+        "lat": 55.617138,
+        "lon": 36.862385,
+        "price": 3990000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "5179208346244597814",
+        "geoId": "55.667686,36.52954",
+        "lat": 55.667686,
+        "lon": 36.52954,
+        "price": 1000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "5179208346246297912",
+        "geoId": "55.879223,36.763626",
+        "lat": 55.879223,
+        "lon": 36.763626,
+        "price": 9900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 23
+    },
+    {
+        "id": "4370647455569337345",
+        "geoId": "55.58287,36.88799",
+        "lat": 55.58287,
+        "lon": 36.88799,
+        "price": 14500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "5931489173487454530",
+        "geoId": "55.891174,36.670452",
+        "lat": 55.891174,
+        "lon": 36.670452,
+        "price": 39500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "5931489173487423810",
+        "geoId": "55.89644,36.784306",
+        "lat": 55.89644,
+        "lon": 36.784306,
+        "price": 35000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 91
+    },
+    {
+        "id": "5179208346245342806",
+        "geoId": "55.90225,36.68849",
+        "lat": 55.90225,
+        "lon": 36.68849,
+        "price": 10500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "3906194274598427649",
+        "geoId": "55.563,36.56948",
+        "lat": 55.563,
+        "lon": 36.56948,
+        "price": 1190000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "5931489173487456550",
+        "geoId": "55.86157,36.768055",
+        "lat": 55.86157,
+        "lon": 36.768055,
+        "price": 15000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 21
+    },
+    {
+        "id": "1190353251576898460",
+        "geoId": "55.582893,36.888123",
+        "lat": 55.582893,
+        "lon": 36.888123,
+        "price": 7500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "5931489173487420901",
+        "geoId": "55.88191,36.82445",
+        "lat": 55.88191,
+        "lon": 36.82445,
+        "price": 4999500,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 34
+    },
+    {
+        "id": "4533746",
+        "geoId": "55.7403,36.8924",
+        "lat": 55.7403,
+        "lon": 36.8924,
+        "price": 35000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "6877929795262908672",
+        "geoId": "55.880287,36.705944",
+        "lat": 55.880287,
+        "lon": 36.705944,
+        "price": 2000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346246319022",
+        "geoId": "55.5569,36.315636",
+        "lat": 55.5569,
+        "lon": 36.315636,
+        "price": 1370000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "5516814299664488192",
+        "geoId": "55.86145,36.76808",
+        "lat": 55.86145,
+        "lon": 36.76808,
+        "price": 13000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346245366547",
+        "geoId": "54.93711,37.24231",
+        "lat": 54.93711,
+        "lon": 37.24231,
+        "price": 1750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "6289748171432820480",
+        "geoId": "55.13361,37.58694",
+        "lat": 55.13361,
+        "lon": 37.58694,
+        "price": 2850000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "7568842774041935868",
+        "geoId": "55.64566,37.23147",
+        "lat": 55.64566,
+        "lon": 37.23147,
+        "price": 29000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 126
+    },
+    {
+        "id": "5931489173487425824",
+        "geoId": "55.575092,37.26871",
+        "lat": 55.575092,
+        "lon": 37.26871,
+        "price": 15000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 33
+    },
+    {
+        "id": "8839825919011817984",
+        "geoId": "55.20559,37.51009",
+        "lat": 55.20559,
+        "lon": 37.51009,
+        "price": 1000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "6298798329446787713",
+        "geoId": "55.133595,37.586895",
+        "lat": 55.133595,
+        "lon": 37.586895,
+        "price": 950000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 18
+    },
+    {
+        "id": "1159048051513589248",
+        "geoId": "55.665676,37.331394",
+        "lat": 55.665676,
+        "lon": 37.331394,
+        "price": 25000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346244623845",
+        "geoId": "55.054165,37.807602",
+        "lat": 55.054165,
+        "lon": 37.807602,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "6298798329444076733",
+        "geoId": "55.205593,37.510323",
+        "lat": 55.205593,
+        "lon": 37.510323,
+        "price": 2800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "5179208346246318898",
+        "geoId": "55.480152,38.23379",
+        "lat": 55.480152,
+        "lon": 38.23379,
+        "price": 1200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "7427925901251840769",
+        "geoId": "55.313553,37.18542",
+        "lat": 55.313553,
+        "lon": 37.18542,
+        "price": 21000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346246321072",
+        "geoId": "55.05402,38.00861",
+        "lat": 55.05402,
+        "lon": 38.00861,
+        "price": 1100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 11
+    },
+    {
+        "id": "6298798329443033086",
+        "geoId": "55.08468,37.393585",
+        "lat": 55.08468,
+        "lon": 37.393585,
+        "price": 2100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 15
+    },
+    {
+        "id": "3528939384146283777",
+        "geoId": "55.585354,37.19682",
+        "lat": 55.585354,
+        "lon": 37.19682,
+        "price": 6920000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7568735389617747429",
+        "geoId": "55.65535,37.246693",
+        "lat": 55.65535,
+        "lon": 37.246693,
+        "price": 29000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 283
+    },
+    {
+        "id": "479525244046491393",
+        "geoId": "55.58531,37.196648",
+        "lat": 55.58531,
+        "lon": 37.196648,
+        "price": 15500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "855585632007361280",
+        "geoId": "55.084553,37.39349",
+        "lat": 55.084553,
+        "lon": 37.39349,
+        "price": 1500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 20
+    },
+    {
+        "id": "9105919525435916198",
+        "geoId": "55.43355,37.189003",
+        "lat": 55.43355,
+        "lon": 37.189003,
+        "price": 7940000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 21
+    },
+    {
+        "id": "4079537739753174529",
+        "geoId": "54.943954,37.520214",
+        "lat": 54.943954,
+        "lon": 37.520214,
+        "price": 3050000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7568735389617742566",
+        "geoId": "55.462612,37.21224",
+        "lat": 55.462612,
+        "lon": 37.21224,
+        "price": 9500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 24
+    },
+    {
+        "id": "5202999738189303480",
+        "geoId": "55.5853,37.19666",
+        "lat": 55.5853,
+        "lon": 37.19666,
+        "price": 18500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "5202999738183071517",
+        "geoId": "55.66568,37.33138",
+        "lat": 55.66568,
+        "lon": 37.33138,
+        "price": 9799000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 18
+    },
+    {
+        "id": "7033481894880600833",
+        "geoId": "55.313587,37.185394",
+        "lat": 55.313587,
+        "lon": 37.185394,
+        "price": 30000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7568735389617770370",
+        "geoId": "55.577152,37.392967",
+        "lat": 55.577152,
+        "lon": 37.392967,
+        "price": 19900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 108
+    },
+    {
+        "id": "9034631060055809793",
+        "geoId": "55.61703,37.32351",
+        "lat": 55.61703,
+        "lon": 37.32351,
+        "price": 15500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 19
+    },
+    {
+        "id": "2949276404839554182",
+        "geoId": "54.875862,38.13855",
+        "lat": 54.875862,
+        "lon": 38.13855,
+        "price": 4350000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5153958507079219691",
+        "geoId": "54.160576,37.675667",
+        "lat": 54.160576,
+        "lon": 37.675667,
+        "price": 2500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7655978629487508736",
+        "geoId": "54.927532,38.04674",
+        "lat": 54.927532,
+        "lon": 38.04674,
+        "price": 800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "807056539932756480",
+        "geoId": "54.84011,38.147427",
+        "lat": 54.84011,
+        "lon": 38.147427,
+        "price": 1250000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "2706517665751019264",
+        "geoId": "54.92559,38.04802",
+        "lat": 54.92559,
+        "lon": 38.04802,
+        "price": 750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "3372957724327625984",
+        "geoId": "54.88685,38.07838",
+        "lat": 54.88685,
+        "lon": 38.07838,
+        "price": 3700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "4290548519197139457",
+        "geoId": "54.867172,38.093662",
+        "lat": 54.867172,
+        "lon": 38.093662,
+        "price": 3500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "244177427190174362",
+        "geoId": "54.925995,38.14723",
+        "lat": 54.925995,
+        "lon": 38.14723,
+        "price": 800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "367332266493872384",
+        "geoId": "54.707737,38.319263",
+        "lat": 54.707737,
+        "lon": 38.319263,
+        "price": 1090000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "2458390218586234062",
+        "geoId": "54.77494,38.875626",
+        "lat": 54.77494,
+        "lon": 38.875626,
+        "price": 5000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "806151655417729270",
+        "geoId": "54.85951,38.353874",
+        "lat": 54.85951,
+        "lon": 38.353874,
+        "price": 7900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "244177427190176193",
+        "geoId": "54.925575,38.047848",
+        "lat": 54.925575,
+        "lon": 38.047848,
+        "price": 750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "5566897644167699620",
+        "geoId": "54.834015,37.941772",
+        "lat": 54.834015,
+        "lon": 37.941772,
+        "price": 1100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "806151654390749053",
+        "geoId": "54.770218,38.058105",
+        "lat": 54.770218,
+        "lon": 38.058105,
+        "price": 2550000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1014341080310382716",
+        "geoId": "54.17632,37.69356",
+        "lat": 54.17632,
+        "lon": 37.69356,
+        "price": 3600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5337198313031705856",
+        "geoId": "54.83404,37.941692",
+        "lat": 54.83404,
+        "lon": 37.941692,
+        "price": 1350000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "806151658708150178",
+        "geoId": "54.86719,38.093803",
+        "lat": 54.86719,
+        "lon": 38.093803,
+        "price": 1900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "7390955725782096757",
+        "geoId": "54.913292,38.24422",
+        "lat": 54.913292,
+        "lon": 38.24422,
+        "price": 1200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "806151660656653625",
+        "geoId": "54.932064,38.143906",
+        "lat": 54.932064,
+        "lon": 38.143906,
+        "price": 700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8230885579982729472",
+        "geoId": "54.954098,37.99346",
+        "lat": 54.954098,
+        "lon": 37.99346,
+        "price": 1000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "7390956793277903574",
+        "geoId": "54.92653,38.039135",
+        "lat": 54.92653,
+        "lon": 38.039135,
+        "price": 940000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "5488396452577809169",
+        "geoId": "54.73735,38.081524",
+        "lat": 54.73735,
+        "lon": 38.081524,
+        "price": 450000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "806151655335421697",
+        "geoId": "54.93274,38.061707",
+        "lat": 54.93274,
+        "lon": 38.061707,
+        "price": 1100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "806151658885315400",
+        "geoId": "54.851486,38.410263",
+        "lat": 54.851486,
+        "lon": 38.410263,
+        "price": 2150000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "2949276403952970176",
+        "geoId": "54.845642,38.08932",
+        "lat": 54.845642,
+        "lon": 38.08932,
+        "price": 7300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "9137803474567218944",
+        "geoId": "55.49474,36.306175",
+        "lat": 55.49474,
+        "lon": 36.306175,
+        "price": 1400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "8549276259664508928",
+        "geoId": "55.47101,36.20102",
+        "lat": 55.47101,
+        "lon": 36.20102,
+        "price": 1450000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5203870567446527333",
+        "geoId": "55.545513,36.404003",
+        "lat": 55.545513,
+        "lon": 36.404003,
+        "price": 900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "7687405001646648320",
+        "geoId": "55.578075,36.378185",
+        "lat": 55.578075,
+        "lon": 36.378185,
+        "price": 1300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1715274380388735232",
+        "geoId": "55.376526,36.409966",
+        "lat": 55.376526,
+        "lon": 36.409966,
+        "price": 2990000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8283090994982821121",
+        "geoId": "55.550907,36.376225",
+        "lat": 55.550907,
+        "lon": 36.376225,
+        "price": 700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 15
+    },
+    {
+        "id": "6789732644916324286",
+        "geoId": "55.395798,36.30209",
+        "lat": 55.395798,
+        "lon": 36.30209,
+        "price": 925000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "1445444903709187873",
+        "geoId": "55.381577,36.320152",
+        "lat": 55.381577,
+        "lon": 36.320152,
+        "price": 1800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "852836654032177153",
+        "geoId": "55.37154,36.144855",
+        "lat": 55.37154,
+        "lon": 36.144855,
+        "price": 460000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "5203181014634763009",
+        "geoId": "55.375664,36.35673",
+        "lat": 55.375664,
+        "lon": 36.35673,
+        "price": 1750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "5969301565217063169",
+        "geoId": "55.51748,36.213272",
+        "lat": 55.51748,
+        "lon": 36.213272,
+        "price": 750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1636871993474457088",
+        "geoId": "55.510277,36.167046",
+        "lat": 55.510277,
+        "lon": 36.167046,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [
+            "2586673728859132928"
+        ],
+        "count": 5
+    },
+    {
+        "id": "8641675308867670273",
+        "geoId": "55.38439,36.31366",
+        "lat": 55.38439,
+        "lon": 36.31366,
+        "price": 1950000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "6789732646717363428",
+        "geoId": "55.387123,36.399685",
+        "lat": 55.387123,
+        "lon": 36.399685,
+        "price": 1350000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "8718704532327315713",
+        "geoId": "55.41929,36.133816",
+        "lat": 55.41929,
+        "lon": 36.133816,
+        "price": 1750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5734423640299087142",
+        "geoId": "55.376526,36.409977",
+        "lat": 55.376526,
+        "lon": 36.409977,
+        "price": 575000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7375744275432996864",
+        "geoId": "55.381577,36.320126",
+        "lat": 55.381577,
+        "lon": 36.320126,
+        "price": 1800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "244129693641399915",
+        "geoId": "55.371494,36.145073",
+        "lat": 55.371494,
+        "lon": 36.145073,
+        "price": 1750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "962027017333537025",
+        "geoId": "55.38213,36.362717",
+        "lat": 55.38213,
+        "lon": 36.362717,
+        "price": 1000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 10
+    },
+    {
+        "id": "3611867705219767297",
+        "geoId": "55.555565,36.171356",
+        "lat": 55.555565,
+        "lon": 36.171356,
+        "price": 890000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7167830052680968449",
+        "geoId": "55.497787,36.15462",
+        "lat": 55.497787,
+        "lon": 36.15462,
+        "price": 700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "5179208346246319022",
+        "geoId": "55.5569,36.315636",
+        "lat": 55.5569,
+        "lon": 36.315636,
+        "price": 1370000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "6789732645719721333",
+        "geoId": "55.422684,36.142746",
+        "lat": 55.422684,
+        "lon": 36.142746,
+        "price": 450000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7235572941846831616",
+        "geoId": "55.51483,36.195774",
+        "lat": 55.51483,
+        "lon": 36.195774,
+        "price": 1300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8182434575269854465",
+        "geoId": "55.37394,36.363235",
+        "lat": 55.37394,
+        "lon": 36.363235,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "285943270285621248",
+        "geoId": "55.514767,36.01599",
+        "lat": 55.514767,
+        "lon": 36.01599,
+        "price": 1550000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "719820809098190849",
+        "geoId": "55.37182,36.087418",
+        "lat": 55.37182,
+        "lon": 36.087418,
+        "price": 1300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8339943247157472257",
+        "geoId": "55.36967,36.08828",
+        "lat": 55.36967,
+        "lon": 36.08828,
+        "price": 750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "3535278343937953793",
+        "geoId": "55.448116,36.036404",
+        "lat": 55.448116,
+        "lon": 36.036404,
+        "price": 5000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7239978786583751424",
+        "geoId": "55.367634,36.09296",
+        "lat": 55.367634,
+        "lon": 36.09296,
+        "price": 600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "852836654032177153",
+        "geoId": "55.37154,36.144855",
+        "lat": 55.37154,
+        "lon": 36.144855,
+        "price": 460000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "5083981862452110593",
+        "geoId": "55.553146,36.031006",
+        "lat": 55.553146,
+        "lon": 36.031006,
+        "price": 15000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1392312",
+        "geoId": "55.37556,35.901295",
+        "lat": 55.37556,
+        "lon": 35.901295,
+        "price": 900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8507620674552210688",
+        "geoId": "55.508324,35.974957",
+        "lat": 55.508324,
+        "lon": 35.974957,
+        "price": 3500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7960534562390468609",
+        "geoId": "55.36508,35.94103",
+        "lat": 55.36508,
+        "lon": 35.94103,
+        "price": 800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "6254222470341147904",
+        "geoId": "55.40588,36.11701",
+        "lat": 55.40588,
+        "lon": 36.11701,
+        "price": 1000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "3535279591101262337",
+        "geoId": "55.483974,36.068447",
+        "lat": 55.483974,
+        "lon": 36.068447,
+        "price": 7985000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8718704532327315713",
+        "geoId": "55.41929,36.133816",
+        "lat": 55.41929,
+        "lon": 36.133816,
+        "price": 1750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1691881847047228500",
+        "geoId": "55.511295,35.99146",
+        "lat": 55.511295,
+        "lon": 35.99146,
+        "price": 11300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7235541150428615424",
+        "geoId": "55.548347,35.92469",
+        "lat": 55.548347,
+        "lon": 35.92469,
+        "price": 11608000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "6892614859984154113",
+        "geoId": "55.37662,36.08166",
+        "lat": 55.37662,
+        "lon": 36.08166,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "244129693641399915",
+        "geoId": "55.371494,36.145073",
+        "lat": 55.371494,
+        "lon": 36.145073,
+        "price": 1750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6844748566945744128",
+        "geoId": "55.420258,36.081917",
+        "lat": 55.420258,
+        "lon": 36.081917,
+        "price": 800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "7167830052680968449",
+        "geoId": "55.497787,36.15462",
+        "lat": 55.497787,
+        "lon": 36.15462,
+        "price": 700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "5202999738189357415",
+        "geoId": "55.405838,36.11701",
+        "lat": 55.405838,
+        "lon": 36.11701,
+        "price": 45000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "3724389629356136449",
+        "geoId": "55.522423,36.160973",
+        "lat": 55.522423,
+        "lon": 36.160973,
+        "price": 800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6731498195586419457",
+        "geoId": "55.53634,36.108177",
+        "lat": 55.53634,
+        "lon": 36.108177,
+        "price": 790000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "1206929322900710144",
+        "geoId": "55.549175,35.932693",
+        "lat": 55.549175,
+        "lon": 35.932693,
+        "price": 3800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6789732645719721333",
+        "geoId": "55.422684,36.142746",
+        "lat": 55.422684,
+        "lon": 36.142746,
+        "price": 450000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "6818348217119295745",
+        "geoId": "55.510254,35.969883",
+        "lat": 55.510254,
+        "lon": 35.969883,
+        "price": 1250000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "9137803474567218944",
+        "geoId": "55.49474,36.306175",
+        "lat": 55.49474,
+        "lon": 36.306175,
+        "price": 1400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "1099816836432463104",
+        "geoId": "55.67704,36.220394",
+        "lat": 55.67704,
+        "lon": 36.220394,
+        "price": 3550000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5203870567446527333",
+        "geoId": "55.545513,36.404003",
+        "lat": 55.545513,
+        "lon": 36.404003,
+        "price": 900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "5203870567445838208",
+        "geoId": "55.695328,36.228813",
+        "lat": 55.695328,
+        "lon": 36.228813,
+        "price": 3200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7687405001646648320",
+        "geoId": "55.578075,36.378185",
+        "lat": 55.578075,
+        "lon": 36.378185,
+        "price": 1300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "2849999961028667393",
+        "geoId": "55.508846,36.218735",
+        "lat": 55.508846,
+        "lon": 36.218735,
+        "price": 1250000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8283090994982821121",
+        "geoId": "55.550907,36.376225",
+        "lat": 55.550907,
+        "lon": 36.376225,
+        "price": 700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 15
+    },
+    {
+        "id": "8070181308431448833",
+        "geoId": "55.508774,36.21878",
+        "lat": 55.508774,
+        "lon": 36.21878,
+        "price": 700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "7355428883021915648",
+        "geoId": "55.574196,36.30393",
+        "lat": 55.574196,
+        "lon": 36.30393,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1066426",
+        "geoId": "55.628902,36.3359",
+        "lat": 55.628902,
+        "lon": 36.3359,
+        "price": 1350000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "2078804178312540928",
+        "geoId": "55.558212,36.345665",
+        "lat": 55.558212,
+        "lon": 36.345665,
+        "price": 1500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "3350651496076465665",
+        "geoId": "55.676144,36.251972",
+        "lat": 55.676144,
+        "lon": 36.251972,
+        "price": 1500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5969301565217063169",
+        "geoId": "55.51748,36.213272",
+        "lat": 55.51748,
+        "lon": 36.213272,
+        "price": 750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1636871993474457088",
+        "geoId": "55.510277,36.167046",
+        "lat": 55.510277,
+        "lon": 36.167046,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [
+            "2586673728859132928"
+        ],
+        "count": 5
+    },
+    {
+        "id": "1691881824919634437",
+        "geoId": "55.517754,36.166927",
+        "lat": 55.517754,
+        "lon": 36.166927,
+        "price": 7700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6121320495520432641",
+        "geoId": "55.510975,36.265823",
+        "lat": 55.510975,
+        "lon": 36.265823,
+        "price": 750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7224191122761407745",
+        "geoId": "55.522614,36.163857",
+        "lat": 55.522614,
+        "lon": 36.163857,
+        "price": 800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "9179903086310156288",
+        "geoId": "55.628857,36.33592",
+        "lat": 55.628857,
+        "lon": 36.33592,
+        "price": 2300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "3611867705219767297",
+        "geoId": "55.555565,36.171356",
+        "lat": 55.555565,
+        "lon": 36.171356,
+        "price": 890000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6164060532504763905",
+        "geoId": "55.697884,36.18732",
+        "lat": 55.697884,
+        "lon": 36.18732,
+        "price": 1500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7167830052680968449",
+        "geoId": "55.497787,36.15462",
+        "lat": 55.497787,
+        "lon": 36.15462,
+        "price": 700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "3724389629356136449",
+        "geoId": "55.522423,36.160973",
+        "lat": 55.522423,
+        "lon": 36.160973,
+        "price": 800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346246319022",
+        "geoId": "55.5569,36.315636",
+        "lat": 55.5569,
+        "lon": 36.315636,
+        "price": 1370000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "7565851291187867136",
+        "geoId": "55.643272,36.29133",
+        "lat": 55.643272,
+        "lon": 36.29133,
+        "price": 15500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7235572941846831616",
+        "geoId": "55.51483,36.195774",
+        "lat": 55.51483,
+        "lon": 36.195774,
+        "price": 1300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5931489173487453761",
+        "geoId": "55.683304,37.086506",
+        "lat": 55.683304,
+        "lon": 37.086506,
+        "price": 33000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 296
+    },
+    {
+        "id": "7569532819605544946",
+        "geoId": "55.760353,36.991573",
+        "lat": 55.760353,
+        "lon": 36.991573,
+        "price": 68872464,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 8
+    },
+    {
+        "id": "5931489173487420002",
+        "geoId": "55.774227,37.05116",
+        "lat": 55.774227,
+        "lon": 37.05116,
+        "price": 33249000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 238
+    },
+    {
+        "id": "7567970289728845246",
+        "geoId": "55.696575,37.061836",
+        "lat": 55.696575,
+        "lon": 37.061836,
+        "price": 19500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 43
+    },
+    {
+        "id": "7569532819605430494",
+        "geoId": "55.77155,37.02861",
+        "lat": 55.77155,
+        "lon": 37.02861,
+        "price": 55480596,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 48
+    },
+    {
+        "id": "5179208346244622767",
+        "geoId": "55.64174,36.9008",
+        "lat": 55.64174,
+        "lon": 36.9008,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 95
+    },
+    {
+        "id": "5425145437418458092",
+        "geoId": "55.732082,36.92827",
+        "lat": 55.732082,
+        "lon": 36.92827,
+        "price": 9000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 24
+    },
+    {
+        "id": "5179208346245367662",
+        "geoId": "55.631523,36.932453",
+        "lat": 55.631523,
+        "lon": 36.932453,
+        "price": 6800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "8338727103502951936",
+        "geoId": "55.73212,36.92825",
+        "lat": 55.73212,
+        "lon": 36.92825,
+        "price": 9500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "1317395576815858443",
+        "geoId": "55.666855,37.104366",
+        "lat": 55.666855,
+        "lon": 37.104366,
+        "price": 30000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 108
+    },
+    {
+        "id": "5153056168780535339",
+        "geoId": "55.69654,37.062",
+        "lat": 55.69654,
+        "lon": 37.062,
+        "price": 45000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "6901730113996065025",
+        "geoId": "55.67749,36.878952",
+        "lat": 55.67749,
+        "lon": 36.878952,
+        "price": 2797000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "3544509",
+        "geoId": "55.6884,37.018",
+        "lat": 55.6884,
+        "lon": 37.018,
+        "price": 59000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7318177470917952512",
+        "geoId": "55.73168,37.058147",
+        "lat": 55.73168,
+        "lon": 37.058147,
+        "price": 290000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5931489173487452701",
+        "geoId": "55.777412,37.115337",
+        "lat": 55.777412,
+        "lon": 37.115337,
+        "price": 60582260,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 43
+    },
+    {
+        "id": "5203870567445871033",
+        "geoId": "55.765026,36.86985",
+        "lat": 55.765026,
+        "lon": 36.86985,
+        "price": 2550000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5931489173487422913",
+        "geoId": "55.775692,36.94768",
+        "lat": 55.775692,
+        "lon": 36.94768,
+        "price": 21600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 236
+    },
+    {
+        "id": "8857241205548881921",
+        "geoId": "55.68839,37.017975",
+        "lat": 55.68839,
+        "lon": 37.017975,
+        "price": 22000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "5179208346245373527",
+        "geoId": "55.58536,36.93248",
+        "lat": 55.58536,
+        "lon": 36.93248,
+        "price": 3500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 108
+    },
+    {
+        "id": "5931489173487455469",
+        "geoId": "55.598507,37.103386",
+        "lat": 55.598507,
+        "lon": 37.103386,
+        "price": 18500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 122
+    },
+    {
+        "id": "1593547605382874113",
+        "geoId": "55.688427,37.01795",
+        "lat": 55.688427,
+        "lon": 37.01795,
+        "price": 76524960,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5425145444689315860",
+        "geoId": "55.6925,37.02234",
+        "lat": 55.6925,
+        "lon": 37.02234,
+        "price": 22000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "5931489173487481472",
+        "geoId": "55.77169,37.028645",
+        "lat": 55.77169,
+        "lon": 37.028645,
+        "price": 55480596,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 260
+    },
+    {
+        "id": "5931489173487450663",
+        "geoId": "55.628254,37.12201",
+        "lat": 55.628254,
+        "lon": 37.12201,
+        "price": 30000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 164
+    },
+    {
+        "id": "4883743",
+        "geoId": "55.718227,37.119644",
+        "lat": 55.718227,
+        "lon": 37.119644,
+        "price": 140295760,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8671054425344616122",
+        "geoId": "55.687737,37.36874",
+        "lat": 55.687737,
+        "lon": 37.36874,
+        "price": 175000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 10
+    },
+    {
+        "id": "5931489173487423035",
+        "geoId": "55.771038,37.198833",
+        "lat": 55.771038,
+        "lon": 37.198833,
+        "price": 12200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 42
+    },
+    {
+        "id": "8981114554344499201",
+        "geoId": "55.737965,37.25328",
+        "lat": 55.737965,
+        "lon": 37.25328,
+        "price": 25000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 15
+    },
+    {
+        "id": "7567892518611466161",
+        "geoId": "55.7378,37.253395",
+        "lat": 55.7378,
+        "lon": 37.253395,
+        "price": 145000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5931489173487455714",
+        "geoId": "55.71294,37.287918",
+        "lat": 55.71294,
+        "lon": 37.287918,
+        "price": 159427008,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 144
+    },
+    {
+        "id": "9156841303690375168",
+        "geoId": "55.63108,37.204544",
+        "lat": 55.63108,
+        "lon": 37.204544,
+        "price": 80000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5931489173487424871",
+        "geoId": "55.717644,37.279278",
+        "lat": 55.717644,
+        "lon": 37.279278,
+        "price": 33798524,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 124
+    },
+    {
+        "id": "8748212050474515713",
+        "geoId": "55.718624,37.14936",
+        "lat": 55.718624,
+        "lon": 37.14936,
+        "price": 90000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "7569477296716677744",
+        "geoId": "55.702106,37.31528",
+        "lat": 55.702106,
+        "lon": 37.31528,
+        "price": 19000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "9220285540232335307",
+        "geoId": "55.58044,37.139492",
+        "lat": 55.58044,
+        "lon": 37.139492,
+        "price": 10999000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 16
+    },
+    {
+        "id": "5931489173487452701",
+        "geoId": "55.777412,37.115337",
+        "lat": 55.777412,
+        "lon": 37.115337,
+        "price": 60582260,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 43
+    },
+    {
+        "id": "7567970289728850016",
+        "geoId": "55.726746,37.28638",
+        "lat": 55.726746,
+        "lon": 37.28638,
+        "price": 25000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 41
+    },
+    {
+        "id": "5931489173487483431",
+        "geoId": "55.718597,37.149174",
+        "lat": 55.718597,
+        "lon": 37.149174,
+        "price": 80000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 30
+    },
+    {
+        "id": "5931489173487450724",
+        "geoId": "55.65535,37.246693",
+        "lat": 55.65535,
+        "lon": 37.246693,
+        "price": 29000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 282
+    },
+    {
+        "id": "5931489173487421920",
+        "geoId": "55.665413,37.1462",
+        "lat": 55.665413,
+        "lon": 37.1462,
+        "price": 18900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 32
+    },
+    {
+        "id": "1317395576815856462",
+        "geoId": "55.681835,37.13569",
+        "lat": 55.681835,
+        "lon": 37.13569,
+        "price": 14500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 82
+    },
+    {
+        "id": "5931489173487422045",
+        "geoId": "55.713852,37.19194",
+        "lat": 55.713852,
+        "lon": 37.19194,
+        "price": 74000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 9
+    },
+    {
+        "id": "7569528554405825745",
+        "geoId": "55.740765,37.27782",
+        "lat": 55.740765,
+        "lon": 37.27782,
+        "price": 26000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 173
+    },
+    {
+        "id": "5931489173487456552",
+        "geoId": "55.737965,37.25318",
+        "lat": 55.737965,
+        "lon": 37.25318,
+        "price": 29000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 359
+    },
+    {
+        "id": "4534562",
+        "geoId": "55.7299,37.209503",
+        "lat": 55.7299,
+        "lon": 37.209503,
+        "price": 72000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5931489173487455650",
+        "geoId": "55.728085,37.29576",
+        "lat": 55.728085,
+        "lon": 37.29576,
+        "price": 20000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 165
+    },
+    {
+        "id": "5931489173487451802",
+        "geoId": "55.729935,37.209457",
+        "lat": 55.729935,
+        "lon": 37.209457,
+        "price": 40000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 114
+    },
+    {
+        "id": "5931489173487450663",
+        "geoId": "55.628254,37.12201",
+        "lat": 55.628254,
+        "lon": 37.12201,
+        "price": 30000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 164
+    },
+    {
+        "id": "9220285540232309637",
+        "geoId": "55.577152,37.392967",
+        "lat": 55.577152,
+        "lon": 37.392967,
+        "price": 19900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 111
+    },
+    {
+        "id": "3705503",
+        "geoId": "55.740692,37.27802",
+        "lat": 55.740692,
+        "lon": 37.27802,
+        "price": 89279120,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6097860556777163776",
+        "geoId": "55.502575,38.13802",
+        "lat": 55.502575,
+        "lon": 38.13802,
+        "price": 3800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "1472779012540875868",
+        "geoId": "55.562916,38.224537",
+        "lat": 55.562916,
+        "lon": 38.224537,
+        "price": 5000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346245366675",
+        "geoId": "55.597343,38.16348",
+        "lat": 55.597343,
+        "lon": 38.16348,
+        "price": 2700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 13
+    },
+    {
+        "id": "1472779019871666434",
+        "geoId": "55.63831,38.0404",
+        "lat": 55.63831,
+        "lon": 38.0404,
+        "price": 10000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346245366673",
+        "geoId": "55.564312,38.060677",
+        "lat": 55.564312,
+        "lon": 38.060677,
+        "price": 11000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "5179208346245371386",
+        "geoId": "55.62913,38.070816",
+        "lat": 55.62913,
+        "lon": 38.070816,
+        "price": 3699999,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "1472778986114202418",
+        "geoId": "55.541836,38.198845",
+        "lat": 55.541836,
+        "lon": 38.198845,
+        "price": 2500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1472778987660981642",
+        "geoId": "55.6353,38.148865",
+        "lat": 55.6353,
+        "lon": 38.148865,
+        "price": 4650000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1832677777385237289",
+        "geoId": "55.623646,38.159336",
+        "lat": 55.623646,
+        "lon": 38.159336,
+        "price": 3450000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1691881847139550844",
+        "geoId": "55.638702,37.994785",
+        "lat": 55.638702,
+        "lon": 37.994785,
+        "price": 11500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346246297756",
+        "geoId": "55.552467,38.057587",
+        "lat": 55.552467,
+        "lon": 38.057587,
+        "price": 2170000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "4486972",
+        "geoId": "55.642616,38.009518",
+        "lat": 55.642616,
+        "lon": 38.009518,
+        "price": 100000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "4488701",
+        "geoId": "55.542496,38.01552",
+        "lat": 55.542496,
+        "lon": 38.01552,
+        "price": 7280000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "9169144642333164032",
+        "geoId": "55.59732,38.163452",
+        "lat": 55.59732,
+        "lon": 38.163452,
+        "price": 9000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "5179208346244537240",
+        "geoId": "55.499348,38.17672",
+        "lat": 55.499348,
+        "lon": 38.17672,
+        "price": 3499000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 12
+    },
+    {
+        "id": "5270896672035637248",
+        "geoId": "55.54248,38.01559",
+        "lat": 55.54248,
+        "lon": 38.01559,
+        "price": 3800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "7389629542790963457",
+        "geoId": "55.570587,38.19033",
+        "lat": 55.570587,
+        "lon": 38.19033,
+        "price": 25000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "5179208346245342707",
+        "geoId": "55.551453,37.97955",
+        "lat": 55.551453,
+        "lon": 37.97955,
+        "price": 10500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 11
+    },
+    {
+        "id": "6253085048050369902",
+        "geoId": "55.667152,38.14243",
+        "lat": 55.667152,
+        "lon": 38.14243,
+        "price": 3700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "4616582015639513345",
+        "geoId": "55.623096,38.116405",
+        "lat": 55.623096,
+        "lon": 38.116405,
+        "price": 22000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "6253085048052002605",
+        "geoId": "55.49647,38.14094",
+        "lat": 55.49647,
+        "lon": 38.14094,
+        "price": 2700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "234716867743097857",
+        "geoId": "55.65634,38.10718",
+        "lat": 55.65634,
+        "lon": 38.10718,
+        "price": 2800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "4119603326287441153",
+        "geoId": "55.564297,38.06064",
+        "lat": 55.564297,
+        "lon": 38.06064,
+        "price": 4500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "3384233289722615553",
+        "geoId": "55.60872,38.145172",
+        "lat": 55.60872,
+        "lon": 38.145172,
+        "price": 31000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "8130564408066197505",
+        "geoId": "55.63534,38.149017",
+        "lat": 55.63534,
+        "lon": 38.149017,
+        "price": 4950000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6316046703606092801",
+        "geoId": "55.533802,38.43195",
+        "lat": 55.533802,
+        "lon": 38.43195,
+        "price": 1650000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8584515965241964003",
+        "geoId": "55.494698,38.356106",
+        "lat": 55.494698,
+        "lon": 38.356106,
+        "price": 2850000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "745281624506358273",
+        "geoId": "55.53378,38.324123",
+        "lat": 55.53378,
+        "lon": 38.324123,
+        "price": 3000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5464846037219830528",
+        "geoId": "55.457333,38.32256",
+        "lat": 55.457333,
+        "lon": 38.32256,
+        "price": 5500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1472779012602577929",
+        "geoId": "55.457306,38.32265",
+        "lat": 55.457306,
+        "lon": 38.32265,
+        "price": 4300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "3611215698474049025",
+        "geoId": "55.48606,38.40952",
+        "lat": 55.48606,
+        "lon": 38.40952,
+        "price": 1550000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8731257707500916225",
+        "geoId": "55.470623,38.40722",
+        "lat": 55.470623,
+        "lon": 38.40722,
+        "price": 2500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "2967406261736922263",
+        "geoId": "55.46414,38.42922",
+        "lat": 55.46414,
+        "lon": 38.42922,
+        "price": 4200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1595144709111231745",
+        "geoId": "55.47113,38.44193",
+        "lat": 55.47113,
+        "lon": 38.44193,
+        "price": 1100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8131632349114912769",
+        "geoId": "55.53378,38.324142",
+        "lat": 55.53378,
+        "lon": 38.324142,
+        "price": 1800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "244178363537034842",
+        "geoId": "55.526516,38.303123",
+        "lat": 55.526516,
+        "lon": 38.303123,
+        "price": 6400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "4649729240440767489",
+        "geoId": "55.521484,38.321133",
+        "lat": 55.521484,
+        "lon": 38.321133,
+        "price": 1750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "6586992501995337985",
+        "geoId": "55.47049,38.40747",
+        "lat": 55.47049,
+        "lon": 38.40747,
+        "price": 10500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5817318973922349056",
+        "geoId": "55.45377,38.351677",
+        "lat": 55.45377,
+        "lon": 38.351677,
+        "price": 1575000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7170147203216882176",
+        "geoId": "55.49465,38.355988",
+        "lat": 55.49465,
+        "lon": 38.355988,
+        "price": 4300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "4121097048454811904",
+        "geoId": "55.471382,38.44202",
+        "lat": 55.471382,
+        "lon": 38.44202,
+        "price": 790000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 37
+    },
+    {
+        "id": "4246732794791689216",
+        "geoId": "55.46337,38.414368",
+        "lat": 55.46337,
+        "lon": 38.414368,
+        "price": 2600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7544119024436358423",
+        "geoId": "55.52678,38.303524",
+        "lat": 55.52678,
+        "lon": 38.303524,
+        "price": 2300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "1472779014371120488",
+        "geoId": "55.4743,38.410595",
+        "lat": 55.4743,
+        "lon": 38.410595,
+        "price": 4800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1472779014374069982",
+        "geoId": "55.470615,38.4072",
+        "lat": 55.470615,
+        "lon": 38.4072,
+        "price": 10300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6832287202400630017",
+        "geoId": "55.478836,38.404507",
+        "lat": 55.478836,
+        "lon": 38.404507,
+        "price": 1900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "831199314343149569",
+        "geoId": "55.459618,38.43892",
+        "lat": 55.459618,
+        "lon": 38.43892,
+        "price": 600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 61
+    },
+    {
+        "id": "1472778989695681958",
+        "geoId": "55.529945,38.308907",
+        "lat": 55.529945,
+        "lon": 38.308907,
+        "price": 5500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "9207891499147442945",
+        "geoId": "55.47605,38.364223",
+        "lat": 55.47605,
+        "lon": 38.364223,
+        "price": 1550000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7569504558883125646",
+        "geoId": "55.51145,38.34871",
+        "lat": 55.51145,
+        "lon": 38.34871,
+        "price": 1650000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "7376158027485584385",
+        "geoId": "55.468357,38.394833",
+        "lat": 55.468357,
+        "lon": 38.394833,
+        "price": 900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "2982830769068928512",
+        "geoId": "55.49109,38.339806",
+        "lat": 55.49109,
+        "lon": 38.339806,
+        "price": 950000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 21
+    },
+    {
+        "id": "8623610905536239104",
+        "geoId": "55.4833,38.415062",
+        "lat": 55.4833,
+        "lon": 38.415062,
+        "price": 800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 13
+    },
+    {
+        "id": "6337603446257396224",
+        "geoId": "55.46435,38.413372",
+        "lat": 55.46435,
+        "lon": 38.413372,
+        "price": 2200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6356643175462849025",
+        "geoId": "55.476185,38.40067",
+        "lat": 55.476185,
+        "lon": 38.40067,
+        "price": 6000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6035169342339304961",
+        "geoId": "55.494686,38.355907",
+        "lat": 55.494686,
+        "lon": 38.355907,
+        "price": 4300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8797576441474335232",
+        "geoId": "55.472927,38.439953",
+        "lat": 55.472927,
+        "lon": 38.439953,
+        "price": 1650000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7567009925427934720",
+        "geoId": "55.503826,38.37507",
+        "lat": 55.503826,
+        "lon": 38.37507,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "7492073711240367616",
+        "geoId": "55.486153,38.409733",
+        "lat": 55.486153,
+        "lon": 38.409733,
+        "price": 850000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 10
+    },
+    {
+        "id": "5926054072962473216",
+        "geoId": "55.455746,38.29855",
+        "lat": 55.455746,
+        "lon": 38.29855,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5291607484212561409",
+        "geoId": "55.518936,38.32381",
+        "lat": 55.518936,
+        "lon": 38.32381,
+        "price": 3150000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8584515965241963034",
+        "geoId": "55.503853,38.374977",
+        "lat": 55.503853,
+        "lon": 38.374977,
+        "price": 2100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "5330417619460417025",
+        "geoId": "55.49288,38.386353",
+        "lat": 55.49288,
+        "lon": 38.386353,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "7568817959496246316",
+        "geoId": "55.47138,38.44202",
+        "lat": 55.47138,
+        "lon": 38.44202,
+        "price": 850000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "1874822104808055552",
+        "geoId": "55.513733,38.43256",
+        "lat": 55.513733,
+        "lon": 38.43256,
+        "price": 2000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6963607386762131713",
+        "geoId": "55.50941,38.34758",
+        "lat": 55.50941,
+        "lon": 38.34758,
+        "price": 7999999,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5437419320344811031",
+        "geoId": "55.53503,38.399815",
+        "lat": 55.53503,
+        "lon": 38.399815,
+        "price": 900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "8857420369965478912",
+        "geoId": "55.51306,38.376747",
+        "lat": 55.51306,
+        "lon": 38.376747,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "3481785816956826113",
+        "geoId": "55.485523,38.41066",
+        "lat": 55.485523,
+        "lon": 38.41066,
+        "price": 1550000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6886440838093578241",
+        "geoId": "55.476456,38.364323",
+        "lat": 55.476456,
+        "lon": 38.364323,
+        "price": 1650000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "715377711227430913",
+        "geoId": "55.534985,38.399906",
+        "lat": 55.534985,
+        "lon": 38.399906,
+        "price": 999000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "8081683330695545870",
+        "geoId": "55.533775,38.324142",
+        "lat": 55.533775,
+        "lon": 38.324142,
+        "price": 900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "6253085048051201042",
+        "geoId": "55.45261,38.30559",
+        "lat": 55.45261,
+        "lon": 38.30559,
+        "price": 2150000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "9053871768033500417",
+        "geoId": "55.47668,38.366444",
+        "lat": 55.47668,
+        "lon": 38.366444,
+        "price": 1650000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6299773183761281895",
+        "geoId": "55.468903,38.37036",
+        "lat": 55.468903,
+        "lon": 38.37036,
+        "price": 1490000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "8019632810040552193",
+        "geoId": "55.444542,38.445755",
+        "lat": 55.444542,
+        "lon": 38.445755,
+        "price": 1400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "3309619",
+        "geoId": "55.437603,38.489002",
+        "lat": 55.437603,
+        "lon": 38.489002,
+        "price": 1300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "608310719915113472",
+        "geoId": "55.432762,38.49546",
+        "lat": 55.432762,
+        "lon": 38.49546,
+        "price": 1450000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 8
+    },
+    {
+        "id": "7521318642411211520",
+        "geoId": "55.4531,38.48061",
+        "lat": 55.4531,
+        "lon": 38.48061,
+        "price": 1200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6253085048052991386",
+        "geoId": "55.44665,38.45192",
+        "lat": 55.44665,
+        "lon": 38.45192,
+        "price": 2700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5151517964852790528",
+        "geoId": "55.444584,38.429264",
+        "lat": 55.444584,
+        "lon": 38.429264,
+        "price": 800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "2967406261736922263",
+        "geoId": "55.46414,38.42922",
+        "lat": 55.46414,
+        "lon": 38.42922,
+        "price": 4200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7314319496831785728",
+        "geoId": "55.453896,38.48037",
+        "lat": 55.453896,
+        "lon": 38.48037,
+        "price": 1700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7835617421553453313",
+        "geoId": "55.454445,38.440186",
+        "lat": 55.454445,
+        "lon": 38.440186,
+        "price": 2200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1595144709111231745",
+        "geoId": "55.47113,38.44193",
+        "lat": 55.47113,
+        "lon": 38.44193,
+        "price": 1100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "3498032578132391168",
+        "geoId": "55.471363,38.442253",
+        "lat": 55.471363,
+        "lon": 38.442253,
+        "price": 1650000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8569086704178059520",
+        "geoId": "55.44718,38.4307",
+        "lat": 55.44718,
+        "lon": 38.4307,
+        "price": 8300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "6298798329449593745",
+        "geoId": "55.444466,38.44571",
+        "lat": 55.444466,
+        "lon": 38.44571,
+        "price": 600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "290441843181152769",
+        "geoId": "55.44842,38.44964",
+        "lat": 55.44842,
+        "lon": 38.44964,
+        "price": 3100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6095393019530681344",
+        "geoId": "55.4761,38.439953",
+        "lat": 55.4761,
+        "lon": 38.439953,
+        "price": 800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "2029398600739556864",
+        "geoId": "55.46687,38.460335",
+        "lat": 55.46687,
+        "lon": 38.460335,
+        "price": 2000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "2223495984214409728",
+        "geoId": "55.443253,38.495056",
+        "lat": 55.443253,
+        "lon": 38.495056,
+        "price": 2500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "4121097048454811904",
+        "geoId": "55.471382,38.44202",
+        "lat": 55.471382,
+        "lon": 38.44202,
+        "price": 790000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 37
+    },
+    {
+        "id": "4847484601329353728",
+        "geoId": "55.450993,38.498974",
+        "lat": 55.450993,
+        "lon": 38.498974,
+        "price": 1550000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "4919588654887111169",
+        "geoId": "55.451736,38.431175",
+        "lat": 55.451736,
+        "lon": 38.431175,
+        "price": 6000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7058596107679207425",
+        "geoId": "55.452667,38.483234",
+        "lat": 55.452667,
+        "lon": 38.483234,
+        "price": 1100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "831199314343149569",
+        "geoId": "55.459618,38.43892",
+        "lat": 55.459618,
+        "lon": 38.43892,
+        "price": 600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 61
+    },
+    {
+        "id": "5914271208704306433",
+        "geoId": "55.448566,38.44875",
+        "lat": 55.448566,
+        "lon": 38.44875,
+        "price": 1150000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "2674452294352970497",
+        "geoId": "55.443684,38.49174",
+        "lat": 55.443684,
+        "lon": 38.49174,
+        "price": 1650000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "9166460424038102528",
+        "geoId": "55.450584,38.49864",
+        "lat": 55.450584,
+        "lon": 38.49864,
+        "price": 600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 17
+    },
+    {
+        "id": "3776736875901959936",
+        "geoId": "55.432755,38.495434",
+        "lat": 55.432755,
+        "lon": 38.495434,
+        "price": 3750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "4858325",
+        "geoId": "55.4485,38.502",
+        "lat": 55.4485,
+        "lon": 38.502,
+        "price": 1100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "856799269855333376",
+        "geoId": "55.44323,38.495136",
+        "lat": 55.44323,
+        "lon": 38.495136,
+        "price": 850000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "4498525999056253952",
+        "geoId": "55.455544,38.475643",
+        "lat": 55.455544,
+        "lon": 38.475643,
+        "price": 2150000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6253085048050341104",
+        "geoId": "55.45537,38.47602",
+        "lat": 55.45537,
+        "lon": 38.47602,
+        "price": 600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "8639926546872152833",
+        "geoId": "55.448566,38.44873",
+        "lat": 55.448566,
+        "lon": 38.44873,
+        "price": 1800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "954519468912635137",
+        "geoId": "55.437634,38.48899",
+        "lat": 55.437634,
+        "lon": 38.48899,
+        "price": 600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 63
+    },
+    {
+        "id": "7789508698529779200",
+        "geoId": "55.471558,38.453976",
+        "lat": 55.471558,
+        "lon": 38.453976,
+        "price": 4600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5359114087393273856",
+        "geoId": "55.44464,38.494617",
+        "lat": 55.44464,
+        "lon": 38.494617,
+        "price": 2650000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8797576441474335232",
+        "geoId": "55.472927,38.439953",
+        "lat": 55.472927,
+        "lon": 38.439953,
+        "price": 1650000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7568817959496248489",
+        "geoId": "55.442383,38.467865",
+        "lat": 55.442383,
+        "lon": 38.467865,
+        "price": 1150000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "4406126964764984065",
+        "geoId": "55.45598,38.445435",
+        "lat": 55.45598,
+        "lon": 38.445435,
+        "price": 800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7568817959496246417",
+        "geoId": "55.436337,38.48478",
+        "lat": 55.436337,
+        "lon": 38.48478,
+        "price": 1000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "6253085048050275536",
+        "geoId": "55.442535,38.46827",
+        "lat": 55.442535,
+        "lon": 38.46827,
+        "price": 2400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "817783349539703040",
+        "geoId": "55.44854,38.50199",
+        "lat": 55.44854,
+        "lon": 38.50199,
+        "price": 600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 22
+    },
+    {
+        "id": "5066327467377974528",
+        "geoId": "55.45083,38.49944",
+        "lat": 55.45083,
+        "lon": 38.49944,
+        "price": 1000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5474538017771011329",
+        "geoId": "55.46046,38.435604",
+        "lat": 55.46046,
+        "lon": 38.435604,
+        "price": 1200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7568817959496246316",
+        "geoId": "55.47138,38.44202",
+        "lat": 55.47138,
+        "lon": 38.44202,
+        "price": 850000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "7029391888936822784",
+        "geoId": "55.448566,38.502037",
+        "lat": 55.448566,
+        "lon": 38.502037,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7973453034607716352",
+        "geoId": "55.455467,38.47584",
+        "lat": 55.455467,
+        "lon": 38.47584,
+        "price": 600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "3973065645299100161",
+        "geoId": "55.44489,38.455315",
+        "lat": 55.44489,
+        "lon": 38.455315,
+        "price": 4200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "2038296102164291328",
+        "geoId": "55.45088,38.49867",
+        "lat": 55.45088,
+        "lon": 38.49867,
+        "price": 1750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6298798329417090768",
+        "geoId": "55.448563,38.44875",
+        "lat": 55.448563,
+        "lon": 38.44875,
+        "price": 4400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "4342505080082575616",
+        "geoId": "55.443226,38.49517",
+        "lat": 55.443226,
+        "lon": 38.49517,
+        "price": 1900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "802562312872930049",
+        "geoId": "55.444748,38.429363",
+        "lat": 55.444748,
+        "lon": 38.429363,
+        "price": 800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "5203162697170420452",
+        "geoId": "54.759315,37.566254",
+        "lat": 54.759315,
+        "lon": 37.566254,
+        "price": 2200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1356022598359779072",
+        "geoId": "55.10848,37.182636",
+        "lat": 55.10848,
+        "lon": 37.182636,
+        "price": 800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 23
+    },
+    {
+        "id": "982972",
+        "geoId": "55.046803,37.6039",
+        "lat": 55.046803,
+        "lon": 37.6039,
+        "price": 810000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "8203683627253205036",
+        "geoId": "54.914745,37.4295",
+        "lat": 54.914745,
+        "lon": 37.4295,
+        "price": 3500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7567887427775689138",
+        "geoId": "55.134926,37.442978",
+        "lat": 55.134926,
+        "lon": 37.442978,
+        "price": 8150000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "8203683627253232848",
+        "geoId": "54.907345,37.421947",
+        "lat": 54.907345,
+        "lon": 37.421947,
+        "price": 21000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "5179208346245366547",
+        "geoId": "54.93711,37.24231",
+        "lat": 54.93711,
+        "lon": 37.24231,
+        "price": 1750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "7569527668620072555",
+        "geoId": "55.079597,37.509605",
+        "lat": 55.079597,
+        "lon": 37.509605,
+        "price": 999000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "12719660084966400",
+        "geoId": "54.805668,37.19971",
+        "lat": 54.805668,
+        "lon": 37.19971,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "7068845800981797376",
+        "geoId": "55.131905,37.485413",
+        "lat": 55.131905,
+        "lon": 37.485413,
+        "price": 1900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "4268180959995921920",
+        "geoId": "55.10858,37.18268",
+        "lat": 55.10858,
+        "lon": 37.18268,
+        "price": 799000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346243675250",
+        "geoId": "54.695007,37.375816",
+        "lat": 54.695007,
+        "lon": 37.375816,
+        "price": 450000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "1691881844498459435",
+        "geoId": "54.98083,37.849068",
+        "lat": 54.98083,
+        "lon": 37.849068,
+        "price": 15500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8862348853159102976",
+        "geoId": "55.145237,37.301636",
+        "lat": 55.145237,
+        "lon": 37.301636,
+        "price": 600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 16
+    },
+    {
+        "id": "8462952185328211169",
+        "geoId": "55.046783,37.603962",
+        "lat": 55.046783,
+        "lon": 37.603962,
+        "price": 790000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 19
+    },
+    {
+        "id": "1591805569983443968",
+        "geoId": "55.050808,37.81953",
+        "lat": 55.050808,
+        "lon": 37.81953,
+        "price": 3500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8184532158774000384",
+        "geoId": "55.096806,37.4221",
+        "lat": 55.096806,
+        "lon": 37.4221,
+        "price": 4999999,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "6092700657492699393",
+        "geoId": "55.082047,37.6757",
+        "lat": 55.082047,
+        "lon": 37.6757,
+        "price": 4500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "9206408658685573888",
+        "geoId": "54.967735,37.391144",
+        "lat": 54.967735,
+        "lon": 37.391144,
+        "price": 1900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "702409021551847168",
+        "geoId": "55.132874,37.3388",
+        "lat": 55.132874,
+        "lon": 37.3388,
+        "price": 4250000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 12
+    },
+    {
+        "id": "8203683626508700980",
+        "geoId": "54.946648,37.526833",
+        "lat": 54.946648,
+        "lon": 37.526833,
+        "price": 1100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "8203683627195825558",
+        "geoId": "54.73712,37.177155",
+        "lat": 54.73712,
+        "lon": 37.177155,
+        "price": 3100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8233611820786492673",
+        "geoId": "54.897724,37.22924",
+        "lat": 54.897724,
+        "lon": 37.22924,
+        "price": 1800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "4341256404789123328",
+        "geoId": "55.14494,37.301636",
+        "lat": 55.14494,
+        "lon": 37.301636,
+        "price": 1990000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8203683626401567770",
+        "geoId": "54.939117,37.382305",
+        "lat": 54.939117,
+        "lon": 37.382305,
+        "price": 2700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "1472778987661045253",
+        "geoId": "55.568928,38.300007",
+        "lat": 55.568928,
+        "lon": 38.300007,
+        "price": 3850000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "1472779012540875868",
+        "geoId": "55.562916,38.224537",
+        "lat": 55.562916,
+        "lon": 38.224537,
+        "price": 5000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5048936637547862529",
+        "geoId": "55.560116,38.233448",
+        "lat": 55.560116,
+        "lon": 38.233448,
+        "price": 16900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7567917493909815203",
+        "geoId": "55.542324,38.23883",
+        "lat": 55.542324,
+        "lon": 38.23883,
+        "price": 5800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "2982830769068928512",
+        "geoId": "55.49109,38.339806",
+        "lat": 55.49109,
+        "lon": 38.339806,
+        "price": 950000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 21
+    },
+    {
+        "id": "7600904578282790400",
+        "geoId": "55.544632,38.237823",
+        "lat": 55.544632,
+        "lon": 38.237823,
+        "price": 3400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "5437419320343950963",
+        "geoId": "55.544632,38.23783",
+        "lat": 55.544632,
+        "lon": 38.23783,
+        "price": 3600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "1472778986951004674",
+        "geoId": "55.424156,38.36598",
+        "lat": 55.424156,
+        "lon": 38.36598,
+        "price": 3620000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6253085048050341104",
+        "geoId": "55.45537,38.47602",
+        "lat": 55.45537,
+        "lon": 38.47602,
+        "price": 600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "631408466001836544",
+        "geoId": "55.46756,38.417072",
+        "lat": 55.46756,
+        "lon": 38.417072,
+        "price": 1900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "1472778991271949868",
+        "geoId": "55.55383,38.291534",
+        "lat": 55.55383,
+        "lon": 38.291534,
+        "price": 2500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "2623467087506432",
+        "geoId": "55.55699,38.23976",
+        "lat": 55.55699,
+        "lon": 38.23976,
+        "price": 3300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7545673919643560705",
+        "geoId": "55.46186,38.33969",
+        "lat": 55.46186,
+        "lon": 38.33969,
+        "price": 16500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "9206419185346526209",
+        "geoId": "55.415993,38.308216",
+        "lat": 55.415993,
+        "lon": 38.308216,
+        "price": 4200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "1472779018865861698",
+        "geoId": "55.553764,38.47795",
+        "lat": 55.553764,
+        "lon": 38.47795,
+        "price": 3450000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346246318898",
+        "geoId": "55.480152,38.23379",
+        "lat": 55.480152,
+        "lon": 38.23379,
+        "price": 1200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "9038643567296539904",
+        "geoId": "55.467564,38.417065",
+        "lat": 55.467564,
+        "lon": 38.417065,
+        "price": 1900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "6253085048050275536",
+        "geoId": "55.442535,38.46827",
+        "lat": 55.442535,
+        "lon": 38.46827,
+        "price": 2400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "244178363537034842",
+        "geoId": "55.526516,38.303123",
+        "lat": 55.526516,
+        "lon": 38.303123,
+        "price": 6400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "5179208346245400368",
+        "geoId": "55.502724,38.36542",
+        "lat": 55.502724,
+        "lon": 38.36542,
+        "price": 2500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "4649729240440767489",
+        "geoId": "55.521484,38.321133",
+        "lat": 55.521484,
+        "lon": 38.321133,
+        "price": 1750000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7568817959496278216",
+        "geoId": "55.43039,38.50908",
+        "lat": 55.43039,
+        "lon": 38.50908,
+        "price": 1000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 9
+    },
+    {
+        "id": "7973453034607716352",
+        "geoId": "55.455467,38.47584",
+        "lat": 55.455467,
+        "lon": 38.47584,
+        "price": 600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7544119024436358423",
+        "geoId": "55.52678,38.303524",
+        "lat": 55.52678,
+        "lon": 38.303524,
+        "price": 2300000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "6253085048050364192",
+        "geoId": "55.561348,38.30064",
+        "lat": 55.561348,
+        "lon": 38.30064,
+        "price": 3700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "5179208346244594031",
+        "geoId": "55.59335,36.648792",
+        "lat": 55.59335,
+        "lon": 36.648792,
+        "price": 1400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 10
+    },
+    {
+        "id": "5179208346243646355",
+        "geoId": "55.644444,36.605602",
+        "lat": 55.644444,
+        "lon": 36.605602,
+        "price": 13499000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "7359933057433161216",
+        "geoId": "55.72165,36.78806",
+        "lat": 55.72165,
+        "lon": 36.78806,
+        "price": 43000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "865618981093211905",
+        "geoId": "55.57551,36.694885",
+        "lat": 55.57551,
+        "lon": 36.694885,
+        "price": 1900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 8
+    },
+    {
+        "id": "4202981385380518400",
+        "geoId": "55.593216,36.64901",
+        "lat": 55.593216,
+        "lon": 36.64901,
+        "price": 3150000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "3101696574390344704",
+        "geoId": "55.589638,36.71474",
+        "lat": 55.589638,
+        "lon": 36.71474,
+        "price": 11200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8066434612184527872",
+        "geoId": "55.677746,36.688507",
+        "lat": 55.677746,
+        "lon": 36.688507,
+        "price": 11000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "2796499233360090369",
+        "geoId": "55.580696,36.677746",
+        "lat": 55.580696,
+        "lon": 36.677746,
+        "price": 2650000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5203870567446553375",
+        "geoId": "55.677753,36.688534",
+        "lat": 55.677753,
+        "lon": 36.688534,
+        "price": 8200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "7569529269648115828",
+        "geoId": "55.544994,36.54352",
+        "lat": 55.544994,
+        "lon": 36.54352,
+        "price": 1200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "2321957385165491968",
+        "geoId": "55.581764,36.630352",
+        "lat": 55.581764,
+        "lon": 36.630352,
+        "price": 2955000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5203870567446553317",
+        "geoId": "55.681286,36.552135",
+        "lat": 55.681286,
+        "lon": 36.552135,
+        "price": 2000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346245368598",
+        "geoId": "55.72667,36.60193",
+        "lat": 55.72667,
+        "lon": 36.60193,
+        "price": 1500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 13
+    },
+    {
+        "id": "8042716028611645184",
+        "geoId": "55.57534,36.760418",
+        "lat": 55.57534,
+        "lon": 36.760418,
+        "price": 6500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346245398383",
+        "geoId": "55.72474,36.76614",
+        "lat": 55.72474,
+        "lon": 36.76614,
+        "price": 2200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "6944298508470924032",
+        "geoId": "55.663727,36.608295",
+        "lat": 55.663727,
+        "lon": 36.608295,
+        "price": 2100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6338607351858788609",
+        "geoId": "55.563,36.56948",
+        "lat": 55.563,
+        "lon": 36.56948,
+        "price": 1190000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "8671054425344619965",
+        "geoId": "55.689926,36.65769",
+        "lat": 55.689926,
+        "lon": 36.65769,
+        "price": 3200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7703902064212487424",
+        "geoId": "55.7117,36.688095",
+        "lat": 55.7117,
+        "lon": 36.688095,
+        "price": 2900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 9
+    },
+    {
+        "id": "6253085048051055153",
+        "geoId": "55.58672,36.75713",
+        "lat": 55.58672,
+        "lon": 36.75713,
+        "price": 2000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "8555019669927597056",
+        "geoId": "55.639713,36.732002",
+        "lat": 55.639713,
+        "lon": 36.732002,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 10
+    },
+    {
+        "id": "7646598146160030745",
+        "geoId": "55.577625,36.572033",
+        "lat": 55.577625,
+        "lon": 36.572033,
+        "price": 4500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7569529269648115576",
+        "geoId": "55.57777,36.572266",
+        "lat": 55.57777,
+        "lon": 36.572266,
+        "price": 1400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "8953578955923615489",
+        "geoId": "55.577694,36.572086",
+        "lat": 55.577694,
+        "lon": 36.572086,
+        "price": 3500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "7077930608675493888",
+        "geoId": "55.57112,36.74007",
+        "lat": 55.57112,
+        "lon": 36.74007,
+        "price": 8500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5203870567445843225",
+        "geoId": "55.65273,36.870792",
+        "lat": 55.65273,
+        "lon": 36.870792,
+        "price": 9450000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "8488895311281002296",
+        "geoId": "55.63705,36.96343",
+        "lat": 55.63705,
+        "lon": 36.96343,
+        "price": 1700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "8921622991818041345",
+        "geoId": "55.641743,36.9008",
+        "lat": 55.641743,
+        "lon": 36.9008,
+        "price": 1100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 10
+    },
+    {
+        "id": "8783552542027851777",
+        "geoId": "55.47149,36.690323",
+        "lat": 55.47149,
+        "lon": 36.690323,
+        "price": 730000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 13
+    },
+    {
+        "id": "5931489173487423906",
+        "geoId": "55.64174,36.9008",
+        "lat": 55.64174,
+        "lon": 36.9008,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 95
+    },
+    {
+        "id": "244152754503801190",
+        "geoId": "55.468822,36.96856",
+        "lat": 55.468822,
+        "lon": 36.96856,
+        "price": 55000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7569477296716706419",
+        "geoId": "55.63701,36.853348",
+        "lat": 55.63701,
+        "lon": 36.853348,
+        "price": 2800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7569477296716677740",
+        "geoId": "55.487247,36.903366",
+        "lat": 55.487247,
+        "lon": 36.903366,
+        "price": 18900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346245367662",
+        "geoId": "55.631523,36.932453",
+        "lat": 55.631523,
+        "lon": 36.932453,
+        "price": 6800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "4769608574493815031",
+        "geoId": "55.488926,36.913403",
+        "lat": 55.488926,
+        "lon": 36.913403,
+        "price": 21682072,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5907409400923182849",
+        "geoId": "55.61715,36.862286",
+        "lat": 55.61715,
+        "lon": 36.862286,
+        "price": 2400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "865618981093211905",
+        "geoId": "55.57551,36.694885",
+        "lat": 55.57551,
+        "lon": 36.694885,
+        "price": 1900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 8
+    },
+    {
+        "id": "5202999738182958021",
+        "geoId": "55.663475,36.922222",
+        "lat": 55.663475,
+        "lon": 36.922222,
+        "price": 23000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "3101696574390344704",
+        "geoId": "55.589638,36.71474",
+        "lat": 55.589638,
+        "lon": 36.71474,
+        "price": 11200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "7569477296716826509",
+        "geoId": "55.480724,36.923607",
+        "lat": 55.480724,
+        "lon": 36.923607,
+        "price": 55000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "620664645902554112",
+        "geoId": "55.637157,36.8534",
+        "lat": 55.637157,
+        "lon": 36.8534,
+        "price": 11800000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "8042716028611645184",
+        "geoId": "55.57534,36.760418",
+        "lat": 55.57534,
+        "lon": 36.760418,
+        "price": 6500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346245341812",
+        "geoId": "55.47153,36.690475",
+        "lat": 55.47153,
+        "lon": 36.690475,
+        "price": 2449000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 4
+    },
+    {
+        "id": "1691881847021337299",
+        "geoId": "55.592587,36.866886",
+        "lat": 55.592587,
+        "lon": 36.866886,
+        "price": 15000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "3255678715954075784",
+        "geoId": "55.58536,36.93248",
+        "lat": 55.58536,
+        "lon": 36.93248,
+        "price": 3500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 108
+    },
+    {
+        "id": "7569477296716826510",
+        "geoId": "55.481598,36.92435",
+        "lat": 55.481598,
+        "lon": 36.92435,
+        "price": 70000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346243608072",
+        "geoId": "55.47604,36.97226",
+        "lat": 55.47604,
+        "lon": 36.97226,
+        "price": 55000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "6253085048051055153",
+        "geoId": "55.58672,36.75713",
+        "lat": 55.58672,
+        "lon": 36.75713,
+        "price": 2000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "7569477296716731341",
+        "geoId": "55.579033,36.852703",
+        "lat": 55.579033,
+        "lon": 36.852703,
+        "price": 20900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "4769608574493783472",
+        "geoId": "55.468796,36.968315",
+        "lat": 55.468796,
+        "lon": 36.968315,
+        "price": 55000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 13
+    },
+    {
+        "id": "5179208346244594031",
+        "geoId": "55.59335,36.648792",
+        "lat": 55.59335,
+        "lon": 36.648792,
+        "price": 1400000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 10
+    },
+    {
+        "id": "5203870567445841121",
+        "geoId": "55.74799,36.59697",
+        "lat": 55.74799,
+        "lon": 36.59697,
+        "price": 11500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346243646355",
+        "geoId": "55.644444,36.605602",
+        "lat": 55.644444,
+        "lon": 36.605602,
+        "price": 13499000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 6
+    },
+    {
+        "id": "7359933057433161216",
+        "geoId": "55.72165,36.78806",
+        "lat": 55.72165,
+        "lon": 36.78806,
+        "price": 43000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "4202981385380518400",
+        "geoId": "55.593216,36.64901",
+        "lat": 55.593216,
+        "lon": 36.64901,
+        "price": 3150000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6275955431327930703",
+        "geoId": "55.76632,36.76311",
+        "lat": 55.76632,
+        "lon": 36.76311,
+        "price": 5500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "8066434612184527872",
+        "geoId": "55.677746,36.688507",
+        "lat": 55.677746,
+        "lon": 36.688507,
+        "price": 11000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "3101696574390344704",
+        "geoId": "55.589638,36.71474",
+        "lat": 55.589638,
+        "lon": 36.71474,
+        "price": 11200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5203870567446553375",
+        "geoId": "55.677753,36.688534",
+        "lat": 55.677753,
+        "lon": 36.688534,
+        "price": 8200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "5203870567446526435",
+        "geoId": "55.78247,36.782562",
+        "lat": 55.78247,
+        "lon": 36.782562,
+        "price": 6950000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5203870567446553317",
+        "geoId": "55.681286,36.552135",
+        "lat": 55.681286,
+        "lon": 36.552135,
+        "price": 2000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5179208346245368598",
+        "geoId": "55.72667,36.60193",
+        "lat": 55.72667,
+        "lon": 36.60193,
+        "price": 1500000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 13
+    },
+    {
+        "id": "5179208346245398383",
+        "geoId": "55.72474,36.76614",
+        "lat": 55.72474,
+        "lon": 36.76614,
+        "price": 2200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "7238883830248704769",
+        "geoId": "55.596066,36.652916",
+        "lat": 55.596066,
+        "lon": 36.652916,
+        "price": 3900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "5203870567446553222",
+        "geoId": "55.744415,36.61566",
+        "lat": 55.744415,
+        "lon": 36.61566,
+        "price": 7900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "6944298508470924032",
+        "geoId": "55.663727,36.608295",
+        "lat": 55.663727,
+        "lon": 36.608295,
+        "price": 2100000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "6819454197493351447",
+        "geoId": "55.722782,36.80669",
+        "lat": 55.722782,
+        "lon": 36.80669,
+        "price": 13997000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "1916215371310693977",
+        "geoId": "55.74059,36.767803",
+        "lat": 55.74059,
+        "lon": 36.767803,
+        "price": 1200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "8671054425344619965",
+        "geoId": "55.689926,36.65769",
+        "lat": 55.689926,
+        "lon": 36.65769,
+        "price": 3200000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 2
+    },
+    {
+        "id": "7703902064212487424",
+        "geoId": "55.7117,36.688095",
+        "lat": 55.7117,
+        "lon": 36.688095,
+        "price": 2900000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 9
+    },
+    {
+        "id": "6253085048051055153",
+        "geoId": "55.58672,36.75713",
+        "lat": 55.58672,
+        "lon": 36.75713,
+        "price": 2000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 5
+    },
+    {
+        "id": "9105919525435918283",
+        "geoId": "55.596138,36.652836",
+        "lat": 55.596138,
+        "lon": 36.652836,
+        "price": 15000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 3
+    },
+    {
+        "id": "3500396498166268672",
+        "geoId": "55.72275,36.806656",
+        "lat": 55.72275,
+        "lon": 36.806656,
+        "price": 27000000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 1
+    },
+    {
+        "id": "5203870567446549532",
+        "geoId": "55.76748,36.58811",
+        "lat": 55.76748,
+        "lon": 36.58811,
+        "price": 2700000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 7
+    },
+    {
+        "id": "8555019669927597056",
+        "geoId": "55.639713,36.732002",
+        "lat": 55.639713,
+        "lon": 36.732002,
+        "price": 1600000,
+        "isNewbuilding": false,
+        "favoriteOfferIds": [],
+        "count": 10
     }
 ]

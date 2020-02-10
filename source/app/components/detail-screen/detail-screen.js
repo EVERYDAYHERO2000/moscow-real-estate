@@ -1,44 +1,44 @@
 __.detailScreen = function (params) {
-  
+
   let detail_tpl = '',
     container_tpl = '',
-    place = params.place;  
+    place = params.place;
 
   if (place) {
-    
-    
-    
+
+
+
     let _id = place.id;
     let _name = place.name;
-    let _url = (function(id){
-      let folder = Math.floor(id/100) * 100,
-          url = `https://myhousehub.ru/places/${folder}/place_${id}/`;
+    let _url = (function (id) {
+      let folder = Math.floor(id / 100) * 100,
+        url = `https://myhousehub.ru/places/${folder}/place_${id}/`;
       return url;
-      
+
     })(place.id);
     let _description = place.description;
     let _type = (place.type) ? `${place.type}` : '';
-    
+
     let _mobileHeader = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="header-mobile">
     <a href="/" id="close-screen" name="close-screen" role="button" class="btn btn_back">Назад</a>
   </div>`;
-    
+
     let _close = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="close-icon" role="button" id="close-panel"></div>`;
-    
-    let _map = (function(mode, url){
+
+    let _map = (function (mode, url) {
       let map = ''
-      if (mode == 'amp'){
-        map = 
-    `<a href="${url}">
+      if (mode == 'amp') {
+        map =
+          `<a href="${url}">
       <amp-img alt="map" src="https://static-maps.yandex.ru/1.x/?ll=${place.point[0]},${place.point[1]}&size=450,450&z=13&l=map&pt=${place.point[0]},${place.point[1]}" layout="responsive" width="450" height="450" />
     </a> `;
       }
-      
-      
+
+
       return map;
-      
+
     })(params.mode, params.canonical);
-    
+
     let _class = contentItem('Класс', place.class, function (v) {
       return v
     });
@@ -66,70 +66,68 @@ __.detailScreen = function (params) {
     let _market = contentItem('Ближайший магазин крупной сети', place.markets.closest.name, function (v) {
       return `${v} в <b class="value">${place.markets.distance} км</b>`
     });
-    
-    let _water = (function(water){
-      
+
+    let _water = (function (water) {
+
       let tpl = '';
 
-       
-      for (var i = 0; i < water.closests.length; i++ ){
-        
 
-        
-        if (water.closests[i].closest){
-          
-          if (water.closests[i].closest.min > 0){
-          
-            if (water.closests[i].closest.min != water.closests[i].closest.max){
-          
+      for (var i = 0; i < water.closests.length; i++) {
+
+
+
+        if (water.closests[i].closest) {
+
+          if (water.closests[i].closest.min > 0) {
+
+            if (water.closests[i].closest.min != water.closests[i].closest.max) {
+
               tpl += `<div><b class="value">от ${water.closests[i].closest.min} м. до ${water.closests[i].closest.max} м.</b><br>Средняя глубина водоносного горизонта ${water.closests[i].closest.median} м. (скважины в ${water.closests[i].closest.name})</div>`;
-          
+
             } else {
-              
+
               tpl += `<div><b class="value">${water.closests[i].closest.median} м.</b><br>Cредняя глубина водоносного горизонта (скважины в ${water.closests[i].closest.name})</div>`;
-              
+
             }
-            
+
           }
-          
+
         }
       }
-      
 
-      
+
+
       tpl = (tpl.length) ? `<div class="content__item">
         <div class="content__item-title"><h3>Глубина водоносного горизонта</h3></div>
         <div class="content__item-value">${tpl}</div>
-      </div>` : ''; 
-      
+      </div>` : '';
 
-      
+
+
       return tpl;
-      
+
     })(place.water);
-    
-    let _eco = (function(eco){
-      
+
+    let _eco = (function (eco) {
+
       let tpl = '';
-      
-      for (var i = 0; i < eco.length; i++ ){
+
+      for (var i = 0; i < eco.length; i++) {
         let description = (eco[i].closest.description) ? `${eco[i].closest.description}` : '';
         tpl += `<div><b class="value">${eco[i].distance.toFixed(1)} км</b><br><span>${eco[i].closest.name}</span><p>${description}</p></div>`
-        
+
       }
-      
-      tpl = (tpl.length) ? tpl : 'Чисто'; 
-      
+
+      tpl = (tpl.length) ? tpl : 'Чисто';
+
       return `<div class="content__item">
         <div class="content__item-title"><h3>Ближайший источник загрязнения</h3></div>
         <div class="content__item-value">${tpl}</div>
       </div>`;
-    
-    })(place.eco.closests);
-      
-    let _price = (function (price) {
 
-      
+    })(place.eco.closests);
+
+    let _price = (function (price) {
 
       let cost = {
         from: (price.from) ? (typeof global != 'undefined') ? global.component('str-to-cost', {
@@ -141,12 +139,15 @@ __.detailScreen = function (params) {
           value: price.to
         })[0] : __.strToCost({
           value: price.to
+        })[0] : '',
+        closest: (price.closest) ? (typeof global != 'undefined') ? global.component('str-to-cost', {
+          value: price.closest
+        })[0] : __.strToCost({
+          value: price.closest
         })[0] : ''
       }
 
-      
-
-      let from = (price.from) ? `от ${cost.from} руб. ` : '',
+      let from = (price.from) ? `от ${cost.from} руб. ` : `рядом от ${cost.closest} руб. `,
         to = (price.to) ? `<br>до ${cost.to} руб.` : '',
         p = from + to;
 
@@ -192,12 +193,12 @@ __.detailScreen = function (params) {
         rightLongitude: lonR,
         bottomLatitude: latB
       });
-      
+
       let move_url = objToUrl(`${https}move.ru/moskovskaya_oblast/prodazha_domov/poisk_na_karte/`, {
         map_center: `${point[1]},${point[0]}`,
         zoom: 16
       });
-      
+
       let sob_url = objToUrl(`${https}sob.ru/map/prodazha-zagorodnaja-nedvizhimost`, {
         ll: `${point[1]},${point[0]}`,
         z: 16
@@ -214,7 +215,7 @@ __.detailScreen = function (params) {
           }
         }))
       });
-      
+
       let cian_img = image(params.mode, `https://favicon.yandex.net/favicon/cian.ru`, 'cian.ru', 16, 16, 'favicon');
       let yandex_img = image(params.mode, `https://favicon.yandex.net/favicon/realty.yandex.ru`, 'realty.yandex.ru', 16, 16, 'favicon');
       let avito_img = image(params.mode, `https://favicon.yandex.net/favicon/avito.ru`, 'realty.yandex.ru', 16, 16, 'favicon');
@@ -310,20 +311,20 @@ ${_close}
   } else {
 
     detail_tpl = $('#detail-screen')[0].outerHTML;
-    
+
   }
 
-  function image(mode, src, alt, width, height, classname){
-    
+  function image(mode, src, alt, width, height, classname) {
+
     mode = mode || 'html';
     classname = (classname) ? `class="${classname}"` : '';
-    
+
     let tpl = (mode != 'amp') ? `<img src="${src}" alt="${alt}" ${classname} />` : `<amp-img src="${src}" alt="${alt}" ${classname} layout="responsive" width="${width}" height="${height}"></amp-img>`;
-    
+
     return tpl;
-    
+
   }
-  
+
 
   function contentItem(name, value, callback) {
 
@@ -354,78 +355,78 @@ ${_close}
 
 
   if (typeof global == 'undefined') {
-    
 
-    
+
+
     $('#detail-screen').remove();
 
     let $screen = (__.core.$detailScreen) ? __.core.$detailScreen : $(detail_tpl);
 
     if (place) $screen.find('.panel__container').empty().append(container_tpl);
 
-    
-    let folder = Math.floor(place.id/100) * 100; 
-    history.pushState(place,place.name,`/places/${folder}/place_${place.id}/`);
-    $('title').text(place.title); 
-    
+
+    let folder = Math.floor(place.id / 100) * 100;
+    history.pushState(place, place.name, `/places/${folder}/place_${place.id}/`);
+    $('title').text(place.title);
+
 
     setTimeout(function () {
-      
-      
+
+
 
       if ($('#place-map').length) {
 
         $('#place-map').empty();
 
         let data = $('#app').data('data');
-        
-        
+
+
 
         if (!data) {
-          
+
           place = place || null;
 
           $.get('/bin/data/data.json', function (places) {
 
-            
-            
+
+
             data = __.fs.decodeData(places),
-            id = $('#detail-screen').data('id');
-            
-            
-            
-            $.each(data.places,function(i,e){
-              
-              if (e.id == id){
+              id = $('#detail-screen').data('id');
+
+
+
+            $.each(data.places, function (i, e) {
+
+              if (e.id == id) {
                 place = e;
                 return false;
               }
-              
+
             });
-            
+
             if (place) {
-              
-              
-              
+
+
+
               drawMap();
-              
-              
-              
+
+
+
             }
-          
+
           });
 
         } else {
 
-          drawMap();  
+          drawMap();
 
         }
 
 
-        function drawMap (){
+        function drawMap() {
 
-          
-          
+
+
           let marker = new L.marker([place.point[1], place.point[0]], {
             icon: L.divIcon({
               className: 'place-marker'
@@ -438,7 +439,7 @@ ${_close}
             gestureHandling: true
           });
 
-          L.tileLayer(__.fs.mapTiles.simple, {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+          L.tileLayer(__.fs.mapTiles.simple, { attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
           map.addLayer(marker);
 
           let c = L.canvasOverlay().drawing(drawingOnCanvas).addTo(map);
@@ -448,26 +449,26 @@ ${_close}
               zoom = map.getZoom();
 
             ctx.clearRect(0, 0, p.canvas.width, p.canvas.height);
-            
-            
-            __.mapData()['eco'](function(){
-              
-               
-    
+
+
+            __.mapData()['eco'](function () {
+
+
+
               __.mapOverlay()['eco']({
-                  data: data
-                }, canvasOverlay, ctx, zoom, 'place-map');
-              
+                data: data
+              }, canvasOverlay, ctx, zoom, 'place-map');
+
             });
-            
-            __.mapData()['railroad'](function(){
-              
+
+            __.mapData()['railroad'](function () {
+
               __.mapOverlay()['railroad']({
                 data: data
               }, canvasOverlay, ctx, zoom, 'place-map');
-              
+
             });
-            
+
 
           }
         }
@@ -476,93 +477,93 @@ ${_close}
 
     }, 100);
 
-    $screen.find('a').click(function (e){
-      
-      let href = $(this).attr('href');  
-      
-      if ( href.includes('cian.ru') ) {
+    $screen.find('a').click(function (e) {
+
+      let href = $(this).attr('href');
+
+      if (href.includes('cian.ru')) {
         __.fs.analytics('cta_go-to-store', {
-          store : 'cian',
+          store: 'cian',
         });
-        
+
         preventOpenInBrowser(href);
-        
+
       }
-      
-      if ( href.includes('realty.yandex.ru') ) {
+
+      if (href.includes('realty.yandex.ru')) {
         __.fs.analytics('cta_go-to-store', {
-          store : 'yandex'
+          store: 'yandex'
         });
-        
+
         preventOpenInBrowser(href);
-        
+
       }
-      
-      if ( href.includes('avito.ru') ) {
+
+      if (href.includes('avito.ru')) {
         __.fs.analytics('cta_go-to-store', {
-          store : 'avito'
+          store: 'avito'
         });
-        
+
         preventOpenInBrowser(href);
-        
+
       }
-      
-      if ( href.includes('sob.ru') ) {
+
+      if (href.includes('sob.ru')) {
         __.fs.analytics('cta_go-to-store', {
-          store : 'sob.ru'
+          store: 'sob.ru'
         });
-        
+
         preventOpenInBrowser(href);
-        
+
       }
-      
-      if ( href.includes('move.ru') ) {
+
+      if (href.includes('move.ru')) {
         __.fs.analytics('cta_go-to-store', {
-          store : 'move.ru'
+          store: 'move.ru'
         });
-        
+
         preventOpenInBrowser(href);
-        
+
       }
-      
-      function preventOpenInBrowser(href){
-      
-        if ( $('#app').is('.mobile') ){
+
+      function preventOpenInBrowser(href) {
+
+        if ($('#app').is('.mobile')) {
 
           e.preventDefault();
           location.href = href;
-          
+
         }
-        
+
       }
-      
-      
+
+
     });
-    
+
     $screen.find('#close-screen, #close-panel').click(function (e) {
 
       e.preventDefault();
       $('#main').find('#detail-screen').remove();
-      
-      history.pushState({},"Коттеджние поселки подмосковья","/");
+
+      history.pushState({}, "Коттеджние поселки подмосковья", "/");
       $('title').text('Коттеджние поселки подмосковья');
-      
+
       __.fs.analytics('close_detail-screen');
-  
+
     });
-    
-    $screen.find('a[href="#place-map"]').click(function(e){
-      
+
+    $screen.find('a[href="#place-map"]').click(function (e) {
+
       e.preventDefault();
-      
+
       $('#detail-screen').stop().animate({
         scrollTop: $('#place-map').offset().top
-      }, 500, 'swing', function() { 
+      }, 500, 'swing', function () {
         $('html, body').scrollTop(0)
-        
+
       });
-      
-      
+
+
     });
 
     __.core.$detailScreen = $screen;
