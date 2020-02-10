@@ -15,7 +15,8 @@ __.search = function(params){
       params.distance != undefined || 
       params.railroad != undefined || 
       params.direction != undefined || 
-      params.eco != undefined ){
+      params.eco != undefined || 
+      params.cost != undefined ){
     
     
     if (params.text){
@@ -79,6 +80,20 @@ __.search = function(params){
           
           if (params.railroad && place.railroad.distance > 3){
              place.canvas.visible = false;
+          }
+          
+        }
+
+        if (params.cost != undefined) {
+          
+          if (params.cost <= 500000000) {
+            
+            if (place.price.closest >= params.cost){
+              
+              place.canvas.visible = false;
+              
+            }
+            
           }
           
         }

@@ -83,6 +83,7 @@ __.formFilter = function (params) {
       return obj;
     })();
     
+    let cost = $('#range-name_0').val();
     let distance = $('#range-name_1').val();
     let train = $('#ch-name_3').prop('checked');
     let direction = (function(){
@@ -97,8 +98,8 @@ __.formFilter = function (params) {
         if (id == 'top-left' )    angle.push([294,338]);
         if (id == 'top-right')    angle.push([204,225]);
         if (id == 'bottom')       angle.push([69,113]);
-        if (id == 'bottom-right')  angle.push([114,158]);
-        if (id == 'bottom-left') angle.push([24,68]); 
+        if (id == 'bottom-right') angle.push([114,158]);
+        if (id == 'bottom-left')  angle.push([24,68]); 
         if (id == 'left')         angle.push([339, 360], [0,23]);
         if (id == 'right')        angle.push([159,203]);
            
@@ -120,6 +121,7 @@ __.formFilter = function (params) {
       distance : distance,
       railroad : train,
       direction : direction,
+      cost : cost,
       eco : eco
     }
     
@@ -128,6 +130,7 @@ __.formFilter = function (params) {
   function reset(){
     $('#ch-name_1, #ch-name_2').prop( 'checked', true );  
     $('#ch-name_3, #ch-name_4').prop( 'checked', false );
+    $('#range-name_1').val(500000000);
     $('#range-name_1').val(120);
     $('.svg-select').removeClass('svg-select_active');
     $('#place-search-input').val('').attr('data-value','');

@@ -80,6 +80,18 @@ const createPage = function(){
 
                 <div class="form-tab form-tab_hidden">
                   <div class="form-tab__header">
+                    Цена
+                  </div>
+                  <div class="form-tab__body">
+                    <label class="label-for-range" for="range-name_0">
+                      <input id="range-name_0" type="range" min="500000" max="500000000">
+                      <span></span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-tab form-tab_hidden">
+                  <div class="form-tab__header">
                     Транспорт
                   </div>
                   <div class="form-tab__body">
