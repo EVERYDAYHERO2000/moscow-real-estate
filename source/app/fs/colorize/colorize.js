@@ -67,15 +67,16 @@ __.fs.colorize = function(params){
     this.cost = function(params) {
       let cost = params.price.closest;
 
-      let color = rgba(255, 72, 0, 0.5);
+      let color = rgba(225, 0, 0, 0.5);
       
       if (cost > 0){
     
-        if (cost < 20000000) color = rgba(255, 131, 0, 0.5);
-        if (cost < 10000000) color = rgba(255, 248, 0, 0.5);
-        if (cost < 8000000) color = rgba(203, 255, 0, 0.5);
-        if (cost < 5000000) color = rgba(73, 255, 0, 0.5);
-        if (cost < 2000000) color = rgba(0, 255, 209, 0.5);
+        if (cost < 40000000) color = rgba(255, 100, 0, 0.5);
+        if (cost < 20000000) color = rgba(255, 130, 0, 0.5);
+        if (cost < 10000000) color = rgba(255, 215, 0, 0.5);
+        if (cost < 8000000) color = rgba(203, 255, 0, 0.3);
+        if (cost < 5000000) color = rgba(73, 255, 0, 0.3);
+        if (cost < 2000000) color = rgba(0, 255, 209, 0.3);
 
       } 
 
