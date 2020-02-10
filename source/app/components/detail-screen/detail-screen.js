@@ -129,18 +129,22 @@ __.detailScreen = function (params) {
       
     let _price = (function (price) {
 
+      
+
       let cost = {
-        from: (price.from) ? (typeof global != 'undefined') ? global.component('cost', {
+        from: (price.from) ? (typeof global != 'undefined') ? global.component('str-to-cost', {
           value: price.from
-        })[0] : __.cost({
+        })[0] : __.strToCost({
           value: price.from
         })[0] : '',
-        to: (price.to) ? (typeof global != 'undefined') ? global.component('cost', {
+        to: (price.to) ? (typeof global != 'undefined') ? global.component('str-to-cost', {
           value: price.to
-        })[0] : __.cost({
+        })[0] : __.strToCost({
           value: price.to
         })[0] : ''
       }
+
+      
 
       let from = (price.from) ? `от ${cost.from} руб. ` : '',
         to = (price.to) ? `<br>до ${cost.to} руб.` : '',

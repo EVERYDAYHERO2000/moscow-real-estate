@@ -1,4 +1,4 @@
-__.cost = function(params) {
+__.strToCost = function(params) {
   
     let value = params.value;
     value = (/\.\d/.test(value)) ? value + '' : value + '.00';

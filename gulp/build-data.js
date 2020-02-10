@@ -59,7 +59,11 @@ const buildData = function (places, writeFile) {
   _.forEach(placesData, function (place) {
 
     place.eco = matchEco(place, worldData.eco);
-    place.price.closest = matchCost(place, worldData.cost);
+    place.price = {
+      from : place.price.from,
+      to : place.price.to,
+      closest : matchCost(place, worldData.cost)
+    }  
     place.railroad = matchRailroad(place, worldData.railroad);
     place.moscow = matchMoscow(place);
     place.city = matchCities(place, worldData.cities);
