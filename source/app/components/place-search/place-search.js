@@ -86,7 +86,7 @@ __.search = function(params){
 
         if (params.cost != undefined) {
           
-          if (params.cost <= 500000000) {
+          if (params.cost <= 100000000) {
             
             if (place.price.closest >= params.cost){
               

@@ -23,6 +23,15 @@ __.formFilter = function (params) {
       
     });
     
+    $('#range-name_0').on('input change', function(e){
+      
+      let value = $(this).val();
+      let cost = __.strToCost({value:value})[0]
+
+
+      $(this).parent().find('span').text(`до ${cost} руб.`);
+    });
+
     $('#range-name_1').on('input change', function(e){
       
       let value = $(this).val();
@@ -33,7 +42,6 @@ __.formFilter = function (params) {
       
       $(this).parent().find('span').text(`${text} ${time}`);
     });
-    
    
     $('.filter-form .svg-select').click(function(e){
 
@@ -130,7 +138,7 @@ __.formFilter = function (params) {
   function reset(){
     $('#ch-name_1, #ch-name_2').prop( 'checked', true );  
     $('#ch-name_3, #ch-name_4').prop( 'checked', false );
-    $('#range-name_1').val(500000000);
+    $('#range-name_1').val(100000000);
     $('#range-name_1').val(120);
     $('.svg-select').removeClass('svg-select_active');
     $('#place-search-input').val('').attr('data-value','');

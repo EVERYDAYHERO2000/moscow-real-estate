@@ -1,21 +1,5 @@
 __.placeItem = function(params){
-  
-  /*
-  let _price = (function(price){
-      
-    let p = {
-      from : (price.from) ? (typeof global != 'undefined') ? global.component('cost', {value : price.from })[0] : __.cost({value : price.from })[0] : '',
-      to   : (price.to)   ? (typeof global != 'undefined') ? global.component('cost', {value : price.to })[0]   : __.cost({value : price.to })[0]   : ''
-    }  
     
-    return {
-      from : (p.from) ? `от ${p.from} руб.` : '',
-      to : (p.to) ? `до ${p.to} руб.` : ''
-    }
-        
-  })(params.price);
-  */
-  
   let _miniMap = (typeof global != 'undefined') ? global.component('mini-map', {lat: params.point[1], lon: params.point[0]}) : __.miniMap({lat: params.point[1], lon: params.point[0]});
   
   //let _color = (typeof global != 'undefined') ? '#fafafa' : params.canvas.color;
