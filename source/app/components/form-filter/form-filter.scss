@@ -1,7 +1,6 @@
 .filter-form {
   width: 100%;
   padding: 10px 0;
-  max-height: 100vh;
   transition: all .2s;
 }
 
@@ -42,7 +41,7 @@
 }
 
 .form-tab__header:hover {
-  background: #f0f1f7;
+  background: rgba(199, 201, 226, 0.3);
   
   @media screen and (max-width: 500px) {
     background:transparent;

@@ -1,7 +1,7 @@
 .place-item {
   box-sizing:border-box;
   box-shadow: inset -1px -1px 0px rgba(0,0,0,0.1);
-  background-color: #fff;
+  background-color: #333;
   padding: 10px; 
   min-height: 100px;
   cursor: pointer;
@@ -15,7 +15,7 @@
 
 
 .place-item_active {
-  background: #e5e6ef;
+  background: #78797c;
   transition: background .1s ease;
   box-shadow: none;
 }
@@ -23,6 +23,7 @@
 .place-item__title {
   display: flex;
   align-items: baseline;
+  color: #fff;
 }
 
 .place-item__title a {
@@ -31,17 +32,19 @@
 }
 
 .place-item__title a:visited {
-  color: #6a6a6a;
+  color: rgba(192, 192, 192, 1);
 }
 
 .place-item__distance {
   margin-left: -5px;
-  color: rgba(0,0,0,.6);
+  color: rgba(255,255,255,.45);
+  font-size:13px;
 }
 
 .place-item__type {
-  color: rgba(0,0,0,.6);
+  color: rgba(255,255,255,.45);
   padding-right: 5px;
+  font-size:13px;
 }
 
 .place-item__name {
@@ -58,7 +61,7 @@
   background:url(../../source/assets/img/icons/sprites.svg); 
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: 0px -149px;
+  background-position: 0px -151px;
   width: 22px;
   height: 22px;
   min-width: 22px;
@@ -76,7 +79,7 @@
   background:url(../../source/assets/img/icons/sprites.svg);
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: 0 -179px;
+  background-position: 0 -181px;
   width: 22px;
   height: 22px;
   min-width: 22px;
