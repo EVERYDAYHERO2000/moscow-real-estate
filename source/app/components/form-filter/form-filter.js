@@ -22,6 +22,23 @@ __.formFilter = function (params) {
       $(this).parent('.form-tab').toggleClass('form-tab_hidden');
       
     });
+
+    $('.select-direction svg').click(function(e){
+
+      let text = [];
+
+      $('.svg-select_active').each(function(){
+
+        text.push( $(this).attr('data-name') )
+
+      })
+
+      text = text.join(', '); 
+
+      $(this).parent().find('span').text(text);
+
+    })
+
     
     $('#range-name_0').on('input change', function(e){
       
