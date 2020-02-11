@@ -33,9 +33,7 @@ __.formFilter = function (params) {
 
       })
 
-      text = text.join(', '); 
-
-      $(this).parent().find('span').text(text);
+      $(this).parent().find('span').text( text.join(', ') );
 
     })
 
@@ -52,7 +50,7 @@ __.formFilter = function (params) {
     $('#range-name_1').on('input change', function(e){
       
       let value = $(this).val();
-      let text = 'Время в пути до москвы до';
+      let text = 'Время в пути до Москвы до';
       let h = Math.floor(value / 60);
       let m = value % 60;
       let time = (h) ? `${h}ч ${m}мин` : `${m}мин`;
