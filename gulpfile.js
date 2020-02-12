@@ -68,6 +68,7 @@ gulp.task('js', function () {
     .pipe(babel({
        presets: ['@babel/env']
     }))
+    .on('error', console.error.bind(console))
     .pipe(uglify())
     .pipe(gap.prependText('var __={core:{},fs:{}};'))
     .pipe(gap.appendText(`$(function(){runApp();console.log("${config.version}");})`))

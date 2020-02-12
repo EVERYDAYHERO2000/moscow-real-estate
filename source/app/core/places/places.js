@@ -242,9 +242,6 @@ __.core.$places = function () {
 
     }
 
-  }
-
-
   });
 
   return $('#places');
