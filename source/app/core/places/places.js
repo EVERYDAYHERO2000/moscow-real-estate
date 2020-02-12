@@ -94,7 +94,9 @@ __.core.$places = function () {
       map = $('#map').data('map');
 
 
-    if (map && !map.search && $last.offset().top < $(window).outerHeight() * 2) {
+
+
+    if (map && !map.search && $last.length && $last.offset().top < $(window).outerHeight() * 2) {
 
       var DATA = $('#app').data('data').places,
         count = 100;
@@ -209,7 +211,6 @@ __.core.$places = function () {
 
     function render() {
 
-      console.log('render');
 
       $('#places').empty();
 
