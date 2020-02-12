@@ -153,7 +153,7 @@ __.formFilter = function (params) {
   function reset(){
     $('#ch-name_1, #ch-name_2').prop( 'checked', true );  
     $('#ch-name_3, #ch-name_4').prop( 'checked', false );
-    $('#range-name_1').val(100000000);
+    $('#range-name_1').val(50000000);
     $('#range-name_1').val(120);
     $('.svg-select').removeClass('svg-select_active');
     $('#place-search-input').val('').attr('data-value','');

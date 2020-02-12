@@ -86,7 +86,7 @@ __.search = function(params){
 
         if (params.cost != undefined) {
           
-          if (params.cost <= 100000000) {
+          if (params.cost <= 50000000) {
             
             if (place.price.closest >= params.cost){
               
@@ -132,7 +132,7 @@ __.search = function(params){
         
         if (params.eco != undefined) {
           
-          if (params.eco && place.eco.distance < 3 && place.eco.distance >= 0){
+          if (params.eco && place.eco.distance < 5 && place.eco.distance >= 0){
             place.canvas.visible = false;
           } 
           

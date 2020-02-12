@@ -25,7 +25,7 @@ const formFilter = function () {
                   </div>
                   <div class="form-tab__body">
                     <label class="label-for-range" for="range-name_0">
-                      <input id="range-name_0" type="range" value="100000000" min="1000000" max="100000000" step="10000">
+                      <input id="range-name_0" type="range" value="50000000" min="1000000" max="50000000" step="10000">
                       <span>до 100 000 000 руб.</span>
                     </label>
                   </div>

@@ -90,7 +90,6 @@ __.core.$places = function () {
   $('#places').scroll(function (e) {
     var _this = this,
       $last = $(_this).find('.place-item').last(),
-      lastId = $last.data('id').split('-')[1],
       length = $(_this).find('.place-item').length,
       map = $('#map').data('map');
 
@@ -102,7 +101,7 @@ __.core.$places = function () {
 
       if (!DATA[0].railroad.closest.name && !getData) {
 
-        getData = true;
+        
 
         $.get('/bin/data/railroad.json', function (data) {
 
@@ -129,18 +128,22 @@ __.core.$places = function () {
 
         });
 
+        getData = true;
+
       } else {
 
         appendItems(DATA, _this, count, length);
 
       }
 
+      //append new item to place list
       function appendItems(data, _this, count, length) {
 
         $.each(data, function (i, e) {
 
           if (length < i) {
-
+            
+            
             $(_this).append(__.placeItem(e));
             count--;
 
