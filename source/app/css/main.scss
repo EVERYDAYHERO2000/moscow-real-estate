@@ -36,6 +36,10 @@ body {
   overflow: scroll;
   overflow-x: hidden;
   box-shadow: inset -1px 0 1px rgba(0,0,0,0.1);
+  background: #333 url(../../source/assets/spinner.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
 }
 
 

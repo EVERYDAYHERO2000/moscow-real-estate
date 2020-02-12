@@ -6,44 +6,85 @@ __.detailScreen = function (params) {
 
   if (place) {
 
+    let _id,
+        _name,
+        _url,
+        _description,
+        _type,
+        _mobileHeader,
+        _close,
+        _map,
+        _class,
+        _address,
+        _city,
+        _moscow,
+        _car,
+        _railroad,
+        _market,
+        _water,
+        _eco,
+        _price,
+        _developer,
+        _site,
+        _medic,
+        _markets;
 
 
-    let _id = place.id;
-    let _name = place.name;
-    let _url = (function (id) {
+    _id = place.id;
+
+
+    _name = place.name;
+
+    
+    _url = (function (id) {
       let folder = Math.floor(id / 100) * 100,
         url = `https://myhousehub.ru/places/${folder}/place_${id}/`;
       return url;
 
     })(place.id);
-    let _description = place.description;
-    let _type = (place.type) ? `${place.type}` : '';
 
-    let _mobileHeader = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="header-mobile">
-    <a href="/" id="close-screen" name="close-screen" role="button" class="btn btn_back">Назад</a>
-  </div>`;
 
-    let _close = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="close-icon" role="button" id="close-panel"></div>`;
+    _description = place.description;
 
-    let _map = (function (mode, url) {
-      let map = ''
+
+    _type = (place.type) ? `${place.type}` : '';
+
+
+    _mobileHeader = (function(mode){
+
+      return (mode == 'turbo' || mode == 'amp') ? '' : 
+      `<div class="header-mobile">
+          <a href="/" id="close-screen" name="close-screen" role="button" class="btn btn_back">Назад</a>
+      </div>`;
+
+    })(params.mode); 
+
+
+    _close = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="close-icon" role="button" id="close-panel"></div>`;
+
+
+    _map = (function (mode, url) {
+      let map = '',
+          point = place.point;
+
       if (mode == 'amp') {
-        map =
-          `<a href="${url}">
-      <amp-img alt="map" src="https://static-maps.yandex.ru/1.x/?ll=${place.point[0]},${place.point[1]}&size=450,450&z=13&l=map&pt=${place.point[0]},${place.point[1]}" layout="responsive" width="450" height="450" />
-    </a> `;
+        map = 
+        `<a href="${url}">
+          <amp-img alt="map" src="https://static-maps.yandex.ru/1.x/?ll=${point[0]},${point[1]}&size=450,450&z=13&l=map&pt=${point[0]},${point[1]}" layout="responsive" width="450" height="450" />
+        </a> `;
       }
-
 
       return map;
 
     })(params.mode, params.canonical);
 
-    let _class = contentItem('Класс', place.class, function (v) {
+
+    _class = contentItem('Класс', place.class, function (v) {
       return v
     });
 
-    let _address = simpleItem('Адрес', (function () {
+
+    _address = simpleItem('Адрес', (function () {
 
       let a = (place.address.name) ? place.address.name : 'На карте';
 
@@ -51,42 +92,52 @@ __.detailScreen = function (params) {
 
     })());
 
-    let _city = contentItem('Ближайший город', place.city.closest.name, function (v) {
+
+    _city = contentItem('Ближайший город', place.city.closest.name, function (v) {
       return `${v} в <b class="value">${place.city.distance} км</b>`
     });
-    let _moscow = contentItem('Расстояние от Москвы', place.moscow.distance, function (v) {
+
+
+    _moscow = contentItem('Расстояние от Москвы', place.moscow.distance, function (v) {
       return `<b class="value">${v} км</b>`
     });
-    let _car = contentItem('На автомобиле до Москвы', place.car.distance, function (v) {
+
+
+    _car = contentItem('На автомобиле до Москвы', place.car.distance, function (v) {
       return `<b class="value">${v} км</b><br><span class="value">${place.car.time.h} ч</span> <span class="value">${place.car.time.m} мин</span> без учета пробок`
     });
-    let _railroad = contentItem('Ближайшая ж/д станция', place.railroad.closest.name, function (v) {
+
+
+    _railroad = contentItem('Ближайшая ж/д станция', place.railroad.closest.name, function (v) {
       return `${v} в <b class="value">${place.railroad.distance} км</b><br> до Москвы <span class="value">${place.railroad.closest.time.h} ч</span> <span class="value">${place.railroad.closest.time.m} мин</span>`
     });
-    let _market = contentItem('Ближайший магазин крупной сети', place.markets.closest.name, function (v) {
+
+
+    _market = contentItem('Ближайший магазин крупной сети', place.markets.closest.name, function (v) {
       return `${v} в <b class="value">${place.markets.distance} км</b>`
     });
 
-    let _water = (function (water) {
 
-      let tpl = '';
+    _water = (function (water) {
 
+      let tpl = '',
+          c = water.closests;
 
-      for (var i = 0; i < water.closests.length; i++) {
+      for (var i = 0; i < c.length; i++) {
+  
+        if (c[i].closest) {
 
+          let closest = c[i].closest;
 
+          if (closest.min > 0) {
 
-        if (water.closests[i].closest) {
+            if (closest.min != closest.max) {
 
-          if (water.closests[i].closest.min > 0) {
-
-            if (water.closests[i].closest.min != water.closests[i].closest.max) {
-
-              tpl += `<div><b class="value">от ${water.closests[i].closest.min} м. до ${water.closests[i].closest.max} м.</b><br>Средняя глубина водоносного горизонта ${water.closests[i].closest.median} м. (скважины в ${water.closests[i].closest.name})</div>`;
+              tpl += `<div><b class="value">от ${closest.min} м. до ${closest.max} м.</b><br>Средняя глубина водоносного горизонта ${closest.median} м. (скважины в ${closest.name})</div>`;
 
             } else {
 
-              tpl += `<div><b class="value">${water.closests[i].closest.median} м.</b><br>Cредняя глубина водоносного горизонта (скважины в ${water.closests[i].closest.name})</div>`;
+              tpl += `<div><b class="value">${closest.median} м.</b><br>Cредняя глубина водоносного горизонта (скважины в ${closest.name})</div>`;
 
             }
 
@@ -95,20 +146,17 @@ __.detailScreen = function (params) {
         }
       }
 
-
-
       tpl = (tpl.length) ? `<div class="content__item">
         <div class="content__item-title"><h3>Глубина водоносного горизонта</h3></div>
         <div class="content__item-value">${tpl}</div>
       </div>` : '';
 
-
-
       return tpl;
 
     })(place.water);
 
-    let _eco = (function (eco) {
+
+    _eco = (function (eco) {
 
       let tpl = '';
 
@@ -127,7 +175,8 @@ __.detailScreen = function (params) {
 
     })(place.eco.closests);
 
-    let _price = (function (price) {
+
+    _price = (function (price) {
 
       let cost = {
         from: (price.from) ? (typeof global != 'undefined') ? global.component('str-to-cost', {
@@ -158,18 +207,24 @@ __.detailScreen = function (params) {
 
     })(place.price);
 
-    let _developer = contentItem('Застройщик', place.developer, function (v) {
+    
+    _developer = contentItem('Застройщик', place.developer, function (v) {
       return v;
     });
-    let _site = contentItem('Сайт', place.site, function (v) {
+
+
+    _site = contentItem('Сайт', place.site, function (v) {
       let src = (URL) ? new URL(v).host : v.replace(/^(http|https):\/\//g, '');
       return `<div class="flex-line">${image(params.mode, `https://favicon.yandex.net/favicon/${src}`, src, 16, 16, 'favicon')} ${link(v, src)}</div>`;
     });
-    let _medic = contentItem('Ближайшая станция скорой помощи Москвы и Московской области', place.medic.closest, function (v) {
+
+
+    _medic = contentItem('Ближайшая станция скорой помощи Москвы и Московской области', place.medic.closest, function (v) {
       return `<b class="value">${place.medic.distance} км</b><br>${place.medic.closest.name}`;
     });
 
-    let _markets = (function (point) {
+
+    _markets = (function (point) {
 
       let latT = point[1] + 0.00304,
         latB = point[1] - 0.00304,
@@ -224,13 +279,13 @@ __.detailScreen = function (params) {
 
       return simpleItem('Предложения',
         `
-<ul class="simple-list">
-<li class="simple-list__item flex-line">${cian_img} ${link(cian_url, 'Циан')}</li>
-<li class="simple-list__item flex-line">${yandex_img} ${link(yandex_url, 'Яндекс.Недвижимость')}</li>
-<li class="simple-list__item flex-line on-mobile_hide">${avito_img} ${link(avito_url, 'Авито')}</li>
-<li class="simple-list__item flex-line">${sob_img} ${link(sob_url, 'Sob')}</li>
-<li class="simple-list__item flex-line">${move_img} ${link(move_url, 'move.ru')}</li>
-</ul>`
+        <ul class="simple-list">
+        <li class="simple-list__item flex-line">${cian_img} ${link(cian_url, 'Циан')}</li>
+        <li class="simple-list__item flex-line">${yandex_img} ${link(yandex_url, 'Яндекс.Недвижимость')}</li>
+        <li class="simple-list__item flex-line on-mobile_hide">${avito_img} ${link(avito_url, 'Авито')}</li>
+        <li class="simple-list__item flex-line">${sob_img} ${link(sob_url, 'Sob')}</li>
+        <li class="simple-list__item flex-line">${move_img} ${link(move_url, 'move.ru')}</li>
+        </ul>`
       );
 
     })(place.point);
@@ -356,8 +411,6 @@ ${_close}
 
   if (typeof global == 'undefined') {
 
-
-
     $('#detail-screen').remove();
 
     let $screen = (__.core.$detailScreen) ? __.core.$detailScreen : $(detail_tpl);
@@ -371,8 +424,6 @@ ${_close}
 
 
     setTimeout(function () {
-
-
 
       if ($('#place-map').length) {
 

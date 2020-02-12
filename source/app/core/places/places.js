@@ -209,9 +209,13 @@ __.core.$places = function () {
 
     function render() {
 
+      console.log('render');
+
+      $('#places').empty();
+
+      setTimeout(function(){
+
       $.each(places, function (i, e) {
-
-
 
         if (onlyVisible) {
 
@@ -234,7 +238,11 @@ __.core.$places = function () {
 
       });
 
+      },1000);
+
     }
+
+  }
 
 
   });

@@ -67,7 +67,7 @@ let createPage = function(params){
             ${places}
           </div>
         </aside>
-        <div class="panel panel_2-col">
+        <div class="panel panel_map panel_2-col">
           <div id="map-controls" class="panel__header panel__header_overlay">
             <div class="layers-controls">
             </div>

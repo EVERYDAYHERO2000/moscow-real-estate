@@ -19,6 +19,13 @@
   
 }
 
+.panel_map {
+  background: #333 url(../../source/assets/spinner.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
 .panel_2-col {
   flex-basis: 70%;
 }
