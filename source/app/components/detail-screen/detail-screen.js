@@ -311,7 +311,7 @@ ${_close}
   <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
   <p itemprop="description">${_description}</p>
   <div class="panel__content content">
-    <section>
+    <section class="content__section">
       ${_class}
       ${_price}
       ${_developer}
@@ -320,7 +320,7 @@ ${_close}
       ${_moscow}
       ${_markets}
     </section>
-    <section itemscope itemtype="http://schema.org/Dataset">
+    <section class="content__section" itemscope itemtype="http://schema.org/Dataset">
       <h2>Транспорт</h2>
       <meta itemprop="name" content="${_type} ${_name}. Транспорт">
       <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
@@ -329,7 +329,7 @@ ${_close}
         ${_railroad}
       </div>
     </section>
-    <section itemscope itemtype="http://schema.org/Dataset">
+    <section class="content__section" itemscope itemtype="http://schema.org/Dataset">
       <h2>Инфраструктура</h2>
       <meta itemprop="name" content="${_type} ${_name}. Инфраструктура">
       <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
@@ -339,7 +339,7 @@ ${_close}
         ${_medic}
       </div>
     </section>
-    <section itemscope itemtype="http://schema.org/Dataset">
+    <section class="content__section" itemscope itemtype="http://schema.org/Dataset">
       <h2>Экология</h2>
       <meta itemprop="name" content="${_type} ${_name}. Экология">
       <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
@@ -386,6 +386,7 @@ ${_close}
     return (value) ? simpleItem(name, callback(value)) : '';
 
   }
+  
 
   function simpleItem(name, value) {
 

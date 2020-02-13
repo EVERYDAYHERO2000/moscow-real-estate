@@ -1,5 +1,6 @@
 #detail-screen {
   transform: translate(0, 0);
+  background: #fafafa;
 }
 
 .main_screen-2 #detail-screen {
@@ -20,3 +21,6 @@
   font-size: 25px;
 }
 
+#detail-screen main {
+  color: #3D3D3D;
+}
