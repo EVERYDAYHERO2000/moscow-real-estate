@@ -24,3 +24,16 @@
 #detail-screen main {
   color: #3D3D3D;
 }
+
+#detail-screen hr {
+  margin: 10px -10px 0;
+  border: .5px solid #ececec;
+}
+
+.item-with-icon {
+  display: flex;
+}
+
+.item-with-icon p {
+  margin: 5px 0 10px;
+}

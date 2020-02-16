@@ -84,39 +84,94 @@ __.detailScreen = function (params) {
     });
 
 
-    _address = simpleItem('Адрес', (function () {
+    _address = (function (address, distance, angle) {
 
-      let a = (place.address.name) ? place.address.name : 'На карте';
+      let a = (address) ? `${address}. ` : '';
+      let m = `<b class="value">${distance} км</b>`;    
+      let d = '';
+        
+        if ( angle >= 339 && angle <= 360 ){
+          d = 'Западное направление';
+        }
+    
+        if ( angle >= 0 && angle <= 23 ){
+          d = 'Западное направление'
+        }
+        
+        if ( angle >= 24 && angle <= 68){
+          d = 'Юго-западное направление'
+        }
+        
+        if ( angle >= 69 && angle <= 113 ){
+          d = 'Южное направление'
+        }
+        
+        if ( angle >= 114 && angle <= 158){
+          d = 'Юго-восточное направление'
+        }
+        
+        if ( angle >= 159 && angle <= 203 ){
+          d = 'Восточное направление'
+        }
+        
+        if ( angle >= 204 && angle <= 225 ){
+          d = 'Северо-восточное направление'
+        }
+        
+        if ( angle >= 226 && angle <= 293){
+          d = 'Северное направление'
+        }
+        
+        if ( angle >= 294 && angle <= 338 ){
+          d = 'Северо-западное направление'
+        }
 
-      return `<a href="#place-map">${a}</a>`;
+      return `<p>Адрес посёлка: ${a}${d}, ${m} от центра Москвы.</p>`;
 
-    })());
+    })(place.address.name, place.moscow.distance, place.moscow.angle);
 
 
-    _city = contentItem('Ближайший город', place.city.closest.name, function (v) {
-      return `${v} в <b class="value">${place.city.distance} км</b>`
-    });
+    _city = (function(city){
+
+      return `<p>${city.closest.name} в <b class="value">${city.distance} км</b> от посёлка.</p>`
+
+    })(place.city);
 
 
     _moscow = contentItem('Расстояние от Москвы', place.moscow.distance, function (v) {
       return `<b class="value">${v} км</b>`
     });
 
-
-    _car = contentItem('На автомобиле до Москвы', place.car.distance, function (v) {
-      return `<b class="value">${v} км</b><br><span class="value">${place.car.time.h} ч</span> <span class="value">${place.car.time.m} мин</span> без учета пробок`
-    });
-
-
-    _railroad = contentItem('Ближайшая ж/д станция', place.railroad.closest.name, function (v) {
-      return `${v} в <b class="value">${place.railroad.distance} км</b><br> до Москвы <span class="value">${place.railroad.closest.time.h} ч</span> <span class="value">${place.railroad.closest.time.m} мин</span>`
-    });
+    _routeurl = (function(point){
+      return `https://yandex.ru/maps/213/moscow/?ll=${point[0]}%2C${point[1]}&mode=routes&rtt=auto&rtext=55.753215%2C37.622504~${point[1]}%2C${point[0]}`
+    })(place.point);
 
 
-    _market = contentItem('Ближайший магазин крупной сети', place.markets.closest.name, function (v) {
-      return `${v} в <b class="value">${place.markets.distance} км</b>`
-    });
+    _car = (function(car){
 
+       return `
+       <p>На автомобиле до центра Москвы:</p>
+       <p><b class="value">${car.distance} км</b>, <span class="value">${car.time.h} ч ${car.time.m} мин</span> без учета пробок</p>
+       <div class="btn-group"><a class="btn btn_ghost" rel="noreferrer noopener nofollow" target="_blank" href="${_routeurl}">Проложить маршрут</a></div>` 
+
+    })(place.car); 
+
+
+    _railroad = (function(railroad){
+
+      let url = `https://rasp.yandex.ru/search/?fromId=c213&fromName=Москва&toName=${railroad.closest.name}&when=сегодня`;
+      return `
+      <p>Ближайшая ж/д станция пригородной электрички ${railroad.closest.name} (${railroad.closest.route})</p>
+      <p>От посёлка до станции <b class="value">${railroad.distance} км</b>, дорога до Москвы займёт <span class="value">${railroad.closest.time.h} ч ${railroad.closest.time.m} мин</span></p>
+      <div class="btn-group"><a class="btn btn_ghost" rel="noreferrer noopener nofollow" target="_blank" href="${url}" >Расписание электричек</a></div>`;
+
+    })(place.railroad);
+
+
+    _market = (function(market){
+      return `<p>Крупный сетевой магазин в <b class="value">${market.distance} км</b>.</p>`;
+    })(place.markets);
+  
 
     _water = (function (water) {
 
@@ -133,11 +188,11 @@ __.detailScreen = function (params) {
 
             if (closest.min != closest.max) {
 
-              tpl += `<div><b class="value">от ${closest.min} м. до ${closest.max} м.</b><br>Средняя глубина водоносного горизонта ${closest.median} м. (скважины в ${closest.name})</div>`;
+              tpl += `<li class="item-with-icon"><div class="icon icon_water icon_inline" ></div><div><p><b class="value">от ${closest.min} м. до ${closest.max} м.</b><br>Средняя глубина водоносного горизонта ${closest.median} м. (скважины в ${closest.name})</p></div></li>`;
 
             } else {
 
-              tpl += `<div><b class="value">${closest.median} м.</b><br>Cредняя глубина водоносного горизонта (скважины в ${closest.name})</div>`;
+              tpl += `<li class="item-with-icon"><div class="icon icon_water icon_inline" ></div><div><p><b class="value">${closest.median} м.</b><br>Cредняя глубина водоносного горизонта (скважины в ${closest.name})</p></div></li>`;
 
             }
 
@@ -146,10 +201,10 @@ __.detailScreen = function (params) {
         }
       }
 
-      tpl = (tpl.length) ? `<div class="content__item">
-        <div class="content__item-title"><h3>Глубина водоносного горизонта</h3></div>
-        <div class="content__item-value">${tpl}</div>
-      </div>` : '';
+      tpl = (tpl.length) ? `<hr><p>Глубина водоносного горизонта в районе посёлка:</p>
+      <ul class="simple-list">
+        ${tpl}
+      </ul>` : '';
 
       return tpl;
 
@@ -158,25 +213,25 @@ __.detailScreen = function (params) {
 
     _eco = (function (eco) {
 
-      let tpl = '';
+      let tpl = '',
+          title = '';
 
       for (var i = 0; i < eco.length; i++) {
         let description = (eco[i].closest.description) ? `${eco[i].closest.description}` : '';
-        tpl += `<div><b class="value">${eco[i].distance.toFixed(1)} км</b><br><span>${eco[i].closest.name}</span><p>${description}</p></div>`
+
+        tpl += `<li class="item-with-icon"><div class="icon icon_eco icon_inline" data-ico="${eco[i].closest.type}"></div><div><p><b class="value">${eco[i].distance.toFixed(1)} км</b><br>${eco[i].closest.name}. ${description}</p></div></li>`
 
       }
 
-      tpl = (tpl.length) ? tpl : 'Чисто';
+      tpl = (tpl.length) ? `<ul class="simple-list">${tpl}</ul>` : '';
+      title = (tpl.length) ? `Ближайшие источники загрязнения и шума:` :`Рядом с поселком отсутствуют источники загрязнения и шума.`
 
-      return `<div class="content__item">
-        <div class="content__item-title"><h3>Ближайший источник загрязнения</h3></div>
-        <div class="content__item-value">${tpl}</div>
-      </div>`;
+      return `<p>${title}</p>${tpl}`;
 
     })(place.eco.closests);
 
 
-    _price = (function (price) {
+    _price = (function (price, developer) {
 
       let cost = {
         from: (price.from) ? (typeof global != 'undefined') ? global.component('str-to-cost', {
@@ -196,21 +251,26 @@ __.detailScreen = function (params) {
         })[0] : ''
       }
 
-      let from = (price.from) ? `от ${cost.from} руб. ` : `рядом от ${cost.closest} руб. `,
-        to = (price.to) ? `<br>до ${cost.to} руб.` : '',
-        p = from + to;
+      
 
-      return (p) ? contentItem('Цена', p, function (v) {
-        return v
-      }) : '';
+      let from = (price.from) ? `Цена от <nobr><b>${cost.from} руб.</b></nobr> ` : `Ориентировочная цена на дома от <nobr><b>${cost.closest} руб.</b></nobr> `,
+        to = (price.to) ? `до <nobr><b>${cost.to} руб.</b></nobr>` : '',
+        p = from + to,
+        d = (developer) ? `Застройщик ${developer}.` : '';
+
+      
+
+      return (p) ? `${p} ${d}` : `${d}`;
 
 
-    })(place.price);
+    })(place.price, place.developer);
 
     
     _developer = contentItem('Застройщик', place.developer, function (v) {
       return v;
     });
+
+
 
 
     _site = contentItem('Сайт', place.site, function (v) {
@@ -219,12 +279,12 @@ __.detailScreen = function (params) {
     });
 
 
-    _medic = contentItem('Ближайшая станция скорой помощи Москвы и Московской области', place.medic.closest, function (v) {
-      return `<b class="value">${place.medic.distance} км</b><br>${place.medic.closest.name}`;
-    });
+    _medic = (function(medic){
+      return `<p>Cтанция скорой помощи в <b class="value">${medic.distance} км</b>.</p>`
+    })(place.medic); 
 
 
-    _markets = (function (point) {
+    _markets = (function (point, site) {
 
       let latT = point[1] + 0.00304,
         latB = point[1] - 0.00304,
@@ -277,18 +337,19 @@ __.detailScreen = function (params) {
       let sob_img = image(params.mode, `https://favicon.yandex.net/favicon/sob.ru`, 'sob.ru', 16, 16, 'favicon');
       let move_img = image(params.mode, `https://favicon.yandex.net/favicon/move.ru`, 'move.ru', 16, 16, 'favicon');
 
-      return simpleItem('Предложения',
-        `
+      let site_link = (site) ? `<div class="btn-group"><a target="_blank" rel="noreferrer noopener nofollow" href="${site}" class="btn btn_ghost">Сайт посёлка</a></div>` : '';
+
+      return `
         <ul class="simple-list">
         <li class="simple-list__item flex-line">${cian_img} ${link(cian_url, 'Циан')}</li>
         <li class="simple-list__item flex-line">${yandex_img} ${link(yandex_url, 'Яндекс.Недвижимость')}</li>
         <li class="simple-list__item flex-line on-mobile_hide">${avito_img} ${link(avito_url, 'Авито')}</li>
         <li class="simple-list__item flex-line">${sob_img} ${link(sob_url, 'Sob')}</li>
         <li class="simple-list__item flex-line">${move_img} ${link(move_url, 'move.ru')}</li>
-        </ul>`
-      );
+        </ul>
+        ${site_link}`;
 
-    })(place.point);
+    })(place.point, place.site);
 
     container_tpl = `
 ${_close} 
@@ -312,40 +373,33 @@ ${_close}
   <p itemprop="description">${_description}</p>
   <div class="panel__content content">
     <section class="content__section">
-      ${_class}
-      ${_price}
-      ${_developer}
-      ${_site}
-      ${_address}
-      ${_moscow}
+      <h2>Купить дом в посёлке</h2>
+      <p>${_price} Предложения о продаже в <nobr>${_type} ${_name}</nobr>:</p>
       ${_markets}
     </section>
-    <section class="content__section" itemscope itemtype="http://schema.org/Dataset">
-      <h2>Транспорт</h2>
-      <meta itemprop="name" content="${_type} ${_name}. Транспорт">
-      <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
-      <div itemprop="description">
+    <section class="content__section">
+      <h2>Транспортная доступность <nobr>${_type} ${_name}</nobr></h2>
+        ${_address}
+        <hr>
         ${_car}
+        <hr>
         ${_railroad}
-      </div>
     </section>
-    <section class="content__section" itemscope itemtype="http://schema.org/Dataset">
+    <section class="content__section">
       <h2>Инфраструктура</h2>
-      <meta itemprop="name" content="${_type} ${_name}. Инфраструктура">
-      <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
-      <div itemprop="description">
+      <div>
         ${_city}
-        ${_market}
+        <hr>
         ${_medic}
+        <hr>
+        ${_market}
       </div>
     </section>
-    <section class="content__section" itemscope itemtype="http://schema.org/Dataset">
+    <section class="content__section">
       <h2>Экология</h2>
-      <meta itemprop="name" content="${_type} ${_name}. Экология">
-      <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
-      <div itemprop="description">
-        ${_water}
+      <div>
         ${_eco}
+        ${_water}
       </div>
     </section>
     <section>

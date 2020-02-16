@@ -1,0 +1,88 @@
+.icon {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+    display: inline-block;
+    background-image: url(../../source/assets/img/map/pins@2x.png);
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    transform: translate(1px,3px) scale(1.4);
+    transform-origin: center;
+  }
+
+  .icon.icon_inline {
+      display: inline-block;
+      margin-right: 13px;
+  }
+  
+  //radiation
+.icon.icon_eco[data-ico="1"] {
+    background-position: 0 -20px; 
+  }
+  //radiation
+.icon.icon_eco[data-ico="2"] {
+    background-position: 0 -20px;
+  }
+  //power
+.icon.icon_eco[data-ico="3"] {
+    background-position: 0 -160px;
+  }
+  //energy
+.icon.icon_eco[data-ico="4"] {
+    background-position: 0 -100px; 
+  }
+  //water
+.icon.icon_eco[data-ico="5"] {
+    background-position: 0 -120px;
+  }
+  //recicle
+.icon.icon_eco[data-ico="6"] {
+    background-position: 0 0px;
+  }
+  //trash
+.icon.icon_eco[data-ico="7"] {
+    background-position: 0 -60px;
+  }
+  //factory
+.icon.icon_eco[data-ico="8"] {
+    background-position: 0 -40px;
+  }
+  //trash
+.icon.icon_eco[data-ico="9"] {
+    background-position: 0 -60px;
+  }
+  //airport
+.icon.icon_eco[data-ico="10"] {
+    background-position: 0 -80px;
+  }
+  //factory
+.icon.icon_eco[data-ico="11"] {
+    background-position: 0 -40px;
+  }
+  //black-mesa
+.icon.icon_eco[data-ico="12"] {
+    background-position: 0 -240px;
+  }
+  //army
+.icon.icon_eco[data-ico="13"] {
+    background-position: 0 -260px;
+  }
+  
+  //railroad
+.icon.icon_railroad {
+    background-position: 0 -220px;
+  }
+  
+  //railroad
+.icon.icon_markets {
+    background-position: 0 -280px;
+  }
+  
+  //water
+.icon.icon_water {
+    background-position: 0 -300px;
+  }

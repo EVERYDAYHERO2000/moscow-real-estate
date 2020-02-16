@@ -6,7 +6,7 @@
   background: #fff;
   border-radius: 5px;
   padding: 10px;
-  margin: 8px 0px;
+  margin: 10px 0px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 
@@ -16,7 +16,7 @@
 
 .content h2 {
   margin: 10px 0 10px;
-  font-size: 18px;
+  font-size: 17px;
   
   @media screen and (max-width: 500px) {
     
@@ -31,7 +31,7 @@
 .content__item {
   display: flex;
   justify-content: space-between;
-  padding: 10px 0;
+  //padding: 10px 0;
   
   @media screen and (max-width: 500px) {
     
