@@ -27,7 +27,8 @@ __.detailScreen = function (params) {
         _developer,
         _site,
         _medic,
-        _markets;
+        _markets,
+        _bradcrumbs;
 
 
     _id = place.id;
@@ -97,6 +98,7 @@ __.detailScreen = function (params) {
         if ( angle >= 0 && angle <= 23 ){
           d = 'Западное направление'
         }
+        
         
         if ( angle >= 24 && angle <= 68){
           d = 'Юго-западное направление'
@@ -224,7 +226,7 @@ __.detailScreen = function (params) {
       }
 
       tpl = (tpl.length) ? `<ul class="simple-list">${tpl}</ul>` : '';
-      title = (tpl.length) ? `Ближайшие источники загрязнения и шума:` :`Рядом с поселком отсутствуют источники загрязнения и шума.`
+      title = (tpl.length) ? `Ближайшие источники загрязнения и шума:` : `Рядом с поселком отсутствуют источники загрязнения и шума.`;
 
       return `<p>${title}</p>${tpl}`;
 
@@ -351,21 +353,31 @@ __.detailScreen = function (params) {
 
     })(place.point, place.site);
 
+
+
+    _bradcrumbs = (function(_name, _url){
+
+      let links = [
+        {
+          url : 'https://myhousehub.ru/',
+          name : 'Коттеджные посёлки Москвы',
+          link : true
+        },
+        {
+          name : _name,
+          url : _url,
+          link : false
+        }
+      ];
+
+      return (typeof global != 'undefined') ? global.component('breadcrumbs', {links : links}) : __.breadcrumbs({links : links});
+
+    })(_name, _url);
+
     container_tpl = `
+
 ${_close} 
-<ol class="breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
-  <li class="breadcrumbs_item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-    <span itemprop="name">
-      <a class="breadcrumbs_link" itemprop="item" href="https://myhousehub.ru">Коттеджные посёлки Москвы</a>
-      <meta itemprop="position" content="1">
-    </span>
-  </li>
-  <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-    <span itemprop="name">${_name}</span>
-    <meta itemprop="position" content="2">
-    <meta itemprop="item" content="${_url}">
-  </li>
-</ol>
+${_bradcrumbs}
 
 <main itemscope itemtype="http://schema.org/Dataset">
   <h1 itemprop="name"><span>${_type}</span> <span>${_name}</span></h1>
@@ -651,8 +663,10 @@ ${_close}
       e.preventDefault();
       $('#main').find('#detail-screen').remove();
 
-      history.pushState({}, "Коттеджние поселки подмосковья", "/");
-      $('title').text('Коттеджние поселки подмосковья');
+      let title = 'Коттеджние поселки подмосковья';
+
+      history.pushState({}, title , "/");
+      $('title').text(title);
 
       __.fs.analytics('close_detail-screen');
 

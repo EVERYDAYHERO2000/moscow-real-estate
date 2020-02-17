@@ -1,7 +1,7 @@
 .place-item {
   box-sizing:border-box;
   box-shadow: inset -1px -1px 0px rgba(0,0,0,0.1);
-  background-color: #333;
+  background-color: #333333;
   padding: 10px; 
   min-height: 100px;
   cursor: pointer;
@@ -13,6 +13,9 @@
   
 }
 
+.not-mobile .place-item:hover {
+  background-color: #464646; 
+}
 
 .place-item_active {
   background: #78797c;
