@@ -79,6 +79,20 @@ __.detailScreen = function (params) {
 
     })(params.mode, params.canonical);
 
+    _ads = (function(mode){
+      return (mode != 'amp') ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ads-box_1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3027365012127484"
+     data-ad-slot="5702464578"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>` : '';
+    })(params.mode)
+
 
     _class = contentItem('Класс', place.class, function (v) {
       return v
@@ -98,7 +112,7 @@ __.detailScreen = function (params) {
         if ( angle >= 0 && angle <= 23 ){
           d = 'Западное направление'
         }
-        
+
         
         if ( angle >= 24 && angle <= 68){
           d = 'Юго-западное направление'
@@ -389,6 +403,7 @@ ${_bradcrumbs}
       <p>${_price} Предложения о продаже в <nobr>${_type} ${_name}</nobr>:</p>
       ${_markets}
     </section>
+    ${_ads}
     <section class="content__section">
       <h2>Транспортная доступность <nobr>${_type} ${_name}</nobr></h2>
         ${_address}

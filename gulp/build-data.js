@@ -11,6 +11,7 @@ const buildMcad = require('@root/gulp/build-data/build-mcad.js');
 const buildPrimary = require('@root/gulp/build-data/build-primary.js');
 const buildWater = require('@root/gulp/build-data/build-water.js');
 const buildCost = require('@root/gulp/build-data/build-cost.js');
+const buildForest = require('@root/gulp/build-data/build-forest.js');
 
 const matchRailroad = require('@root/gulp/match-data/match-railroad.js');
 const matchEco = require('@root/gulp/match-data/match-eco.js');
@@ -52,6 +53,7 @@ const buildData = function (places, writeFile) {
       mcad: buildMcad(),
       primary: buildPrimary()
     },
+    forest: buildForest(),
     water: buildWater()
 
   }
