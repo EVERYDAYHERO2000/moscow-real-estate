@@ -397,14 +397,25 @@ ${_bradcrumbs}
   <h1 itemprop="name"><span>${_type}</span> <span>${_name}</span></h1>
   <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
   <p itemprop="description">${_description}</p>
+
+  <div class="page-navigation">
+    <div class="page-navigation__inner">
+      <a href="#s_offer">Купить</a>
+      <a href="#s_transport">Транспорт</a>
+      <a href="#s_infrastructure">Инфраструктура</a>
+      <a href="#s_eco">Экология</a>
+      <a href="#s_map">Карта</a>
+    </div>  
+  </div>  
+
   <div class="panel__content content">
-    <section class="content__section">
+    <section id="s_offer" class="content__section">
       <h2>Купить дом в посёлке</h2>
       <p>${_price} Предложения о продаже в <nobr>${_type} ${_name}</nobr>:</p>
       ${_markets}
     </section>
     ${_ads}
-    <section class="content__section">
+    <section id="s_transport" class="content__section">
       <h2>Транспортная доступность <nobr>${_type} ${_name}</nobr></h2>
         ${_address}
         <hr>
@@ -412,7 +423,7 @@ ${_bradcrumbs}
         <hr>
         ${_railroad}
     </section>
-    <section class="content__section">
+    <section id="s_infrastructure" class="content__section">
       <h2>Инфраструктура</h2>
       <div>
         ${_city}
@@ -422,14 +433,14 @@ ${_bradcrumbs}
         ${_market}
       </div>
     </section>
-    <section class="content__section">
+    <section id="s_eco" class="content__section">
       <h2>Экология</h2>
       <div>
         ${_eco}
         ${_water}
       </div>
     </section>
-    <section>
+    <section id="s_map">
       <figure id="place-map" class="map">${_map}</figure>
     </section>
   </div>
@@ -687,12 +698,14 @@ ${_bradcrumbs}
 
     });
 
-    $screen.find('a[href="#place-map"]').click(function (e) {
+    $screen.find('a[href^="#"]').click(function (e) {
 
       e.preventDefault();
 
+      let hash = '#' + $(this).attr('href').split('#')[1];
+
       $('#detail-screen').stop().animate({
-        scrollTop: $('#place-map').offset().top
+        scrollTop: $(hash).offset().top + $('#detail-screen').scrollTop() - 65
       }, 500, 'swing', function () {
         $('html, body').scrollTop(0)
 

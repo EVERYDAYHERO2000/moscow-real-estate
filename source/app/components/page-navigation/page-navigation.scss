@@ -1,0 +1,28 @@
+.page-navigation {
+    width: calc(100% + 20px);
+    margin: 0 -10px;
+    overflow-x: scroll;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-navigation__inner {
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.page-navigation__inner a {
+    padding: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+    font-size: 13px;
+}
+
+.page-navigation__inner a:first-child {
+    padding-left: 10px;
+}
+
+.page-navigation__inner a:last-child {
+    padding-right: 10px;
+}
