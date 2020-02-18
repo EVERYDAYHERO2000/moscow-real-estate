@@ -32,7 +32,6 @@ jobs:
         git branch -l
         npm install
         npm run update-data
-        npm run build
     - name: info
       run: |
         ls -al
