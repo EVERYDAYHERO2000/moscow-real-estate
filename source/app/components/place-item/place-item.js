@@ -1,5 +1,7 @@
 __.placeItem = function(params){
     
+  
+
   let _miniMap = (typeof global != 'undefined') ? global.component('mini-map', {lat: params.point[1], lon: params.point[0]}) : __.miniMap({lat: params.point[1], lon: params.point[0]});
   
   //let _color = (typeof global != 'undefined') ? '#fafafa' : params.canvas.color;
@@ -12,7 +14,7 @@ __.placeItem = function(params){
   
   let _car = `<div class="place-item__car">до Москвы: ${params.car.time.h} ч ${params.car.time.m} мин (${params.car.distance} км)</div>`;
   
-  let _rjd = (params.railroad.distance < 3) ? `<div class="place-item__train">ст. ${params.railroad.closest.name} в ${params.railroad.distance} км,<br>до Москвы: ${params.railroad.closest.time.h} ч ${params.railroad.closest.time.m} мин (${params.railroad.closest.distance} км)</div>` : ''; 
+  let _rjd = (params.railroad.closest && params.railroad.distance < 3) ? `<div class="place-item__train">ст. ${params.railroad.closest.name} в ${params.railroad.distance} км,<br>до Москвы: ${params.railroad.closest.time.h} ч ${params.railroad.closest.time.m} мин (${params.railroad.closest.distance} км)</div>` : ''; 
   
   let folder = Math.floor(params.id/100) * 100,
       url = `https://myhousehub.ru/places/${folder}/place_${params.id}/`;

@@ -60,6 +60,7 @@ __.detailScreen = function (params) {
 
     })(params.mode); 
 
+ 
 
     _close = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="close-icon" role="button" id="close-panel"></div>`;
 

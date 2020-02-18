@@ -24,8 +24,10 @@ const matchWater = require('@root/gulp/match-data/match-water.js');
 const matchMoscow = require('@root/gulp/match-data/match-moscow.js');
 const matchCar = require('@root/gulp/match-data/match-car.js');
 const matchCost = require('@root/gulp/match-data/match-cost.js');
+const matchForest = require('@root/gulp/match-data/match-forest.js');
 
 const writeWorldData = require('@root/gulp/build-data/fs/write-world-data.js');
+const writeData = require('@root/gulp/build-data/fs/write-data.js');
 
 const buildData = function (places, writeFile) {
 
@@ -58,7 +60,15 @@ const buildData = function (places, writeFile) {
 
   }
 
-  _.forEach(placesData, function (place) {
+  let placesDataLength = placesData.length;
+
+  _.forEach(placesData, function (place, i) {
+
+    if (process.stdout.clearLine){
+      process.stdout.clearLine();
+      process.stdout.cursorTo(0);
+      process.stdout.write(`Maped point ${i} of ${placesDataLength}`);
+    }
 
     place.eco = matchEco(place, worldData.eco);
     place.price = {
@@ -77,8 +87,10 @@ const buildData = function (places, writeFile) {
       primary: matchPrimary(place, worldData.roads.primary)
     };
     place.water = matchWater(place, worldData.water);
+    place.forest = matchForest(place, worldData.forest);
 
     place.description = textGen(place);
+
 
   });
 
@@ -90,45 +102,39 @@ const buildData = function (places, writeFile) {
 
 
   writeFiles({
-    places: placesData,
-    railroad: worldData.railroad,
-    eco: worldData.eco,
-    cities: worldData.cities,
-    markets: worldData.markets,
-    medic: worldData.medic,
-    roads: {
-      mcad: worldData.roads.mcad,
-      primary: worldData.roads.primary
-    },
-    water: worldData.water
+    places: placesData
   }, writeFile);
 
-  writePlacesData();
 
+  
 
-  function writePlacesData() {
+  let file = _.cloneDeep(placesData);
 
-    let places = _.cloneDeep(placesData);
-
-    _.forEach(places, function (place) {
+  _.forEach(file, function (place) {
 
       delete place.eco.closests;
       delete place.water.closests;
+      delete place.forest.closests;
       delete place.roads.mcad.closest;
       delete place.roads.primary.closest;
-      delete place.railroad.closest;
+      delete place.railroad.closest.path;
+      
+      place.railroad.closest = {
+        name : place.railroad.closest.name,
+        time : place.railroad.closest.time
+      }
+
       delete place.city.closest;
       delete place.markets.closest;
       delete place.medic.closest;
       delete place.description;
       delete place.address;
+      delete place.nature;
+      delete place.props;
 
-    });
+  });
 
-    writeWorldData(places, 'data');
-
-  }
-
+  writeData(file, 'data');
 
 }
 module.exports = buildData;

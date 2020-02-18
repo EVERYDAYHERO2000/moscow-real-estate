@@ -42,12 +42,24 @@ const build = function(){
         });
 
     });
+
+    let file = [];
+
+    _.forEach(result, function(e){
+
+        file.push({
+            id : e.id,
+            name : e.name,
+            type: e.type
+        });
+
+    });
     
     
     
     console.log(`World data: ${result.length} forest loaded`);
 
-    writeWorldData(result, 'forest');
+    writeWorldData(file, 'forest');
     
     return result;
   

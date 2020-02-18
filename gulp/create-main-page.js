@@ -14,9 +14,12 @@ const createPage = function(){
       places = (global._places) ? global._places : '';
   
   if (!global._places) {
+
+    const DATA = global.DATA || require('@root/bin/data/data.json');
   
   _.forEach(DATA,function(e,i){
     
+
     if (i+1 > 100) return false;
     
     places += component('place-item', e);

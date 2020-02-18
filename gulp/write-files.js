@@ -85,8 +85,7 @@ let writeFiles = function(data, allPages){
             process.stdout.cursorTo(0);
             process.stdout.write(`World data: /bin/data/places/${folder}/place_${id} writed`);
           }
-          
-      
+
       fs.mkdir(dataUrl, { recursive: true }, (err) => {
         if (err) {
           throw err;
@@ -96,7 +95,11 @@ let writeFiles = function(data, allPages){
           fs.writeFile(dataUrl + '/data.json', JSON.stringify(e), function(err) {
             if (err) {
               console.log('buildData -->', err); 
-            } 
+            } else {
+
+              
+
+            }
 
           });
           
@@ -106,6 +109,7 @@ let writeFiles = function(data, allPages){
       
       fs.mkdir(pageUrl, { recursive: true }, (err) => {
         if (err) {
+
           throw err;
           
         } else {

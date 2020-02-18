@@ -88,7 +88,7 @@ gulp.task('update-data', function () {
 /*
 npm run dev
 */
-gulp.task('default',['sass','js','data','html'], function () {
+gulp.task('default',['sass','js','html'], function () {
   
     watch( './gulp/create-main-page.js', function () {
       gulp.start('html'); 
