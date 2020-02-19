@@ -376,13 +376,14 @@ __.detailScreen = function (params) {
 
       if (forest.distance > -1) {
 
-        $.each(forest.closests, function(i,e){
+        for(var i = 0; i < forest.closests.length; i++ ){
         
+          let e = forest.closests[i];
           let name = (e.type == 1) ? e.name + ' лесничество' : e.name;
           
           tpl += `<li class="item-with-icon"><div class="icon icon_forest icon_inline" ></div><div><p>${name}</p></div></li>` 
 
-        });
+        };
 
         tpl = `
         <p>В <b>${forest.distance} км</b> от посёлка начинается лес</p>
