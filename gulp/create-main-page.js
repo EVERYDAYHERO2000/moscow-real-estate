@@ -16,6 +16,7 @@ const createPage = function(){
   if (!global._places) {
 
     const DATA = global.DATA || require('@root/bin/data/data.json');
+
   
   _.forEach(DATA,function(e,i){
     
@@ -23,6 +24,21 @@ const createPage = function(){
     if (i+1 > 100) return false;
     
     places += component('place-item', e);
+
+    if (i == 10) {
+      places += `
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- inline_ads -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-3027365012127484"
+           data-ad-slot="6117857968"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>`;
+    }
     
   });
     
