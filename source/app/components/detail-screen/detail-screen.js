@@ -386,7 +386,7 @@ __.detailScreen = function (params) {
         };
 
         tpl = `
-        <p>В <b>${forest.distance} км</b> от посёлка начинается лес</p>
+        <p>В <b>${forest.distance} км</b> от посёлка начинается лес.</p>
         <ul class="simple-list">${tpl}</ul>`;
 
       } 
