@@ -39,6 +39,12 @@ __.mapData = function(){
     getData('cost', callback);
         
   }
+
+  this.forest = function(callback){
+
+    getData('forest', callback);
+        
+  }
   
   this.default = function(callback){
     

@@ -16,7 +16,8 @@ __.search = function(params){
       params.railroad != undefined || 
       params.direction != undefined || 
       params.eco != undefined || 
-      params.cost != undefined ){
+      params.cost != undefined || 
+      params.forest != undefined ){
     
     
     if (params.text){
@@ -97,6 +98,8 @@ __.search = function(params){
           }
           
         }
+
+        
         
         if (params.distance != undefined) {
           
@@ -133,6 +136,15 @@ __.search = function(params){
         if (params.eco != undefined) {
           
           if (params.eco && place.eco.distance < 5 && place.eco.distance >= 0){
+            place.canvas.visible = false;
+          } 
+          
+        }
+
+        if (params.forest != undefined) {
+
+          if (params.forest && place.forest.distance > 1 || place.forest.distance < 0){
+            
             place.canvas.visible = false;
           } 
           

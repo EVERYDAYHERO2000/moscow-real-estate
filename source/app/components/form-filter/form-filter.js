@@ -135,6 +135,8 @@ __.formFilter = function (params) {
     })();
     
     let eco = $('#ch-name_4').prop('checked');
+
+    let forest = $('#ch-name_5').prop('checked');
     
     let name = $('#place-search-input').val();
     
@@ -145,14 +147,15 @@ __.formFilter = function (params) {
       railroad : train,
       direction : direction,
       cost : cost,
-      eco : eco
+      eco : eco,
+      forest : forest
     }
     
   }
   
   function reset(){
     $('#ch-name_1, #ch-name_2').prop( 'checked', true );  
-    $('#ch-name_3, #ch-name_4').prop( 'checked', false );
+    $('#ch-name_3, #ch-name_4, #ch-name_5').prop( 'checked', false );
     $('#range-name_1').val(50000000);
     $('#range-name_1').val(120);
     $('.svg-select').removeClass('svg-select_active');

@@ -79,9 +79,22 @@ __.fs.colorize = function(params){
         if (cost < 2000000) color = rgba(0, 255, 209, 0.3);
 
       } 
+      return color;
+    }
 
+    //forest
+    this.forest = function(params) {
+      let distance = params.forest.distance;
 
+      let color = rgba(225, 0, 0, 0.3);
       
+      if (distance > -1) {
+    
+        if (distance < 1.5) color = rgba(250, 230, 30, 0.3);
+        if (distance < 1) color = rgba(170, 250, 30, 0.5);
+        if (distance < 0.5) color = rgba(100, 250, 30, 1);
+
+      }
       return color;
     }
   

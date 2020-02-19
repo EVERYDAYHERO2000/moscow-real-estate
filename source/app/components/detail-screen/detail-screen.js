@@ -28,7 +28,8 @@ __.detailScreen = function (params) {
         _site,
         _medic,
         _markets,
-        _bradcrumbs;
+        _bradcrumbs,
+        _forest;
 
 
     _id = place.id;
@@ -369,6 +370,30 @@ __.detailScreen = function (params) {
     })(place.point, place.site);
 
 
+    _forest = (function(forest){
+      
+      let tpl = ''
+
+      if (forest.distance > -1) {
+
+        $.each(forest.closests, function(i,e){
+        
+          let name = (e.type == 1) ? e.name + ' лесничество' : e.name;
+          
+          tpl += `<li class="item-with-icon"><div class="icon icon_forest icon_inline" ></div><div><p>${name}</p></div></li>` 
+
+        });
+
+        tpl = `
+        <p>В <b>${forest.distance} км</b> от посёлка начинается лес</p>
+        <ul class="simple-list">${tpl}</ul>`;
+
+      } 
+
+      return tpl;
+
+    })(place.forest);
+
 
     _bradcrumbs = (function(_name, _url){
 
@@ -437,6 +462,7 @@ ${_bradcrumbs}
     <section id="s_eco" class="content__section">
       <h2>Экология</h2>
       <div>
+        ${_forest}
         ${_eco}
         ${_water}
       </div>

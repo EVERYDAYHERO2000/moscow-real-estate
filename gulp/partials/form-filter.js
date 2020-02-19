@@ -95,6 +95,10 @@ const formFilter = function () {
                       <input id="ch-name_4" type="checkbox" />
                       <span>Вдали от источников загрязнения и шума</span>
                     </label>
+                    <label class="label-for-checkbox" for="ch-name_5">
+                      <input id="ch-name_5" type="checkbox" />
+                      <span>Рядом с лесом</span>
+                    </label>
                   </div>
                 </div>
 

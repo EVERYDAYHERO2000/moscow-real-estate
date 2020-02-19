@@ -23,7 +23,10 @@ __.core.$mapControls = function () {
           title: 'Магазины'
         },
         water : {
-          title: 'Вода'
+          title: 'Скважины'
+        },
+        forest : {
+          title: 'Лес'
         }
       },
       l = '';
