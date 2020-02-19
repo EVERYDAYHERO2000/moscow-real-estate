@@ -20,7 +20,7 @@ const createPage = function(){
   
   _.forEach(DATA,function(e,i){
     
-    
+
 
     if (i+1 > 100) return false;
     
@@ -38,7 +38,7 @@ const createPage = function(){
 <html lang="ru">
   ${header({
     url : '',
-    title : 'Myhousehub cottage villages. Коттеджние поселки подмосковья',
+    title : 'Myhousehub cottage villages. Коттеджные поселки подмосковья',
     description : 'Помогаем учесть все самое важное тем, кто выбирает дом. Найти коттеджный посёлок рядом с Москвой. Загородное жильё с хорошей транспортной доступностью, рядом со станцией электрички, в экологически чистом районе.'
   })}
   <body>
