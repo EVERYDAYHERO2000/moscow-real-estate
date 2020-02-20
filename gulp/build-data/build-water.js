@@ -2,9 +2,8 @@ const _ = require('lodash');
 const min = require('@root/gulp/fs/math/get-min.js');
 const max = require('@root/gulp/fs/math/get-max.js');
 const average = require('@root/gulp/fs/math/average.js');
-const mode = require('@root/gulp/fs/math/mode.js');
 const median = require('@root/gulp/fs/math/median.js');
-const writeWorldData = require('@root/gulp/build-data/fs/write-data.js');
+const writeWorldData = require('@root/gulp/build-data/fs/write-world-data.js');
 
 const build = function(){
   
@@ -49,7 +48,9 @@ const build = function(){
     
     console.log(`World data: ${result.length} water point loaded`);
 
-    writeWorldData(result, 'water');
+    writeWorldData(result, 'water',function(){
+
+    });
     
     return result;
   

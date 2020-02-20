@@ -12,13 +12,14 @@ const sitemapGenerator = require('@root/gulp/sitemap-generator.js');
 
 global.component = global.component || component;
 
-let writeFiles = function(data, allPages){
+let writeFiles = function(data, allPages, callback){
   
   if (allPages) {    
     
     let domain = SETTINGS.domain,
         currentDate = new Date().toISOString(),
-        rssPages = {},
+        rssPages = {}
+        dataLength = data.places.length,
         
         sitemapPart = `
     <url>
@@ -34,8 +35,9 @@ let writeFiles = function(data, allPages){
     if (process.stdout.clearLine){
       process.stdout.write('Start file generator');
     }
+
     
-    _.forEach(data.places, function(e){
+    _.forEach(data.places, function(e, i){
       
       
       let id = e.id,
@@ -137,6 +139,8 @@ let writeFiles = function(data, allPages){
           
         }
       });
+
+      
       
     });
     
@@ -144,7 +148,7 @@ let writeFiles = function(data, allPages){
       process.stdout.write(`\n`);
     }
       
-    
+    /*
     _.forEach(rssPages, function(e,i){
       
       let folder = `/places/${i}/`
@@ -173,6 +177,7 @@ let writeFiles = function(data, allPages){
       });
       
     });
+    */
     
   }
   

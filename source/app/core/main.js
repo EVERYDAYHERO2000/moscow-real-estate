@@ -5,10 +5,11 @@ var runApp = function(){
   let location = window.location.pathname;
   
   //if (location == '/' || location == '/index.html') { 
-    
+  
       $.get('/bin/data/data.json', function (places) {
-
+      
       let data = __.fs.decodeData(places);
+      
 
       __.core.$app.data('data', data);
 

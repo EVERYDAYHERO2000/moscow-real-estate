@@ -92,6 +92,9 @@ const buildData = function (places, writeFile) {
 
     place.description = textGen(place);
 
+    if (i == placesDataLength){
+      delete global.forestArr;
+    }
 
   });
 
@@ -107,74 +110,72 @@ const buildData = function (places, writeFile) {
   }, writeFile);
 
 
+        let file = [];
 
+        _.forEach(placesData, function (place) {
 
-  let file = [];
+          file.push({ 
+            "name": place.name, 
+            "type": place.type, 
+            "point": place.point, 
+            "site": place.site, 
+            "car": place.car, 
+            "developer": place.developer, 
+            "class": place.class, 
+            "price": place.price, 
+            "readyDate": place.readyDate, 
+            "title": place.title, 
+            "id": place.id, 
+            "eco": { 
+              "distance": place.eco.distance 
+            }, 
+            "railroad": { 
+              "closestId": place.railroad.closestId, 
+              "closest": { 
+                "name": place.railroad.closest.name, 
+                "time": place.railroad.closest.time, 
+                "distance": place.railroad.closest.distance 
+              }, 
+              "distance": place.railroad.distance 
+            }, 
+            "moscow": { 
+              "distance": place.moscow.distance, 
+              "angle": place.moscow.angle 
+            }, 
+            "city": { 
+              //"closestId" : place.city.closestId,
+              "distance": place.city.distance 
+            }, 
+            "markets": { 
+              //"closestId": place.markets.closestId, 
+              "distance": place.markets.distance
+            }, 
+            "roads": { 
+              "mcad": { 
+                //"closestId": place.roads.mcad.closestId, 
+                "distance": place.roads.mcad.distance
+              }, 
+              "primary": { 
+                //"closestId": place.roads.primary.closestId, 
+                "distance": place.roads.primary.distance
+              } 
+            }, 
+            //"medic" : {
+              //"closestId": place.medic.closestId,
+              //"distance" : place.medic.distance
+            //},
+            "water": { 
+              "value": place.water.value 
+            }, 
+            "forest": { 
+              "distance": place.forest.distance 
+            }
+          });
 
-  _.forEach(placesData, function (place) {
+        });
 
-    file.push({ 
-      "name": place.name, 
-      "type": place.type, 
-      "point": place.point, 
-      "site": place.site, 
-      "car": place.car, 
-      "developer": place.developer, 
-      "class": place.class, 
-      "price": place.price, 
-      "readyDate": place.readyDate, 
-      "title": place.title, 
-      "id": place.id, 
-      "eco": { 
-        "distance": place.eco.distance 
-      }, 
-      "railroad": { 
-        "closestId": place.railroad.closestId, 
-        "closest": { 
-          "name": place.railroad.closest.name, 
-          "time": place.railroad.closest.time, 
-          "distance": place.railroad.closest.distance 
-        }, 
-        "distance": place.railroad.distance 
-      }, 
-      "moscow": { 
-        "distance": place.moscow.distance, 
-        "angle": place.moscow.angle 
-      }, 
-      "city": { 
-        "closestId" : place.city.closestId,
-        "distance": place.city.distance 
-      }, 
-      "markets": { 
-        "closestId": place.markets.closestId, 
-        "distance": place.markets.distance
-      }, 
-      "roads": { 
-        "mcad": { 
-          "closestId": place.roads.mcad.closestId, 
-          "distance": place.roads.mcad.distance
-        }, 
-        "primary": { 
-          "closestId": place.roads.primary.closestId, 
-          "distance": place.roads.primary.distance
-        } 
-      }, 
-      "medic" : {
-        "closestId": place.medic.closestId,
-        "distance" : place.medic.distance
-      },
-      "water": { 
-        "value": place.water.value 
-      }, 
-      "forest": { 
-        "distance": place.forest.distance 
-      }
-    });
+        writeData(file, 'data');
 
-  });
-
-
-  writeData(file, 'data');
 
 }
 module.exports = buildData;

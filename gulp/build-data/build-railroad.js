@@ -1,5 +1,5 @@
 const _ = require('lodash');
-const writeWorldData = require('@root/gulp/build-data/fs/write-data.js');
+const writeWorldData = require('@root/gulp/build-data/fs/write-world-data.js');
 
 const build = function(){
   
@@ -50,7 +50,9 @@ const build = function(){
     
     console.log(`World data: ${result.length} railroad station loaded`);
 
-    writeWorldData(result, 'railroad');
+    writeWorldData(result, 'railroad', function(){
+
+    });
 
     return result;
   
