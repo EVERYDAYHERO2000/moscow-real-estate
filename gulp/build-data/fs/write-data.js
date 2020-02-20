@@ -40,7 +40,7 @@ outputStream.on(
 	"finish",
 	function handleFinish() {
 
-		console.log( chalk.green( "JSONStream serialization complete!" ) );
+		console.log( chalk.green( `JSONStream ${filename} serialization complete!` ) );
 		//console.log( "- - - - - - - - - - - - - - - - - - - - - - -" );
 
 	}
@@ -84,7 +84,7 @@ outputStream.on(
 				function handleEnd() {
 
 					//console.log( "- - - - - - - - - - - - - - - - - - - - - - -" );
-					console.log( chalk.green( "JSONStream parsing complete!" ) );
+					console.log( chalk.green( `JSONStream ${filename} parsing complete!` ) );
 
 				}
 			)

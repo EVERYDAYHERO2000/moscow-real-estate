@@ -27,7 +27,6 @@ const matchCost = require('@root/gulp/match-data/match-cost.js');
 const matchForest = require('@root/gulp/match-data/match-forest.js');
 const matchPlaces = require('@root/gulp/match-data/match-places.js');
 
-const writeWorldData = require('@root/gulp/build-data/fs/write-world-data.js');
 const writeData = require('@root/gulp/build-data/fs/write-data.js');
 
 const buildData = function (places, writeFile) {
