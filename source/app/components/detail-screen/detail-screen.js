@@ -29,7 +29,8 @@ __.detailScreen = function (params) {
         _medic,
         _markets,
         _bradcrumbs,
-        _forest;
+        _forest,
+        _places;
 
 
     _id = place.id;
@@ -100,7 +101,26 @@ __.detailScreen = function (params) {
      data-full-width="">
   <div overflow=""></div>
 </amp-ad>`;
-    })(params.mode)
+    })(params.mode);
+
+    _places = (function(places){
+
+      let tpl = '';
+      let ico = image(params.mode, `/favicon-32.png`, 'myhousehub', 16, 16, 'favicon');
+
+      for (var i = 0; i < places.length; i++){
+
+        let place = places[i],
+            folder = Math.floor(place.id / 100) * 100;
+            
+
+        tpl += `<li class="simple-list__item flex-line">${ico}<a href="https://myhousehub.ru/places/${folder}/place_${place.id}/">${place.type} ${place.name}</a></li>`
+
+      }
+
+      return `<ul class="simple-list">${tpl}</ul>`
+
+    })(place.places);
 
 
     _class = contentItem('Класс', place.class, function (v) {
@@ -277,7 +297,6 @@ __.detailScreen = function (params) {
       }
 
       
-
       let from = (price.from) ? `Цена от <nobr><b>${cost.from} руб.</b></nobr> ` : `Ориентировочная цена на дома от <nobr><b>${cost.closest} руб.</b></nobr> `,
         to = (price.to) ? `до <nobr><b>${cost.to} руб.</b></nobr>` : '',
         p = from + to,
@@ -294,8 +313,6 @@ __.detailScreen = function (params) {
     _developer = contentItem('Застройщик', place.developer, function (v) {
       return v;
     });
-
-
 
 
     _site = contentItem('Сайт', place.site, function (v) {
@@ -473,6 +490,12 @@ ${_bradcrumbs}
         ${_forest}
         ${_eco}
         ${_water}
+      </div>
+    </section>
+    <section id="s_eco" class="content__section">
+      <h2>Коттеджные посёлки рядом с <nobr>${_type} ${_name}</nobr>:</h2>
+      <div>
+        ${_places}
       </div>
     </section>
     <section id="s_map">

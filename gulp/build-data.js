@@ -25,6 +25,7 @@ const matchMoscow = require('@root/gulp/match-data/match-moscow.js');
 const matchCar = require('@root/gulp/match-data/match-car.js');
 const matchCost = require('@root/gulp/match-data/match-cost.js');
 const matchForest = require('@root/gulp/match-data/match-forest.js');
+const matchPlaces = require('@root/gulp/match-data/match-places.js');
 
 const writeWorldData = require('@root/gulp/build-data/fs/write-world-data.js');
 const writeData = require('@root/gulp/build-data/fs/write-data.js');
@@ -88,6 +89,7 @@ const buildData = function (places, writeFile) {
     };
     place.water = matchWater(place, worldData.water);
     place.forest = matchForest(place, worldData.forest);
+    place.places = matchPlaces(place, placesData);
 
     place.description = textGen(place);
 
@@ -133,6 +135,7 @@ const buildData = function (places, writeFile) {
       delete place.address;
       delete place.nature;
       delete place.props;
+      delete place.places;
 
   });
 
