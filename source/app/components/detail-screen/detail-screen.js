@@ -92,7 +92,14 @@ __.detailScreen = function (params) {
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>` : '';
+</script>` : `<amp-ad width="100vw" height="320"
+     type="adsense"
+     data-ad-client="ca-pub-3027365012127484"
+     data-ad-slot="5702464578"
+     data-auto-format="rspv"
+     data-full-width="">
+  <div overflow=""></div>
+</amp-ad>`;
     })(params.mode)
 
 

@@ -121,7 +121,8 @@ const buildData = function (places, writeFile) {
       
       place.railroad.closest = {
         name : place.railroad.closest.name,
-        time : place.railroad.closest.time
+        time : place.railroad.closest.time,
+        distance : place.railroad.closest.distance
       }
 
       delete place.city.closest;

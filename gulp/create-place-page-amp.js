@@ -61,7 +61,7 @@ let createPageAMP = function(params){
   <meta name="msapplication-TileColor" content="#7D48DD">
   <meta name="yandex-tableau-widget" content="logo=//myhousehub.ru/source/assets/img/touch/homescreen96.png, color=#7D48DD" />
 
-  <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
+  <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 
   <style amp-custom>
 
