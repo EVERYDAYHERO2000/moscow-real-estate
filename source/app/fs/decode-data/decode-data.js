@@ -59,7 +59,7 @@ __.fs.decodeData = function (data) {
       place.medic.closest = window.DATA.medic[place.medic.closestId];
       place.city.closest = window.DATA.cities[place.city.closestId];
       place.roads.mcad.closest = window.DATA.roads.mcad[place.roads.mcad.closestId];
-        
+      
   });
   
   

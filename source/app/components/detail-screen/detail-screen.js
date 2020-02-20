@@ -492,7 +492,7 @@ ${_bradcrumbs}
         ${_water}
       </div>
     </section>
-    <section id="s_eco" class="content__section">
+    <section id="s_places" class="content__section">
       <h2>Коттеджные посёлки рядом с <nobr>${_type} ${_name}</nobr>:</h2>
       <div>
         ${_places}
