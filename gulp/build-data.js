@@ -109,6 +109,7 @@ const buildData = function (places, writeFile) {
   
 
   let file = _.cloneDeep(placesData);
+  console.log('data.json is cloned')
 
   _.forEach(file, function (place) {
 
@@ -134,6 +135,8 @@ const buildData = function (places, writeFile) {
       delete place.props;
 
   });
+
+  console.log('data.json ready to save')
 
   writeData(file, 'data');
 
