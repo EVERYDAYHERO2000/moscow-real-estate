@@ -297,10 +297,6 @@ let createPageAMP = function(params){
 </head>
 
 <body>
-
-  <amp-auto-ads type="adsense" data-ad-client="ca-pub-3027365012127484">
-  </amp-auto-ads>
-
   <header class="header">
     <div class="header__logo">
       <a class="header__logo-icon-link" href="/">
