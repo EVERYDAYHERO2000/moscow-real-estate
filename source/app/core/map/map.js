@@ -85,7 +85,9 @@ __.core.$map = function(){
       
       
       function drawData(){
-      
+        
+        let overlay = ( $('#places').data('overlay') != changeOverlay ) ? true : false;  
+
         $.each(places, function (i, e) {
 
           if (e.canvas.visible) e.canvas = __.placePoint({
@@ -96,7 +98,7 @@ __.core.$map = function(){
             place: e
           });
           
-          if ( $('#places').data('overlay') != changeOverlay ){
+          if ( overlay ){
             $(`#places .place-item[data-id="place-${e.id}"] .place-item__pin`).css({
               backgroundColor : e.canvas.color 
             })
@@ -104,7 +106,7 @@ __.core.$map = function(){
           
         }); 
         
-        $('#places').data('overlay',changeOverlay);
+        $('#places').data('overlay', changeOverlay);
         
         window.DATA.places = places;
         

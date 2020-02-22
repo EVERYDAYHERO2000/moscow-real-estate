@@ -24,14 +24,15 @@ __.core.$placeSearch = function(){
     if(code==13)e.preventDefault();
     if(code==32||code==13){
      
-      $(this).trigger('search');
+      //$(this).trigger('search');
       
     }
     
     $(this).find('input').attr('data-value', $(this).find('input').val());
     
   }).find('.place-search__search').click(function(e){
-    
+
+    e.preventDefault();
     $(this).trigger('search');
    
   });

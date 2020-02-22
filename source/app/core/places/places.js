@@ -160,6 +160,7 @@ __.core.$places = function () {
 
   }).bind('renderList', function (event, params) {
 
+
     var _this = this,
       onlyVisible = params.onlyVisible || false,
       places = params.places,
@@ -210,6 +211,7 @@ __.core.$places = function () {
 
     function render() {
 
+      
 
       $('#places').empty();
 

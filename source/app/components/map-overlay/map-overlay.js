@@ -211,6 +211,12 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
 
         if (zoom > 9) {
 
+          ico = icons.point_yellow;
+
+        }
+
+        if (zoom > 11) {
+
           if (e.type == 6) ico = icons.recicle;
           if (e.type == 10) ico = icons.airport;   
           if (e.type == 7 || e.type == 9) ico = icons.trash;
@@ -222,19 +228,9 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
           if (e.type == 12) ico = icons.black_mesa;
           if (e.type == 13) ico = icons.army;
             
-          
-
-          
-          
-        } else {
-
-          ico = icons.point_yellow;
-
-        }
+        } 
 
         let bb = drawIcons(e, ctx, canvasOverlay, img, size, ico, resize);
-        
-        
         
         e.canvas = e.canvas || {visible:true}; 
         e.canvas[mapId] = bb;
