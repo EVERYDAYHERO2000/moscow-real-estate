@@ -46,7 +46,7 @@ __.mapTiles = function(tileset){
     changeClass(l,d);
   }
 
-  this.price = function(){
+  this.cost = function(){
     
     setTiles(dark);
     changeClass(l,d);

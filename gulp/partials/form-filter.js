@@ -37,7 +37,7 @@ const formFilter = function () {
                   </div>
                   <div class="form-tab__body">
                     <label class="label-for-range" for="range-name_1">
-                      <input id="range-name_1" type="range" min="20" max="120">
+                      <input id="range-name_1" type="range" min="20" max="300">
                       <span>Время в пути до москвы</span>
                     </label>
                     <label class="label-for-checkbox" for="ch-name_3">

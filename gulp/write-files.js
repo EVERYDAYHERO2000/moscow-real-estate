@@ -156,7 +156,7 @@ let writeFiles = function(data, allPages, callback){
       let yandexRSS = yandexTurbo({
         pages : e.join(''),
         date : currentDate,
-        title : 'Коттеджние поселки подмосковья',
+        title : 'Коттеджные поселки подмосковья',
         description : 'Найти коттеджный посёлок рядом с Москвой. Загородное жильё с хорошей транспортной доступностью, рядом со станцией электрички, в экологически чистом районе'
       });
       

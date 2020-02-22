@@ -1,7 +1,6 @@
 __.search = function(params){
   
   
-  
   var DATA = $('#app').data('data').places,
       searchdata = [],
       results = [],
@@ -88,7 +87,7 @@ __.search = function(params){
         if (params.cost != undefined) {
           
           if (params.cost <= 50000000) {
-            
+
             if (place.price.closest >= params.cost){
               
               place.canvas.visible = false;
@@ -103,10 +102,13 @@ __.search = function(params){
         
         if (params.distance != undefined) {
           
-          if (params.distance < 120) {
+          
+
+          if (params.distance < 300) {
+
             let m = (place.car.time.m < 10) ? '0' + place.car.time.m : place.car.time.m;
             let timeToInt = Number( (''+place.car.time.h) + (''+m) );
-            
+
             if (timeToInt > params.distance){
               
               place.canvas.visible = false;
@@ -135,7 +137,7 @@ __.search = function(params){
         
         if (params.eco != undefined) {
           
-          if (params.eco && place.eco.distance < 5 && place.eco.distance >= 0){
+          if (params.eco && place.eco.distance < 5 && place.eco.distance != -1){
             place.canvas.visible = false;
           } 
           
@@ -143,7 +145,7 @@ __.search = function(params){
 
         if (params.forest != undefined) {
 
-          if (params.forest && place.forest.distance > 1 || place.forest.distance < 0){
+          if (params.forest && (place.forest.distance > 1 || place.forest.distance < 0) ){
             
             place.canvas.visible = false;
           } 

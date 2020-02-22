@@ -11,7 +11,7 @@ __.mapData = function(){
   }
   
   this.railroad = function(callback){
-    
+
     getData('railroad', callback);
     
   }
@@ -56,16 +56,20 @@ __.mapData = function(){
     
     
     
-    if (DATA.places[0][name] && DATA.places[0][name].closest && DATA.places[0][name].closest.name && !location.href.includes('/places/')) {
+    //if (DATA.places[0][name] && DATA.places[0][name].closest && DATA.places[0][name].closest.name && !location.href.includes('/places/')) {
       
-      callback();
       
-    } else {
+
+    //  callback();
+      
+    //} else {
       
       
       
       $.get(`/bin/data/${name}.json`, function (data) {
           
+          
+
           if (name != 'roads'){
           
           $.each(data, function (i, e2) {
@@ -102,7 +106,7 @@ __.mapData = function(){
           
         });
       
-    }
+    //}
   }
   
   return this;

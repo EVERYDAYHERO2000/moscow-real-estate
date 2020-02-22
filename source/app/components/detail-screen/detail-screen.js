@@ -747,7 +747,7 @@ ${_bradcrumbs}
       e.preventDefault();
       $('#main').find('#detail-screen').remove();
 
-      let title = 'Коттеджние поселки подмосковья';
+      let title = 'Коттеджные поселки подмосковья';
 
       history.pushState({}, title , "/");
       $('title').text(title);
