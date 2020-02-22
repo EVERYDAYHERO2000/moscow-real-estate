@@ -118,7 +118,7 @@ __.detailScreen = function (params) {
 
       }
 
-      return `<ul class="simple-list">${tpl}</ul>`
+      return (tpl) ? `<ul class="simple-list">${tpl}</ul>` : '';
 
     })(place.places);
 
@@ -396,22 +396,31 @@ __.detailScreen = function (params) {
 
     _forest = (function(forest){
       
-      let tpl = ''
+      let tpl = '',
+          near = false;
 
       if (forest.distance > -1) {
 
         for(var i = 0; i < forest.closests.length; i++ ){
         
           let e = forest.closests[i];
-          let name = (e.type == 1) ? e.name + ' лесничество' : e.name;
-          
-          tpl += `<li class="item-with-icon"><div class="icon icon_forest icon_inline" ></div><div><p>${name}</p></div></li>` 
 
+          if (e.type != 3){
+            
+            let name = (e.type == 1) ? e.name + ' лесничество' : e.name;
+          
+            tpl += `<li class="item-with-icon"><div class="icon icon_forest icon_inline" ></div><div><p>${name}</p></div></li>` 
+          
+          } else {
+
+            near = true;
+
+          } 
         };
 
         tpl = `
-        <p>В <b>${forest.distance} км</b> от посёлка начинается лес.</p>
-        <ul class="simple-list">${tpl}</ul>`;
+        <p>${(near) ? `Рядом с посёлком есть лес.` : `В <b>${forest.distance} км</b> от посёлка начинается лес.`}</p>
+        ${ (tpl) ? `<ul class="simple-list">${tpl}</ul>` : '' }`;
 
       } 
 
@@ -492,12 +501,14 @@ ${_bradcrumbs}
         ${_water}
       </div>
     </section>
+    ${(_places) ? `
     <section id="s_places" class="content__section">
       <h2>Коттеджные посёлки рядом с <nobr>${_type} ${_name}</nobr>:</h2>
       <div>
         ${_places}
       </div>
     </section>
+    ` : ''}
     <section id="s_map">
       <figure id="place-map" class="map">${_map}</figure>
     </section>

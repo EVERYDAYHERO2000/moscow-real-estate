@@ -18,7 +18,6 @@ const match = function(place, data){
     }
 
 
-
     _.forEach(points, function(d){
 
         if ( !result[d.name] ) {
@@ -42,6 +41,7 @@ const match = function(place, data){
                 };
 
             } 
+            
 
         }
           
@@ -80,6 +80,15 @@ const match = function(place, data){
     
     let temp = [],
         temp_dist = [];
+
+    if (place.nature.forest == '1') {
+
+        temp.push({
+            type : 3,
+        });
+        temp_dist.push(0.1);
+    
+    }    
 
     return {
         distance : (function(result){
