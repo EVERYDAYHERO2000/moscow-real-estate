@@ -17,10 +17,12 @@ __.core.$map = function(){
 
   }).bind('createMap', function(event){
     
+    $(this).empty();
+
     var t = __.fs.mapTiles;
       
     var id = $(event.target).attr('id');
-    
+
     var leafletMap = L.map(id, {
       attributionControl: false
     }).setView([55.751244, 37.618423], 9);
