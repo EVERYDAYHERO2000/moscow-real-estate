@@ -96,8 +96,15 @@ __.core.$map = function(){
             place: e
           });
           
+          if ( $('#places').data('overlay') != changeOverlay ){
+            $(`#places .place-item[data-id="place-${e.id}"] .place-item__pin`).css({
+              backgroundColor : e.canvas.color 
+            })
+          }
           
-        });      
+        }); 
+        
+        $('#places').data('overlay',changeOverlay);
         
         window.DATA.places = places;
         

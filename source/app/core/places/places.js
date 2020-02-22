@@ -144,8 +144,7 @@ __.core.$places = function () {
         $.each(data, function (i, e) {
 
           if (length < i) {
-            
-            
+
             $(_this).append(__.placeItem(e));
             count--;
 
@@ -218,19 +217,24 @@ __.core.$places = function () {
 
       $.each(places, function (i, e) {
 
+        
         if (onlyVisible) {
-
 
           if (e.canvas.visible) {
 
+        
             $(_this).append(__.placeItem(e));
+
+            
           }
 
 
         } else {
 
           if (i < 100) {
+
             $(_this).append(__.placeItem(e));
+
           } else {
             return false;
           }
