@@ -13,6 +13,8 @@ __.formFilter = function (params) {
     
     $('.place-search__filter').click(function(e){
       
+      $('.filter-form').closest('.panel__header').toggleClass('panel__header_absolute');
+      
       $('.filter-form').toggleClass('filter-form_hidden');
       
     });
