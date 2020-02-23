@@ -13,9 +13,13 @@ var runApp = function(){
 
       __.core.$app.data('data', data);
 
-      __.core.$map.trigger('createMap').trigger('renderMap', {
-        data: data
-      });
+      __.core.$map.trigger('createMap');
+      
+      setTimeout(function(){
+        __.core.$map.trigger('renderMap', {
+          data: data
+        });
+      }, 300);  
       /* 
       __.core.$places.trigger('renderList', {
         places: data.places,

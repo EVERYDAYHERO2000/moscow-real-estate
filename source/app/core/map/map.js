@@ -83,7 +83,7 @@ __.core.$map = function(){
       
       
       __.mapData()[changeOverlay](drawData);
-      
+ 
       
       
       function drawData(){
@@ -91,6 +91,9 @@ __.core.$map = function(){
         let overlay = ( $('#places').data('overlay') != changeOverlay ) ? true : false;  
 
         $.each(places, function (i, e) {
+
+
+          //setTimeout(function(){
 
           if (e.canvas.visible) e.canvas = __.placePoint({
             mapId : mapId, 
@@ -105,8 +108,12 @@ __.core.$map = function(){
               backgroundColor : e.canvas.color 
             })
           }
+
+          //}, i*10)
           
         }); 
+
+        
         
         $('#places').data('overlay', changeOverlay);
         
@@ -118,6 +125,7 @@ __.core.$map = function(){
         
         __.mapOverlay()[changeOverlay]( params, canvasOverlay, ctx, zoom, mapId );
         __.mapTiles(tileset)[changeOverlay]();
+        __.mapLegend()[changeOverlay]();
         
       }
       

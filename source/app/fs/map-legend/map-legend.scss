@@ -1,0 +1,43 @@
+.leaflet-bottom.leaflet-right {
+    z-index: 10;
+
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.map-legend {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background: rgba(0,0,0,0.4);
+    border-radius: 3px;
+    padding: 5px;
+    margin: 10px 10px 30px;
+    pointer-events: none;
+    z-index: 10;
+
+      
+}
+
+.map-legend .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.map-legend .item__point {
+    height: 10px;
+    width: 10px;
+    min-height: 10px;
+    min-width: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.map-legend .item__description {
+    font-size: 11px;
+    color: rgba(255,255,255,.6);
+}
