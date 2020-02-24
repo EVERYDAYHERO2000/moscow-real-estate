@@ -40,18 +40,8 @@ __.mapLegend = function () {
         $('.map-legend').html(`
         
             <div class="item">
-                <div class="item__point" style="background:rgba(225, 0, 0, 1);"></div>
-                <div class="item__description">Дорого</div>
-            </div>
-
-            <div class="item">
-                <div class="item__point" style="background:rgba(255, 215, 0, 1);"></div>
-                <div class="item__description">< 10 млн. руб.</div>
-            </div>
-
-            <div class="item">
-                <div class="item__point" style="background:rgba(203, 255, 0, 1);"></div>
-                <div class="item__description">< 8 млн. руб.</div>
+                <div class="item__point" style="background:rgba(0, 255, 209, 1)"></div>
+                <div class="item__description">< 2 млн. руб.</div>
             </div>
 
             <div class="item">
@@ -60,8 +50,19 @@ __.mapLegend = function () {
             </div>
 
             <div class="item">
-                <div class="item__point" style="background:rgba(0, 255, 209, 1)"></div>
-                <div class="item__description">< 2 млн. руб.</div>
+                <div class="item__point" style="background:rgba(203, 255, 0, 1);"></div>
+                <div class="item__description">< 8 млн. руб.</div>
+            </div>
+
+
+            <div class="item">
+                <div class="item__point" style="background:rgba(255, 215, 0, 1);"></div>
+                <div class="item__description">< 10 млн. руб.</div>
+            </div>
+
+            <div class="item">
+                <div class="item__point" style="background:rgba(225, 0, 0, 1);"></div>
+                <div class="item__description">Дорого</div>
             </div>
 
         `);
