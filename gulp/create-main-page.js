@@ -3,6 +3,7 @@ const _ = require('lodash');
 const component = require('@root/gulp/fs/component.js');
 const header = require('@root/gulp/partials/header.js');
 const formFilter = require('@root/gulp/partials/form-filter.js');
+const map = require('@root/gulp/partials/map.js');
 
 
 
@@ -11,7 +12,8 @@ global.component = global.component || component;
 const createPage = function(){
   
   var page = '',
-      places = (global._places) ? global._places : '';
+      places = (global._places) ? global._places : '',
+      mapControl = component('map-controls');
   
   if (!global._places) {
 
@@ -75,16 +77,11 @@ const createPage = function(){
         <div class="panel panel_map panel_2-col">
           <div id="map-controls" class="panel__header panel__header_overlay">
             <div class="layers-controls">
+              ${mapControl}
             </div>
           </div>
 
-          <figure id="map" class="leaflet-container leaflet-fade-anim map_dark" style="position: relative;">
-            <div class="leaflet-control-container">
-              <div class="leaflet-bottom leaflet-left">
-                <div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> | © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors</div>
-              </div>
-            </div>
-          </figure>
+          ${map()}
           
         </div>
       </div>

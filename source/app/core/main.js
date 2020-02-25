@@ -1,6 +1,6 @@
 var runApp = function(){
     
-  __.core = __.fs.coreModuls(['$window','$app','$header','$map','$places','$placeSearch','$mapControls']);
+  __.core = __.fs.coreModuls(['$window','$app','$header','$map','$places','$placeSearch']);
   
   let location = window.location.pathname;
   
@@ -27,6 +27,7 @@ var runApp = function(){
       });
       */ 
         
+      
       if (location.includes('/place_')) {
 
         $.get(`/bin/data${location}data.json`, function(place){

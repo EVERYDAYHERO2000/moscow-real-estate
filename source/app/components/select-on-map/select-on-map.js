@@ -8,16 +8,19 @@ __.selectOnMap = function (event, mapId, layer) {
     y = event.offsetY,
     objects = '';
 
-
+  
 
   if (layer && mapId == 'map') {
 
-
+    
 
     $.each(DATA[layer], function (i, el) {
 
+
+
       if (el.canvas) {
 
+        
         if (x > el.canvas[mapId].x1 - 10 &&
           x < el.canvas[mapId].x2 - 10 &&
           y > el.canvas[mapId].y1 - 10 &&
@@ -110,7 +113,7 @@ __.selectOnMap = function (event, mapId, layer) {
       let id = $(this).data('id');
       let type = $(this).data('type');
 
-
+      
 
       __.fs.mapObjectGet(id, type, function (data) {
 

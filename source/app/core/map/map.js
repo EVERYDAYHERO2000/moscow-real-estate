@@ -7,7 +7,7 @@ __.core.$map = function(){
       
       if ( $(e.target).is('canvas') ) {
        
-        __.selectOnMap( e, id, $('#select-layer').val() );
+        __.selectOnMap( e, id, $('.layers-controls__item_selected').data('id') );
         
         
         
@@ -40,6 +40,8 @@ __.core.$map = function(){
     $(event.target).data('map', leafletMap); 
     $(event.target).data('tiles', tiles);
     $(event.target).data('tileset', t);  
+
+    __.mapControls();
       
     leafletMap.on('dragstart zoomstart', function (e) { 
       
@@ -78,10 +80,11 @@ __.core.$map = function(){
       
       ctx.clearRect(0, 0, p.canvas.width, p.canvas.height);
 
-      let changeOverlay = $('#select-layer').val();
+      let changeOverlay = $('.layers-controls__item_selected').data('id');
       let tileset = $('#map').data('tileset');
       
       
+
       __.mapData()[changeOverlay](drawData);
  
       

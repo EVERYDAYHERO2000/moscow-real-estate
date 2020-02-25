@@ -60,7 +60,7 @@ __.placePoint = function (params) {
       }
     },
     size = s[params.zoom].s * 2,
-    changeColor = $('#select-layer').val(),  
+    changeColor = $('.layers-controls__item_selected').data('id'),   
     color = __.fs.colorize()[changeColor](params.place);
   
   

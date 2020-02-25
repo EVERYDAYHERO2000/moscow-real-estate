@@ -1,0 +1,104 @@
+
+.layers-controls {
+  background: rgba(0,0,0,0);
+  color: rgba(255,255,255,0.8);
+  box-sizing: border-box;
+  height: calc(100vh - 54px);
+  min-width: 230px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+  transform: translateX(180px);
+  transition: all .2s;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+
+.layers-controls_visible {
+  transform: translateX(0px);
+  background: rgba(0,0,0,.7);
+
+  @media screen and (max-width: 500px) {
+
+    transform: translateX(180px);
+    background: rgba(0,0,0,0);
+
+  }  
+
+} 
+
+
+.layers-controls ul {
+  list-style : none;
+  padding: 0;
+  margin : 0;
+}
+
+.layers-controls li {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.layers-controls__item {
+  color: rgba(255,255,255,.8);
+  cursor: pointer;
+  padding: 12px 10px 12px 50px;
+  margin: 3px 0;
+  display: block;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  border-radius: 0;
+  text-align: left;
+  line-height: 1;
+  max-height: none;
+  min-height: none;
+}
+
+.layers-controls__item_selected {
+  pointer-events: none;
+  background: hsla(0,0%,100%,.1);
+}
+
+.layers-controls__item  {
+  background-image: url(../../source/assets/img/icons/sprites.svg);
+  background-size: 30px auto;
+  background-repeat: no-repeat;
+}
+
+.layers-controls__item.default {
+  background-position:10px 5px; 
+}
+
+.layers-controls__item.eco {
+  background-position:10px -26px; 
+}
+
+.layers-controls__item.railroad {
+  background-position:10px -55px; 
+}
+
+.layers-controls__item.car {
+  background-position:10px -86px; 
+}
+
+.layers-controls__item.markets {
+  background-position:10px -235px; 
+}
+
+.layers-controls__item.water {
+  background-position:10px -297px; 
+}
+
+.layers-controls__item.cost {
+  background-position:10px -330px; 
+}
+
+.layers-controls__item.forest {
+  background-position:10px -26px;
+}
