@@ -11,7 +11,7 @@ let createPage = function(params){
   
   let place = params.place,
       places = (global._places) ? global._places : '',
-      mapControl = component('map-control');
+      mapControl = component('map-controls');
   
   if (!global._places) {
   
