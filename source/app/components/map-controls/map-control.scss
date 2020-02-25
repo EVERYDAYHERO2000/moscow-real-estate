@@ -60,9 +60,13 @@
   min-height: none;
 }
 
+.layers-controls__item:hover {
+  background-color: hsla(0,0%,100%,.05);
+}
+
 .layers-controls__item_selected {
   pointer-events: none;
-  background: hsla(0,0%,100%,.1);
+  background-color: hsla(0,0%,100%,.1);
 }
 
 .layers-controls__item  {
