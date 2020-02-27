@@ -30,7 +30,8 @@ __.detailScreen = function (params) {
         _markets,
         _bradcrumbs,
         _forest,
-        _places;
+        _places,
+        _school;
 
 
     _id = place.id;
@@ -429,6 +430,41 @@ __.detailScreen = function (params) {
     })(place.forest);
 
 
+    _school = (function(school){
+
+      let tpl = '',
+          near = false,
+          count = 0;
+
+      if (school.distance > -1) {
+
+        for(var i = 0; i < school.closests.length; i++ ){
+        
+          let e = school.closests[i];
+
+          if (e.distance < 5 && count < 5) {
+            
+            let name =  e.closest.name;
+          
+            tpl += `<li class="item-with-icon"><div class="icon icon_school icon_inline" ></div><div><p>${name} в ${e.distance} км</p></div></li>` 
+          
+            near = true;
+            count++;  
+
+          }  
+        };
+
+        tpl = `
+        <p>Ближайшая к посёлку школа в <b>${school.distance} км</b>:</p>
+        ${ (tpl) ? `<ul class="simple-list">${tpl}</ul>` : '' } <hr>`;
+
+      } 
+
+      return (near) ? tpl : '';
+
+    })(place.school);
+
+
     _bradcrumbs = (function(_name, _url){
 
       let links = [
@@ -490,6 +526,8 @@ ${_bradcrumbs}
         <hr>
         ${_medic}
         <hr>
+        ${_school}
+        
         ${_market}
       </div>
     </section>

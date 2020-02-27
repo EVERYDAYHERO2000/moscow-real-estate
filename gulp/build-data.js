@@ -12,6 +12,7 @@ const buildPrimary = require('@root/gulp/build-data/build-primary.js');
 const buildWater = require('@root/gulp/build-data/build-water.js');
 const buildCost = require('@root/gulp/build-data/build-cost.js');
 const buildForest = require('@root/gulp/build-data/build-forest.js');
+const buildSchool = require('@root/gulp/build-data/build-school.js');
 
 const matchRailroad = require('@root/gulp/match-data/match-railroad.js');
 const matchEco = require('@root/gulp/match-data/match-eco.js');
@@ -26,6 +27,7 @@ const matchCar = require('@root/gulp/match-data/match-car.js');
 const matchCost = require('@root/gulp/match-data/match-cost.js');
 const matchForest = require('@root/gulp/match-data/match-forest.js');
 const matchPlaces = require('@root/gulp/match-data/match-places.js');
+const matchSchool = require('@root/gulp/match-data/match-school.js');
 
 const writeData = require('@root/gulp/build-data/fs/write-data.js');
 
@@ -56,7 +58,8 @@ const buildData = function (places, writeFile) {
       primary: buildPrimary()
     },
     forest: buildForest(),
-    water: buildWater()
+    water: buildWater(),
+    school: buildSchool()
 
   }
 
@@ -89,6 +92,7 @@ const buildData = function (places, writeFile) {
     place.water = matchWater(place, worldData.water);
     place.forest = matchForest(place, worldData.forest);
     place.places = matchPlaces(place, placesData);
+    place.school = matchSchool(place,worldData.school);
 
     place.description = textGen(place);
 
@@ -169,6 +173,9 @@ const buildData = function (places, writeFile) {
             }, 
             "forest": { 
               "distance": place.forest.distance 
+            },
+            "school": {
+              "distance": place.school.distance
             }
           });
 
