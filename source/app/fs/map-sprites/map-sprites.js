@@ -16,6 +16,7 @@ __.fs.mapSprites = function (scale) {
     black_mesa : 240 * scale,
     army : 260 * scale,
     markets : 280 * scale,
-    water_depth : 300 * scale
+    water_depth : 300 * scale,
+    school : 340 * scale
   }
 }

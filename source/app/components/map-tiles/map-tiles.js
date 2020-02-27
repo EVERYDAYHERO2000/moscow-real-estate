@@ -57,6 +57,12 @@ __.mapTiles = function(tileset){
     setTiles(dark);
     changeClass(l,d);
   }
+
+  this.school = function(){
+    
+    setTiles(dark);
+    changeClass(l,d);
+  }
   
   function changeClass(from,to){
     $map.removeClass(from).addClass(to);

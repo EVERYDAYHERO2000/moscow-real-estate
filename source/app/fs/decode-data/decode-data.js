@@ -12,6 +12,7 @@ __.fs.decodeData = function (data) {
   };
   var water = {};
   var forest = {};
+  var school = {};
   
   window.DATA = {
     places : places,
@@ -23,7 +24,8 @@ __.fs.decodeData = function (data) {
     roads : roads,
     water : water,
     cost : cost,
-    forest : forest
+    forest : forest,
+    school : school
   }
   
   $.each(data, function(i, place) {

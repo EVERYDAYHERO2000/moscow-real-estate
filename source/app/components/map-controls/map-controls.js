@@ -17,11 +17,14 @@ __.mapControls = function () {
         cost: {
           title: 'Цены'
         },
+        school : {
+          title: 'Образование'  
+        },
         markets : {
           title: 'Магазины'
         },
         water : {
-          title: 'Скважины'
+          title: 'Скважины на воду'
         },
         forest : {
           title: 'Лес'

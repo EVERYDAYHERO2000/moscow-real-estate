@@ -21,6 +21,12 @@ __.mapData = function(){
     getData('markets', callback);
     
   }
+
+  this.school = function(callback){
+    
+    getData('school', callback);
+    
+  }
   
   this.car = function(callback){
 

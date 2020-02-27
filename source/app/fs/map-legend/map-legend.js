@@ -151,6 +151,25 @@ __.mapLegend = function () {
         return false;
     }
 
+    this.school = function () {
+
+        $('.map-legend').html(`
+        
+            <div class="item">
+                <div class="item__point" style="background:rgba(100, 250, 30, 1);"></div>
+                <div class="item__description">Школа рядом</div>
+            </div>
+
+            <div class="item">
+                <div class="item__point" style="background:rgba(226, 30, 100, 1);"></div>
+                <div class="item__description">Далеко</div>
+            </div>
+
+        `);
+
+        return false;
+    }
+
     this.water = function () {
 
         $('.map-legend').html(`

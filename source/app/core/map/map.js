@@ -90,6 +90,8 @@ __.core.$map = function(){
       
       
       function drawData(){
+
+        
         
         let overlay = ( $('#places').data('overlay') != changeOverlay ) ? true : false;  
 

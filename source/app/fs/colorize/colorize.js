@@ -97,6 +97,23 @@ __.fs.colorize = function(params){
       }
       return color;
     }
+
+    //school
+    this.school = function(params) {
+
+      let distance = params.school.distance;
+
+      let color = rgba(225, 0, 0, 0.3);
+      
+      if (distance > -1) {
+    
+        if (distance < 3) color = rgba(250, 230, 30, 0.3);
+        if (distance < 2) color = rgba(170, 250, 30, 0.5);
+        if (distance < 1) color = rgba(100, 250, 30, 0.5);
+
+      }
+      return color;
+    }
   
   //railroad
   this.railroad = function(params) {
