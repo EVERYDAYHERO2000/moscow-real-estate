@@ -4,13 +4,16 @@ __.placeItem = function(params){
 
   let _miniMap = (typeof global != 'undefined') ? global.component('mini-map', {lat: params.point[1], lon: params.point[0]}) : __.miniMap({lat: params.point[1], lon: params.point[0]});
   
-  //let _color = (typeof global != 'undefined') ? '#fafafa' : params.canvas.color;
-  
   let _type = (params.type) ? `${params.type}` : '';
   let _name = `${params.name}`;
 
-  let _color = (params.canvas && params.canvas.color) ? `background-color:${params.canvas.color}` : '';  
-  //let _eco = (params.eco.distance < 10) ? `<div>${params.eco.closest.name} в ${params.eco.distance}км</div>` : '';
+  let _color = (params.canvas && params.canvas.color) ? (function(color){
+
+     let c = color.match(/\d+/g);
+     
+     return `background-color:rgba(${c[0]},${c[1]},${c[2]}, .8)`
+
+  }(params.canvas.color)) : ''; 
   
   
   let _car = `<div class="place-item__car">до Москвы: ${params.car.time.h} ч ${params.car.time.m} мин (${params.car.distance} км)</div>`;

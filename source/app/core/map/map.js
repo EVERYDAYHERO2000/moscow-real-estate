@@ -109,8 +109,11 @@ __.core.$map = function(){
           });
           
           if ( overlay ){
+
+            let color = e.canvas.color.match(/\d+/g);
+
             $(`#places .place-item[data-id="place-${e.id}"] .place-item__pin`).css({
-              backgroundColor : e.canvas.color 
+              backgroundColor : `rgba(${color[0]},${color[1]},${color[2]},.8)` 
             })
           }
 

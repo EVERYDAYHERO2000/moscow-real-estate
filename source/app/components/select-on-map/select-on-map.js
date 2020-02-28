@@ -49,10 +49,14 @@ __.selectOnMap = function (event, mapId, layer) {
 
       let folder = Math.floor(el.id / 100) * 100,
         url = `/places/${folder}/place_${el.id}/`,
-        title = (el.type) ? el.type + ' ' + el.name : el.name;
+        title = (el.type) ? el.type + ' ' + el.name : el.name,
+        color = el.canvas.color.match(/\d+/g);
 
-      objects += `<a class="place-select__item place-select__item_place" data-id="${el.id}" href="${url}">${title}</a>`;
-
+      objects += `
+      <div data-id="${el.id}" class="place-select__item place-select__item_place">
+        <div class="icon icon_place"><span style="background:rgba(${color[0]},${color[1]},${color[2]},.8)"></span></div>
+        <a data-id="${el.id}" href="${url}">${title}</a>
+      </div>`;
 
 
     }
@@ -62,6 +66,7 @@ __.selectOnMap = function (event, mapId, layer) {
   if (objects) {
 
     $('#map-controls').append(`<div class="place-select">${objects}</div>`);
+    console.log(`<div class="place-select">${objects}</div>`)
 
     let posX = x - 16;
     let posY = y - 16;
