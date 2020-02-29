@@ -1,21 +1,43 @@
 __.core.$map = function(){
   
-    
-    $('#map').click(function (e) {
-      
-      let id = $(this).attr('id');
-      
-      if ( $(e.target).is('canvas') ) {
-       
-        __.selectOnMap( e, id, $('.layers-controls__item_selected').data('id') );
-        
-        
-        
+    let clickPoint = {},
+        realClick = false;
+
+    $('#map').on('mousedown touchstart', function(e){
+
+      clickPoint = {
+        x : e.clientX || e.targetTouches[0].clientX,
+        y : e.clientY || e.targetTouches[0].clientY
       }
-      
+
       
 
-  }).bind('createMap', function(event){
+    }).on('mouseup touchend', function(e){
+
+      let currentX = (e.clientX) ? e.clientX : e.changedTouches[0].clientX,
+          currentY = (e.clientY) ? e.clientY : e.changedTouches[0].clientY; 
+
+      if (currentX == clickPoint.x && currentY == clickPoint.y){
+
+        realClick = true 
+
+      }
+      
+    }).on('click', function(e){
+
+      let id = $(this).attr('id');
+      
+      if ( $(e.target).is('canvas') && realClick ) {
+
+        __.selectOnMap( e, id, $('.layers-controls__item_selected').data('id') );
+
+        realClick = false;
+        
+      }
+
+    });  
+
+    $('#map').bind('createMap', function(event){
     
     $(this).empty();
 

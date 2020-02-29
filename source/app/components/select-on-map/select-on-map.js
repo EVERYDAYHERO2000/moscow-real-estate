@@ -8,7 +8,6 @@ __.selectOnMap = function (event, mapId, layer) {
     y = event.offsetY,
     objects = '';
 
-  
 
   if (layer && mapId == 'map') {
 
@@ -45,8 +44,6 @@ __.selectOnMap = function (event, mapId, layer) {
       y < el.canvas[mapId].y2 + 10 &&
       el.canvas.visible) {
 
-
-
       let folder = Math.floor(el.id / 100) * 100,
         url = `/places/${folder}/place_${el.id}/`,
         title = (el.type) ? el.type + ' ' + el.name : el.name,
@@ -66,7 +63,7 @@ __.selectOnMap = function (event, mapId, layer) {
   if (objects) {
 
     $('#map-controls').append(`<div class="place-select">${objects}</div>`);
-    console.log(`<div class="place-select">${objects}</div>`)
+    
 
     let posX = x - 16;
     let posY = y - 16;

@@ -1,1 +1,5122 @@
-[{"geometry":{"bbox":[36.69444,55.57401,36.69444,55.57401],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.69444,55.57401],"type":"Point"},"id":123429171,"properties":{"feature_id":0,"label":"ООО \"Цикломен\"","numberarea":415535649},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.55294,55.55755,36.55294,55.55755],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.55294,55.55755],"type":"Point"},"id":123429173,"properties":{"feature_id":0,"label":"ООО \"ЛАМБЕР\"","numberarea":415535644},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.05269,55.64083,37.05269,55.64083],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.05269,55.64083],"type":"Point"},"id":123429174,"properties":{"feature_id":0,"label":"ООО \"Глобал-строй 2\"","numberarea":415535639},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.69039,55.57801,36.69039,55.57801],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.69039,55.57801],"type":"Point"},"id":123429175,"properties":{"feature_id":0,"label":"Общество с ограниченной ответственностью \"ТоргТрэнд-Групп\" (ООО \"ТТ-Групп\")","numberarea":415535634},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.27735,55.67104,37.27735,55.67104],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.27735,55.67104],"type":"Point"},"id":123429176,"properties":{"feature_id":0,"label":"ООО \"Поддержка\"","numberarea":415535629},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.20454,55.58468,38.20454,55.58468],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.20454,55.58468],"type":"Point"},"id":123429265,"properties":{"feature_id":0,"label":"ООО \"ТОРГОВЫЕ РЯДЫ РАМЕНСКОЕ\"","numberarea":493673994},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.70427,55.5829,36.70427,55.5829],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.70427,55.5829],"type":"Point"},"id":123429177,"properties":{"feature_id":0,"label":"ООО Упаковочная компания\"","numberarea":415535624},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.18079,55.66237,37.18079,55.66237],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.18079,55.66237],"type":"Point"},"id":123429178,"properties":{"feature_id":0,"label":"ООО \"Успенка\"","numberarea":415535619},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.19761,55.84391,38.19761,55.84391],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.19761,55.84391],"type":"Point"},"id":127474113,"properties":{"feature_id":0,"label":"Общество с ограниченной ответственностью \"Альтаир\" (ООО \"Альтаир\")","numberarea":665480728},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.14016,55.99063,37.14016,55.99063],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.14016,55.99063],"type":"Point"},"id":127474108,"properties":{"feature_id":0,"label":"ООО \"Данко\"","numberarea":665430869},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.1193,56.24691,38.1193,56.24691],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.1193,56.24691],"type":"Point"},"id":123429163,"properties":{"feature_id":0,"label":"ООО \"Выбор\"","numberarea":415535694},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.15375,56.32862,38.15375,56.32862],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.15375,56.32862],"type":"Point"},"id":123429165,"properties":{"feature_id":0,"label":"ООО \"79\"","numberarea":415535684},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.13643,56.12369,38.13643,56.12369],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.13643,56.12369],"type":"Point"},"id":123429240,"properties":{"feature_id":0,"label":"ООО \"АМЕТИСТ\"","numberarea":415535299},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.47274,55.29595,38.47274,55.29595],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.47274,55.29595],"type":"Point"},"id":127474105,"properties":{"feature_id":0,"label":"ООО \"Март+\"","numberarea":665416070},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[],"type":"FeatureCollection"},"layers":[]},{"geometry":{"bbox":[38.08133,55.61084,38.08133,55.61084],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.08133,55.61084],"type":"Point"},"id":123429169,"properties":{"feature_id":0,"label":"ООО \"Ярмарка\"","numberarea":415535664},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.37495,55.54725,36.37495,55.54725],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.37495,55.54725],"type":"Point"},"id":123429167,"properties":{"feature_id":0,"label":"ООО \"Виктория\"","numberarea":415535674},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[35.64031,56.22997,35.64031,56.22997],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[35.64031,56.22997],"type":"Point"},"id":123429192,"properties":{"feature_id":0,"label":"ООО \"Лотошинское райпо\"","numberarea":415535549},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.72109,55.54587,37.72109,55.54587],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.72109,55.54587],"type":"Point"},"id":123429193,"properties":{"feature_id":0,"label":"ООО \"Игрек\"","numberarea":415535544},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.51606,55.31152,37.51606,55.31152],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.51606,55.31152],"type":"Point"},"id":123429215,"properties":{"feature_id":0,"label":"ООО \"ЛИБРА\"","numberarea":415535429},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.95918,55.12184,37.95918,55.12184],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.95918,55.12184],"type":"Point"},"id":127474110,"properties":{"feature_id":0,"label":"Муниципальное унитарное предприятие \"Ступинский торговый центр\" городского округа Ступино Московской области (МУП \"СТЦ\")","numberarea":665470252},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.92227,55.57414,38.92227,55.57414],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.92227,55.57414],"type":"Point"},"id":123429172,"properties":{"feature_id":0,"label":"Муниципальное унитарное предприятие \"Куровской городской рынок\" городского поселения Куровское Орехово-Зуевского муниципального района (МУП \"Куровской городской рынок\")","numberarea":415535659},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.9913,55.61417,36.9913,55.61417],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.9913,55.61417],"type":"Point"},"id":123429170,"properties":{"feature_id":0,"label":"ООО \"Актив-Инвест\"","numberarea":415535654},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.89956,55.68249,37.89956,55.68249],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.89956,55.68249],"type":"Point"},"id":123429235,"properties":{"feature_id":0,"label":"ООО \"Корпорация \"СИБАГРОМАШ\"","numberarea":415535324},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.24109,56.43509,38.24109,56.43509],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.24109,56.43509],"type":"Point"},"id":123429162,"properties":{"feature_id":0,"label":"ООО \"На поле\"","numberarea":415535699},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.89734,55.68272,37.89734,55.68272],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.89734,55.68272],"type":"Point"},"id":123429229,"properties":{"feature_id":0,"label":"ООО \"Корпорация \"СИБАГРОМАШ\"","numberarea":415535359},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.83929,55.9372,37.83929,55.9372],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.83929,55.9372],"type":"Point"},"id":127474102,"properties":{"feature_id":0,"label":"ООО \"Элайт\"","numberarea":665402873},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.08632,54.89006,38.08632,54.89006],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.08632,54.89006],"type":"Point"},"id":127474109,"properties":{"feature_id":0,"label":"Ступинское районное потребительское общество (Ступинское райпо)","numberarea":665469360},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.18826,55.95407,37.18826,55.95407],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.18826,55.95407],"type":"Point"},"id":127474107,"properties":{"feature_id":0,"label":"Общество с ограниченной ответственностью «Агропромышленная фирма «Кутузово» (ООО «АПФ «Кутузово»)","numberarea":665426507},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.89424,55.2681,37.89424,55.2681],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.89424,55.2681],"type":"Point"},"id":127474101,"properties":{"feature_id":0,"label":"ООО \"БАРЫБИНСКИЙ РЫНОК\"","numberarea":665392507},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.1289,56.34034,38.1289,56.34034],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.1289,56.34034],"type":"Point"},"id":127474106,"properties":{"feature_id":0,"label":"Акционерное общество \"Сергиево-Посадский торговый комплекс \"Меркурий\" (АО СПТК \"Меркурий\")","numberarea":665422085},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.24561,56.34547,38.24561,56.34547],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.24561,56.34547],"type":"Point"},"id":123429164,"properties":{"feature_id":0,"label":"ООО \"Союз-ВИКТОНН\"","numberarea":415535689},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.95578,55.75159,37.95578,55.75159],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.95578,55.75159],"type":"Point"},"id":127474100,"properties":{"feature_id":0,"label":"ООО \"Эдельвейс-К\"","numberarea":665385059},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.50935,55.26224,37.50935,55.26224],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.50935,55.26224],"type":"Point"},"id":127474111,"properties":{"feature_id":0,"label":"ООО \"Континентал\"","numberarea":665475286},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.20671,55.57174,38.20671,55.57174],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.20671,55.57174],"type":"Point"},"id":123429168,"properties":{"feature_id":0,"label":"ООО \"Зорька\"","numberarea":415535669},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.42765,55.19417,37.42765,55.19417],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.42765,55.19417],"type":"Point"},"id":127474112,"properties":{"feature_id":0,"label":"ООО \"Партнер\"","numberarea":665477650},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.84806,55.06284,38.84806,55.06284],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.84806,55.06284],"type":"Point"},"id":123429271,"properties":{"feature_id":0,"label":"ООО \" Рондо\"","numberarea":521965092},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.01824,55.66179,38.01824,55.66179],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.01824,55.66179],"type":"Point"},"id":123429232,"properties":{"feature_id":0,"label":"ООО \"ТОРНАДО XXI\"","numberarea":415535339},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.54105,56.35385,37.54105,56.35385],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.54105,56.35385],"type":"Point"},"id":123429200,"properties":{"feature_id":0,"label":"ПО \"Центральный рынок\"","numberarea":415535509},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.76129,55.9159,37.76129,55.9159],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.76129,55.9159],"type":"Point"},"id":123429225,"properties":{"feature_id":0,"label":"Общество с ограниченной ответственностью  \"Торгово-промышленная компания СБ ЩИТ\" (ООО \"ТПК СБ ЩИТ\")","numberarea":415535379},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.45041,55.60106,36.45041,55.60106],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.45041,55.60106],"type":"Point"},"id":123429166,"properties":{"feature_id":0,"label":"ООО \"ЛЮВ-2\"","numberarea":415535679},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.75076,55.0674,38.75076,55.0674],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.75076,55.0674],"type":"Point"},"id":123429195,"properties":{"feature_id":0,"label":"ООО \"Стройтех\"","numberarea":415535534},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.06179,55.90138,38.06179,55.90138],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.06179,55.90138],"type":"Point"},"id":123429154,"properties":{"feature_id":0,"label":"Общество с ограниченной ответственностью  Торговая компания \"Битекс\" (ООО ТК \"Битекс\")","numberarea":415535740},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.55039,55.42892,37.55039,55.42892],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.55039,55.42892],"type":"Point"},"id":127474104,"properties":{"feature_id":0,"label":"ООО \"Центральный\"","numberarea":665410589},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.31211,55.97614,37.31211,55.97614],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.31211,55.97614],"type":"Point"},"id":123429277,"properties":{"feature_id":0,"label":"ООО \"Рассвет\"","numberarea":522008128},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.32837,56.37132,37.32837,56.37132],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.32837,56.37132],"type":"Point"},"id":123429196,"properties":{"feature_id":0,"label":"ООО \"Даллес-Д\"","numberarea":415535529},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.02782,55.49592,36.02782,55.49592],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.02782,55.49592],"type":"Point"},"id":127474103,"properties":{"feature_id":0,"label":"ООО \"Монумент\"","numberarea":665405107},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.71765,55.40862,36.71765,55.40862],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.71765,55.40862],"type":"Point"},"id":123429190,"properties":{"feature_id":0,"label":"ООО \"АРЕНА\"","numberarea":415535559},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.97889,56.25308,37.97889,56.25308],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.97889,56.25308],"type":"Point"},"id":123429161,"properties":{"feature_id":0,"label":"ООО \"АЛЬГРЕЙ\"","numberarea":415535704},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.81566,55.08123,38.81566,55.08123],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.81566,55.08123],"type":"Point"},"id":123429194,"properties":{"feature_id":0,"label":"ООО \"Коломенский строитель\"","numberarea":415535539},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[35.51176,56.0307,35.51176,56.0307],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[35.51176,56.0307],"type":"Point"},"id":123429153,"properties":{"feature_id":0,"label":"ООО \"В.В.\"","numberarea":415535745},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.99443,55.92474,37.99443,55.92474],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.99443,55.92474],"type":"Point"},"id":123429155,"properties":{"feature_id":0,"label":"ООО \"Лаборатория ЗетЗетЗет\"","numberarea":415535735},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.17387,55.81845,38.17387,55.81845],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.17387,55.81845],"type":"Point"},"id":123429188,"properties":{"feature_id":0,"label":"ООО \"С-Восток\"","numberarea":415535569},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.13578,56.30478,38.13578,56.30478],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.13578,56.30478],"type":"Point"},"id":123429160,"properties":{"feature_id":0,"label":"Общество с ограниченной ответственностью \"Торговый дом \"ЩЕДРУХА\" (ООО \"ТД \"ЩЕДРУХА\")","numberarea":415535709},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.98682,55.51963,36.98682,55.51963],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.98682,55.51963],"type":"Point"},"id":123429189,"properties":{"feature_id":0,"label":"ООО \"Управляющая компания\"","numberarea":415535564},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.1993,55.70926,36.1993,55.70926],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.1993,55.70926],"type":"Point"},"id":123429267,"properties":{"feature_id":0,"label":"ООО \"Центральное\"","numberarea":493704977},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.13246,56.31615,38.13246,56.31615],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.13246,56.31615],"type":"Point"},"id":123429159,"properties":{"feature_id":0,"label":"ООО \"ИнвестДельтаСтрой\"","numberarea":415535714},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.86351,55.91392,36.86351,55.91392],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.86351,55.91392],"type":"Point"},"id":123429268,"properties":{"feature_id":0,"label":"ООО Фирма \"РИК\"","numberarea":493710452},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.03316,55.49567,36.03316,55.49567],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.03316,55.49567],"type":"Point"},"id":123429191,"properties":{"feature_id":0,"label":"ООО \"Горки-1\"","numberarea":415535554},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.85891,55.06027,38.85891,55.06027],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.85891,55.06027],"type":"Point"},"id":123429273,"properties":{"feature_id":0,"label":"ООО \"Пром Тест\"","numberarea":521993716},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.15827,56.72964,37.15827,56.72964],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.15827,56.72964],"type":"Point"},"id":123429266,"properties":{"feature_id":0,"label":"ООО \"Торговые ряды Дубны\"","numberarea":493614216},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.52959,55.32995,37.52959,55.32995],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.52959,55.32995],"type":"Point"},"id":123429276,"properties":{"feature_id":0,"label":"ООО \"Фортуна\"","numberarea":522004582},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.84547,55.06381,38.84547,55.06381],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.84547,55.06381],"type":"Point"},"id":123429272,"properties":{"feature_id":0,"label":"ООО \"Стройдвор\"","numberarea":521974561},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.03472,55.59125,37.03472,55.59125],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.03472,55.59125],"type":"Point"},"id":123429237,"properties":{"feature_id":0,"label":"ООО \"ФИЛА\"","numberarea":415535314},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.13119,56.33944,38.13119,56.33944],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.13119,56.33944],"type":"Point"},"id":123429158,"properties":{"feature_id":0,"label":"Акционерное общество \"Сергиево-Посадский торговый комплекс \"Меркурий\" (АО СПТК \"Меркурий\")","numberarea":415535719},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.84801,55.6511,37.84801,55.6511],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.84801,55.6511],"type":"Point"},"id":123429274,"properties":{"feature_id":0,"label":"ООО \"ЛЕСПРОМ\"","numberarea":521998006},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.72,55.90928,37.72,55.90928],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.72,55.90928],"type":"Point"},"id":123429275,"properties":{"feature_id":0,"label":"ООО \"УК \"ЭкоБазар-Мытищи\"","numberarea":521999937},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.54833,56.33876,37.54833,56.33876],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.54833,56.33876],"type":"Point"},"id":123429199,"properties":{"feature_id":0,"label":"ПО \"Центральный рынок\"","numberarea":415535514},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.97836,56.18193,36.97836,56.18193],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.97836,56.18193],"type":"Point"},"id":123429157,"properties":{"feature_id":0,"label":"ООО \"БАЗАР\"","numberarea":415535725},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.3775,55.72247,37.3775,55.72247],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.3775,55.72247],"type":"Point"},"id":123429187,"properties":{"feature_id":0,"label":"ООО \"Техносервис\"","numberarea":415535579},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.3783,55.72386,37.3783,55.72386],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.3783,55.72386],"type":"Point"},"id":123429182,"properties":{"feature_id":0,"label":"ООО \"АвтоМОЛ\"","numberarea":415535584},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.2787,55.67278,37.2787,55.67278],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.2787,55.67278],"type":"Point"},"id":123429186,"properties":{"feature_id":0,"label":"ООО \"Одинцовское подворье\"","numberarea":415535589},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.27849,55.67163,37.27849,55.67163],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.27849,55.67163],"type":"Point"},"id":123429185,"properties":{"feature_id":0,"label":"ООО \"Одинцовское подворье\"","numberarea":415535594},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.27992,55.67283,37.27992,55.67283],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.27992,55.67283],"type":"Point"},"id":123429184,"properties":{"feature_id":0,"label":"ООО \"Одинцовское подворье\"","numberarea":415535599},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.41368,55.8916,37.41368,55.8916],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.41368,55.8916],"type":"Point"},"id":123429209,"properties":{"feature_id":0,"label":"ООО \"Сигма-профи+\"","numberarea":415535459},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.46915,55.16373,37.46915,55.16373],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.46915,55.16373],"type":"Point"},"id":123429203,"properties":{"feature_id":0,"label":"ООО \"Омега-Плюс\"","numberarea":415535494},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.27546,55.67015,37.27546,55.67015],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.27546,55.67015],"type":"Point"},"id":123429183,"properties":{"feature_id":0,"label":"ООО \"Фирма \"Агра\" (ООО \"Фирма \"Агра\", \"Company \"Agra\")","numberarea":415535604},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.48226,56.28894,37.48226,56.28894],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.48226,56.28894],"type":"Point"},"id":123429197,"properties":{"feature_id":0,"label":"ПО \"Центральный рынок\"","numberarea":415535524},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.35764,55.70761,37.35764,55.70761],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.35764,55.70761],"type":"Point"},"id":123429180,"properties":{"feature_id":0,"label":"ООО \"ТОРГОВО-ВЫСТАВОЧНЫЙ ЦЕНТР)","numberarea":415535609},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.28099,55.65527,37.28099,55.65527],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.28099,55.65527],"type":"Point"},"id":123429179,"properties":{"feature_id":0,"label":"ООО \"АКОС\"","numberarea":415535614},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.09802,56.10488,37.09802,56.10488],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.09802,56.10488],"type":"Point"},"id":123429156,"properties":{"feature_id":0,"label":"ООО «ЯРОСЛАВНА»","numberarea":415535730},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.51605,56.34504,37.51605,56.34504],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.51605,56.34504],"type":"Point"},"id":123429198,"properties":{"feature_id":0,"label":"ООО \"Торнадо-Д\"","numberarea":415535519},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.03877,55.59541,37.03877,55.59541],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.03877,55.59541],"type":"Point"},"id":123429239,"properties":{"feature_id":0,"label":"Муниципальное унитарное предприятие \"Социальные услуги населению\" (МУП \"СУН\")","numberarea":415535304},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[],"type":"FeatureCollection"},"layers":[]},{"geometry":{"bbox":[38.00924,55.64434,38.00924,55.64434],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.00924,55.64434],"type":"Point"},"id":123429226,"properties":{"feature_id":0,"label":"Потребительский кооператив \"Райпотребсоюз  \"ВОЗРОЖДЕНИЕ\" (ПК РПС \"ВОЗРОЖДЕНИЕ\")","numberarea":415535374},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.53465,55.9593,37.53465,55.9593],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.53465,55.9593],"type":"Point"},"id":123429221,"properties":{"feature_id":0,"label":"ООО \"ТУБ\"","numberarea":415535399},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.85401,55.77847,37.85401,55.77847],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.85401,55.77847],"type":"Point"},"id":123429213,"properties":{"feature_id":0,"label":"ООО \"Кром-Маркет\"","numberarea":415535439},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.40108,55.89781,37.40108,55.89781],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.40108,55.89781],"type":"Point"},"id":123429208,"properties":{"feature_id":0,"label":"ООО \"СТОР ПРОДЖЕКТ\"","numberarea":415535464},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.86281,55.78239,37.86281,55.78239],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.86281,55.78239],"type":"Point"},"id":123429262,"properties":{"feature_id":0,"label":"ООО \"АГОРА\"","numberarea":415535189},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.78338,55.88204,38.78338,55.88204],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.78338,55.88204],"type":"Point"},"id":123429202,"properties":{"feature_id":0,"label":"Муниципальное унитарное предприятие \"Порядок\" (МУП \"Порядок\")","numberarea":415535499},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.85791,55.92776,37.85791,55.92776],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.85791,55.92776],"type":"Point"},"id":123429241,"properties":{"feature_id":0,"label":"ООО \"ФРЕГАТ\"","numberarea":415535289},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.27702,55.83264,37.27702,55.83264],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.27702,55.83264],"type":"Point"},"id":123429236,"properties":{"feature_id":0,"label":"ООО \"ЭКО-Станица\"","numberarea":415535319},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.9024,55.67761,37.9024,55.67761],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.9024,55.67761],"type":"Point"},"id":123429230,"properties":{"feature_id":0,"label":"ООО \"Фирма Алькор\"","numberarea":415535354},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.53472,55.96214,37.53472,55.96214],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.53472,55.96214],"type":"Point"},"id":123429222,"properties":{"feature_id":0,"label":"ООО \"Торговый центр Дмитровский\" (ООО \"ТЦ Дмитровский\")","numberarea":415535394},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.40926,55.92065,37.40926,55.92065],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.40926,55.92065],"type":"Point"},"id":123429206,"properties":{"feature_id":0,"label":"ООО \"Химкинский двор\"","numberarea":415535474},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.5489,55.42883,37.5489,55.42883],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.5489,55.42883],"type":"Point"},"id":123429216,"properties":{"feature_id":0,"label":"ООО \"Русадж\"","numberarea":415535424},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.06942,54.88874,38.06942,54.88874],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.06942,54.88874],"type":"Point"},"id":123429210,"properties":{"feature_id":0,"label":"Ступинское районное потребительское общество (Ступинское райпо)","numberarea":415535454},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.3396,55.95708,37.3396,55.95708],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.3396,55.95708],"type":"Point"},"id":123429205,"properties":{"feature_id":0,"label":"ООО \"СП-Сервис\"","numberarea":415535484},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.46513,55.16491,37.46513,55.16491],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.46513,55.16491],"type":"Point"},"id":123429204,"properties":{"feature_id":0,"label":"ООО \"ВЕСТСТРОЙ\"","numberarea":415535489},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.97312,55.7038,37.97312,55.7038],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.97312,55.7038],"type":"Point"},"id":123429233,"properties":{"feature_id":0,"label":"ООО \"ГидроЛесСтрой\"","numberarea":415535334},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.99077,55.66014,37.99077,55.66014],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.99077,55.66014],"type":"Point"},"id":123429227,"properties":{"feature_id":0,"label":"Потребительский кооператив \"Райпотребсоюз  \"ВОЗРОЖДЕНИЕ\" (ПК РПС \"ВОЗРОЖДЕНИЕ\")","numberarea":415535369},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.7446,55.97001,37.7446,55.97001],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.7446,55.97001],"type":"Point"},"id":123429220,"properties":{"feature_id":0,"label":"ООО \"Торговый комплекс \"Удача\"","numberarea":415535404},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.63106,54.83227,37.63106,54.83227],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.63106,54.83227],"type":"Point"},"id":123429214,"properties":{"feature_id":0,"label":"ООО \"Раритет\"","numberarea":415535434},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.08832,55.81451,37.08832,55.81451],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.08832,55.81451],"type":"Point"},"id":123429248,"properties":{"feature_id":0,"label":"ООО \"Тимофей\"","numberarea":415535259},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.72292,56.33018,36.72292,56.33018],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.72292,56.33018],"type":"Point"},"id":123429244,"properties":{"feature_id":0,"label":"ООО \"Пересвет\"","numberarea":415535279},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[36.71336,55.94076,36.71336,55.94076],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[36.71336,55.94076],"type":"Point"},"id":123429246,"properties":{"feature_id":0,"label":"ООО \"МаЛС-Оптим\"","numberarea":415535269},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.80839,55.93327,37.80839,55.93327],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.80839,55.93327],"type":"Point"},"id":123429243,"properties":{"feature_id":0,"label":"АО \"ОРТ-АВТО\"","numberarea":415535284},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.0353,55.60273,37.0353,55.60273],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.0353,55.60273],"type":"Point"},"id":123429238,"properties":{"feature_id":0,"label":"ООО \"Фила\"","numberarea":415535309},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.00693,55.62506,38.00693,55.62506],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.00693,55.62506],"type":"Point"},"id":123429231,"properties":{"feature_id":0,"label":"ООО \"МЭЗ-2003\"","numberarea":415535349},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.69765,55.89563,37.69765,55.89563],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.69765,55.89563],"type":"Point"},"id":123429224,"properties":{"feature_id":0,"label":"Акционерное общество \"Тайнинское-ВАБАРГ\" (АО \"Тайнинское-ВАБАРГ\")","numberarea":415535384},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.61345,55.44189,37.61345,55.44189],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.61345,55.44189],"type":"Point"},"id":123429218,"properties":{"feature_id":0,"label":"ООО \"Диметра\"","numberarea":415535414},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.95882,55.12084,37.95882,55.12084],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.95882,55.12084],"type":"Point"},"id":123429211,"properties":{"feature_id":0,"label":"Муниципальное унитарное предприятие \"Ступинский торговый центр\" Ступинского муниципального района (МУП \"Ступинский торговый центр\")","numberarea":415535449},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.5032,55.89656,37.5032,55.89656],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.5032,55.89656],"type":"Point"},"id":123429207,"properties":{"feature_id":0,"label":"ООО «СпецСтендЭкспо»","numberarea":415535469},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.1253,55.86622,37.1253,55.86622],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.1253,55.86622],"type":"Point"},"id":123429247,"properties":{"feature_id":0,"label":"Общество с ограниченной ответственностью Торговый Центр \"Дедовский\" (ООО ТЦ \"Дедовский\")","numberarea":415535264},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.15553,54.8284,38.15553,54.8284],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.15553,54.8284],"type":"Point"},"id":123429245,"properties":{"feature_id":0,"label":"Ступинское районное потребительское общество (Ступинское райпо)","numberarea":415535274},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.97236,55.82946,37.97236,55.82946],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.97236,55.82946],"type":"Point"},"id":123429264,"properties":{"feature_id":0,"label":"ООО \"Нобил\"","numberarea":415535179},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.85827,55.92881,37.85827,55.92881],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.85827,55.92881],"type":"Point"},"id":123429242,"properties":{"feature_id":0,"label":"ООО \"ФРЕГАТ\"","numberarea":415535294},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.9246,55.63655,37.9246,55.63655],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.9246,55.63655],"type":"Point"},"id":123429234,"properties":{"feature_id":0,"label":"ООО \"Люберецкий производственно-коммерческий центр\"","numberarea":415535329},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.90037,55.68215,37.90037,55.68215],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.90037,55.68215],"type":"Point"},"id":123429228,"properties":{"feature_id":0,"label":"ООО \"Торговая фирма\"Русское поле\"","numberarea":415535364},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.68238,55.89639,37.68238,55.89639],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.68238,55.89639],"type":"Point"},"id":123429223,"properties":{"feature_id":0,"label":"ООО \"МосОблСервис\"","numberarea":415535389},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.95669,55.79716,37.95669,55.79716],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.95669,55.79716],"type":"Point"},"id":123429263,"properties":{"feature_id":0,"label":"ООО \"Сопта\"","numberarea":415535184},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.65311,55.77593,38.65311,55.77593],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.65311,55.77593],"type":"Point"},"id":123429219,"properties":{"feature_id":0,"label":"ООО \"Герника -  XXI век)","numberarea":415535409},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.85531,55.77799,37.85531,55.77799],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.85531,55.77799],"type":"Point"},"id":123429212,"properties":{"feature_id":0,"label":"ООО \"Кром-Маркет\"","numberarea":415535444},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.97312,55.79484,37.97312,55.79484],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.97312,55.79484],"type":"Point"},"id":123429257,"properties":{"feature_id":0,"label":"ООО \"АГРО\"","numberarea":415535214},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.04551,55.72146,38.04551,55.72146],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.04551,55.72146],"type":"Point"},"id":123429260,"properties":{"feature_id":0,"label":"ООО \"Путёвый\"","numberarea":415535199},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.01008,55.75124,38.01008,55.75124],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.01008,55.75124],"type":"Point"},"id":123429258,"properties":{"feature_id":0,"label":"ООО \"Юнион\"","numberarea":415535209},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.84007,55.41774,37.84007,55.41774],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.84007,55.41774],"type":"Point"},"id":123429254,"properties":{"feature_id":0,"label":"ООО \"Л-ИР\"","numberarea":415535229},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.01536,55.75139,38.01536,55.75139],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.01536,55.75139],"type":"Point"},"id":123429261,"properties":{"feature_id":0,"label":"ООО \"Аврора\"","numberarea":415535194},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.13935,56.75813,37.13935,56.75813],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.13935,56.75813],"type":"Point"},"id":123429253,"properties":{"feature_id":0,"label":"Потребительское общество кооперативной торговли \"Коопторг\"  Московского регионального союза потребительской кооперации (Потребительское общество \"Коопторг\")","numberarea":415535234},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.26731,55.42526,38.26731,55.42526],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.26731,55.42526],"type":"Point"},"id":123429256,"properties":{"feature_id":0,"label":"Общество с ограниченной ответственностью Торговый дом \"Бронниицкое Подворье\" Броницкого П.О. (ООО ТД \"Бронниицкое Подворье\" Броницкого ПО)","numberarea":415535219},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.12601,56.76136,37.12601,56.76136],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.12601,56.76136],"type":"Point"},"id":123429252,"properties":{"feature_id":0,"label":"ООО \"Макро\"","numberarea":415535239},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[39.06758,55.36906,39.06758,55.36906],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[39.06758,55.36906],"type":"Point"},"id":123429251,"properties":{"feature_id":0,"label":"ООО \"ПАРА\"","numberarea":415535244},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.96004,55.8092,37.96004,55.8092],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.96004,55.8092],"type":"Point"},"id":123429259,"properties":{"feature_id":0,"label":"ООО \"Экспомет-XXI\"","numberarea":415535204},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[39.06789,55.36951,39.06789,55.36951],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[39.06789,55.36951],"type":"Point"},"id":123429250,"properties":{"feature_id":0,"label":"ООО \"Торговый дом \"Лотос\"","numberarea":415535249},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[37.51846,55.93981,37.51846,55.93981],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[37.51846,55.93981],"type":"Point"},"id":123429255,"properties":{"feature_id":0,"label":"ООО «Рекар-АВТО»","numberarea":415535224},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]},{"geometry":{"bbox":[38.13257,55.58912,38.13257,55.58912],"crs":{"properties":{"name":"urn:ogc:def:crs:EPSG::4326"},"type":"name"},"features":[{"geometry":{"coordinates":[38.13257,55.58912],"type":"Point"},"id":123429249,"properties":{"feature_id":0,"label":"ООО \"Жуковский пассаж\"","numberarea":415535254},"type":"Feature"}],"type":"FeatureCollection"},"layers":[251]}]
+[
+    {
+        "geometry": {
+            "bbox": [
+                36.69444,
+                55.57401,
+                36.69444,
+                55.57401
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.69444,
+                            55.57401
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429171,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Цикломен\"",
+                        "numberarea": 415535649
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.55294,
+                55.55755,
+                36.55294,
+                55.55755
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.55294,
+                            55.55755
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429173,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ЛАМБЕР\"",
+                        "numberarea": 415535644
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.05269,
+                55.64083,
+                37.05269,
+                55.64083
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.05269,
+                            55.64083
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429174,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Глобал-строй 2\"",
+                        "numberarea": 415535639
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.69039,
+                55.57801,
+                36.69039,
+                55.57801
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.69039,
+                            55.57801
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429175,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Общество с ограниченной ответственностью \"ТоргТрэнд-Групп\" (ООО \"ТТ-Групп\")",
+                        "numberarea": 415535634
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.27735,
+                55.67104,
+                37.27735,
+                55.67104
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.27735,
+                            55.67104
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429176,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Поддержка\"",
+                        "numberarea": 415535629
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.20454,
+                55.58468,
+                38.20454,
+                55.58468
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.20454,
+                            55.58468
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429265,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ТОРГОВЫЕ РЯДЫ РАМЕНСКОЕ\"",
+                        "numberarea": 493673994
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.70427,
+                55.5829,
+                36.70427,
+                55.5829
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.70427,
+                            55.5829
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429177,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО Упаковочная компания\"",
+                        "numberarea": 415535624
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.18079,
+                55.66237,
+                37.18079,
+                55.66237
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.18079,
+                            55.66237
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429178,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Успенка\"",
+                        "numberarea": 415535619
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.19761,
+                55.84391,
+                38.19761,
+                55.84391
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.19761,
+                            55.84391
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474113,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Общество с ограниченной ответственностью \"Альтаир\" (ООО \"Альтаир\")",
+                        "numberarea": 665480728
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.14016,
+                55.99063,
+                37.14016,
+                55.99063
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.14016,
+                            55.99063
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474108,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Данко\"",
+                        "numberarea": 665430869
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.1193,
+                56.24691,
+                38.1193,
+                56.24691
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.1193,
+                            56.24691
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429163,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Выбор\"",
+                        "numberarea": 415535694
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.15375,
+                56.32862,
+                38.15375,
+                56.32862
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.15375,
+                            56.32862
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429165,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"79\"",
+                        "numberarea": 415535684
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.13643,
+                56.12369,
+                38.13643,
+                56.12369
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.13643,
+                            56.12369
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429240,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"АМЕТИСТ\"",
+                        "numberarea": 415535299
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.47274,
+                55.29595,
+                38.47274,
+                55.29595
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.47274,
+                            55.29595
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474105,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Март+\"",
+                        "numberarea": 665416070
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [],
+            "type": "FeatureCollection"
+        },
+        "layers": []
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.08133,
+                55.61084,
+                38.08133,
+                55.61084
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.08133,
+                            55.61084
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429169,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Ярмарка\"",
+                        "numberarea": 415535664
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.37495,
+                55.54725,
+                36.37495,
+                55.54725
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.37495,
+                            55.54725
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429167,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Виктория\"",
+                        "numberarea": 415535674
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                35.64031,
+                56.22997,
+                35.64031,
+                56.22997
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            35.64031,
+                            56.22997
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429192,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Лотошинское райпо\"",
+                        "numberarea": 415535549
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.72109,
+                55.54587,
+                37.72109,
+                55.54587
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.72109,
+                            55.54587
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429193,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Игрек\"",
+                        "numberarea": 415535544
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.51606,
+                55.31152,
+                37.51606,
+                55.31152
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.51606,
+                            55.31152
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429215,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ЛИБРА\"",
+                        "numberarea": 415535429
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.95918,
+                55.12184,
+                37.95918,
+                55.12184
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.95918,
+                            55.12184
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474110,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Муниципальное унитарное предприятие \"Ступинский торговый центр\" городского округа Ступино Московской области (МУП \"СТЦ\")",
+                        "numberarea": 665470252
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.92227,
+                55.57414,
+                38.92227,
+                55.57414
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.92227,
+                            55.57414
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429172,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Муниципальное унитарное предприятие \"Куровской городской рынок\" городского поселения Куровское Орехово-Зуевского муниципального района (МУП \"Куровской городской рынок\")",
+                        "numberarea": 415535659
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.9913,
+                55.61417,
+                36.9913,
+                55.61417
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.9913,
+                            55.61417
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429170,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Актив-Инвест\"",
+                        "numberarea": 415535654
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.89956,
+                55.68249,
+                37.89956,
+                55.68249
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.89956,
+                            55.68249
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429235,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Корпорация \"СИБАГРОМАШ\"",
+                        "numberarea": 415535324
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.24109,
+                56.43509,
+                38.24109,
+                56.43509
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.24109,
+                            56.43509
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429162,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"На поле\"",
+                        "numberarea": 415535699
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.89734,
+                55.68272,
+                37.89734,
+                55.68272
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.89734,
+                            55.68272
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429229,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Корпорация \"СИБАГРОМАШ\"",
+                        "numberarea": 415535359
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.83929,
+                55.9372,
+                37.83929,
+                55.9372
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.83929,
+                            55.9372
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474102,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Элайт\"",
+                        "numberarea": 665402873
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.08632,
+                54.89006,
+                38.08632,
+                54.89006
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.08632,
+                            54.89006
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474109,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Ступинское районное потребительское общество (Ступинское райпо)",
+                        "numberarea": 665469360
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.18826,
+                55.95407,
+                37.18826,
+                55.95407
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.18826,
+                            55.95407
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474107,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Общество с ограниченной ответственностью «Агропромышленная фирма «Кутузово» (ООО «АПФ «Кутузово»)",
+                        "numberarea": 665426507
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.89424,
+                55.2681,
+                37.89424,
+                55.2681
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.89424,
+                            55.2681
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474101,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"БАРЫБИНСКИЙ РЫНОК\"",
+                        "numberarea": 665392507
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.1289,
+                56.34034,
+                38.1289,
+                56.34034
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.1289,
+                            56.34034
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474106,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Акционерное общество \"Сергиево-Посадский торговый комплекс \"Меркурий\" (АО СПТК \"Меркурий\")",
+                        "numberarea": 665422085
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.24561,
+                56.34547,
+                38.24561,
+                56.34547
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.24561,
+                            56.34547
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429164,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Союз-ВИКТОНН\"",
+                        "numberarea": 415535689
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.95578,
+                55.75159,
+                37.95578,
+                55.75159
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.95578,
+                            55.75159
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474100,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Эдельвейс-К\"",
+                        "numberarea": 665385059
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.50935,
+                55.26224,
+                37.50935,
+                55.26224
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.50935,
+                            55.26224
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474111,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Континентал\"",
+                        "numberarea": 665475286
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.20671,
+                55.57174,
+                38.20671,
+                55.57174
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.20671,
+                            55.57174
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429168,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Зорька\"",
+                        "numberarea": 415535669
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.42765,
+                55.19417,
+                37.42765,
+                55.19417
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.42765,
+                            55.19417
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474112,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Партнер\"",
+                        "numberarea": 665477650
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.84806,
+                55.06284,
+                38.84806,
+                55.06284
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.84806,
+                            55.06284
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429271,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \" Рондо\"",
+                        "numberarea": 521965092
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.01824,
+                55.66179,
+                38.01824,
+                55.66179
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.01824,
+                            55.66179
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429232,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ТОРНАДО XXI\"",
+                        "numberarea": 415535339
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.54105,
+                56.35385,
+                37.54105,
+                56.35385
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.54105,
+                            56.35385
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429200,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ПО \"Центральный рынок\"",
+                        "numberarea": 415535509
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.76129,
+                55.9159,
+                37.76129,
+                55.9159
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.76129,
+                            55.9159
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429225,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Общество с ограниченной ответственностью  \"Торгово-промышленная компания СБ ЩИТ\" (ООО \"ТПК СБ ЩИТ\")",
+                        "numberarea": 415535379
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.45041,
+                55.60106,
+                36.45041,
+                55.60106
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.45041,
+                            55.60106
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429166,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ЛЮВ-2\"",
+                        "numberarea": 415535679
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.75076,
+                55.0674,
+                38.75076,
+                55.0674
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.75076,
+                            55.0674
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429195,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Стройтех\"",
+                        "numberarea": 415535534
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.06179,
+                55.90138,
+                38.06179,
+                55.90138
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.06179,
+                            55.90138
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429154,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Общество с ограниченной ответственностью  Торговая компания \"Битекс\" (ООО ТК \"Битекс\")",
+                        "numberarea": 415535740
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.55039,
+                55.42892,
+                37.55039,
+                55.42892
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.55039,
+                            55.42892
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474104,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Центральный\"",
+                        "numberarea": 665410589
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.31211,
+                55.97614,
+                37.31211,
+                55.97614
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.31211,
+                            55.97614
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429277,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Рассвет\"",
+                        "numberarea": 522008128
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.32837,
+                56.37132,
+                37.32837,
+                56.37132
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.32837,
+                            56.37132
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429196,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Даллес-Д\"",
+                        "numberarea": 415535529
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.02782,
+                55.49592,
+                36.02782,
+                55.49592
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.02782,
+                            55.49592
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 127474103,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Монумент\"",
+                        "numberarea": 665405107
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.71765,
+                55.40862,
+                36.71765,
+                55.40862
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.71765,
+                            55.40862
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429190,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"АРЕНА\"",
+                        "numberarea": 415535559
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.97889,
+                56.25308,
+                37.97889,
+                56.25308
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.97889,
+                            56.25308
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429161,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"АЛЬГРЕЙ\"",
+                        "numberarea": 415535704
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.81566,
+                55.08123,
+                38.81566,
+                55.08123
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.81566,
+                            55.08123
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429194,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Коломенский строитель\"",
+                        "numberarea": 415535539
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                35.51176,
+                56.0307,
+                35.51176,
+                56.0307
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            35.51176,
+                            56.0307
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429153,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"В.В.\"",
+                        "numberarea": 415535745
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.99443,
+                55.92474,
+                37.99443,
+                55.92474
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.99443,
+                            55.92474
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429155,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Лаборатория ЗетЗетЗет\"",
+                        "numberarea": 415535735
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.17387,
+                55.81845,
+                38.17387,
+                55.81845
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.17387,
+                            55.81845
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429188,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"С-Восток\"",
+                        "numberarea": 415535569
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.13578,
+                56.30478,
+                38.13578,
+                56.30478
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.13578,
+                            56.30478
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429160,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Общество с ограниченной ответственностью \"Торговый дом \"ЩЕДРУХА\" (ООО \"ТД \"ЩЕДРУХА\")",
+                        "numberarea": 415535709
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.98682,
+                55.51963,
+                36.98682,
+                55.51963
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.98682,
+                            55.51963
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429189,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Управляющая компания\"",
+                        "numberarea": 415535564
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.1993,
+                55.70926,
+                36.1993,
+                55.70926
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.1993,
+                            55.70926
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429267,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Центральное\"",
+                        "numberarea": 493704977
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.13246,
+                56.31615,
+                38.13246,
+                56.31615
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.13246,
+                            56.31615
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429159,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ИнвестДельтаСтрой\"",
+                        "numberarea": 415535714
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.86351,
+                55.91392,
+                36.86351,
+                55.91392
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.86351,
+                            55.91392
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429268,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО Фирма \"РИК\"",
+                        "numberarea": 493710452
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.03316,
+                55.49567,
+                36.03316,
+                55.49567
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.03316,
+                            55.49567
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429191,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Горки-1\"",
+                        "numberarea": 415535554
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.85891,
+                55.06027,
+                38.85891,
+                55.06027
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.85891,
+                            55.06027
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429273,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Пром Тест\"",
+                        "numberarea": 521993716
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.15827,
+                56.72964,
+                37.15827,
+                56.72964
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.15827,
+                            56.72964
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429266,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Торговые ряды Дубны\"",
+                        "numberarea": 493614216
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.52959,
+                55.32995,
+                37.52959,
+                55.32995
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.52959,
+                            55.32995
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429276,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Фортуна\"",
+                        "numberarea": 522004582
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.84547,
+                55.06381,
+                38.84547,
+                55.06381
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.84547,
+                            55.06381
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429272,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Стройдвор\"",
+                        "numberarea": 521974561
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.03472,
+                55.59125,
+                37.03472,
+                55.59125
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.03472,
+                            55.59125
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429237,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ФИЛА\"",
+                        "numberarea": 415535314
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.13119,
+                56.33944,
+                38.13119,
+                56.33944
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.13119,
+                            56.33944
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429158,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Акционерное общество \"Сергиево-Посадский торговый комплекс \"Меркурий\" (АО СПТК \"Меркурий\")",
+                        "numberarea": 415535719
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.84801,
+                55.6511,
+                37.84801,
+                55.6511
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.84801,
+                            55.6511
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429274,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ЛЕСПРОМ\"",
+                        "numberarea": 521998006
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.72,
+                55.90928,
+                37.72,
+                55.90928
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.72,
+                            55.90928
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429275,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"УК \"ЭкоБазар-Мытищи\"",
+                        "numberarea": 521999937
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.54833,
+                56.33876,
+                37.54833,
+                56.33876
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.54833,
+                            56.33876
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429199,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ПО \"Центральный рынок\"",
+                        "numberarea": 415535514
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.97836,
+                56.18193,
+                36.97836,
+                56.18193
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.97836,
+                            56.18193
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429157,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"БАЗАР\"",
+                        "numberarea": 415535725
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.3775,
+                55.72247,
+                37.3775,
+                55.72247
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.3775,
+                            55.72247
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429187,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Техносервис\"",
+                        "numberarea": 415535579
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.3783,
+                55.72386,
+                37.3783,
+                55.72386
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.3783,
+                            55.72386
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429182,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"АвтоМОЛ\"",
+                        "numberarea": 415535584
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.2787,
+                55.67278,
+                37.2787,
+                55.67278
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.2787,
+                            55.67278
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429186,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Одинцовское подворье\"",
+                        "numberarea": 415535589
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.27849,
+                55.67163,
+                37.27849,
+                55.67163
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.27849,
+                            55.67163
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429185,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Одинцовское подворье\"",
+                        "numberarea": 415535594
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.27992,
+                55.67283,
+                37.27992,
+                55.67283
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.27992,
+                            55.67283
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429184,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Одинцовское подворье\"",
+                        "numberarea": 415535599
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.41368,
+                55.8916,
+                37.41368,
+                55.8916
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.41368,
+                            55.8916
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429209,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Сигма-профи+\"",
+                        "numberarea": 415535459
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.46915,
+                55.16373,
+                37.46915,
+                55.16373
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.46915,
+                            55.16373
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429203,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Омега-Плюс\"",
+                        "numberarea": 415535494
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.27546,
+                55.67015,
+                37.27546,
+                55.67015
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.27546,
+                            55.67015
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429183,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Фирма \"Агра\" (ООО \"Фирма \"Агра\", \"Company \"Agra\")",
+                        "numberarea": 415535604
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.48226,
+                56.28894,
+                37.48226,
+                56.28894
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.48226,
+                            56.28894
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429197,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ПО \"Центральный рынок\"",
+                        "numberarea": 415535524
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.35764,
+                55.70761,
+                37.35764,
+                55.70761
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.35764,
+                            55.70761
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429180,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ТОРГОВО-ВЫСТАВОЧНЫЙ ЦЕНТР)",
+                        "numberarea": 415535609
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.28099,
+                55.65527,
+                37.28099,
+                55.65527
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.28099,
+                            55.65527
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429179,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"АКОС\"",
+                        "numberarea": 415535614
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.09802,
+                56.10488,
+                37.09802,
+                56.10488
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.09802,
+                            56.10488
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429156,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО «ЯРОСЛАВНА»",
+                        "numberarea": 415535730
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.51605,
+                56.34504,
+                37.51605,
+                56.34504
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.51605,
+                            56.34504
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429198,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Торнадо-Д\"",
+                        "numberarea": 415535519
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.03877,
+                55.59541,
+                37.03877,
+                55.59541
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.03877,
+                            55.59541
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429239,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Муниципальное унитарное предприятие \"Социальные услуги населению\" (МУП \"СУН\")",
+                        "numberarea": 415535304
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [],
+            "type": "FeatureCollection"
+        },
+        "layers": []
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.00924,
+                55.64434,
+                38.00924,
+                55.64434
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.00924,
+                            55.64434
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429226,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Потребительский кооператив \"Райпотребсоюз  \"ВОЗРОЖДЕНИЕ\" (ПК РПС \"ВОЗРОЖДЕНИЕ\")",
+                        "numberarea": 415535374
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.53465,
+                55.9593,
+                37.53465,
+                55.9593
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.53465,
+                            55.9593
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429221,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ТУБ\"",
+                        "numberarea": 415535399
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.85401,
+                55.77847,
+                37.85401,
+                55.77847
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.85401,
+                            55.77847
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429213,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Кром-Маркет\"",
+                        "numberarea": 415535439
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.40108,
+                55.89781,
+                37.40108,
+                55.89781
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.40108,
+                            55.89781
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429208,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"СТОР ПРОДЖЕКТ\"",
+                        "numberarea": 415535464
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.86281,
+                55.78239,
+                37.86281,
+                55.78239
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.86281,
+                            55.78239
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429262,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"АГОРА\"",
+                        "numberarea": 415535189
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.78338,
+                55.88204,
+                38.78338,
+                55.88204
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.78338,
+                            55.88204
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429202,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Муниципальное унитарное предприятие \"Порядок\" (МУП \"Порядок\")",
+                        "numberarea": 415535499
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.85791,
+                55.92776,
+                37.85791,
+                55.92776
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.85791,
+                            55.92776
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429241,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ФРЕГАТ\"",
+                        "numberarea": 415535289
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.27702,
+                55.83264,
+                37.27702,
+                55.83264
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.27702,
+                            55.83264
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429236,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ЭКО-Станица\"",
+                        "numberarea": 415535319
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.9024,
+                55.67761,
+                37.9024,
+                55.67761
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.9024,
+                            55.67761
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429230,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Фирма Алькор\"",
+                        "numberarea": 415535354
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.53472,
+                55.96214,
+                37.53472,
+                55.96214
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.53472,
+                            55.96214
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429222,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Торговый центр Дмитровский\" (ООО \"ТЦ Дмитровский\")",
+                        "numberarea": 415535394
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.40926,
+                55.92065,
+                37.40926,
+                55.92065
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.40926,
+                            55.92065
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429206,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Химкинский двор\"",
+                        "numberarea": 415535474
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.5489,
+                55.42883,
+                37.5489,
+                55.42883
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.5489,
+                            55.42883
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429216,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Русадж\"",
+                        "numberarea": 415535424
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.06942,
+                54.88874,
+                38.06942,
+                54.88874
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.06942,
+                            54.88874
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429210,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Ступинское районное потребительское общество (Ступинское райпо)",
+                        "numberarea": 415535454
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.3396,
+                55.95708,
+                37.3396,
+                55.95708
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.3396,
+                            55.95708
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429205,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"СП-Сервис\"",
+                        "numberarea": 415535484
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.46513,
+                55.16491,
+                37.46513,
+                55.16491
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.46513,
+                            55.16491
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429204,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ВЕСТСТРОЙ\"",
+                        "numberarea": 415535489
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.97312,
+                55.7038,
+                37.97312,
+                55.7038
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.97312,
+                            55.7038
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429233,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ГидроЛесСтрой\"",
+                        "numberarea": 415535334
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.99077,
+                55.66014,
+                37.99077,
+                55.66014
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.99077,
+                            55.66014
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429227,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Потребительский кооператив \"Райпотребсоюз  \"ВОЗРОЖДЕНИЕ\" (ПК РПС \"ВОЗРОЖДЕНИЕ\")",
+                        "numberarea": 415535369
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.7446,
+                55.97001,
+                37.7446,
+                55.97001
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.7446,
+                            55.97001
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429220,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Торговый комплекс \"Удача\"",
+                        "numberarea": 415535404
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.63106,
+                54.83227,
+                37.63106,
+                54.83227
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.63106,
+                            54.83227
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429214,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Раритет\"",
+                        "numberarea": 415535434
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.08832,
+                55.81451,
+                37.08832,
+                55.81451
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.08832,
+                            55.81451
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429248,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Тимофей\"",
+                        "numberarea": 415535259
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.72292,
+                56.33018,
+                36.72292,
+                56.33018
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.72292,
+                            56.33018
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429244,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Пересвет\"",
+                        "numberarea": 415535279
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                36.71336,
+                55.94076,
+                36.71336,
+                55.94076
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            36.71336,
+                            55.94076
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429246,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"МаЛС-Оптим\"",
+                        "numberarea": 415535269
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.80839,
+                55.93327,
+                37.80839,
+                55.93327
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.80839,
+                            55.93327
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429243,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "АО \"ОРТ-АВТО\"",
+                        "numberarea": 415535284
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.0353,
+                55.60273,
+                37.0353,
+                55.60273
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.0353,
+                            55.60273
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429238,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Фила\"",
+                        "numberarea": 415535309
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.00693,
+                55.62506,
+                38.00693,
+                55.62506
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.00693,
+                            55.62506
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429231,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"МЭЗ-2003\"",
+                        "numberarea": 415535349
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.69765,
+                55.89563,
+                37.69765,
+                55.89563
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.69765,
+                            55.89563
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429224,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Акционерное общество \"Тайнинское-ВАБАРГ\" (АО \"Тайнинское-ВАБАРГ\")",
+                        "numberarea": 415535384
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.61345,
+                55.44189,
+                37.61345,
+                55.44189
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.61345,
+                            55.44189
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429218,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Диметра\"",
+                        "numberarea": 415535414
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.95882,
+                55.12084,
+                37.95882,
+                55.12084
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.95882,
+                            55.12084
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429211,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Муниципальное унитарное предприятие \"Ступинский торговый центр\" Ступинского муниципального района (МУП \"Ступинский торговый центр\")",
+                        "numberarea": 415535449
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.5032,
+                55.89656,
+                37.5032,
+                55.89656
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.5032,
+                            55.89656
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429207,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО «СпецСтендЭкспо»",
+                        "numberarea": 415535469
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.1253,
+                55.86622,
+                37.1253,
+                55.86622
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.1253,
+                            55.86622
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429247,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Общество с ограниченной ответственностью Торговый Центр \"Дедовский\" (ООО ТЦ \"Дедовский\")",
+                        "numberarea": 415535264
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.15553,
+                54.8284,
+                38.15553,
+                54.8284
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.15553,
+                            54.8284
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429245,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Ступинское районное потребительское общество (Ступинское райпо)",
+                        "numberarea": 415535274
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.97236,
+                55.82946,
+                37.97236,
+                55.82946
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.97236,
+                            55.82946
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429264,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Нобил\"",
+                        "numberarea": 415535179
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.85827,
+                55.92881,
+                37.85827,
+                55.92881
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.85827,
+                            55.92881
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429242,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ФРЕГАТ\"",
+                        "numberarea": 415535294
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.9246,
+                55.63655,
+                37.9246,
+                55.63655
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.9246,
+                            55.63655
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429234,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Люберецкий производственно-коммерческий центр\"",
+                        "numberarea": 415535329
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.90037,
+                55.68215,
+                37.90037,
+                55.68215
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.90037,
+                            55.68215
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429228,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Торговая фирма\"Русское поле\"",
+                        "numberarea": 415535364
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.68238,
+                55.89639,
+                37.68238,
+                55.89639
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.68238,
+                            55.89639
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429223,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"МосОблСервис\"",
+                        "numberarea": 415535389
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.95669,
+                55.79716,
+                37.95669,
+                55.79716
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.95669,
+                            55.79716
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429263,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Сопта\"",
+                        "numberarea": 415535184
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.65311,
+                55.77593,
+                38.65311,
+                55.77593
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.65311,
+                            55.77593
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429219,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Герника -  XXI век)",
+                        "numberarea": 415535409
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.85531,
+                55.77799,
+                37.85531,
+                55.77799
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.85531,
+                            55.77799
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429212,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Кром-Маркет\"",
+                        "numberarea": 415535444
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.97312,
+                55.79484,
+                37.97312,
+                55.79484
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.97312,
+                            55.79484
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429257,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"АГРО\"",
+                        "numberarea": 415535214
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.04551,
+                55.72146,
+                38.04551,
+                55.72146
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.04551,
+                            55.72146
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429260,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Путёвый\"",
+                        "numberarea": 415535199
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.01008,
+                55.75124,
+                38.01008,
+                55.75124
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.01008,
+                            55.75124
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429258,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Юнион\"",
+                        "numberarea": 415535209
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.84007,
+                55.41774,
+                37.84007,
+                55.41774
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.84007,
+                            55.41774
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429254,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Л-ИР\"",
+                        "numberarea": 415535229
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.01536,
+                55.75139,
+                38.01536,
+                55.75139
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.01536,
+                            55.75139
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429261,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Аврора\"",
+                        "numberarea": 415535194
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.13935,
+                56.75813,
+                37.13935,
+                56.75813
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.13935,
+                            56.75813
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429253,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Потребительское общество кооперативной торговли \"Коопторг\"  Московского регионального союза потребительской кооперации (Потребительское общество \"Коопторг\")",
+                        "numberarea": 415535234
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.26731,
+                55.42526,
+                38.26731,
+                55.42526
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.26731,
+                            55.42526
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429256,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "Общество с ограниченной ответственностью Торговый дом \"Бронниицкое Подворье\" Броницкого П.О. (ООО ТД \"Бронниицкое Подворье\" Броницкого ПО)",
+                        "numberarea": 415535219
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.12601,
+                56.76136,
+                37.12601,
+                56.76136
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.12601,
+                            56.76136
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429252,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Макро\"",
+                        "numberarea": 415535239
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                39.06758,
+                55.36906,
+                39.06758,
+                55.36906
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            39.06758,
+                            55.36906
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429251,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"ПАРА\"",
+                        "numberarea": 415535244
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.96004,
+                55.8092,
+                37.96004,
+                55.8092
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.96004,
+                            55.8092
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429259,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Экспомет-XXI\"",
+                        "numberarea": 415535204
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                39.06789,
+                55.36951,
+                39.06789,
+                55.36951
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            39.06789,
+                            55.36951
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429250,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Торговый дом \"Лотос\"",
+                        "numberarea": 415535249
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                37.51846,
+                55.93981,
+                37.51846,
+                55.93981
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            37.51846,
+                            55.93981
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429255,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО «Рекар-АВТО»",
+                        "numberarea": 415535224
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    },
+    {
+        "geometry": {
+            "bbox": [
+                38.13257,
+                55.58912,
+                38.13257,
+                55.58912
+            ],
+            "crs": {
+                "properties": {
+                    "name": "urn:ogc:def:crs:EPSG::4326"
+                },
+                "type": "name"
+            },
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            38.13257,
+                            55.58912
+                        ],
+                        "type": "Point"
+                    },
+                    "id": 123429249,
+                    "properties": {
+                        "feature_id": 0,
+                        "label": "ООО \"Жуковский пассаж\"",
+                        "numberarea": 415535254
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        },
+        "layers": [
+            251
+        ]
+    }
+]]
