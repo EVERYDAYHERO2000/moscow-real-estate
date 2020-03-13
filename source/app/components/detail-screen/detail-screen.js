@@ -31,7 +31,8 @@ __.detailScreen = function (params) {
         _bradcrumbs,
         _forest,
         _places,
-        _school;
+        _school,
+        _communication;
 
 
     _id = place.id;
@@ -64,6 +65,32 @@ __.detailScreen = function (params) {
     })(params.mode); 
 
  
+    _communication = (function(props){
+
+      let tpl = ``;
+
+      let term = {
+        energy: 'Электроснабжение',
+        water: 'Водоснабжение',
+        drainage: 'Канализация',
+        gas: 'Газоснабжение',
+        security: 'Охрана'
+      }
+
+      for (var i in props){
+
+        if (props[i]){
+
+          tpl += `<li class="simple-list__item flex-line">${term[i]}</li>`
+
+        }
+
+      }
+
+      return `<ul class="simple-list">${tpl}</ul>`;
+
+    })(place.props)
+
 
     _close = (params.mode == 'turbo' || params.mode == 'amp') ? '' : `<div class="close-icon" role="button" id="close-panel"></div>`;
 
@@ -511,6 +538,10 @@ ${_bradcrumbs}
       ${_markets}
     </section>
     ${_ads}
+    <section id="s_communication" class="content__section">
+      <h2>Коммуникации</h2>
+      ${_communication}
+    </section>
     <section id="s_transport" class="content__section">
       <h2>Транспортная доступность <nobr>${_type} ${_name}</nobr></h2>
         ${_address}

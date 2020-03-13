@@ -60,7 +60,7 @@ const updateData = function(){
             "water"  : (p[17]) ? p[17] : '',
             "drainage" : (p[18]) ? p[18] : '',
             "gas" : (p[19]) ? p[19] : '',
-            "scurity" : (p[20]) ? p[20] : '',
+            "security" : (p[20]) ? p[20] : '',
           },
           "nature" : {
             "forest" : (p[22]) ? p[22] : '',

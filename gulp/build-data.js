@@ -130,6 +130,15 @@ const buildData = function (places, writeFile) {
             "readyDate": place.readyDate, 
             "title": place.title, 
             "id": place.id, 
+            /*
+            "props" : {
+              "energy" : place.props.energy,
+              "water"  : place.props.water,
+              "drainage" : place.props.drainage,
+              "gas" : place.props.gas,
+              "security" : place.props.security,
+            },
+            */
             "eco": { 
               "distance": place.eco.distance 
             }, 
