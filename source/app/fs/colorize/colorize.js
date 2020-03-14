@@ -1,9 +1,17 @@
 __.fs.colorize = function(params){
    
   //default
-  this.default = function() {
+  this.default = function(params) {
     
-    return rgba(0,98,255,.5);
+    let color = rgba(156,39,176,.5);
+
+    if (params.type == 'КП') {
+
+      color = rgba(0,98,255,.5);
+
+    }
+
+    return color;
     
   }
   
