@@ -155,7 +155,7 @@ __.search = function(params){
 
         if (params.river != undefined) {
 
-          if (!params.river){
+          if (params.river && !place.river.value){
             
             place.canvas.visible = false;
           } 
