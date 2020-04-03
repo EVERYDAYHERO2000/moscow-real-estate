@@ -99,6 +99,10 @@ const formFilter = function () {
                       <input id="ch-name_5" type="checkbox" />
                       <span>Рядом с лесом</span>
                     </label>
+                    <label class="label-for-checkbox" for="ch-name_6">
+                      <input id="ch-name_6" type="checkbox" />
+                      <span>Рядом с водой</span>
+                    </label>
                   </div>
                 </div>
 

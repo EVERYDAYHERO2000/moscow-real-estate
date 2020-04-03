@@ -16,7 +16,8 @@ __.search = function(params){
       params.direction != undefined || 
       params.eco != undefined || 
       params.cost != undefined || 
-      params.forest != undefined ){
+      params.forest != undefined || 
+      params.river != undefined ){
     
     
     if (params.text){
@@ -151,6 +152,15 @@ __.search = function(params){
           } 
           
         }
+
+        if (params.river != undefined) {
+
+          if (!params.river){
+            
+            place.canvas.visible = false;
+          } 
+          
+        }
         
         if (place.canvas.visible) {
         
@@ -167,9 +177,6 @@ __.search = function(params){
     
     $('#places').trigger('renderList', {places : results, onlyVisible: true}).scrollTop(0);
     
-    
-    
-    
   } else {
     
     map.search = false;
@@ -183,8 +190,6 @@ __.search = function(params){
   }
   
   $('#map').data('canvas').redraw();
-  
-  
   
   
   return results;

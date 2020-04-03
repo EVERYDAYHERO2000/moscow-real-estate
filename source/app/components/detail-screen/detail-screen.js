@@ -424,7 +424,7 @@ __.detailScreen = function (params) {
 
     _river = (function(river){
 
-       return (river) ? `<p>Рядом с посёлком есть водоъём или река.</p><hr>` : '';
+       return (river) ? `<p>Рядом с посёлком есть водоём или река.</p><hr>` : '';
 
     })(place.river);
 
