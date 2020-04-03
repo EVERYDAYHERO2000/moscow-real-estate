@@ -28,6 +28,19 @@ __.mapLegend = function () {
         return false;
     }
 
+    this.river = function () {
+
+        $('.map-legend').html(`
+
+            ${legendItem('Рядом есть водоём или река','rgba(3, 97, 251,1)')}
+
+            ${legendItem('далеко','rgba(255, 0, 0,1)')}
+        
+        `);
+
+        return false;
+    }
+
     this.cost = function () {
 
         $('.map-legend').html(`

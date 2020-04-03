@@ -106,6 +106,17 @@ __.fs.colorize = function(params){
       return color;
     }
 
+    //river
+    this.river = function(params) {
+
+      let value = params.river.value;
+
+      let color = (value) ? rgba(3, 97, 251, 0.5) : rgba(225, 0, 0, 0.05);
+      
+      return color;
+
+    }
+
     //school
     this.school = function(params) {
 

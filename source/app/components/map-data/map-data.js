@@ -57,6 +57,12 @@ __.mapData = function(){
     callback();
     
   }
+
+  this.river = function(callback){
+    
+    callback();
+    
+  }
   
   function getData(name, callback) {
     

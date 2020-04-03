@@ -32,7 +32,8 @@ __.detailScreen = function (params) {
         _forest,
         _places,
         _school,
-        _communication;
+        _communication,
+        _river;
 
 
     _id = place.id;
@@ -421,6 +422,12 @@ __.detailScreen = function (params) {
 
     })(place.point, place.site);
 
+    _river = (function(river){
+
+       return (river) ? `<p>Рядом с посёлком есть водоъём или река.</p><hr>` : '';
+
+    })(place.river);
+
 
     _forest = (function(forest){
       
@@ -448,7 +455,7 @@ __.detailScreen = function (params) {
 
         tpl = `
         <p>${(near) ? `Рядом с посёлком есть лес.` : `В <b>${forest.distance} км</b> от посёлка начинается лес.`}</p>
-        ${ (tpl) ? `<ul class="simple-list">${tpl}</ul>` : '' }`;
+        ${ (tpl) ? `<ul class="simple-list">${tpl}</ul>` : '' }<hr>`;
 
       } 
 
@@ -566,6 +573,7 @@ ${_bradcrumbs}
       <h2>Экология</h2>
       <div>
         ${_forest}
+        ${_river}
         ${_eco}
         ${_water}
       </div>

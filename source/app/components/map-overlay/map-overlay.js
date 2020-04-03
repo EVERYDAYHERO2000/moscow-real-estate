@@ -12,6 +12,8 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
   this.default = function () {
     return false
   };
+
+
   
   this.markets = function (params, canvasOverlay, ctx, zoom, mapId) {
     
@@ -109,6 +111,12 @@ __.mapOverlay = function (params, canvasOverlay, ctx, zoom, mapId) {
   }
 
   this.forest = function (params, canvasOverlay, ctx, zoom, mapId) {
+    
+    return false;  
+    
+  }
+
+  this.river = function (params, canvasOverlay, ctx, zoom, mapId) {
     
     return false;  
     

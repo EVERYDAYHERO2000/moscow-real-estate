@@ -58,6 +58,12 @@ __.mapTiles = function(tileset){
     changeClass(l,d);
   }
 
+  this.river = function(){
+    
+    setTiles(dark);
+    changeClass(l,d);
+  }
+
   this.school = function(){
     
     setTiles(dark);

@@ -28,7 +28,11 @@ __.mapControls = function () {
         },
         forest : {
           title: 'Лес'
+        },
+        river : {
+          title: 'Водоёмы и реки'
         }
+
       },
       tpl = ``;
 
