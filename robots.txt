@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /control-center.html
+Disallow: /editor/

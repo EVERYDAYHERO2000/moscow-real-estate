@@ -93,6 +93,7 @@ const buildData = function (places, writeFile) {
     place.forest = matchForest(place, worldData.forest);
     place.places = matchPlaces(place, placesData);
     place.school = matchSchool(place,worldData.school);
+    place.river = (place.nature.water) ? 1 : 0;
 
     place.description = textGen(place);
 
@@ -185,6 +186,9 @@ const buildData = function (places, writeFile) {
             },
             "school": {
               "distance": place.school.distance
+            },
+            "river" : {
+              "value": place.river
             }
           });
 

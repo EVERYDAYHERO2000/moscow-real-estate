@@ -6,7 +6,7 @@
     "license": "MIT",
     "scripts": {
         "dev": "gulp",
-        "update-data": "gulp update-data --max_old_space_size=4096",
+        "update-data": "gulp update-data --max_old_space_size=8096",
         "build": "gulp build",
         "test": "gscan ."
     },
