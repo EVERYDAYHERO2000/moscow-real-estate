@@ -1,31 +1,35 @@
 <html>
   <head>
-    <link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7.2/leaflet.css" />
-    <link rel="stylesheet" href="main.css" />
-    <script src="csv-to-map.js"></script>
+    <link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7.2/leaflet.css">
+    <link rel="stylesheet" href="/main.af46ece4.css">
+    <script src="/scv-to-array.a342c529.js"></script>
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<your API-key>" type="text/javascript"></script>
-    <script src="libs/jquery.min.js"></script>
-    <script src="libs/leaflet.min.test.js"></script>
-    <script src="libs/leaflet.yandex.js"></script>
-    <script src="libs/leaflet.canvas.js"></script>
-    <script src="map.js"></script>
-    <script src="main.js"></script>
+    <script src="/jquery.min.7e36cf4c.js"></script>
+    <script src="/leaflet.min.test.c89c2e3a.js"></script>
+    <script src="/leaflet.yandex.5921c4ac.js"></script>
+    <script src="/leaflet.canvas.5c1f4f79.js"></script>
+    <script src="/map.27237bf4.js"></script>
+    <script src="/main.1f19ae8e.js"></script>
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-   window.letitgo = 'ilovedesign';   
-   ym(55798045, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/55798045" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <script>(function (m, e, t, r, i, k, a) {
+  m[i] = m[i] || function () {
+    (m[i].a = m[i].a || []).push(arguments);
+  };
+
+  m[i].l = 1 * new Date();
+  k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a);
+})(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+window.letitgo = 'ilovedesign';
+ym(55798045, "init", {
+  clickmap: true,
+  trackLinks: true,
+  accurateTrackBounce: true,
+  webvisor: true
+});</script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/55798045" style="position:absolute; left:-9999px;" alt=""></div></noscript>
     <!-- /Yandex.Metrika counter -->
-  </head>
+  <script src="/main.af46ece4.js"></script></head>
   <body>
     <div id="app" style="display: none">
       <div id="places">
@@ -38,7 +42,7 @@
         </div>
         <div class="row" id="row_1">
           <div class="row-title">Название</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_2">
           <div class="row-title">
@@ -47,11 +51,11 @@
               <div><a target="_blank" href="https://yandex.ru/maps/">Яндекс.Карта</a></div>
             </div>
           </div>
-          <div class="row-control"><div class="col"><div class="col-row"><div><input type="text" /></div><div><input type="text" /></div></div></div></div>
+          <div class="row-control"><div class="col"><div class="col-row"><div><input type="text"></div><div><input type="text"></div></div></div></div>
         </div>
         <div class="row" id="row_3">
           <div class="row-title">Адрес</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_4">
           <div class="row-title">
@@ -59,28 +63,28 @@
               <div>Цена (от — до)</div>
               <div><a target="_blank" href="https://cian.ru/map/">Cian</a></div>
             </div>
-          </div>  
-          <div class="row-control"><div><input type="number" /></div><div><input type="number" /></div></div>
+          </div>
+          <div class="row-control"><div><input type="number"></div><div><input type="number"></div></div>
         </div>
         <div class="row" id="row_5">
           <div class="row-title">Дата сдачи</div>
-          <div class="row-control"><input type="number" /></div>
+          <div class="row-control"><input type="number"></div>
         </div>
         <div class="row" id="row_6">
           <div class="row-title">Тип</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_7">
           <div class="row-title">Класс</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_8">
           <div class="row-title">На машине до Москвы</div>
-          <div class="row-control"><input type="number" /></div>
+          <div class="row-control"><input type="number"></div>
         </div>
         <div class="row" id="row_9">
           <div class="row-title">Время в пути</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_10">
           <div class="row-title">Описание</div>
@@ -88,51 +92,51 @@
         </div>
         <div class="row" id="row_11">
           <div class="row-title">Застройщик</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_12">
           <div class="row-title">Сайт</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_13">
           <div class="row-title">Тип земли</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_14">
           <div class="row-title">Электричество</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_15">
           <div class="row-title">Вода</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_16">
           <div class="row-title">Канализация</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_17">
           <div class="row-title">Газ</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_18">
           <div class="row-title">Охрана</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_19">
           <div class="row-title">Инфраструктура</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_20">
           <div class="row-title">Лес</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_21">
           <div class="row-title">Водоём</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_22">
           <div class="row-title">Ссылка</div>
-          <div class="row-control"><input type="text" /></div>
+          <div class="row-control"><input type="text"></div>
         </div>
         <div class="row" id="row_23">
           <div class="row-title"></div>
