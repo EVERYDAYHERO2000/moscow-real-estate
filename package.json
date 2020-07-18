@@ -35,7 +35,7 @@
         "gulp-uglify": "3.0.1",
         "gulp-watch": "^4.3.8",
         "js-beautify": "^1.8.9",
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.19",
         "markdown-it": "^8.4.2",
         "module-alias": "^2.2.2",
         "node-sass": "^4.12.0",
