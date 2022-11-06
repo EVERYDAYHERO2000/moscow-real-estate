@@ -22,7 +22,7 @@
         "fs-extra": "^7.0.1",
         "google-spreadsheet": "^2.0.8",
         "gscan": "^2.0.0",
-        "gulp": "^3.9.1",
+        "gulp": "^4.0.2",
         "gulp-append-prepend": "^1.0.6",
         "gulp-babel": "^8.0.0",
         "gulp-cleanhtml": "^1.0.3",
