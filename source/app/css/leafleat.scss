@@ -18,9 +18,6 @@
 	left: 0;
 	top: 0;
 	}
-.leaflet-map-pane {
-	filter: brightness(0.67) contrast(3.7) grayscale(0.95) invert(1);
-}
 .leaflet-container {
 	overflow: hidden;
 	-ms-touch-action: none;
@@ -480,3 +477,7 @@
 	background: #fff;
 	border: 1px solid #666;
 	}
+
+.leaflet-map-pane {
+	filter: brightness(0.67) contrast(3.7) grayscale(0.95) invert(1);
+}
