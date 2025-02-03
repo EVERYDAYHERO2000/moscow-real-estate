@@ -358,7 +358,7 @@ var runApp = function () {
         __.core.$map.trigger("renderMap", { data: a });
       }, 300),
       n.includes("/place_") &&
-        $.get("/bin/data".concat(n, "data.json"), function (t) {
+        $.get("bin/data".concat(n, "data.json"), function (t) {
           __.detailScreen({ place: t });
         });
   }),
@@ -600,7 +600,7 @@ var runApp = function () {
               c = $("#app").data("data").places;
             c[0].railroad.closest.name || s
               ? o(c, a, 100, e)
-              : ($.get("/bin/data/railroad.json", function (t) {
+              : ($.get("bin/data/railroad.json", function (t) {
                   $.each(t, function (t, a) {
                     if (window.DATA.railroad[a.id])
                       for (var n in a) window.DATA.railroad[a.id][n] = a[n];
@@ -633,7 +633,7 @@ var runApp = function () {
             o[0].railroad.closest.name || s
               ? c()
               : ((s = !0),
-                $.get("/bin/data/railroad.json", function (t) {
+                $.get("bin/data/railroad.json", function (t) {
                   $.each(t, function (t, a) {
                     if (window.DATA.railroad[a.id])
                       for (var n in a) window.DATA.railroad[a.id][n] = a[n];
@@ -1534,7 +1534,7 @@ var runApp = function () {
     var a = t.title
       ? t.title
       : '<span class="header__title">Найти коттеджный посёлок</span>';
-    return '<div class="header__logo"> <a href="/"><img alt="myhousehub" class="header__icon" src="/source/assets/img/myhousehub.svg" /></a> <div> <a href="/" class="header__sitename">MYHOUSEHUB</a> '.concat(
+    return '<div class="header__logo"> <a href="/"><img alt="myhousehub" class="header__icon" src="source/assets/img/myhousehub.svg" /></a> <div> <a href="/" class="header__sitename">MYHOUSEHUB</a> '.concat(
       a,
       " </div> </div>"
     );
@@ -1670,7 +1670,7 @@ var runApp = function () {
   (__.mapData = function () {
     $("#app").data("data");
     function a(e, a) {
-      $.get("/bin/data/".concat(e, ".json"), function (t) {
+      $.get("bin/data/".concat(e, ".json"), function (t) {
         "roads" != e
           ? $.each(t, function (t, a) {
               if (window.DATA[e][a.id])
@@ -1718,7 +1718,7 @@ var runApp = function () {
   }),
   (__.mapOverlay = function (t, a, n, e, i) {
     var l = __.fs.mapSprites(2),
-      o = "/source/assets/img/map/pins@".concat(2, "x.png"),
+      o = "source/assets/img/map/pins@".concat(2, "x.png"),
       p = (p = new Image());
     function d(t, a) {
       return (
@@ -2756,7 +2756,7 @@ var runApp = function () {
   }),
   (__.fs.placeGet = function (t, a) {
     var n = 100 * Math.floor(t / 100),
-      e = "/bin/data/places/".concat(n, "/place_").concat(t, "/data.json");
+      e = "bin/data/places/".concat(n, "/place_").concat(t, "/data.json");
     $.get(e, function (t) {
       a(t, e);
     });
