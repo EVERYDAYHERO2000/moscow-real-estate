@@ -350,7 +350,7 @@ var runApp = function () {
     "$placeSearch",
   ]);
   var n = window.location.pathname;
-  $.get("/bin/data/data.json", function (t) {
+  $.get("bin/data/data.json", function (t) {
     var a = __.fs.decodeData(t);
     __.core.$app.data("data", a),
       __.core.$map.trigger("createMap"),
@@ -1361,7 +1361,7 @@ var runApp = function () {
             o
               ? a()
               : ((bt = bt || null),
-                $.get("/bin/data/data.json", function (t) {
+                $.get("bin/data/data.json", function (t) {
                   (o = __.fs.decodeData(t)),
                     (id = $("#detail-screen").data("id")),
                     $.each(o.places, function (t, a) {
