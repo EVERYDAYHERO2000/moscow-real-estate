@@ -2082,7 +2082,7 @@ var runApp = function () {
           a.canvas.visible
         ) {
           var n = 100 * Math.floor(a.id / 100),
-            e = "/places/".concat(n, "/place_").concat(a.id, "/"),
+            e = "https://everydayhero2000.github.io/moscow-real-estate/places/".concat(n, "/place_").concat(a.id, "/"),
             i = a.type ? a.type + " " + a.name : a.name,
             o = a.canvas.color.match(/\d+/g);
           l += ' <div data-id="'
