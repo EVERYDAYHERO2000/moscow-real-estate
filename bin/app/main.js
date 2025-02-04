@@ -762,7 +762,7 @@ var runApp = function () {
         (a = bt.name),
         (_t = bt.id),
         (ft = 100 * Math.floor(_t / 100)),
-        (n = "https://myhousehub.ru/places/"
+        (n = "https://everydayhero2000.github.io/moscow-real-estate/places/"
           .concat(ft, "/place_")
           .concat(_t, "/")),
         (e = bt.description),
@@ -832,7 +832,7 @@ var runApp = function () {
             var i = t[e],
               o = 100 * Math.floor(i.id / 100);
             a += '<li class="simple-list__item flex-line">'
-              .concat(n, '<a href="https://myhousehub.ru/places/')
+              .concat(n, '<a href="https://everydayhero2000.github.io/moscow-real-estate/places/')
               .concat(o, "/place_")
               .concat(i.id, '/">')
               .concat(i.type, " ")
@@ -1186,7 +1186,7 @@ var runApp = function () {
         })(bt.school)),
         (C = [
           {
-            url: "https://myhousehub.ru/",
+            url: "https://everydayhero2000.github.io/moscow-real-estate/",
             name: "Коттеджные посёлки Москвы",
             link: !0,
           },
@@ -1947,7 +1947,7 @@ var runApp = function () {
               .concat(t.railroad.closest.distance, " км)</div>")
           : "",
       r = 100 * Math.floor(t.id / 100),
-      l = "https://myhousehub.ru/places/"
+      l = "https://everydayhero2000.github.io/moscow-real-estate/places/"
         .concat(r, "/place_")
         .concat(t.id, "/"),
       p = '<div itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement" class="place-item" data-id="place-'
